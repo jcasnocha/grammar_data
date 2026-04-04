@@ -180,6 +180,20 @@
               "colorStart": "#FF3F51B5",
               "colorEnd": "#FF7986CB",
               "backgroundColor": "#333F51B5"
+            },
+                        {
+              "id": "guess_duo_23",
+              "title": "LIVE UPDATE",
+              "description": "Poskladaj správne antonymá",
+              "emoji": "⚖️",
+              "gameType": "GUESS_DUO",
+              "duoMode": "ANTONYM",
+              "categories": ["beginner"],
+              "poolSize": 7,
+              "orderIndex": 11,
+              "colorStart": "#FF3F51B5",
+              "colorEnd": "#FF7986CB",
+              "backgroundColor": "#333F51B5"
             }
           ]
         }
