@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "levels": [
     {
       "id": "level_beginner",
@@ -211,6 +211,22 @@
             }
           ]
         }
+      ]
+    }
+  ],
+    "levels": [
+    {
+      "id": "level_beginner_3",
+      "title": "LIVE UPDATE ",
+      "subtitle": "Základy angličtiny",
+      "description": "Nauč sa úplné základy",
+      "emoji": "🌱",
+      "colorStart": "#7399e6",
+      "colorEnd": "#3172f5",
+      "backgroundColor": "#8caced",
+      "tags": ["A2 - Začiatočník", "A2 - Mierne pokročilý"],
+      "chapters": [
+
       ]
     }
   ]
