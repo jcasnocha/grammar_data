@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "levels": [
     {
       "id": "level_beginner",
@@ -201,6 +201,20 @@
               "description": "Poskladaj správne antonymá",
               "emoji": ":D",
               "gameType": "GUESS_DUO",
+              "duoMode": "ANTONYM",
+              "categories": ["beginner"],
+              "poolSize": 7,
+              "orderIndex": 11,
+              "colorStart": "#FF3F51B5",
+              "colorEnd": "#FF7986CB",
+              "backgroundColor": "#333F51B5"
+            },
+           {
+              "id": "guess_duo_25",
+              "title": "LIVE UPDATE 3",
+              "description": "Poskladaj správne antonymá",
+              "emoji": ":(",
+              "gameType": "MACTH_PAIRS",
               "duoMode": "ANTONYM",
               "categories": ["beginner"],
               "poolSize": 7,
