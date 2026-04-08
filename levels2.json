@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "levels": [
     {
       "id": "level_beginner",
@@ -197,7 +197,7 @@
             },
                         {
               "id": "guess_duo_24",
-              "title": "LIVE UPDATE 2",
+              "title": "LIVE UPDATE 288",
               "description": "Poskladaj správne antonymá",
               "emoji": ":D",
               "gameType": "GUESS_DUO",
