@@ -217,7 +217,7 @@
               "gameType": "MATCH_PAIRS",
               "categories": ["chapter1", "chapter2"],
               "poolSize": 5,
-              "orderIndex": 2,
+              "orderIndex": 12,
               "colorStart": "#FF9C27B0",
               "colorEnd": "#FFE040FB",
               "backgroundColor": "#339C27B0"
