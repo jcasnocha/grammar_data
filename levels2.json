@@ -226,5 +226,120 @@
         }
       ]
     }
+  ],
+  {
+  "id": "level_summer",
+  "title": "Summer Edition",
+  "subtitle": "Letná angličtina",
+  "description": "Uč sa angličtinu počas leta ☀️",
+  "emoji": "🏖️",
+  "colorStart": "#FFF59E0B",
+  "colorEnd": "#FFEF4444",
+  "backgroundColor": "#33F59E0B",
+  "tags": ["A1 - Začiatočník", "A2 - Mierne pokročilý"],
+  "chapters": [
+    {
+      "id": "chapter_beach",
+      "title": "Na pláži",
+      "description": "Slová z pláže a dovolenky",
+      "emoji": "🏝️",
+      "colorStart": "#FF38BDF8",
+      "colorEnd": "#FF0EA5E9",
+      "backgroundColor": "#3338BDF8",
+      "games": [
+        {
+          "id": "summer_audio_1",
+          "title": "Letný audio kvíz",
+          "description": "Počuj slovo a vyber správny preklad",
+          "emoji": "🎧",
+          "gameType": "AUDIO_QUIZ",
+          "categories": ["fruit"],
+          "poolSize": 5,
+          "orderIndex": 0,
+          "colorStart": "#FFF97316",
+          "colorEnd": "#FFFACC15",
+          "backgroundColor": "#33F97316"
+        },
+        {
+          "id": "summer_sort_1",
+          "title": "Triedenie plážových vecí",
+          "description": "Roztrieď slová do kategórií",
+          "emoji": "🏖️",
+          "gameType": "SORT_WORDS",
+          "categories": ["transport", "school"],
+          "poolSize": 10,
+          "orderIndex": 1,
+          "colorStart": "#FF22D3EE",
+          "colorEnd": "#FF06B6D4",
+          "backgroundColor": "#3322D3EE"
+        },
+        {
+          "id": "summer_pairs_1",
+          "title": "Letné párovanie",
+          "description": "Nájdi správne dvojice",
+          "emoji": "🩴",
+          "gameType": "MATCH_PAIRS",
+          "categories": ["chapter1", "chapter2"],
+          "poolSize": 5,
+          "orderIndex": 2,
+          "colorStart": "#FFA855F7",
+          "colorEnd": "#FFE879F9",
+          "backgroundColor": "#33A855F7"
+        }
+      ]
+    },
+    {
+      "id": "chapter_travel",
+      "title": "Cestovanie",
+      "description": "Letné cestovanie a dobrodružstvo",
+      "emoji": "✈️",
+      "colorStart": "#FF4ADE80",
+      "colorEnd": "#FF22C55E",
+      "backgroundColor": "#334ADE80",
+      "games": [
+        {
+          "id": "summer_builder_1",
+          "title": "Skladanie slov na dovolenke",
+          "description": "Poskladaj správne slová",
+          "emoji": "🧳",
+          "gameType": "WORD_BUILDER",
+          "categories": ["fruits", "animals"],
+          "poolSize": 3,
+          "orderIndex": 0,
+          "colorStart": "#FF10B981",
+          "colorEnd": "#FF6EE7B7",
+          "backgroundColor": "#3310B981"
+        },
+        {
+          "id": "summer_synonyms_1",
+          "title": "Letné synonymá",
+          "description": "Nájdi podobné slová",
+          "emoji": "🌞",
+          "gameType": "GUESS_DUO",
+          "duoMode": "SYNONYM",
+          "categories": ["beginner"],
+          "poolSize": 4,
+          "orderIndex": 1,
+          "colorStart": "#FFF43F5E",
+          "colorEnd": "#FFFDA4AF",
+          "backgroundColor": "#33F43F5E"
+        },
+        {
+          "id": "summer_antonyms_1",
+          "title": "Letné antonymá",
+          "description": "Nájdi opačné slová",
+          "emoji": "🌊",
+          "gameType": "GUESS_DUO",
+          "duoMode": "ANTONYM",
+          "categories": ["beginner"],
+          "poolSize": 7,
+          "orderIndex": 2,
+          "colorStart": "#FF6366F1",
+          "colorEnd": "#FFA5B4FC",
+          "backgroundColor": "#336366F1"
+        }
+      ]
+    }
   ]
+}
 }
