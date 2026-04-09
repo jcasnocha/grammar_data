@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "levels": [
         {
       "id": "level_beginner",
@@ -336,6 +336,110 @@
           "colorStart": "#FF6366F1",
           "colorEnd": "#FFA5B4FC",
           "backgroundColor": "#336366F1"
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": "level_winter",
+  "title": "Winter Edition",
+  "subtitle": "Zimná angličtina",
+  "description": "Uč sa angličtinu počas zimy ❄️",
+  "emoji": "⛄",
+  "colorStart": "#FF60A5FA",
+  "colorEnd": "#FF1E3A8A",
+  "backgroundColor": "#3360A5FA",
+  "tags": ["A1 - Začiatočník", "A2 - Mierne pokročilý"],
+  "chapters": [
+    {
+      "id": "chapter_winter",
+      "title": "Zima",
+      "description": "Slová spojené so zimou a počasím",
+      "emoji": "❄️",
+      "colorStart": "#FF93C5FD",
+      "colorEnd": "#FF3B82F6",
+      "backgroundColor": "#3393C5FD",
+      "games": [
+        {
+          "id": "winter_audio_1",
+          "title": "Zimný audio kvíz",
+          "description": "Počuj slovo a vyber správny preklad",
+          "emoji": "🎧",
+          "gameType": "AUDIO_QUIZ",
+          "categories": ["winter", "weather"],
+          "poolSize": 5,
+          "orderIndex": 0,
+          "colorStart": "#FF0EA5E9",
+          "colorEnd": "#FF38BDF8",
+          "backgroundColor": "#330EA5E9"
+        },
+        {
+          "id": "winter_sort_1",
+          "title": "Triedenie zimných slov",
+          "description": "Roztrieď slová do kategórií",
+          "emoji": "🗂️",
+          "gameType": "SORT_WORDS",
+          "categories": ["winter", "weather"],
+          "poolSize": 10,
+          "orderIndex": 1,
+          "colorStart": "#FF0284C7",
+          "colorEnd": "#FF38BDF8",
+          "backgroundColor": "#330284C7"
+        },
+        {
+          "id": "winter_pairs_1",
+          "title": "Zimné párovanie",
+          "description": "Nájdi správne dvojice",
+          "emoji": "🔗",
+          "gameType": "MATCH_PAIRS",
+          "categories": ["winter", "weather"],
+          "poolSize": 5,
+          "orderIndex": 2,
+          "colorStart": "#FF6366F1",
+          "colorEnd": "#FFA5B4FC",
+          "backgroundColor": "#336366F1"
+        },
+        {
+          "id": "winter_builder_1",
+          "title": "Zimné skladanie slov",
+          "description": "Poskladaj správne slová",
+          "emoji": "🧩",
+          "gameType": "WORD_BUILDER",
+          "categories": ["winter", "weather"],
+          "poolSize": 3,
+          "orderIndex": 3,
+          "colorStart": "#FF10B981",
+          "colorEnd": "#FF6EE7B7",
+          "backgroundColor": "#3310B981"
+        },
+        {
+          "id": "winter_synonyms_1",
+          "title": "Zimné synonymá",
+          "description": "Nájdi podobné slová",
+          "emoji": "🔁",
+          "gameType": "GUESS_DUO",
+          "duoMode": "SYNONYM",
+          "categories": ["winter"],
+          "poolSize": 4,
+          "orderIndex": 4,
+          "colorStart": "#FFF97316",
+          "colorEnd": "#FFFACC15",
+          "backgroundColor": "#33F97316"
+        },
+        {
+          "id": "winter_antonyms_1",
+          "title": "Zimné antonymá",
+          "description": "Nájdi opačné slová",
+          "emoji": "⚖️",
+          "gameType": "GUESS_DUO",
+          "duoMode": "ANTONYM",
+          "categories": ["winter"],
+          "poolSize": 7,
+          "orderIndex": 5,
+          "colorStart": "#FFEF4444",
+          "colorEnd": "#FFFCA5A5",
+          "backgroundColor": "#33EF4444"
         }
       ]
     }
