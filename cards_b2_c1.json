@@ -1,11 +1,11 @@
 {
-  "version": 3,
+  "version": 4,
   "categories": [
     {
       "id": "business_advanced2",
       "title": "TEST UPDATE",
       "image": "📊",
-      "description": "Advanced business terminology",
+      "description": "Advanced TEST UPDATE terminology",
       "cards": [
         { "id": "negotiation4", "front": "Negotiation", "back": "Vyjednávanie" },
         { "id": "investment4", "front": "Investment", "back": "Investícia" },
@@ -17,9 +17,9 @@
     },
     {
       "id": "business_advanced2",
-      "title": "Advanced Business",
+      "title": "TEST UPDATE",
       "image": "📊",
-      "description": "Advanced business terminology",
+      "description": "TEST UPDATE",
       "cards": [
         { "id": "negot4iation", "front": "Negotiation", "back": "Vyjednávanie" },
         { "id": "invest4ment", "front": "Investment", "back": "Investícia" },
@@ -30,10 +30,10 @@
       ]
     },
     {
-      "id": "abstract_thinking2",
-      "title": "Abstract Thinking",
+      "id": "TEST UPDATE",
+      "title": "TEST UPDATE",
       "image": "🧠",
-      "description": "Abstract and complex vocabulary",
+      "description": "Abstract and TEST UPDATE vocabulary",
       "cards": [
         { "id": "percep4tion", "front": "Perception", "back": "Vnímanie" },
         { "id": "assum4ption", "front": "Assumption", "back": "Predpoklad" },
@@ -45,9 +45,9 @@
     },
     {
       "id": "academic2",
-      "title": "Academic English",
+      "title": "TEST UPDATE",
       "image": "🎓",
-      "description": "Formal and academic vocabulary",
+      "description": "Formal and TEST UPDATE vocabulary",
       "cards": [
         { "id": "analy4sis", "front": "Analysis", "back": "Analýza" },
         { "id": "evalu4ation", "front": "Evaluation", "back": "Hodnotenie" },
