@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "business_advanced",
+      "title": "Advanced Business",
+      "image": "📊",
+      "description": "Advanced business terminology",
+      "cards": [
+        { "id": "negotiation", "front": "Negotiation", "back": "Vyjednávanie" },
+        { "id": "investment", "front": "Investment", "back": "Investícia" },
+        { "id": "revenue", "front": "Revenue", "back": "Príjem" },
+        { "id": "expenditure", "front": "Expenditure", "back": "Výdavok" },
+        { "id": "strategy", "front": "Strategy", "back": "Stratégia" },
+        { "id": "stakeholder", "front": "Stakeholder", "back": "Zainteresovaná strana" }
+      ]
+    },
+    {
+      "id": "abstract_thinking",
+      "title": "Abstract Thinking",
+      "image": "🧠",
+      "description": "Abstract and complex vocabulary",
+      "cards": [
+        { "id": "perception", "front": "Perception", "back": "Vnímanie" },
+        { "id": "assumption", "front": "Assumption", "back": "Predpoklad" },
+        { "id": "hypothesis", "front": "Hypothesis", "back": "Hypotéza" },
+        { "id": "consequence", "front": "Consequence", "back": "Dôsledok" },
+        { "id": "justification", "front": "Justification", "back": "Odôvodnenie" },
+        { "id": "interpretation", "front": "Interpretation", "back": "Interpretácia" }
+      ]
+    },
+    {
+      "id": "academic",
+      "title": "Academic English",
+      "image": "🎓",
+      "description": "Formal and academic vocabulary",
+      "cards": [
+        { "id": "analysis", "front": "Analysis", "back": "Analýza" },
+        { "id": "evaluation", "front": "Evaluation", "back": "Hodnotenie" },
+        { "id": "framework", "front": "Framework", "back": "Rámec" },
+        { "id": "methodology", "front": "Methodology", "back": "Metodológia" },
+        { "id": "evidence", "front": "Evidence", "back": "Dôkaz" },
+        { "id": "theory", "front": "Theory", "back": "Teória" }
+      ]
+    }
+  ]
+}
