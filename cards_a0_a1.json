@@ -1,9 +1,9 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": [
     {
       "id": "animals",
-      "title": "Animals",
+      "title": "TEST",
       "image": "🐾",
       "description": "Basic animal vocabulary",
       "cards": [
@@ -21,7 +21,7 @@
     },
     {
       "id": "food",
-      "title": "Food",
+      "title": "TEST",
       "image": "🍎",
       "description": "Everyday food and meals",
       "cards": [
@@ -39,7 +39,7 @@
     },
     {
       "id": "travel",
-      "title": "Travel",
+      "title": "TEST",
       "image": "✈️",
       "description": "Travel and transportation",
       "cards": [
