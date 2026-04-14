@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "categories": [
             {
       "id": "Slangy",
@@ -7,15 +7,15 @@
       "image": ";)",
       "description":"Buď cool like Ja",
       "cards": [
-        { "id": "doasg", "front": "dogshiit", "back": "Peso" },
-        { "id": "caats", "front": "Cattyy", "back": "Mačka" },
-        { "id": "hosarse", "front": "Horsepowershit", "back": "Kôň" },
-        { "id": "caows", "front": "krowwka", "back": "Krava" },
-        { "id": "psaig", "front": "Piggyy", "back": "Prasa" },
-        { "id": "ssaheep", "front": "Sheepeship", "back": "Ovca" },
-        { "id": "biasrd", "front": "Birdcantfly", "back": "Vták" },
-        { "id": "fiassh", "front": "Fish", "back": "Ryba" },
-        { "id": "moasuse", "front": "Mousemicke2y", "back": "Myš" },
+        { "id": "doasgg", "front": "dogshiit", "back": "Peso" },
+        { "id": "caatds", "front": "Cattyy", "back": "Mačka" },
+        { "id": "hosarsse", "front": "Horsepowershit", "back": "Kôň" },
+        { "id": "caosws", "front": "krowwka", "back": "Krava" },
+        { "id": "psaisg", "front": "Piggyy", "back": "Prasa" },
+        { "id": "ssahesep", "front": "Sheepeship", "back": "Ovca" },
+        { "id": "biassrd", "front": "Birdcantfly", "back": "Vták" },
+        { "id": "fiassdh", "front": "Fish", "back": "Ryba" },
+        { "id": "moasudse", "front": "Mousemicke2y", "back": "Myš" },
         { "id": "liaosn", "front": "Lionki2ng", "back": "Lev" }
       ]
     },
