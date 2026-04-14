@@ -1,22 +1,22 @@
 {
-  "version": 6,
+  "version": 7,
   "categories": [
             {
-      "id": "animales",
-      "title": "AA",
+      "id": "Slangy",
+      "title": "Slangy",
       "image": ":D",
-      "description": "Basic animal vocabulary",
+      "description":"Buď cool like Ja",
       "cards": [
-        { "id": "doasg", "front": "Dog", "back": "Pes" },
-        { "id": "caats", "front": "Cat", "back": "Mačka" },
-        { "id": "hosarse", "front": "Horse", "back": "Kôň" },
-        { "id": "caows", "front": "Cow", "back": "Krava" },
-        { "id": "psaig", "front": "Pig", "back": "Prasa" },
-        { "id": "ssaheep", "front": "Sheep", "back": "Ovca" },
-        { "id": "biasrd", "front": "Bird", "back": "Vták" },
+        { "id": "doasg", "front": "dogshit", "back": "Peso" },
+        { "id": "caats", "front": "Catty", "back": "Mačka" },
+        { "id": "hosarse", "front": "Horsepower", "back": "Kôň" },
+        { "id": "caows", "front": "krowka", "back": "Krava" },
+        { "id": "psaig", "front": "Piggy", "back": "Prasa" },
+        { "id": "ssaheep", "front": "Sheepe", "back": "Ovca" },
+        { "id": "biasrd", "front": "Birdcantfly", "back": "Vták" },
         { "id": "fiassh", "front": "Fish", "back": "Ryba" },
-        { "id": "moasuse", "front": "Mouse", "back": "Myš" },
-        { "id": "liaosn", "front": "Lion", "back": "Lev" }
+        { "id": "moasuse", "front": "Mousemickey", "back": "Myš" },
+        { "id": "liaosn", "front": "Lionking", "back": "Lev" }
       ]
     },
         {
