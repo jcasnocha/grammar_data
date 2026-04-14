@@ -1,13 +1,12 @@
 {
-  "version": 3,
+  "version": 4,
   "categories": [
         {
       "id": "work_life2",
       "title": "Work & Life2",
       "image": "💼",
       "description": "Daily work and responsibilities",
-      "cards": [
-        { "id": "salaray", "front": "Salary", "back": "Plat" },
+      "cards": [
         { "id": "meetiang", "front": "Meeting", "back": "Stretnutie" },
         { "id": "projeact", "front": "Project", "back": "Projekt" },
         { "id": "deadlaine", "front": "Deadline", "back": "Termín" },
