@@ -3,7 +3,7 @@
   "categories": [
     {
       "id": "business_advanced",
-      "title": "XAdvanced Business",
+      "title": "XYAdvanced Business",
       "image": "📊",
       "description": "Advanced business terminology",
       "cards": [
@@ -20,7 +20,7 @@
     },
     {
       "id": "abstract_thinking",
-      "title": "XAbstract Thinking",
+      "title": "XYbstract Thinking",
       "image": "🧠",
       "description": "Abstract and complex vocabulary",
       "cards": [
@@ -37,7 +37,7 @@
     },
     {
       "id": "academic",
-      "title": "XAcademic English",
+      "title": "XYAcademic English",
       "image": "🎓",
       "description": "Formal and academic vocabulary",
       "cards": [
@@ -54,7 +54,7 @@
     },
     {
       "id": "technology",
-      "title": "XTechnology",
+      "title": "XYTechnology",
       "image": "💻",
       "description": "Modern tech vocabulary",
       "cards": [
@@ -70,7 +70,7 @@
     },
     {
       "id": "daily_communication",
-      "title": "XDaily Communication",
+      "title": "XYDaily Communication",
       "image": "💬",
       "description": "Everyday English phrases",
       "cards": [
