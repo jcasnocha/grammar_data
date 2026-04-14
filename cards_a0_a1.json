@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "categories": [
     {
       "id": "animals",
@@ -21,7 +21,7 @@
     },
     {
       "id": "food",
-      "title": "TEST",
+      "title": "TEST22222",
       "image": "🍎",
       "description": "Everyday food and meals",
       "cards": [
