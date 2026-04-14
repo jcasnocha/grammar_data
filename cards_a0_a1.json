@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "categories": [
     {
       "id": "animals",
@@ -159,24 +159,6 @@
         { "id": "mirror", "front": "Mirror", "back": "Zrkadlo" },
         { "id": "cupboard", "front": "Cupboard", "back": "Skrinka" },
         { "id": "stool", "front": "Stool", "back": "Stolička" }
-      ]
-    },
-    {
-      "id": "furnituree",
-      "title": "Nábytok",
-      "image": "🛋️",
-      "description": "Furniture skrine",
-      "cards": [
-        { "id": "tabssle", "front": "Table", "back": "Stôl" },
-        { "id": "chaiar", "front": "Chair", "back": "Stolička" },
-        { "id": "sofaa", "front": "Sofa", "back": "Pohovka" },
-        { "id": "bedd", "front": "Bed", "back": "Posteľ" },
-        { "id": "desdk", "front": "Desk", "back": "Písací stôl" },
-        { "id": "lasmsp", "front": "Lamp", "back": "Lampa" },
-        { "id": "shelsf", "front": "Shelf", "back": "Polica" },
-        { "id": "mirraor", "front": "Mirror", "back": "Zrkadlo" },
-        { "id": "cupbfoard", "front": "Cupboard", "back": "Skrinka" },
-        { "id": "stogol", "front": "Stool", "back": "Stolička" }
       ]
     }
   ]
