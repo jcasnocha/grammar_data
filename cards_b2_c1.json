@@ -1,23 +1,23 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": [
     {
       "id": "business_advanced",
-      "title": "Advanced Business",
+      "title": "Elon Musk",
       "image": "📊",
       "description": "Advanced business terminology",
       "cards": [
-        { "id": "negotiation", "front": "Negotiation", "back": "Vyjednávanie" },
-        { "id": "investment", "front": "Investment", "back": "Investícia" },
-        { "id": "revenue", "front": "Revenue", "back": "Príjem" },
+        { "id": "negotiation", "front": "NegotiationMusk", "back": "VyjednávanieMusk" },
+        { "id": "investmentMusk", "front": "InvestmentMusk", "back": "InvestíciaMusk" },
+        { "id": "revenueMusk", "front": "Revenue", "back": "Príjem" },
         { "id": "expenditure", "front": "Expenditure", "back": "Výdavok" },
         { "id": "strategy", "front": "Strategy", "back": "Stratégia" },
         { "id": "stakeholder", "front": "Stakeholder", "back": "Zainteresovaná strana" }
       ]
     },
     {
-      "id": "abstract_thinking",
-      "title": "Abstract Thinking",
+      "id": "Elonsabstract_thinking",
+      "title": "Elon's Thinking",
       "image": "🧠",
       "description": "Abstract and complex vocabulary",
       "cards": [
