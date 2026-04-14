@@ -81,6 +81,20 @@
         { "id": "sorry", "front": "Sorry", "back": "Prepáč" },
         { "id": "how_are_you", "front": "How are you?", "back": "Ako sa máš?" }
       ]
+    },
+    {
+      "id": "dailys_communication",
+      "title": "XYDaily Communication",
+      "image": "💬",
+      "description": "Everyday English phrases",
+      "cards": [
+        { "id": "hellso", "front": "Hello", "back": "Ahoj" },
+        { "id": "goodsbye", "front": "Goodbye", "back": "Dovidenia" },
+        { "id": "thasnk_you", "front": "Thank you", "back": "Ďakujem" },
+        { "id": "plesase", "front": "Please", "back": "Prosím" },
+        { "id": "sosrry", "front": "Sorry", "back": "Prepáč" },
+        { "id": "hows_are_you", "front": "How are you?", "back": "Ako sa máš?" }
+      ]
     }
   ]
 }
