@@ -1,6 +1,22 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": [
+        {
+      "id": "work_life2",
+      "title": "Work & Life2",
+      "image": "💼",
+      "description": "Daily work and responsibilities",
+      "cards": [
+        { "id": "salaray", "front": "Salary", "back": "Plat" },
+        { "id": "meetiang", "front": "Meeting", "back": "Stretnutie" },
+        { "id": "projeact", "front": "Project", "back": "Projekt" },
+        { "id": "deadlaine", "front": "Deadline", "back": "Termín" },
+        { "id": "managaer", "front": "Manager", "back": "Manažér" },
+        { "id": "colleaague", "front": "Colleague", "back": "Kolega" },
+        { "id": "experaience", "front": "Experience", "back": "Skúsenosť" },
+        { "id": "careaer", "front": "Career", "back": "Kariéra" }
+      ]
+    },
     {
       "id": "work_life",
       "title": "Work & Life",
