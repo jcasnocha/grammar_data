@@ -1,22 +1,22 @@
 {
-  "version": 7,
+  "version": 8,
   "categories": [
             {
       "id": "Slangy",
-      "title": "Slangy",
-      "image": ":D",
+      "title": "Slangy z Makkym I",
+      "image": ";)",
       "description":"Buď cool like Ja",
       "cards": [
-        { "id": "doasg", "front": "dogshit", "back": "Peso" },
-        { "id": "caats", "front": "Catty", "back": "Mačka" },
-        { "id": "hosarse", "front": "Horsepower", "back": "Kôň" },
-        { "id": "caows", "front": "krowka", "back": "Krava" },
-        { "id": "psaig", "front": "Piggy", "back": "Prasa" },
-        { "id": "ssaheep", "front": "Sheepe", "back": "Ovca" },
+        { "id": "doasg", "front": "dogshiit", "back": "Peso" },
+        { "id": "caats", "front": "Cattyy", "back": "Mačka" },
+        { "id": "hosarse", "front": "Horsepowershit", "back": "Kôň" },
+        { "id": "caows", "front": "krowwka", "back": "Krava" },
+        { "id": "psaig", "front": "Piggyy", "back": "Prasa" },
+        { "id": "ssaheep", "front": "Sheepeship", "back": "Ovca" },
         { "id": "biasrd", "front": "Birdcantfly", "back": "Vták" },
         { "id": "fiassh", "front": "Fish", "back": "Ryba" },
-        { "id": "moasuse", "front": "Mousemickey", "back": "Myš" },
-        { "id": "liaosn", "front": "Lionking", "back": "Lev" }
+        { "id": "moasuse", "front": "Mousemicke2y", "back": "Myš" },
+        { "id": "liaosn", "front": "Lionki2ng", "back": "Lev" }
       ]
     },
         {
