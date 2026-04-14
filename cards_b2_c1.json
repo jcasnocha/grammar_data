@@ -1,9 +1,9 @@
 {
-  "version": 21,
+  "version": 1,
   "categories": [
     {
       "id": "business_advanced",
-      "title": "XYAdvanced Business",
+      "title": "Advanced Business",
       "image": "📊",
       "description": "Advanced business terminology",
       "cards": [
@@ -12,15 +12,12 @@
         { "id": "revenue", "front": "Revenue", "back": "Príjem" },
         { "id": "expenditure", "front": "Expenditure", "back": "Výdavok" },
         { "id": "strategy", "front": "Strategy", "back": "Stratégia" },
-        { "id": "stakeholder", "front": "Stakeholder", "back": "Zainteresovaná strana" },
-        { "id": "profit_margin", "front": "Profit margin", "back": "Zisková marža" },
-        { "id": "liability", "front": "Liability", "back": "Záväzok" },
-        { "id": "equity", "front": "Equity", "back": "Vlastné imanie" }
+        { "id": "stakeholder", "front": "Stakeholder", "back": "Zainteresovaná strana" }
       ]
     },
     {
       "id": "abstract_thinking",
-      "title": "XYbstract Thinking",
+      "title": "Abstract Thinking",
       "image": "🧠",
       "description": "Abstract and complex vocabulary",
       "cards": [
@@ -29,15 +26,12 @@
         { "id": "hypothesis", "front": "Hypothesis", "back": "Hypotéza" },
         { "id": "consequence", "front": "Consequence", "back": "Dôsledok" },
         { "id": "justification", "front": "Justification", "back": "Odôvodnenie" },
-        { "id": "interpretation", "front": "Interpretation", "back": "Interpretácia" },
-        { "id": "ambiguity", "front": "Ambiguity", "back": "Nejednoznačnosť" },
-        { "id": "paradox", "front": "Paradox", "back": "Paradox" },
-        { "id": "perspective", "front": "Perspective", "back": "Perspektíva" }
+        { "id": "interpretation", "front": "Interpretation", "back": "Interpretácia" }
       ]
     },
     {
       "id": "academic",
-      "title": "XYAcademic English",
+      "title": "Academic English",
       "image": "🎓",
       "description": "Formal and academic vocabulary",
       "cards": [
@@ -46,54 +40,7 @@
         { "id": "framework", "front": "Framework", "back": "Rámec" },
         { "id": "methodology", "front": "Methodology", "back": "Metodológia" },
         { "id": "evidence", "front": "Evidence", "back": "Dôkaz" },
-        { "id": "theory", "front": "Theory", "back": "Teória" },
-        { "id": "hypothesis_testing", "front": "Hypothesis testing", "back": "Testovanie hypotéz" },
-        { "id": "literature_review", "front": "Literature review", "back": "Prehľad literatúry" },
-        { "id": "conclusion", "front": "Conclusion", "back": "Záver" }
-      ]
-    },
-    {
-      "id": "technology",
-      "title": "XYTechnology",
-      "image": "💻",
-      "description": "Modern tech vocabulary",
-      "cards": [
-        { "id": "algorithm", "front": "Algorithm", "back": "Algoritmus" },
-        { "id": "database", "front": "Database", "back": "Databáza" },
-        { "id": "encryption", "front": "Encryption", "back": "Šifrovanie" },
-        { "id": "network", "front": "Network", "back": "Sieť" },
-        { "id": "software", "front": "Software", "back": "Softvér" },
-        { "id": "hardware", "front": "Hardware", "back": "Hardvér" },
-        { "id": "cloud_computing", "front": "Cloud computing", "back": "Cloudové počítanie" },
-        { "id": "artificial_intelligence", "front": "Artificial intelligence", "back": "Umelá inteligencia" }
-      ]
-    },
-    {
-      "id": "daily_communication",
-      "title": "XYDaily Communication",
-      "image": "💬",
-      "description": "Everyday English phrases",
-      "cards": [
-        { "id": "hello", "front": "Hello", "back": "Ahoj" },
-        { "id": "goodbye", "front": "Goodbye", "back": "Dovidenia" },
-        { "id": "thank_you", "front": "Thank you", "back": "Ďakujem" },
-        { "id": "please", "front": "Please", "back": "Prosím" },
-        { "id": "sorry", "front": "Sorry", "back": "Prepáč" },
-        { "id": "how_are_you", "front": "How are you?", "back": "Ako sa máš?" }
-      ]
-    },
-    {
-      "id": "dailys_communication",
-      "title": "XYDaily Communication",
-      "image": "💬",
-      "description": "Everyday English phrases",
-      "cards": [
-        { "id": "hellso", "front": "Hello", "back": "Ahoj" },
-        { "id": "goodsbye", "front": "Goodbye", "back": "Dovidenia" },
-        { "id": "thasnk_you", "front": "Thank you", "back": "Ďakujem" },
-        { "id": "plesase", "front": "Please", "back": "Prosím" },
-        { "id": "sosrry", "front": "Sorry", "back": "Prepáč" },
-        { "id": "hows_are_you", "front": "How are you?", "back": "Ako sa máš?" }
+        { "id": "theory", "front": "Theory", "back": "Teória" }
       ]
     }
   ]
