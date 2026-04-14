@@ -1,9 +1,9 @@
 {
-  "version": 4,
+  "version": 5,
   "categories": [
         {
       "id": "work_life2",
-      "title": "Work & Life2",
+      "title": "Fashio",
       "image": "💼",
       "description": "Daily work and responsibilities",
       "cards": [
