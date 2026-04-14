@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "categories": [
             {
       "id": "Slangy",
@@ -43,7 +43,7 @@
       "image": "🐾",
       "description": "Basic animal vocabulary",
       "cards": [
-        { "id": "dog", "front": "Dog", "back": "Pes" },
+        { "id": "dog", "front": "Dogy", "back": "Peso" },
         { "id": "cat", "front": "Cat", "back": "Mačka" },
         { "id": "horse", "front": "Horse", "back": "Kôň" },
         { "id": "cow", "front": "Cow", "back": "Krava" },
