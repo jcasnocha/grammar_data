@@ -1,6 +1,24 @@
 {
   "version": 2,
   "categories": [
+        {
+      "id": "animalss",
+      "title": "AA",
+      "image": "🐾",
+      "description": "Basic animal vocabulary",
+      "cards": [
+        { "id": "dosg", "front": "Dog", "back": "Pes" },
+        { "id": "cats", "front": "Cat", "back": "Mačka" },
+        { "id": "hosrse", "front": "Horse", "back": "Kôň" },
+        { "id": "cows", "front": "Cow", "back": "Krava" },
+        { "id": "psig", "front": "Pig", "back": "Prasa" },
+        { "id": "ssheep", "front": "Sheep", "back": "Ovca" },
+        { "id": "bisrd", "front": "Bird", "back": "Vták" },
+        { "id": "fissh", "front": "Fish", "back": "Ryba" },
+        { "id": "mosuse", "front": "Mouse", "back": "Myš" },
+        { "id": "liosn", "front": "Lion", "back": "Lev" }
+      ]
+    },
     {
       "id": "animals",
       "title": "Animals",
