@@ -1,21 +1,6 @@
 {
-  "version": 5,
+  "version": 6,
   "categories": [
-        {
-      "id": "work_life2",
-      "title": "Fashio",
-      "image": "💼",
-      "description": "Daily work and responsibilities",
-      "cards": [
-        { "id": "meetiang", "front": "Meeting", "back": "Stretnutie" },
-        { "id": "projeact", "front": "Project", "back": "Projekt" },
-        { "id": "deadlaine", "front": "Deadline", "back": "Termín" },
-        { "id": "managaer", "front": "Manager", "back": "Manažér" },
-        { "id": "colleaague", "front": "Colleague", "back": "Kolega" },
-        { "id": "experaience", "front": "Experience", "back": "Skúsenosť" },
-        { "id": "careaer", "front": "Career", "back": "Kariéra" }
-      ]
-    },
     {
       "id": "work_life",
       "title": "Work & Life",
