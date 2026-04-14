@@ -1,49 +1,13 @@
 {
-  "version": 10,
+  "version": 1,
   "categories": [
-            {
-      "id": "Slangy",
-      "title": "Slangy z Makkym I",
-      "image": ";)",
-      "description":"Buď cool like Ja",
-      "cards": [
-        { "id": "doasgg", "front": "dogshiit", "back": "Peso" },
-        { "id": "caatds", "front": "Cattyy", "back": "Mačka" },
-        { "id": "hosarsse", "front": "Horsepowershit", "back": "Kôň" },
-        { "id": "caosws", "front": "krowwka", "back": "Krava" },
-        { "id": "psaisg", "front": "Piggyy", "back": "Prasa" },
-        { "id": "ssahesep", "front": "Sheepeship", "back": "Ovca" },
-        { "id": "biassrd", "front": "Birdcantfly", "back": "Vták" },
-        { "id": "fiassdh", "front": "Fish", "back": "Ryba" },
-        { "id": "moasudse", "front": "Mousemicke2y", "back": "Myš" },
-        { "id": "liaosn", "front": "Lionki2ng", "back": "Lev" }
-      ]
-    },
-        {
-      "id": "animalss",
-      "title": "AA",
-      "image": "🐾",
-      "description": "Basic animal vocabulary",
-      "cards": [
-        { "id": "dosg", "front": "Dog", "back": "Pes" },
-        { "id": "cats", "front": "Cat", "back": "Mačka" },
-        { "id": "hosrse", "front": "Horse", "back": "Kôň" },
-        { "id": "cows", "front": "Cow", "back": "Krava" },
-        { "id": "psig", "front": "Pig", "back": "Prasa" },
-        { "id": "ssheep", "front": "Sheep", "back": "Ovca" },
-        { "id": "bisrd", "front": "Bird", "back": "Vták" },
-        { "id": "fissh", "front": "Fish", "back": "Ryba" },
-        { "id": "mosuse", "front": "Mouse", "back": "Myš" },
-        { "id": "liosn", "front": "Lion", "back": "Lev" }
-      ]
-    },
     {
       "id": "animals",
       "title": "Animals",
       "image": "🐾",
       "description": "Basic animal vocabulary",
       "cards": [
-        { "id": "dog", "front": "Dogy", "back": "Peso" },
+        { "id": "dog", "front": "Dog", "back": "Pes" },
         { "id": "cat", "front": "Cat", "back": "Mačka" },
         { "id": "horse", "front": "Horse", "back": "Kôň" },
         { "id": "cow", "front": "Cow", "back": "Krava" },
