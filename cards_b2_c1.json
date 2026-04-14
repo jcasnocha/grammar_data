@@ -1,6 +1,20 @@
 {
-  "version": 3,
+  "version": 4,
   "categories": [
+        {
+      "id": "business_advanced2",
+      "title": "Advanced Business2",
+      "image": "📊2",
+      "description": "Advanced business terminology2",
+      "cards": [
+        { "id": "negotiation2", "front": "Negotiation", "back": "Vyjednávanie" },
+        { "id": "investment2", "front": "Investment", "back": "Investícia" },
+        { "id": "revenue2", "front": "Revenue", "back": "Príjem" },
+        { "id": "expenditur2e", "front": "Expenditure", "back": "Výdavok" },
+        { "id": "strate2gy", "front": "Strategy", "back": "Stratégia" },
+        { "id": "stakehol2der", "front": "Stakeholder", "back": "Zainteresovaná strana" }
+      ]
+    },
     {
       "id": "business_advanced",
       "title": "Advanced Business",
