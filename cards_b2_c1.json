@@ -17,7 +17,7 @@
         { "id": "liability", "front": "Liability", "back": "Záväzok" },
         { "id": "equity", "front": "Equity", "back": "Vlastné imanie" }
       ]
-    },,
+    },
     {
       "id": "abstract_thinking",
       "title": "XAbstract Thinking",
