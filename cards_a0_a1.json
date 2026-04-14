@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "categories": [
     {
       "id": "animals",
@@ -159,6 +159,16 @@
         { "id": "mirror", "front": "Mirror", "back": "Zrkadlo" },
         { "id": "cupboard", "front": "Cupboard", "back": "Skrinka" },
         { "id": "stool", "front": "Stool", "back": "Stolička" }
+      ]
+    },
+    {
+      "id": "furniture",
+      "title": "Dva a dva",
+      "image": "🛋️",
+      "description": "Furniture elan",
+      "cards": [
+        { "id": "tablee", "front": "Table", "back": "Stôl" },
+        { "id": "chairr", "front": "Chair", "back": "Stolička" }
       ]
     }
   ]
