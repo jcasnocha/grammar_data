@@ -1,8 +1,8 @@
 {
-  "version": 2,
+  "version": 3,
   "categories": [
         {
-      "id": "animals",
+      "id": "animalss",
       "title": "Zvieratká",
       "image": "🐾",
       "description": "Basic animal vocabulary",
