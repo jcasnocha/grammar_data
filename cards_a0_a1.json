@@ -1,6 +1,24 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": [
+        {
+      "id": "animals",
+      "title": "Zvieratká",
+      "image": "🐾",
+      "description": "Basic animal vocabulary",
+      "cards": [
+        { "id": "doga", "front": "Dog", "back": "Pes" },
+        { "id": "cata", "front": "Cat", "back": "Mačka" },
+        { "id": "horsea", "front": "Horse", "back": "Kôň" },
+        { "id": "cowa", "front": "Cow", "back": "Krava" },
+        { "id": "piga", "front": "Pig", "back": "Prasa" },
+        { "id": "sheepa", "front": "Sheep", "back": "Ovca" },
+        { "id": "birda", "front": "Bird", "back": "Vták" },
+        { "id": "fisha", "front": "Fish", "back": "Ryba" },
+        { "id": "mousae", "front": "Mouse", "back": "Myš" },
+        { "id": "liona", "front": "Lion", "back": "Lev" }
+      ]
+    },
     {
       "id": "animals",
       "title": "Animals",
@@ -159,6 +177,23 @@
         { "id": "mirror", "front": "Mirror", "back": "Zrkadlo" },
         { "id": "cupboard", "front": "Cupboard", "back": "Skrinka" },
         { "id": "stool", "front": "Stool", "back": "Stolička" }
+      ]
+    },
+        {
+      "id": "emotions",
+      "title": "Google Chrome",
+      "image": ":D",
+      "description": "Feelings and emotions",
+      "cards": [
+        { "id": "happay", "front": "Happy", "back": "Šťastný" },
+        { "id": "saad", "front": "Sad", "back": "Smutný" },
+        { "id": "anagry", "front": "Angry", "back": "Nahnevaný" },
+        { "id": "suraprised", "front": "Surprised", "back": "Prekvapený" },
+        { "id": "scaared", "front": "Scared", "back": "Vydesený" },
+        { "id": "boraed", "front": "Bored", "back": "Nudný" },
+        { "id": "excated", "front": "Excited", "back": "Nadšený" },
+        { "id": "a", "front": "Tired", "back": "Unavený" },
+        { "id": "confaused", "front": "Confused", "back": "Zmätený" }
       ]
     }
   ]
