@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "categories": [
         {
       "id": "work_life",
@@ -44,20 +44,7 @@
         { "id": "database", "front": "Database", "back": "Databáza" },
         { "id": "security", "front": "Security", "back": "Bezpečnosť" }
       ]
-    }
-  ]
-}
- vygeneruj mi aspon 20 takýchto kategorii každá kategoria 10 slov
-Tu to máš: 20 nových kategórií, každá s 10 kartičkami, v rovnakom formáte ako tvoje pôvodné dáta.
-Držím sa tvojej štruktúry: id, title, image, description, cards.
-
-🔥 Kompletný JSON s 20 kategóriami (každá 10 slov)
-Poznámka: Použil som jednoduché, užitočné slovíčka pre bežnú komunikáciu – môžeš ich rovno použiť vo svojej appke.
-
-json
-{
-  "version": 1,
-  "categories": [
+    },
     {
       "id": "travel",
       "title": "Travel",
