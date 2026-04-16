@@ -2,8 +2,9 @@
   "version": 3,
   "groups": [
     {
-      "id": "business",
-      "title": "Business English",
+      "id": "basics",
+      "title": "Základy angličtiny",
+      "image": "📘",
       "categories": [
         {
           "id": "business_advanced",
