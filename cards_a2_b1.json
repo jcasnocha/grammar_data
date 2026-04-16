@@ -1,48 +1,59 @@
 {
-  "version": 1,
-  "categories": [
+  "version": 3,
+  "groups": [
     {
-      "id": "work_life",
-      "title": "Work & Life",
-      "image": "💼",
-      "description": "Daily work and responsibilities",
-      "cards": [
-        { "id": "salary", "front": "Salary", "back": "Plat" },
-        { "id": "meeting", "front": "Meeting", "back": "Stretnutie" },
-        { "id": "project", "front": "Project", "back": "Projekt" },
-        { "id": "deadline", "front": "Deadline", "back": "Termín" },
-        { "id": "manager", "front": "Manager", "back": "Manažér" },
-        { "id": "colleague", "front": "Colleague", "back": "Kolega" },
-        { "id": "experience", "front": "Experience", "back": "Skúsenosť" },
-        { "id": "career", "front": "Career", "back": "Kariéra" }
+      "id": "basics",
+      "title": "Základy angličtiny",
+      "image": "📘",
+      "categories": [
+        {
+          "id": "business_advanced",
+          "title": "Advanced Business",
+          "image": "📊",
+          "description": "Advanced business terminology",
+          "cards": [
+            { "id": "negotiation", "front": "Negotiation", "back": "Vyjednávanie" },
+            { "id": "investment", "front": "Investment", "back": "Investícia" },
+            { "id": "revenue", "front": "Revenue", "back": "Príjem" },
+            { "id": "expenditure", "front": "Expenditure", "back": "Výdavok" },
+            { "id": "strategy", "front": "Strategy", "back": "Stratégia" },
+            { "id": "stakeholder", "front": "Stakeholder", "back": "Zainteresovaná strana" }
+          ]
+        }
       ]
     },
     {
-      "id": "health",
-      "title": "Health",
-      "image": "🏥",
-      "description": "Health and body vocabulary",
-      "cards": [
-        { "id": "illness", "front": "Illness", "back": "Choroba" },
-        { "id": "injury", "front": "Injury", "back": "Zranenie" },
-        { "id": "treatment", "front": "Treatment", "back": "Liečba" },
-        { "id": "medicine", "front": "Medicine", "back": "Liek" },
-        { "id": "appointment", "front": "Appointment", "back": "Objednanie" },
-        { "id": "recovery", "front": "Recovery", "back": "Zotavenie" }
-      ]
-    },
-    {
-      "id": "technology",
-      "title": "Technology",
-      "image": "💻",
-      "description": "Technology and internet",
-      "cards": [
-        { "id": "device", "front": "Device", "back": "Zariadenie" },
-        { "id": "software", "front": "Software", "back": "Softvér" },
-        { "id": "hardware", "front": "Hardware", "back": "Hardvér" },
-        { "id": "network", "front": "Network", "back": "Sieť" },
-        { "id": "database", "front": "Database", "back": "Databáza" },
-        { "id": "security", "front": "Security", "back": "Bezpečnosť" }
+      "id": "academic",
+      "title": "Academic & Thinking",
+      "categories": [
+        {
+          "id": "abstract_thinking",
+          "title": "Abstract Thinking",
+          "image": "🧠",
+          "description": "Abstract and complex vocabulary",
+          "cards": [
+            { "id": "perception", "front": "Perception", "back": "Vnímanie" },
+            { "id": "assumption", "front": "Assumption", "back": "Predpoklad" },
+            { "id": "hypothesis", "front": "Hypothesis", "back": "Hypotéza" },
+            { "id": "consequence", "front": "Consequence", "back": "Dôsledok" },
+            { "id": "justification", "front": "Justification", "back": "Odôvodnenie" },
+            { "id": "interpretation", "front": "Interpretation", "back": "Interpretácia" }
+          ]
+        },
+        {
+          "id": "academic",
+          "title": "Academic English",
+          "image": "🎓",
+          "description": "Formal and academic vocabulary",
+          "cards": [
+            { "id": "analysis", "front": "Analysis", "back": "Analýza" },
+            { "id": "evaluation", "front": "Evaluation", "back": "Hodnotenie" },
+            { "id": "framework", "front": "Framework", "back": "Rámec" },
+            { "id": "methodology", "front": "Methodology", "back": "Metodológia" },
+            { "id": "evidence", "front": "Evidence", "back": "Dôkaz" },
+            { "id": "theory", "front": "Theory", "back": "Teória" }
+          ]
+        }
       ]
     }
   ]
