@@ -1,48 +1,40 @@
 {
-  "version": 1,
-  "categories": [
+  "version": 15,
+  "groups": [
     {
-      "id": "work_life",
-      "title": "Work & Life",
-      "image": "💼",
-      "description": "Daily work and responsibilities",
-      "cards": [
-        { "id": "salary", "front": "Salary", "back": "Plat" },
-        { "id": "meeting", "front": "Meeting", "back": "Stretnutie" },
-        { "id": "project", "front": "Project", "back": "Projekt" },
-        { "id": "deadline", "front": "Deadline", "back": "Termín" },
-        { "id": "manager", "front": "Manager", "back": "Manažér" },
-        { "id": "colleague", "front": "Colleague", "back": "Kolega" },
-        { "id": "experience", "front": "Experience", "back": "Skúsenosť" },
-        { "id": "career", "front": "Career", "back": "Kariéra" }
+      "id": "business",
+      "title": "Business English",
+      "image": "📊",
+      "description": "Business vocabulary and communication",
+      "categories": [
+        {
+          "id": "business_advanced",
+          "title": "Advanced Business",
+          "image": "📈",
+          "description": "Advanced business terminology",
+          "cards": [
+            { "id": "negotiation", "front": "Negotiation", "back": "Vyjednávanie" },
+            { "id": "investment", "front": "Investment", "back": "Investícia" }
+          ]
+        }
       ]
     },
+
     {
-      "id": "health",
-      "title": "Health",
-      "image": "🏥",
-      "description": "Health and body vocabulary",
-      "cards": [
-        { "id": "illness", "front": "Illness", "back": "Choroba" },
-        { "id": "injury", "front": "Injury", "back": "Zranenie" },
-        { "id": "treatment", "front": "Treatment", "back": "Liečba" },
-        { "id": "medicine", "front": "Medicine", "back": "Liek" },
-        { "id": "appointment", "front": "Appointment", "back": "Objednanie" },
-        { "id": "recovery", "front": "Recovery", "back": "Zotavenie" }
-      ]
-    },
-    {
-      "id": "technology",
-      "title": "Technology",
-      "image": "💻",
-      "description": "Technology and internet",
-      "cards": [
-        { "id": "device", "front": "Device", "back": "Zariadenie" },
-        { "id": "software", "front": "Software", "back": "Softvér" },
-        { "id": "hardware", "front": "Hardware", "back": "Hardvér" },
-        { "id": "network", "front": "Network", "back": "Sieť" },
-        { "id": "database", "front": "Database", "back": "Databáza" },
-        { "id": "security", "front": "Security", "back": "Bezpečnosť" }
+      "id": "thinking",
+      "title": "Thinking & Psychology",
+      "image": "🧠",
+      "description": "Abstract thinking and cognition",
+      "categories": [
+        {
+          "id": "abstract_thinking",
+          "title": "Abstract Thinking",
+          "image": "🧩",
+          "description": "Abstract vocabulary",
+          "cards": [
+            { "id": "perception", "front": "Perception", "back": "Vnímanie" }
+          ]
+        }
       ]
     }
   ]
