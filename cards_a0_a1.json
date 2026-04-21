@@ -1,179 +1,181 @@
 {
-  "version": 1,
+  "version": 3,
   "groups": [
     {
-      "id": "basic",
-      "title": "Basic Vocabulary",
-      "image": "📦",
-      "description": "Basic everyday categories",
+      "id": "communication",
+      "title": "Communication",
+      "image": "💬",
+      "description": "Speaking and interaction",
       "categories": [
         {
-          "id": "animals",
-          "title": "Animals",
-          "image": "🐾",
-          "description": "Basic animal vocabulary",
+          "id": "greetings",
+          "title": "Greetings",
+          "image": "👋",
+          "description": "Basic greetings",
           "cards": [
-            { "id": "dog", "front": "Dog", "back": "Pes" },
-            { "id": "cat", "front": "Cat", "back": "Mačka" },
-            { "id": "horse", "front": "Horse", "back": "Kôň" },
-            { "id": "cow", "front": "Cow", "back": "Krava" },
-            { "id": "pig", "front": "Pig", "back": "Prasa" },
-            { "id": "sheep", "front": "Sheep", "back": "Ovca" },
-            { "id": "bird", "front": "Bird", "back": "Vták" },
-            { "id": "fish", "front": "Fish", "back": "Ryba" },
-            { "id": "mouse", "front": "Mouse", "back": "Myš" },
-            { "id": "lion", "front": "Lion", "back": "Lev" }
+            { "id": "hello", "front": "Hello", "back": "Ahoj" },
+            { "id": "hi", "front": "Hi", "back": "Čau" },
+            { "id": "good_morning", "front": "Good morning", "back": "Dobré ráno" },
+            { "id": "good_evening", "front": "Good evening", "back": "Dobrý večer" },
+            { "id": "goodbye", "front": "Goodbye", "back": "Dovidenia" },
+            { "id": "see_you", "front": "See you", "back": "Uvidíme sa" },
+            { "id": "welcome", "front": "Welcome", "back": "Vitaj" },
+            { "id": "how_are_you", "front": "How are you?", "back": "Ako sa máš?" },
+            { "id": "fine", "front": "Fine", "back": "Dobre" },
+            { "id": "thanks", "front": "Thanks", "back": "Ďakujem" }
           ]
         },
         {
-          "id": "food",
-          "title": "Food",
-          "image": "🍎",
-          "description": "Everyday food and meals",
+          "id": "questions",
+          "title": "Questions",
+          "image": "❓",
+          "description": "Basic question words",
           "cards": [
-            { "id": "bread", "front": "Bread", "back": "Chlieb" },
-            { "id": "butter", "front": "Butter", "back": "Maslo" },
-            { "id": "cheese", "front": "Cheese", "back": "Syr" },
-            { "id": "milk", "front": "Milk", "back": "Mlieko" },
-            { "id": "apple", "front": "Apple", "back": "Jablko" },
-            { "id": "banana", "front": "Banana", "back": "Banán" },
-            { "id": "meat", "front": "Meat", "back": "Mäso" },
-            { "id": "soup", "front": "Soup", "back": "Polievka" },
-            { "id": "rice", "front": "Rice", "back": "Ryža" },
-            { "id": "egg", "front": "Egg", "back": "Vajce" }
-          ]
-        },
-        {
-          "id": "travel",
-          "title": "Travel",
-          "image": "✈️",
-          "description": "Travel and transportation",
-          "cards": [
-            { "id": "airport", "front": "Airport", "back": "Letisko" },
-            { "id": "ticket", "front": "Ticket", "back": "Lístok" },
-            { "id": "hotel", "front": "Hotel", "back": "Hotel" },
-            { "id": "train", "front": "Train", "back": "Vlak" },
-            { "id": "bus", "front": "Bus", "back": "Autobus" },
-            { "id": "taxi", "front": "Taxi", "back": "Taxi" },
-            { "id": "passport", "front": "Passport", "back": "Pas" },
-            { "id": "map", "front": "Map", "back": "Mapa" },
-            { "id": "journey", "front": "Journey", "back": "Cesta" },
-            { "id": "luggage", "front": "Luggage", "back": "Batožina" }
-          ]
-        },
-        {
-          "id": "verbs_basic",
-          "title": "Basic Verbs",
-          "image": "⚡",
-          "description": "Most common verbs",
-          "cards": [
-            { "id": "be", "front": "Be", "back": "Byť" },
-            { "id": "have", "front": "Have", "back": "Mať" },
-            { "id": "do", "front": "Do", "back": "Robiť" },
-            { "id": "go", "front": "Go", "back": "Ísť" },
-            { "id": "come", "front": "Come", "back": "Prísť" },
-            { "id": "see", "front": "See", "back": "Vidieť" },
-            { "id": "say", "front": "Say", "back": "Povedať" },
-            { "id": "make", "front": "Make", "back": "Vyrobiť" },
-            { "id": "take", "front": "Take", "back": "Vzjať" },
-            { "id": "give", "front": "Give", "back": "Dať" }
+            { "id": "who", "front": "Who", "back": "Kto" },
+            { "id": "what", "front": "What", "back": "Čo" },
+            { "id": "where", "front": "Where", "back": "Kde" },
+            { "id": "when", "front": "When", "back": "Kedy" },
+            { "id": "why", "front": "Why", "back": "Prečo" },
+            { "id": "how", "front": "How", "back": "Ako" },
+            { "id": "which", "front": "Which", "back": "Ktorý" },
+            { "id": "how_many", "front": "How many", "back": "Koľko" },
+            { "id": "how_much", "front": "How much", "back": "Koľko (nepoč.)" },
+            { "id": "whose", "front": "Whose", "back": "Čí" }
           ]
         }
       ]
     },
 
     {
-      "id": "lifestyle",
-      "title": "Lifestyle",
-      "image": "🌍",
-      "description": "Sports, clothes, weather, emotions, furniture",
+      "id": "work",
+      "title": "Work & Office",
+      "image": "💼",
+      "description": "Office and work vocabulary",
       "categories": [
         {
-          "id": "sports",
-          "title": "Sports",
-          "image": "🏀",
-          "description": "Common sports vocabulary",
+          "id": "office",
+          "title": "Office",
+          "image": "🏢",
+          "description": "Office objects",
           "cards": [
-            { "id": "soccer", "front": "Soccer", "back": "Futbal" },
-            { "id": "basketball", "front": "Basketball", "back": "Basketbal" },
-            { "id": "tennis", "front": "Tennis", "back": "Tenis" },
-            { "id": "swimming", "front": "Swimming", "back": "Plávanie" },
-            { "id": "running", "front": "Running", "back": "Beh" },
-            { "id": "cycling", "front": "Cycling", "back": "Cyklistika" },
-            { "id": "boxing", "front": "Boxing", "back": "Box" },
-            { "id": "skiing", "front": "Skiing", "back": "Lyžovanie" },
-            { "id": "gymnastics", "front": "Gymnastics", "back": "Gymnastika" },
-            { "id": "hockey", "front": "Hockey", "back": "Hokej" }
+            { "id": "computer", "front": "Computer", "back": "Počítač" },
+            { "id": "keyboard", "front": "Keyboard", "back": "Klávesnica" },
+            { "id": "mouse_office", "front": "Mouse", "back": "Myš (PC)" },
+            { "id": "printer", "front": "Printer", "back": "Tlačiareň" },
+            { "id": "desk_office", "front": "Desk", "back": "Stôl" },
+            { "id": "chair_office", "front": "Chair", "back": "Stolička" },
+            { "id": "paper", "front": "Paper", "back": "Papier" },
+            { "id": "pen", "front": "Pen", "back": "Pero" },
+            { "id": "meeting", "front": "Meeting", "back": "Stretnutie" },
+            { "id": "email", "front": "Email", "back": "Email" }
           ]
         },
         {
-          "id": "clothes",
-          "title": "Clothes",
-          "image": "👗",
-          "description": "Clothing vocabulary",
+          "id": "jobs",
+          "title": "Jobs",
+          "image": "👷",
+          "description": "Professions",
           "cards": [
-            { "id": "shirt", "front": "Shirt", "back": "Košeľa" },
-            { "id": "pants", "front": "Pants", "back": "Nohavice" },
-            { "id": "dress", "front": "Dress", "back": "Šaty" },
-            { "id": "shoes", "front": "Shoes", "back": "Topánky" },
-            { "id": "hat", "front": "Hat", "back": "Klobúk" },
-            { "id": "jacket", "front": "Jacket", "back": "Bunda" },
-            { "id": "socks", "front": "Socks", "back": "Ponožky" },
-            { "id": "scarf", "front": "Scarf", "back": "Šál" },
-            { "id": "gloves", "front": "Gloves", "back": "Rukavice" },
-            { "id": "belt", "front": "Belt", "back": "Opasok" }
+            { "id": "teacher", "front": "Teacher", "back": "Učiteľ" },
+            { "id": "doctor", "front": "Doctor", "back": "Lekár" },
+            { "id": "engineer", "front": "Engineer", "back": "Inžinier" },
+            { "id": "developer", "front": "Developer", "back": "Programátor" },
+            { "id": "driver", "front": "Driver", "back": "Vodič" },
+            { "id": "police", "front": "Police officer", "back": "Policajt" },
+            { "id": "chef", "front": "Chef", "back": "Kuchár" },
+            { "id": "waiter", "front": "Waiter", "back": "Čašník" },
+            { "id": "manager", "front": "Manager", "back": "Manažér" },
+            { "id": "student", "front": "Student", "back": "Študent" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "time",
+      "title": "Time & Numbers",
+      "image": "⏰",
+      "description": "Time and counting",
+      "categories": [
+        {
+          "id": "numbers",
+          "title": "Numbers",
+          "image": "🔢",
+          "description": "Basic numbers",
+          "cards": [
+            { "id": "one", "front": "One", "back": "Jeden" },
+            { "id": "two", "front": "Two", "back": "Dva" },
+            { "id": "three", "front": "Three", "back": "Tri" },
+            { "id": "four", "front": "Four", "back": "Štyri" },
+            { "id": "five", "front": "Five", "back": "Päť" },
+            { "id": "six", "front": "Six", "back": "Šesť" },
+            { "id": "seven", "front": "Seven", "back": "Sedem" },
+            { "id": "eight", "front": "Eight", "back": "Osem" },
+            { "id": "nine", "front": "Nine", "back": "Deväť" },
+            { "id": "ten", "front": "Ten", "back": "Desať" }
           ]
         },
         {
-          "id": "weather",
-          "title": "Weather",
-          "image": "☀️",
-          "description": "Weather-related words",
+          "id": "time_words",
+          "title": "Time Words",
+          "image": "🕒",
+          "description": "Time expressions",
           "cards": [
-            { "id": "sun", "front": "Sun", "back": "Slnko" },
-            { "id": "rain", "front": "Rain", "back": "Dážď" },
-            { "id": "snow", "front": "Snow", "back": "Sneh" },
-            { "id": "cloud", "front": "Cloud", "back": "Oblaky" },
-            { "id": "wind", "front": "Wind", "back": "Vietor" },
-            { "id": "storm", "front": "Storm", "back": "Búrka" },
-            { "id": "fog", "front": "Fog", "back": "Hmla" },
-            { "id": "hail", "front": "Hail", "back": "Krúpy" },
-            { "id": "lightning", "front": "Lightning", "back": "Blesk" }
+            { "id": "today", "front": "Today", "back": "Dnes" },
+            { "id": "tomorrow", "front": "Tomorrow", "back": "Zajtra" },
+            { "id": "yesterday", "front": "Yesterday", "back": "Včera" },
+            { "id": "morning", "front": "Morning", "back": "Ráno" },
+            { "id": "afternoon", "front": "Afternoon", "back": "Popoludnie" },
+            { "id": "evening_time", "front": "Evening", "back": "Večer" },
+            { "id": "night", "front": "Night", "back": "Noc" },
+            { "id": "hour", "front": "Hour", "back": "Hodina" },
+            { "id": "minute", "front": "Minute", "back": "Minúta" },
+            { "id": "second", "front": "Second", "back": "Sekunda" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "health",
+      "title": "Health",
+      "image": "🩺",
+      "description": "Body and health",
+      "categories": [
+        {
+          "id": "body",
+          "title": "Body",
+          "image": "🧍",
+          "description": "Body parts",
+          "cards": [
+            { "id": "head", "front": "Head", "back": "Hlava" },
+            { "id": "hand", "front": "Hand", "back": "Ruka" },
+            { "id": "leg", "front": "Leg", "back": "Noha" },
+            { "id": "eye", "front": "Eye", "back": "Oko" },
+            { "id": "ear", "front": "Ear", "back": "Ucho" },
+            { "id": "nose", "front": "Nose", "back": "Nos" },
+            { "id": "mouth", "front": "Mouth", "back": "Ústa" },
+            { "id": "back_body", "front": "Back", "back": "Chrbát" },
+            { "id": "arm", "front": "Arm", "back": "Rameno" },
+            { "id": "foot", "front": "Foot", "back": "Chodidlo" }
           ]
         },
         {
-          "id": "emotions",
-          "title": "Emotions",
-          "image": "😊",
-          "description": "Feelings and emotions",
+          "id": "health_words",
+          "title": "Health Words",
+          "image": "💊",
+          "description": "Health vocabulary",
           "cards": [
-            { "id": "happy", "front": "Happy", "back": "Šťastný" },
-            { "id": "sad", "front": "Sad", "back": "Smutný" },
-            { "id": "angry", "front": "Angry", "back": "Nahnevaný" },
-            { "id": "surprised", "front": "Surprised", "back": "Prekvapený" },
-            { "id": "scared", "front": "Scared", "back": "Vydesený" },
-            { "id": "bored", "front": "Bored", "back": "Nudný" },
-            { "id": "excited", "front": "Excited", "back": "Nadšený" },
-            { "id": "tired", "front": "Tired", "back": "Unavený" },
-            { "id": "confused", "front": "Confused", "back": "Zmätený" }
-          ]
-        },
-        {
-          "id": "furniture",
-          "title": "Furniture",
-          "image": "🛋️",
-          "description": "Furniture items",
-          "cards": [
-            { "id": "table", "front": "Table", "back": "Stôl" },
-            { "id": "chair", "front": "Chair", "back": "Stolička" },
-            { "id": "sofa", "front": "Sofa", "back": "Pohovka" },
-            { "id": "bed", "front": "Bed", "back": "Posteľ" },
-            { "id": "desk", "front": "Desk", "back": "Písací stôl" },
-            { "id": "lamp", "front": "Lamp", "back": "Lampa" },
-            { "id": "shelf", "front": "Shelf", "back": "Polica" },
-            { "id": "mirror", "front": "Mirror", "back": "Zrkadlo" },
-            { "id": "cupboard", "front": "Cupboard", "back": "Skrinka" },
-            { "id": "stool", "front": "Stool", "back": "Stolička" }
+            { "id": "pain", "front": "Pain", "back": "Bolesť" },
+            { "id": "doctor_visit", "front": "Doctor", "back": "Lekár" },
+            { "id": "medicine", "front": "Medicine", "back": "Liek" },
+            { "id": "hospital", "front": "Hospital", "back": "Nemocnica" },
+            { "id": "fever", "front": "Fever", "back": "Horúčka" },
+            { "id": "cold", "front": "Cold", "back": "Nádcha" },
+            { "id": "cough", "front": "Cough", "back": "Kašeľ" },
+            { "id": "healthy", "front": "Healthy", "back": "Zdravý" },
+            { "id": "sick", "front": "Sick", "back": "Chorý" },
+            { "id": "rest", "front": "Rest", "back": "Oddych" }
           ]
         }
       ]
