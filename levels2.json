@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "levels": [
         {
       "id": "level_beginner",
@@ -54,7 +54,7 @@
               "emoji": "🔗",
               "gameType": "MATCH_PAIRS",
               "categories": ["fruit", "vegetables"],
-              "poolSize": 5,
+              "poolSize": 20,
               "orderIndex": 2,
               "colorStart": "#FF9C27B0",
               "colorEnd": "#FFE040FB",
