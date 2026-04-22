@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "levels": [
         {
       "id": "level_beginner",
@@ -62,11 +62,11 @@
             },
             {
               "id": "game_word_builder_1",
-              "title": "Poskladaj správne slová",
+              "title": "Poskladaj správne slová LVIE",
               "description": "Poskladaj správne slová",
               "emoji": "🧩",
               "gameType": "WORD_BUILDER",
-              "categories": ["fruits", "animals"],
+              "categories": ["vegetables"],
               "poolSize": 3,
               "orderIndex": 3,
               "colorStart": "#FF009688",
