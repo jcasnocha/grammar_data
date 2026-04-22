@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "levels": [
         {
       "id": "level_beginner",
@@ -53,7 +53,7 @@
               "description": "Páruj správne slová",
               "emoji": "🔗",
               "gameType": "MATCH_PAIRS",
-              "categories": ["fruits"],
+              "categories": ["fruit", "vegetables"],
               "poolSize": 5,
               "orderIndex": 2,
               "colorStart": "#FF9C27B0",
