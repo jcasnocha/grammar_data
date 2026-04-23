@@ -1,0 +1,112 @@
+{
+  "categories": [
+    {
+      "name": "fruit",
+      "translation": "ovocie",
+      "category": "fruit",
+      "emoji": "🍎",
+      "items": [
+        { "word": "apple", "translation": "jablko" },
+        { "word": "banana", "translation": "banán"},
+        { "word": "orange", "translation": "pomaranč"},
+        { "word": "grape", "translation": "hrozno"},
+        { "word": "pear", "translation": "hruška"},
+        { "word": "peach", "translation": "broskyňa"},
+        { "word": "plum", "translation": "slivka"},
+        { "word": "strawberry", "translation": "jahoda"},
+        { "word": "cherry", "translation": "čerešňa"},
+        { "word": "melon", "translation": "melón" }
+      ]
+    },
+    {
+      "name": "vegetables",
+      "translation": "zelenina",
+      "category": "vegetables",
+      "emoji": "🥦",
+      "items": [
+        { "word": "carrot", "translation": "mrkva" },
+        { "word": "potato", "translation": "zemiak" },
+        { "word": "tomato", "translation": "paradajka" },
+        { "word": "cucumber", "translation": "uhorka" },
+        { "word": "onion", "translation": "cibuľa" },
+        { "word": "garlic", "translation": "cesnak" },
+        { "word": "pepper", "translation": "paprika" },
+        { "word": "broccoli", "translation": "brokolica" },
+        { "word": "cabbage", "translation": "kapusta" },
+        { "word": "spinach", "translation": "špenát" }
+      ]
+    },
+    {
+      "name": "animals",
+      "translation": "zvieratá",
+      "category": "animals",
+      "emoji": "🐶",
+      "items": [
+        { "word": "dog", "translation": "pes"},
+        { "word": "cat", "translation": "mačka"},
+        { "word": "mouse", "translation": "myš"},
+        { "word": "bird", "translation": "vták"},
+        { "word": "fish", "translation": "ryba"},
+        { "word": "frog", "translation": "žaba"},
+        { "word": "deer", "translation": "jeleň"},
+        { "word": "snake", "translation": "had"},
+        { "word": "bear", "translation": "medveď"},
+        { "word": "wolf", "translation": "vlk"}
+      ]
+    },
+    {
+      "name": "colors",
+      "translation": "farby",
+      "category": "colors",
+      "emoji": "🎨",
+      "items": [
+        { "word": "red", "translation": "červená"},
+        { "word": "blue", "translation": "modrá"},
+        { "word": "green", "translation": "zelená"},
+        { "word": "yellow", "translation": "žltá"},
+        { "word": "black", "translation": "čierna"},
+        { "word": "white", "translation": "biela"},
+        { "word": "brown", "translation": "hnedá"},
+        { "word": "orange", "translation": "oranžová"},
+        { "word": "purple", "translation": "fialová"},
+        { "word": "pink", "translation": "ružová"}
+      ]
+    },
+    {
+      "name": "transport",
+      "translation": "doprava",
+      "category": "transport",
+      "emoji": "🚗",
+      "items": [
+        { "word": "car", "translation": "auto"},
+        { "word": "bus", "translation": "autobus"},
+        { "word": "train", "translation": "vlak"},
+        { "word": "plane", "translation": "lietadlo"},
+        { "word": "ship", "translation": "loď"},
+        { "word": "bike", "translation": "bicykel"},
+        { "word": "motorcycle", "translation": "motorka"},
+        { "word": "tram", "translation": "električka"},
+        { "word": "subway", "translation": "metro"},
+        { "word": "truck", "translation": "kamión"}
+      ]
+    },
+    {
+      "name": "school",
+      "translation": "škola",
+      "category": "school",
+      "emoji": "📚",
+      "items": [
+        { "word": "book", "translation": "kniha"},
+        { "word": "pen", "translation": "pero"},
+        { "word": "pencil", "translation": "ceruzka"},
+        { "word": "desk", "translation": "stôl"},
+        { "word": "chair", "translation": "stolička"},
+        { "word": "teacher", "translation": "učiteľ"},
+        { "word": "student", "translation": "žiak"},
+        { "word": "lesson", "translation": "hodina"},
+        { "word": "homework", "translation": "domáca úloha"},
+        { "word": "classroom", "translation": "trieda"}
+      ]
+    }
+  ]
+}
