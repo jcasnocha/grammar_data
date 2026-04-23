@@ -107,6 +107,24 @@
         { "word": "homework", "translation": "domáca úloha"},
         { "word": "classroom", "translation": "trieda"}
       ]
+    },
+    {
+      "name": "family",
+      "translation": "rodina",
+      "category": "family",
+      "emoji": "👪",
+      "items": [
+        { "word": "mother", "translation": "matka" },
+        { "word": "father", "translation": "otec" },
+        { "word": "brother", "translation": "brat" },
+        { "word": "sister", "translation": "sestra" },
+        { "word": "son", "translation": "syn" },
+        { "word": "daughter", "translation": "dcéra" },
+        { "word": "grandmother", "translation": "babka" },
+        { "word": "grandfather", "translation": "dedko" },
+        { "word": "uncle", "translation": "strýko" },
+        { "word": "aunt", "translation": "teta" }
+      ]
     }
   ]
 }
