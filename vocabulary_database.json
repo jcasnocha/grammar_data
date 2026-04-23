@@ -126,5 +126,74 @@
         { "word": "aunt", "translation": "teta" }
       ]
     }
+  ],
+
+  
+  "duoPairs": [
+    
+    {"type": "SYNONYM", "category": "beginner", "word": "happy", "word_translation": "šťastný", "pair": "joyful", "pair_translation": "radostný"},
+    {"type": "SYNONYM", "category": "beginner", "word": "sad", "word_translation": "smutný", "pair": "unhappy", "pair_translation": "nešťastný"},
+    {"type": "SYNONYM", "category": "beginner", "word": "big", "word_translation": "veľký", "pair": "large", "pair_translation": "rozsiahly"},
+    {"type": "SYNONYM", "category": "beginner", "word": "small", "word_translation": "malý", "pair": "tiny", "pair_translation": "drobnučký"},
+    {"type": "SYNONYM", "category": "beginner", "word": "fast", "word_translation": "rýchly", "pair": "quick", "pair_translation": "svižný"},
+    {"type": "SYNONYM", "category": "beginner", "word": "slow", "word_translation": "pomalý", "pair": "sluggish", "pair_translation": "vláčny"},
+    {"type": "SYNONYM", "category": "beginner", "word": "cold", "word_translation": "studený", "pair": "chilly", "pair_translation": "chladný"},
+    {"type": "SYNONYM", "category": "beginner", "word": "easy", "word_translation": "ľahký", "pair": "simple", "pair_translation": "jednoduchý"},
+    {"type": "SYNONYM", "category": "beginner", "word": "hard", "word_translation": "ťažký", "pair": "difficult", "pair_translation": "náročný"},
+
+    {"type": "SYNONYM", "category": "intermediate", "word": "angry", "word_translation": "nahnevaný", "pair": "furious", "pair_translation": "zúrivý"},
+    {"type": "SYNONYM", "category": "intermediate", "word": "smart", "word_translation": "bystrý", "pair": "intelligent", "pair_translation": "inteligentný"},
+    {"type": "SYNONYM", "category": "intermediate", "word": "strong", "word_translation": "silný", "pair": "powerful", "pair_translation": "mocný"},
+    {"type": "SYNONYM", "category": "intermediate", "word": "weak", "word_translation": "slabý", "pair": "fragile", "pair_translation": "krehký"},
+    {"type": "SYNONYM", "category": "intermediate", "word": "happy", "word_translation": "šťastný", "pair": "content", "pair_translation": "spokojný"},
+    {"type": "SYNONYM", "category": "intermediate", "word": "sad", "word_translation": "smutný", "pair": "melancholy", "pair_translation": "melancholický"},
+    {"type": "SYNONYM", "category": "intermediate", "word": "big", "word_translation": "veľký", "pair": "huge", "pair_translation": "obrovský"},
+    {"type": "SYNONYM", "category": "intermediate", "word": "small", "word_translation": "malý", "pair": "minute", "pair_translation": "nepatrný"},
+    {"type": "SYNONYM", "category": "intermediate", "word": "fast", "word_translation": "rýchly", "pair": "speedy", "pair_translation": "uháňajúci"},
+    {"type": "SYNONYM", "category": "intermediate", "word": "slow", "word_translation": "pomalý", "pair": "lethargic", "pair_translation": "letargický"},
+
+    {"type": "SYNONYM", "category": "advanced", "word": "elated", "word_translation": "nadšený", "pair": "ecstatic", "pair_translation": "extatický"},
+    {"type": "SYNONYM", "category": "advanced", "word": "obscure", "word_translation": "nejasný", "pair": "ambiguous", "pair_translation": "dvojznačný"},
+    {"type": "SYNONYM", "category": "advanced", "word": "ancient", "word_translation": "staroveký", "pair": "archaic", "pair_translation": "archaický"},
+    {"type": "SYNONYM", "category": "advanced", "word": "brave", "word_translation": "odvážny", "pair": "courageous", "pair_translation": "statočný"},
+    {"type": "SYNONYM", "category": "advanced", "word": "rich", "word_translation": "bohatý", "pair": "wealthy", "pair_translation": "majetný"},
+    {"type": "SYNONYM", "category": "advanced", "word": "poor", "word_translation": "chudobný", "pair": "impoverished", "pair_translation": "zbedačený"},
+    {"type": "SYNONYM", "category": "advanced", "word": "intelligent", "word_translation": "inteligentný", "pair": "brilliant", "pair_translation": "geniálny"},
+    {"type": "SYNONYM", "category": "advanced", "word": "fastidious", "word_translation": "puntičkársky", "pair": "meticulous", "pair_translation": "pedantný"},
+    {"type": "SYNONYM", "category": "advanced", "word": "lazy", "word_translation": "lenivý", "pair": "indolent", "pair_translation": "zaháľčivý"},
+    {"type": "SYNONYM", "category": "advanced", "word": "difficult", "word_translation": "ťažký", "pair": "challenging", "pair_translation": "náročný"},
+
+    { "type": "ANTONYM", "category": "beginner", "word": "hot", "word_translation": "horúci", "pair": "cold", "pair_translation": "studený"},
+    { "type": "ANTONYM", "category": "beginner", "word": "up", "word_translation": "hore", "pair": "down", "pair_translation": "dole"},
+    { "type": "ANTONYM", "category": "beginner", "word": "big", "word_translation": "veľký", "pair": "small", "pair_translation": "malý"},
+    { "type": "ANTONYM", "category": "beginner", "word": "fast", "word_translation": "rýchly", "pair": "slow", "pair_translation": "pomalý"},
+    { "type": "ANTONYM", "category": "beginner", "word": "happy", "word_translation": "šťastný", "pair": "sad", "pair_translation": "smutný"},
+    { "type": "ANTONYM", "category": "beginner", "word": "light", "word_translation": "svetlý", "pair": "dark", "pair_translation": "tmavý"},
+    { "type": "ANTONYM", "category": "beginner", "word": "early", "word_translation": "skorý", "pair": "late", "pair_translation": "neskorý"},
+    { "type": "ANTONYM", "category": "beginner", "word": "easy", "word_translation": "ľahký", "pair": "hard", "pair_translation": "ťažký"},
+    { "type": "ANTONYM", "category": "beginner", "word": "open", "word_translation": "otvorený", "pair": "closed", "pair_translation": "zatvorený"},
+    { "type": "ANTONYM", "category": "beginner", "word": "strong", "word_translation": "silný", "pair": "weak", "pair_translation": "slabý"},
+
+    { "type": "ANTONYM", "category": "intermediate",  "word": "empty", "word_translation": "prázdny", "pair": "full", "pair_translation": "plný"},
+    { "type": "ANTONYM", "category": "intermediate",  "word": "clean", "word_translation": "čistý", "pair": "dirty", "pair_translation": "špinavý"},
+    { "type": "ANTONYM", "category": "intermediate",  "word": "shallow", "word_translation": "plytký", "pair": "deep", "pair_translation": "hlboký"},
+    { "type": "ANTONYM", "category": "intermediate",  "word": "near", "word_translation": "blízko", "pair": "far", "pair_translation": "ďaleko"},
+    { "type": "ANTONYM", "category": "intermediate",  "word": "soft", "word_translation": "mäkký", "pair": "hard", "pair_translation": "tvrdý"},
+    { "type": "ANTONYM", "category": "intermediate",  "word": "thin", "word_translation": "tenký", "pair": "thick", "pair_translation": "hrubý"},
+    { "type": "ANTONYM", "category": "intermediate",  "word": "tight", "word_translation": "tesný", "pair": "loose", "pair_translation": "voľný"},
+    { "type": "ANTONYM", "category": "intermediate",  "word": "young", "word_translation": "mladý", "pair": "old", "pair_translation": "starý"},
+    { "type": "ANTONYM", "category": "intermediate",  "word": "quiet", "word_translation": "tichý", "pair": "noisy", "pair_translation": "hlučný"},
+    { "type": "ANTONYM", "category": "intermediate",  "word": "weak", "word_translation": "slabý", "pair": "strong", "pair_translation": "silný"},
+
+    { "type": "ANTONYM", "category": "advanced", "word": "scarce", "word_translation": "vzácny", "pair": "abundant", "pair_translation": "hojný"},
+    { "type": "ANTONYM", "category": "advanced", "word": "meticulous", "word_translation": "puntičkársky", "pair": "careless", "pair_translation": "nedbalý"},
+    { "type": "ANTONYM", "category": "advanced", "word": "optimistic", "word_translation": "optimistický", "pair": "pessimistic", "pair_translation": "pesimistický"},
+    { "type": "ANTONYM", "category": "advanced", "word": "complex", "word_translation": "zložitý", "pair": "simple", "pair_translation": "jednoduchý"},
+    { "type": "ANTONYM", "category": "advanced", "word": "rigid", "word_translation": "strnulý", "pair": "flexible", "pair_translation": "pružný"},
+    { "type": "ANTONYM", "category": "advanced", "word": "ancient", "word_translation": "staroveký", "pair": "modern", "pair_translation": "moderný"},
+    { "type": "ANTONYM", "category": "advanced", "word": "transparent", "word_translation": "priehľadný", "pair": "opaque", "pair_translation": "nepriehľadný"},
+    { "type": "ANTONYM", "category": "advanced", "word": "valuable", "word_translation": "hodnotný", "pair": "worthless", "pair_translation": "bezcenný"},
+    { "type": "ANTONYM", "category": "advanced", "word": "brave", "word_translation": "odvážny", "pair": "cowardly", "pair_translation": "zbabelý"},
+    { "type": "ANTONYM", "category": "advanced", "word": "scarred", "word_translation": "zjazvený", "pair": "unblemished", "pair_translation": "bezchybný"}
   ]
 }
