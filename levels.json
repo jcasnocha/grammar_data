@@ -299,6 +299,306 @@
         }
       ]
     },
+        {
+      "id": "chapter_beach",
+      "title": "Na pláži",
+      "description": "Slová z pláže a dovolenky",
+      "emoji": "🏝️",
+      "colorStart": "#FF38BDF8",
+      "colorEnd": "#FF0EA5E9",
+      "backgroundColor": "#3338BDF8",
+      "games": [
+        {
+          "id": "summer_audio_1",
+          "title": "Letný audio kvíz",
+          "description": "Počuj slovo a vyber správny preklad",
+          "emoji": "🎧",
+          "gameType": "AUDIO_QUIZ",
+          "categories": ["fruit"],
+          "poolSize": 5,
+          "orderIndex": 0,
+          "colorStart": "#FFF97316",
+          "colorEnd": "#FFFACC15",
+          "backgroundColor": "#33F97316"
+        },
+        {
+          "id": "summer_sort_1",
+          "title": "Triedenie plážových vecí",
+          "description": "Roztrieď slová do kategórií",
+          "emoji": "🏖️",
+          "gameType": "SORT_WORDS",
+          "categories": ["transport", "school"],
+          "poolSize": 10,
+          "orderIndex": 1,
+          "colorStart": "#FF22D3EE",
+          "colorEnd": "#FF06B6D4",
+          "backgroundColor": "#3322D3EE"
+        },
+        {
+          "id": "summer_pairs_1",
+          "title": "Letné párovanie",
+          "description": "Nájdi správne dvojice",
+          "emoji": "🩴",
+          "gameType": "MATCH_PAIRS",
+          "categories": ["chapter1", "chapter2"],
+          "poolSize": 5,
+          "orderIndex": 2,
+          "colorStart": "#FFA855F7",
+          "colorEnd": "#FFE879F9",
+          "backgroundColor": "#33A855F7"
+        }
+      ]
+    },
+        {
+      "id": "chapter_beach",
+      "title": "Na pláži",
+      "description": "Slová z pláže a dovolenky",
+      "emoji": "🏝️",
+      "colorStart": "#FF38BDF8",
+      "colorEnd": "#FF0EA5E9",
+      "backgroundColor": "#3338BDF8",
+      "games": [
+        {
+          "id": "summer_audio_1",
+          "title": "Letný audio kvíz",
+          "description": "Počuj slovo a vyber správny preklad",
+          "emoji": "🎧",
+          "gameType": "AUDIO_QUIZ",
+          "categories": ["fruit"],
+          "poolSize": 5,
+          "orderIndex": 0,
+          "colorStart": "#FFF97316",
+          "colorEnd": "#FFFACC15",
+          "backgroundColor": "#33F97316"
+        },
+        {
+          "id": "summer_sort_1",
+          "title": "Triedenie plážových vecí",
+          "description": "Roztrieď slová do kategórií",
+          "emoji": "🏖️",
+          "gameType": "SORT_WORDS",
+          "categories": ["transport", "school"],
+          "poolSize": 10,
+          "orderIndex": 1,
+          "colorStart": "#FF22D3EE",
+          "colorEnd": "#FF06B6D4",
+          "backgroundColor": "#3322D3EE"
+        },
+        {
+          "id": "summer_pairs_1",
+          "title": "Letné párovanie",
+          "description": "Nájdi správne dvojice",
+          "emoji": "🩴",
+          "gameType": "MATCH_PAIRS",
+          "categories": ["chapter1", "chapter2"],
+          "poolSize": 5,
+          "orderIndex": 2,
+          "colorStart": "#FFA855F7",
+          "colorEnd": "#FFE879F9",
+          "backgroundColor": "#33A855F7"
+        }
+      ]
+    },
+        {
+      "id": "chapter_beach",
+      "title": "Na pláži",
+      "description": "Slová z pláže a dovolenky",
+      "emoji": "🏝️",
+      "colorStart": "#FF38BDF8",
+      "colorEnd": "#FF0EA5E9",
+      "backgroundColor": "#3338BDF8",
+      "games": [
+        {
+          "id": "summer_audio_1",
+          "title": "Letný audio kvíz",
+          "description": "Počuj slovo a vyber správny preklad",
+          "emoji": "🎧",
+          "gameType": "AUDIO_QUIZ",
+          "categories": ["fruit"],
+          "poolSize": 5,
+          "orderIndex": 0,
+          "colorStart": "#FFF97316",
+          "colorEnd": "#FFFACC15",
+          "backgroundColor": "#33F97316"
+        },
+        {
+          "id": "summer_sort_1",
+          "title": "Triedenie plážových vecí",
+          "description": "Roztrieď slová do kategórií",
+          "emoji": "🏖️",
+          "gameType": "SORT_WORDS",
+          "categories": ["transport", "school"],
+          "poolSize": 10,
+          "orderIndex": 1,
+          "colorStart": "#FF22D3EE",
+          "colorEnd": "#FF06B6D4",
+          "backgroundColor": "#3322D3EE"
+        },
+        {
+          "id": "summer_pairs_1",
+          "title": "Letné párovanie",
+          "description": "Nájdi správne dvojice",
+          "emoji": "🩴",
+          "gameType": "MATCH_PAIRS",
+          "categories": ["chapter1", "chapter2"],
+          "poolSize": 5,
+          "orderIndex": 2,
+          "colorStart": "#FFA855F7",
+          "colorEnd": "#FFE879F9",
+          "backgroundColor": "#33A855F7"
+        }
+      ]
+    },
+        {
+      "id": "chapter_beach",
+      "title": "Na pláži",
+      "description": "Slová z pláže a dovolenky",
+      "emoji": "🏝️",
+      "colorStart": "#FF38BDF8",
+      "colorEnd": "#FF0EA5E9",
+      "backgroundColor": "#3338BDF8",
+      "games": [
+        {
+          "id": "summer_audio_1",
+          "title": "Letný audio kvíz",
+          "description": "Počuj slovo a vyber správny preklad",
+          "emoji": "🎧",
+          "gameType": "AUDIO_QUIZ",
+          "categories": ["fruit"],
+          "poolSize": 5,
+          "orderIndex": 0,
+          "colorStart": "#FFF97316",
+          "colorEnd": "#FFFACC15",
+          "backgroundColor": "#33F97316"
+        },
+        {
+          "id": "summer_sort_1",
+          "title": "Triedenie plážových vecí",
+          "description": "Roztrieď slová do kategórií",
+          "emoji": "🏖️",
+          "gameType": "SORT_WORDS",
+          "categories": ["transport", "school"],
+          "poolSize": 10,
+          "orderIndex": 1,
+          "colorStart": "#FF22D3EE",
+          "colorEnd": "#FF06B6D4",
+          "backgroundColor": "#3322D3EE"
+        },
+        {
+          "id": "summer_pairs_1",
+          "title": "Letné párovanie",
+          "description": "Nájdi správne dvojice",
+          "emoji": "🩴",
+          "gameType": "MATCH_PAIRS",
+          "categories": ["chapter1", "chapter2"],
+          "poolSize": 5,
+          "orderIndex": 2,
+          "colorStart": "#FFA855F7",
+          "colorEnd": "#FFE879F9",
+          "backgroundColor": "#33A855F7"
+        }
+      ]
+    },
+        {
+      "id": "chapter_beach",
+      "title": "Na pláži",
+      "description": "Slová z pláže a dovolenky",
+      "emoji": "🏝️",
+      "colorStart": "#FF38BDF8",
+      "colorEnd": "#FF0EA5E9",
+      "backgroundColor": "#3338BDF8",
+      "games": [
+        {
+          "id": "summer_audio_1",
+          "title": "Letný audio kvíz",
+          "description": "Počuj slovo a vyber správny preklad",
+          "emoji": "🎧",
+          "gameType": "AUDIO_QUIZ",
+          "categories": ["fruit"],
+          "poolSize": 5,
+          "orderIndex": 0,
+          "colorStart": "#FFF97316",
+          "colorEnd": "#FFFACC15",
+          "backgroundColor": "#33F97316"
+        },
+        {
+          "id": "summer_sort_1",
+          "title": "Triedenie plážových vecí",
+          "description": "Roztrieď slová do kategórií",
+          "emoji": "🏖️",
+          "gameType": "SORT_WORDS",
+          "categories": ["transport", "school"],
+          "poolSize": 10,
+          "orderIndex": 1,
+          "colorStart": "#FF22D3EE",
+          "colorEnd": "#FF06B6D4",
+          "backgroundColor": "#3322D3EE"
+        },
+        {
+          "id": "summer_pairs_1",
+          "title": "Letné párovanie",
+          "description": "Nájdi správne dvojice",
+          "emoji": "🩴",
+          "gameType": "MATCH_PAIRS",
+          "categories": ["chapter1", "chapter2"],
+          "poolSize": 5,
+          "orderIndex": 2,
+          "colorStart": "#FFA855F7",
+          "colorEnd": "#FFE879F9",
+          "backgroundColor": "#33A855F7"
+        }
+      ]
+    },
+        {
+      "id": "chapter_beach",
+      "title": "Na pláži",
+      "description": "Slová z pláže a dovolenky",
+      "emoji": "🏝️",
+      "colorStart": "#FF38BDF8",
+      "colorEnd": "#FF0EA5E9",
+      "backgroundColor": "#3338BDF8",
+      "games": [
+        {
+          "id": "summer_audio_1",
+          "title": "Letný audio kvíz",
+          "description": "Počuj slovo a vyber správny preklad",
+          "emoji": "🎧",
+          "gameType": "AUDIO_QUIZ",
+          "categories": ["fruit"],
+          "poolSize": 5,
+          "orderIndex": 0,
+          "colorStart": "#FFF97316",
+          "colorEnd": "#FFFACC15",
+          "backgroundColor": "#33F97316"
+        },
+        {
+          "id": "summer_sort_1",
+          "title": "Triedenie plážových vecí",
+          "description": "Roztrieď slová do kategórií",
+          "emoji": "🏖️",
+          "gameType": "SORT_WORDS",
+          "categories": ["transport", "school"],
+          "poolSize": 10,
+          "orderIndex": 1,
+          "colorStart": "#FF22D3EE",
+          "colorEnd": "#FF06B6D4",
+          "backgroundColor": "#3322D3EE"
+        },
+        {
+          "id": "summer_pairs_1",
+          "title": "Letné párovanie",
+          "description": "Nájdi správne dvojice",
+          "emoji": "🩴",
+          "gameType": "MATCH_PAIRS",
+          "categories": ["chapter1", "chapter2"],
+          "poolSize": 5,
+          "orderIndex": 2,
+          "colorStart": "#FFA855F7",
+          "colorEnd": "#FFE879F9",
+          "backgroundColor": "#33A855F7"
+        }
+      ]
+    },
     {
       "id": "chapter_travel",
       "title": "Cestovanie",
@@ -380,7 +680,7 @@
           "emoji": "🎧",
           "gameType": "AUDIO_QUIZ",
           "categories": ["winter", "weather"],
-          "poolSize": 5,
+          "poolSize": 5,        
           "orderIndex": 0,
           "colorStart": "#FF0EA5E9",
           "colorEnd": "#FF38BDF8",
