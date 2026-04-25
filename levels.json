@@ -5,7 +5,7 @@
       "id": "level_beginner",
       "title": "Začiatočník",
       "subtitle": "Základy angličtiny",
-      "description": "Nauč sa úplné základy",
+      "description": "Nauč sa úplné základy anglického jazyka od nuly",
       "emoji": "🌱",
       "colorStart": "#FF34D399",
       "colorEnd": "#FF10B981",
@@ -13,173 +13,582 @@
       "tags": ["A1 - Začiatočník", "A2 - Mierne pokročilý"],
       "chapters": [
         {
-          "id": "chapter_words",
-          "title": "Slová",
-          "description": "Základná slovná zásoba",
+          "id": "chapter_basic_words",
+          "title": "Základná slovná zásoba",
+          "description": "Najdôležitejšie slová pre úplných začiatočníkov",
           "emoji": "📘",
           "colorStart": "#FFA855F7",
           "colorEnd": "#FF8B5CF6",
           "backgroundColor": "#FFD946EF",
           "games": [
             {
-              "id": "game_audio_quiz_1",
-              "title": "Audio kvíz",
-              "description": "Počuj slovo a vyber správny preklad",
+              "id": "game_audio_quiz_basic_1",
+              "title": "Audio kvíz – Ovocie",
+              "description": "Počuj anglické slovo a vyber správny slovenský preklad",
               "emoji": "🎧",
               "gameType": "AUDIO_QUIZ",
               "categories": ["fruit"],
-              "poolSize": 5,
+              "poolSize": 8,
               "orderIndex": 0,
               "colorStart": "#FFFF9800",
               "colorEnd": "#FFFFC107",
               "backgroundColor": "#33FF9800"
             },
             {
-              "id": "game_sort_words_1",
-              "title": "Sortovanie slov",
-              "description": "Daj slová do správnej kategórie",
+              "id": "game_sort_words_basic_1",
+              "title": "Triedenie slov – Doprava vs. Škola",
+              "description": "Roztrieď slová do správnych kategórií podľa tém",
               "emoji": "🗂️",
               "gameType": "SORT_WORDS",
               "categories": ["transport", "school"],
-              "poolSize": 10,
+              "poolSize": 12,
               "orderIndex": 1,
               "colorStart": "#FF03A9F4",
               "colorEnd": "#FF00BCD4",
               "backgroundColor": "#3303A9F4"
             },
             {
-              "id": "game_match_pairs_1",
-              "title": "Párovanie slov",
-              "description": "Páruj správne slová",
+              "id": "game_match_pairs_basic_1",
+              "title": "Párovanie slov – Ovocie a zelenina",
+              "description": "Spoj správne anglické a slovenské výrazy",
               "emoji": "🔗",
               "gameType": "MATCH_PAIRS",
-              "categories": ["fruit"],
-              "poolSize": 15,
+              "categories": ["fruit", "vegetables"],
+              "poolSize": 20,
               "orderIndex": 2,
               "colorStart": "#FF9C27B0",
               "colorEnd": "#FFE040FB",
               "backgroundColor": "#339C27B0"
             },
             {
-              "id": "game_word_builder_1",
-              "title": "Poskladaj správne slová",
-              "description": "Poskladaj správne slová",
+              "id": "game_word_builder_basic_1",
+              "title": "Poskladaj slová – Zelenina",
+              "description": "Poskladaj správne písmená a vytvor slová",
               "emoji": "🧩",
               "gameType": "WORD_BUILDER",
-              "categories": ["fruits", "animals"],
-              "poolSize": 3,
+              "categories": ["vegetables"],
+              "poolSize": 6,
               "orderIndex": 3,
               "colorStart": "#FF009688",
               "colorEnd": "#FF4DB6AC",
               "backgroundColor": "#33009688"
             },
             {
-              "id": "guess_duo_1",
-              "title": "Synonymá",
-              "description": "Poskladaj správne synonymá",
+              "id": "guess_duo_synonym_basic_1",
+              "title": "Synonymá pre začiatočníkov",
+              "description": "Nájdi slová s rovnakým významom",
               "emoji": "🔁",
               "gameType": "GUESS_DUO",
               "duoMode": "SYNONYM",
               "categories": ["beginner"],
-              "poolSize": 4,
+              "poolSize": 8,
               "orderIndex": 4,
               "colorStart": "#FFE91E63",
               "colorEnd": "#FFF06292",
               "backgroundColor": "#33E91E63"
             },
             {
-              "id": "guess_duo_2",
-              "title": "Antonymá",
-              "description": "Poskladaj správne antonymá",
+              "id": "guess_duo_antonym_basic_1",
+              "title": "Antonymá pre začiatočníkov",
+              "description": "Nájdi slová s opačným významom",
               "emoji": "⚖️",
               "gameType": "GUESS_DUO",
               "duoMode": "ANTONYM",
               "categories": ["beginner"],
-              "poolSize": 7,
+              "poolSize": 10,
               "orderIndex": 5,
               "colorStart": "#FF3F51B5",
               "colorEnd": "#FF7986CB",
               "backgroundColor": "#333F51B5"
             },
             {
-              "id": "game_audio_quiz_12",
-              "title": "Audio kvíz",
+              "id": "game_audio_quiz_basic_2",
+              "title": "Audio kvíz – Zvieratá a farby",
+              "description": "Počuj slovo a vyber správny preklad",
+              "emoji": "🐶",
+              "gameType": "AUDIO_QUIZ",
+              "categories": ["animals", "colors"],
+              "poolSize": 7,
+              "orderIndex": 6,
+              "colorStart": "#FFFF5722",
+              "colorEnd": "#FFFFAB40",
+              "backgroundColor": "#33FF5722"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level_summer",
+      "title": "Summer Edition",
+      "subtitle": "Letná angličtina",
+      "description": "Uč sa angličtinu počas leta ☀️ – pláž, dovolenka a zábava",
+      "emoji": "🏖️",
+      "colorStart": "#FFF59E0B",
+      "colorEnd": "#FFEF4444",
+      "backgroundColor": "#33F59E0B",
+      "tags": ["A1 - Začiatočník", "A2 - Mierne pokročilý"],
+      "chapters": [
+        {
+          "id": "chapter_summer_beach",
+          "title": "Na slnečnej pláži",
+          "description": "Slová spojené s plážou, morom a slnkom",
+          "emoji": "🏝️",
+          "colorStart": "#FF38BDF8",
+          "colorEnd": "#FF0EA5E9",
+          "backgroundColor": "#3338BDF8",
+          "games": [
+            {
+              "id": "summer_audio_beach_1",
+              "title": "Letný audio kvíz – Plážové veci",
               "description": "Počuj slovo a vyber správny preklad",
               "emoji": "🎧",
               "gameType": "AUDIO_QUIZ",
-              "categories": ["fruit"],
-              "poolSize": 5,
-              "orderIndex": 6,
-              "colorStart": "#FFFF9800",
-              "colorEnd": "#FFFFC107",
-              "backgroundColor": "#33FF9800"
+              "categories": ["beach", "summer"],
+              "poolSize": 10,
+              "orderIndex": 0,
+              "colorStart": "#FFF97316",
+              "colorEnd": "#FFFACC15",
+              "backgroundColor": "#33F97316"
             },
             {
-              "id": "game_sort_words_12",
-              "title": "Sortovanie slov",
-              "description": "Daj slová do správnej kategórie",
+              "id": "summer_sort_beach_1",
+              "title": "Triedenie – Pláž vs. More",
+              "description": "Roztrieď letné slová do kategórií",
+              "emoji": "🏖️",
+              "gameType": "SORT_WORDS",
+              "categories": ["beach", "sea"],
+              "poolSize": 12,
+              "orderIndex": 1,
+              "colorStart": "#FF22D3EE",
+              "colorEnd": "#FF06B6D4",
+              "backgroundColor": "#3322D3EE"
+            }
+          ]
+        },
+        {
+          "id": "chapter_summer_vacation",
+          "title": "Dovolenkové dobrodružstvá",
+          "description": "Slová o cestovaní a letných výletoch",
+          "emoji": "✈️",
+          "colorStart": "#FF38BDF8",
+          "colorEnd": "#FF0EA5E9",
+          "backgroundColor": "#3338BDF8",
+          "games": [
+            {
+              "id": "summer_pairs_vacation_1",
+              "title": "Párovanie – Dovolenkové výrazy",
+              "description": "Nájdi správne dvojice slov",
+              "emoji": "🧳",
+              "gameType": "MATCH_PAIRS",
+              "categories": ["travel", "vacation"],
+              "poolSize": 15,
+              "orderIndex": 0,
+              "colorStart": "#FFA855F7",
+              "colorEnd": "#FFE879F9",
+              "backgroundColor": "#33A855F7"
+            }
+          ]
+        },
+        {
+          "id": "chapter_summer_food",
+          "title": "Letné maškrty",
+          "description": "Anglické slová o jedle a pití na dovolenke",
+          "emoji": "🍉",
+          "colorStart": "#FF38BDF8",
+          "colorEnd": "#FF0EA5E9",
+          "backgroundColor": "#3338BDF8",
+          "games": [
+            {
+              "id": "summer_builder_food_1",
+              "title": "Poskladaj letné jedlá",
+              "description": "Zostav slová o ovocí a nápojoch",
+              "emoji": "🍓",
+              "gameType": "WORD_BUILDER",
+              "categories": ["food", "fruit"],
+              "poolSize": 8,
+              "orderIndex": 0,
+              "colorStart": "#FF10B981",
+              "colorEnd": "#FF6EE7B7",
+              "backgroundColor": "#3310B981"
+            }
+          ]
+        },
+        {
+          "id": "chapter_summer_outdoor",
+          "title": "Vonku v prírode",
+          "description": "Slová o vonkajších aktivitách a športe",
+          "emoji": "🌲",
+          "colorStart": "#FF38BDF8",
+          "colorEnd": "#FF0EA5E9",
+          "backgroundColor": "#3338BDF8",
+          "games": [
+            {
+              "id": "summer_synonyms_outdoor_1",
+              "title": "Letné synonymá",
+              "description": "Nájdi podobné výrazy z letného života",
+              "emoji": "🌞",
+              "gameType": "GUESS_DUO",
+              "duoMode": "SYNONYM",
+              "categories": ["outdoor", "summer"],
+              "poolSize": 9,
+              "orderIndex": 0,
+              "colorStart": "#FFF43F5E",
+              "colorEnd": "#FFFDA4AF",
+              "backgroundColor": "#33F43F5E"
+            }
+          ]
+        },
+        {
+          "id": "chapter_summer_pool",
+          "title": "Bazén a voda",
+          "description": "Zábava pri bazéne a vo vode",
+          "emoji": "🏊",
+          "colorStart": "#FF38BDF8",
+          "colorEnd": "#FF0EA5E9",
+          "backgroundColor": "#3338BDF8",
+          "games": [
+            {
+              "id": "summer_antonyms_pool_1",
+              "title": "Letné antonymá",
+              "description": "Nájdi opačné slová z letnej zábavy",
+              "emoji": "🌊",
+              "gameType": "GUESS_DUO",
+              "duoMode": "ANTONYM",
+              "categories": ["water", "summer"],
+              "poolSize": 8,
+              "orderIndex": 0,
+              "colorStart": "#FF6366F1",
+              "colorEnd": "#FFA5B4FC",
+              "backgroundColor": "#336366F1"
+            }
+          ]
+        },
+        {
+          "id": "chapter_summer_festival",
+          "title": "Letné festivaly",
+          "description": "Hudba, tanec a letné podujatia",
+          "emoji": "🎉",
+          "colorStart": "#FF38BDF8",
+          "colorEnd": "#FF0EA5E9",
+          "backgroundColor": "#3338BDF8",
+          "games": [
+            {
+              "id": "summer_audio_festival_1",
+              "title": "Festivalový audio kvíz",
+              "description": "Počuj slovo a vyber správny preklad",
+              "emoji": "🎤",
+              "gameType": "AUDIO_QUIZ",
+              "categories": ["festival", "music"],
+              "poolSize": 7,
+              "orderIndex": 0,
+              "colorStart": "#FFF97316",
+              "colorEnd": "#FFFACC15",
+              "backgroundColor": "#33F97316"
+            }
+          ]
+        },
+        {
+          "id": "chapter_travel",
+          "title": "Cestovanie a dobrodružstvo",
+          "description": "Letné cestovanie, letiská a nové miesta",
+          "emoji": "✈️",
+          "colorStart": "#FF4ADE80",
+          "colorEnd": "#FF22C55E",
+          "backgroundColor": "#334ADE80",
+          "games": [
+            {
+              "id": "summer_builder_travel_1",
+              "title": "Skladanie slov na cestách",
+              "description": "Poskladaj správne slová o dovolenke",
+              "emoji": "🧳",
+              "gameType": "WORD_BUILDER",
+              "categories": ["travel", "adventure"],
+              "poolSize": 9,
+              "orderIndex": 0,
+              "colorStart": "#FF10B981",
+              "colorEnd": "#FF6EE7B7",
+              "backgroundColor": "#3310B981"
+            },
+            {
+              "id": "summer_synonyms_travel_1",
+              "title": "Cestovateľské synonymá",
+              "description": "Nájdi podobné slová o cestovaní",
+              "emoji": "🗺️",
+              "gameType": "GUESS_DUO",
+              "duoMode": "SYNONYM",
+              "categories": ["travel"],
+              "poolSize": 6,
+              "orderIndex": 1,
+              "colorStart": "#FFF43F5E",
+              "colorEnd": "#FFFDA4AF",
+              "backgroundColor": "#33F43F5E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level_winter",
+      "title": "Winter Edition",
+      "subtitle": "Zimná angličtina",
+      "description": "Uč sa angličtinu počas zimy ❄️ – sneh a teplo domova",
+      "emoji": "⛄",
+      "colorStart": "#FF60A5FA",
+      "colorEnd": "#FF1E3A8A",
+      "backgroundColor": "#3360A5FA",
+      "tags": ["A1 - Začiatočník", "A2 - Mierne pokročilý"],
+      "chapters": [
+        {
+          "id": "chapter_winter",
+          "title": "Zimná pohoda",
+          "description": "Slová o zime, snehu a sviatkoch",
+          "emoji": "❄️",
+          "colorStart": "#FF93C5FD",
+          "colorEnd": "#FF3B82F6",
+          "backgroundColor": "#3393C5FD",
+          "games": [
+            {
+              "id": "winter_audio_1",
+              "title": "Zimný audio kvíz",
+              "description": "Počuj slovo a vyber správny preklad",
+              "emoji": "🎧",
+              "gameType": "AUDIO_QUIZ",
+              "categories": ["winter", "weather"],
+              "poolSize": 10,
+              "orderIndex": 0,
+              "colorStart": "#FF0EA5E9",
+              "colorEnd": "#FF38BDF8",
+              "backgroundColor": "#330EA5E9"
+            },
+            {
+              "id": "winter_sort_1",
+              "title": "Triedenie zimných slov",
+              "description": "Roztrieď slová do kategórií",
               "emoji": "🗂️",
               "gameType": "SORT_WORDS",
-              "categories": ["transport", "school"],
+              "categories": ["winter", "weather"],
+              "poolSize": 12,
+              "orderIndex": 1,
+              "colorStart": "#FF0284C7",
+              "colorEnd": "#FF38BDF8",
+              "backgroundColor": "#330284C7"
+            },
+            {
+              "id": "winter_pairs_1",
+              "title": "Zimné párovanie",
+              "description": "Nájdi správne dvojice",
+              "emoji": "🔗",
+              "gameType": "MATCH_PAIRS",
+              "categories": ["winter", "weather"],
+              "poolSize": 8,
+              "orderIndex": 2,
+              "colorStart": "#FF6366F1",
+              "colorEnd": "#FFA5B4FC",
+              "backgroundColor": "#336366F1"
+            },
+            {
+              "id": "winter_builder_1",
+              "title": "Zimné skladanie slov",
+              "description": "Poskladaj správne slová",
+              "emoji": "🧩",
+              "gameType": "WORD_BUILDER",
+              "categories": ["winter", "weather"],
+              "poolSize": 7,
+              "orderIndex": 3,
+              "colorStart": "#FF10B981",
+              "colorEnd": "#FF6EE7B7",
+              "backgroundColor": "#3310B981"
+            },
+            {
+              "id": "winter_synonyms_1",
+              "title": "Zimné synonymá",
+              "description": "Nájdi podobné slová",
+              "emoji": "🔁",
+              "gameType": "GUESS_DUO",
+              "duoMode": "SYNONYM",
+              "categories": ["winter"],
+              "poolSize": 8,
+              "orderIndex": 4,
+              "colorStart": "#FFF97316",
+              "colorEnd": "#FFFACC15",
+              "backgroundColor": "#33F97316"
+            },
+            {
+              "id": "winter_antonyms_1",
+              "title": "Zimné antonymá",
+              "description": "Nájdi opačné slová",
+              "emoji": "⚖️",
+              "gameType": "GUESS_DUO",
+              "duoMode": "ANTONYM",
+              "categories": ["winter"],
+              "poolSize": 9,
+              "orderIndex": 5,
+              "colorStart": "#FFEF4444",
+              "colorEnd": "#FFFCA5A5",
+              "backgroundColor": "#33EF4444"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level_spring",
+      "title": "Spring Edition",
+      "subtitle": "Jarná angličtina",
+      "description": "Prebúdzanie prírody a jar v angličtine 🌸",
+      "emoji": "🌷",
+      "colorStart": "#FF4ADE80",
+      "colorEnd": "#FF22C55E",
+      "backgroundColor": "#334ADE80",
+      "tags": ["A1 - Začiatočník", "A2 - Mierne pokročilý"],
+      "chapters": [
+        {
+          "id": "chapter_spring_nature",
+          "title": "Jarná príroda",
+          "description": "Slová o kvietkoch, vtákoch a jarnej oblohe",
+          "emoji": "🌼",
+          "colorStart": "#FF93C5FD",
+          "colorEnd": "#FF3B82F6",
+          "backgroundColor": "#3393C5FD",
+          "games": [
+            {
+              "id": "spring_audio_nature_1",
+              "title": "Jarný audio kvíz",
+              "description": "Počuj slovo a vyber správny preklad",
+              "emoji": "🐦",
+              "gameType": "AUDIO_QUIZ",
+              "categories": ["nature", "spring"],
+              "poolSize": 9,
+              "orderIndex": 0,
+              "colorStart": "#FF0EA5E9",
+              "colorEnd": "#FF38BDF8",
+              "backgroundColor": "#330EA5E9"
+            },
+            {
+              "id": "spring_match_nature_1",
+              "title": "Párovanie jarných slov",
+              "description": "Spoj kvety a zvieratá",
+              "emoji": "🦋",
+              "gameType": "MATCH_PAIRS",
+              "categories": ["nature", "animals"],
+              "poolSize": 12,
+              "orderIndex": 1,
+              "colorStart": "#FF6366F1",
+              "colorEnd": "#FFA5B4FC",
+              "backgroundColor": "#336366F1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level_autumn",
+      "title": "Autumn Edition",
+      "subtitle": "Jesenná angličtina",
+      "description": "Jesenné farby a slová v angličtine 🍂",
+      "emoji": "🍁",
+      "colorStart": "#FFF59E0B",
+      "colorEnd": "#FFEF4444",
+      "backgroundColor": "#33F59E0B",
+      "tags": ["A1 - Začiatočník", "A2 - Mierne pokročilý"],
+      "chapters": [
+        {
+          "id": "chapter_autumn_harvest",
+          "title": "Jesenná úroda",
+          "description": "Slová o ovocí, zelenine a jesenných farbách",
+          "emoji": "🎃",
+          "colorStart": "#FF93C5FD",
+          "colorEnd": "#FF3B82F6",
+          "backgroundColor": "#3393C5FD",
+          "games": [
+            {
+              "id": "autumn_builder_harvest_1",
+              "title": "Poskladaj jesenné slová",
+              "description": "Zostav slová o úrode a sviatkoch",
+              "emoji": "🍎",
+              "gameType": "WORD_BUILDER",
+              "categories": ["food", "autumn"],
               "poolSize": 10,
-              "orderIndex": 7,
+              "orderIndex": 0,
+              "colorStart": "#FF10B981",
+              "colorEnd": "#FF6EE7B7",
+              "backgroundColor": "#3310B981"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level_intermediate",
+      "title": "Stredne pokročilý",
+      "subtitle": "Rozširujeme slovnú zásobu",
+      "description": "Prejdime na vyššiu úroveň – A2/B1",
+      "emoji": "🚀",
+      "colorStart": "#FF34D399",
+      "colorEnd": "#FF10B981",
+      "backgroundColor": "#FF14B8A6",
+      "tags": ["A2 - Mierne pokročilý", "B1 - Pokročilý"],
+      "chapters": [
+        {
+          "id": "chapter_intermediate_family",
+          "title": "Rodina a priatelia",
+          "description": "Slová o rodine, vzťahoch a emóciách",
+          "emoji": "👨‍👧",
+          "colorStart": "#FFA855F7",
+          "colorEnd": "#FF8B5CF6",
+          "backgroundColor": "#FFD946EF",
+          "games": [
+            {
+              "id": "intermediate_sort_family_1",
+              "title": "Triedenie – Rodina a emócie",
+              "description": "Roztrieď slová do kategórií",
+              "emoji": "❤️",
+              "gameType": "SORT_WORDS",
+              "categories": ["family", "emotions"],
+              "poolSize": 15,
+              "orderIndex": 0,
               "colorStart": "#FF03A9F4",
               "colorEnd": "#FF00BCD4",
               "backgroundColor": "#3303A9F4"
             },
             {
-              "id": "game_match_pairs_12",
-              "title": "Párovanie slov",
-              "description": "Páruj správne slová",
-              "emoji": "🔗",
-              "gameType": "MATCH_PAIRS",
-              "categories": ["chapter1", "chapter2"],
-              "poolSize": 5,
-              "orderIndex": 8,
-              "colorStart": "#FF9C27B0",
-              "colorEnd": "#FFE040FB",
-              "backgroundColor": "#339C27B0"
-            },
-            {
-              "id": "game_word_builder_12",
-              "title": "Poskladaj správne slová",
-              "description": "Poskladaj správne slová",
-              "emoji": "🧩",
-              "gameType": "WORD_BUILDER",
-              "categories": ["fruits", "animals"],
-              "poolSize": 3,
-              "orderIndex": 9,
-              "colorStart": "#FF009688",
-              "colorEnd": "#FF4DB6AC",
-              "backgroundColor": "#33009688"
-            },
-            {
-              "id": "guess_duo_12",
-              "title": "Synonymá",
-              "description": "Poskladaj správne synonymá",
-              "emoji": "🔁",
+              "id": "intermediate_duo_family_1",
+              "title": "Synonymá a antonymá rodiny",
+              "description": "Nájdi podobné aj opačné výrazy",
+              "emoji": "👪",
               "gameType": "GUESS_DUO",
               "duoMode": "SYNONYM",
-              "categories": ["beginner"],
-              "poolSize": 4,
-              "orderIndex": 10,
+              "categories": ["family"],
+              "poolSize": 12,
+              "orderIndex": 1,
               "colorStart": "#FFE91E63",
               "colorEnd": "#FFF06292",
               "backgroundColor": "#33E91E63"
-            },
+            }
+          ]
+        },
+        {
+          "id": "chapter_intermediate_sports",
+          "title": "Šport a zdravie",
+          "description": "Anglické slová o športe, pohybe a zdraví",
+          "emoji": "⚽",
+          "colorStart": "#FF4ADE80",
+          "colorEnd": "#FF22C55E",
+          "backgroundColor": "#334ADE80",
+          "games": [
             {
-              "id": "guess_duo_22",
-              "title": "Antonymá",
-              "description": "Poskladaj správne antonymá",
-              "emoji": "⚖️",
-              "gameType": "GUESS_DUO",
-              "duoMode": "ANTONYM",
-              "categories": ["beginner"],
-              "poolSize": 7,
-              "orderIndex": 11,
-              "colorStart": "#FF3F51B5",
-              "colorEnd": "#FF7986CB",
-              "backgroundColor": "#333F51B5"
+              "id": "intermediate_audio_sports_1",
+              "title": "Audio kvíz – Športové aktivity",
+              "description": "Počuj slovo a vyber správny preklad",
+              "emoji": "🏀",
+              "gameType": "AUDIO_QUIZ",
+              "categories": ["sports", "health"],
+              "poolSize": 12,
+              "orderIndex": 0,
+              "colorStart": "#FFFF9800",
+              "colorEnd": "#FFFFC107",
+              "backgroundColor": "#33FF9800"
             }
           ]
         }
