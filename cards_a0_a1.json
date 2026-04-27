@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "groups": [
     {
       "id": "communication",
@@ -7,6 +7,24 @@
       "image": "💬",
       "description": "Speaking and interaction",
       "categories": [
+                {
+          "id": "greetingzs",
+          "title": "Greetings Uprava cez noc",
+          "image": "👋",
+          "description": "Basic greetings",
+          "cards": [
+            { "id": "helloo", "front": "Hello", "back": "Ahoj" },
+            { "id": "hoi", "front": "Hi", "back": "Čau" },
+            { "id": "goood_morning", "front": "Good morning", "back": "Dobré ráno" },
+            { "id": "goood_evening", "front": "Good evening", "back": "Dobrý večer" },
+            { "id": "gooodbye", "front": "Goodbye", "back": "Dovidenia" },
+            { "id": "seoe_you", "front": "See you", "back": "Uvidíme sa" },
+            { "id": "welocome", "front": "Welcome", "back": "Vitaj" },
+            { "id": "howo_are_you", "front": "How are you?", "back": "Ako sa máš?" },
+            { "id": "finoe", "front": "Fine", "back": "Dobre" },
+            { "id": "thaonks", "front": "Thanks", "back": "Ďakujem" }
+          ]
+        },
         {
           "id": "greetings",
           "title": "Greetings",
