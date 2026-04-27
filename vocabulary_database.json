@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "categories": [
     {
       "name": "fruit",
@@ -7,16 +7,16 @@
       "category": "fruit",
       "emoji": "🍎",
       "items": [
-        { "word": "apple", "translation": "jablko" },
-        { "word": "banana", "translation": "banán"},
-        { "word": "orange", "translation": "pomaranč"},
-        { "word": "grape", "translation": "hrozno"},
-        { "word": "pear", "translation": "hruška"},
-        { "word": "peach", "translation": "broskyňa"},
-        { "word": "plum", "translation": "slivka"},
-        { "word": "strawberry", "translation": "jahoda"},
-        { "word": "cherry", "translation": "čerešňa"},
-        { "word": "melon", "translation": "melón" }
+        { "word": "apple", "translation": "jablkoo" },
+        { "word": "banana", "translation": "banánn"},
+        { "word": "orange", "translation": "pomarančč"},
+        { "word": "grape", "translation": "hroznoo"},
+        { "word": "pear", "translation": "hruškaa"},
+        { "word": "peach", "translation": "broskyňaa"},
+        { "word": "plum", "translation": "slivkaa"},
+        { "word": "strawberry", "translation": "jahodaa"},
+        { "word": "cherry", "translation": "čerešňaa"},
+        { "word": "melon", "translation": "melónn" }
       ]
     },
     {
