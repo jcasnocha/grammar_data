@@ -1,10 +1,10 @@
 {
-  "version": 6,
+  "version": 7,
   "categories": [
         {
-      "name": "banana",
-      "translation": "banana",
-      "category": "banana",
+      "name": "bananav6",
+      "translation": "bananav6",
+      "category": "bananav6",
       "emoji": "🍎",
       "items": [
         { "word": "banana", "translation": "jablkoo" },
