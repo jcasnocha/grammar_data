@@ -1,9 +1,9 @@
 {
-  "version": 4,
+  "version": 5,
   "groups": [
     {
       "id": "communication",
-      "title": "Communication",
+      "title": "Communication ONLINE 13:21",
       "image": "💬",
       "description": "Speaking and interaction",
       "categories": [
