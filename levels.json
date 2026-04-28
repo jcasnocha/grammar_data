@@ -1,11 +1,11 @@
 {
-  "version": 3,
+  "version": 0,
   "levels": [
     {
       "id": "level_beginner",
-      "title": "Začiatočník v6",
+      "title": "Začiatočník",
       "subtitle": "Základy angličtinyv6",
-      "description": "Nauč sa úplné základy anglického jazyka od nulyv6",
+      "description": "Nauč sa úplné základy anglického jazyka od nuly",
       "emoji": "🌱",
       "colorStart": "#FF34D399",
       "colorEnd": "#FF10B981",
