@@ -1,9 +1,9 @@
 {
-  "version": 4,
+  "version": 5,
   "groups": [
     {
       "id": "communication",
-      "title": "Skuska 4:00AM",
+      "title": "Skuska PONOCNEJ",
       "image": "💬",
       "description": "Speaking and interaction",
       "categories": [
