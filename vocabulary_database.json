@@ -1,10 +1,10 @@
 {
-  "version": 0,
+  "version": 1,
   "categories": [
         {
-      "name": "banana",
-      "translation": "banana",
-      "category": "banana",
+      "name": "Skuska 2:00AM",
+      "translation": "Skuska 2:00AM",
+      "category": "Skuska 2:00AM",
       "emoji": "🍎",
       "items": [
         { "word": "banana", "translation": "jablkoo" },
