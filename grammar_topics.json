@@ -2,9 +2,12 @@
   "topics": [
     {
       "id": "modal_verbs",
-      "title": "Modal Verbs",
+      "titleSk": "Modálne slovesá",
+      "titleEn": "Modal Verbs",
       "description": "Can, could, may, might, must, should…",
       "emoji": "🔑",
+      "gradient": ["#6B46C0", "#9F7AEA"],
+      "accentColor": "#6B46C0",
       "content": [
         { "type": "heading", "text": "Čo sú modálne slovesá?" },
         { "type": "paragraph", "text": "Modálne slovesá (can, could, may, might, must, should, would…) vyjadrujú schopnosť, povinnosť, možnosť atď." },
@@ -13,27 +16,36 @@
     },
     {
       "id": "prepositions",
-      "title": "Prepositions",
+      "titleSk": "Predložky",
+      "titleEn": "Prepositions",
       "description": "In, on, at, by, for, with…",
       "emoji": "📍",
+      "gradient": ["#FF8C00", "#FFB74D"],
+      "accentColor": "#FF8C00",
       "content": [
         { "type": "paragraph", "text": "Tu neskôr pridáme pravidlá pre prepositions." }
       ]
     },
     {
       "id": "articles",
-      "title": "Articles",
+      "titleSk": "Členy",
+      "titleEn": "Articles",
       "description": "A, an, the – kedy sa používa a kedy nie",
       "emoji": "📖",
+      "gradient": ["#00BFFF", "#87CEEB"],
+      "accentColor": "#00BFFF",
       "content": [
         { "type": "paragraph", "text": "Tu neskôr pridáme pravidlá pre articles." }
       ]
     },
     {
       "id": "irregular_verbs",
-      "title": "Nepravidelné slovesá",
+      "titleSk": "Nepravidelné slovesá",
+      "titleEn": "Irregular Verbs",
       "description": "Go → went → gone, be → was/were → been a desiatky ďalších",
       "emoji": "🔄",
+      "gradient": ["#FF6B6B", "#4ECDC4"],
+      "accentColor": "#FF6B6B",
       "content": [
         { "type": "heading", "text": "Úvod" },
         { "type": "paragraph", "text": "Nepravidelné slovesá nemajú pravidelnú koncovku -ed. Musíš sa ich naučiť naspamäť v trojiciach." },
