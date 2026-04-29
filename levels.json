@@ -1,10 +1,10 @@
 {
-  "version": 2,
+  "version": 3,
   "levels": [
     {
       "id": "level_beginner",
-      "title": "Skuska 2:00AM",
-      "subtitle": "Skuska 2:00AM",
+      "title": "Skuska 3:00AM",
+      "subtitle": "Skuska 3:00AM",
       "description": "Nauč sa úplné základy anglického jazyka od nuly",
       "emoji": "🌱",
       "colorStart": "#FF34D399",
