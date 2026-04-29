@@ -1,22 +1,22 @@
 {
-  "version": 2,
+  "version": 3,
   "categories": [
         {
-      "name": "Skuska 2:00AM",
-      "translation": "Skuska 2:00AM",
+      "name": "Skuska 3:00AM",
+      "translation": "Skuska 3:00AM",
       "category": "banana",
       "emoji": "🍎",
       "items": [
-        { "word": "banana", "translation": "jablkoo" },
-        { "word": "banana", "translation": "banánn"},
-        { "word": "banana", "translation": "pomarančč"},
-        { "word": "banana", "translation": "hroznoo"},
-        { "word": "banana", "translation": "hruškaa"},
-        { "word": "banana", "translation": "broskyňaa"},
-        { "word": "banana", "translation": "slivkaa"},
-        { "word": "banana", "translation": "jahodaa"},
-        { "word": "banana", "translation": "čerešňaa"},
-        { "word": "banana", "translation": "melónn" }
+        { "word": "banan3a", "translation": "jablkoo" },
+        { "word": "banan3a", "translation": "banánn"},
+        { "word": "banan3a", "translation": "pomarančč"},
+        { "word": "banan3a", "translation": "hroznoo"},
+        { "word": "banan3a", "translation": "hruškaa"},
+        { "word": "banan3a", "translation": "broskyňaa"},
+        { "word": "bana3na", "translation": "slivkaa"},
+        { "word": "banan3a", "translation": "jahodaa"},
+        { "word": "banan3a", "translation": "čerešňaa"},
+        { "word": "banan3a", "translation": "melónn" }
       ]
     },
     {
