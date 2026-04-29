@@ -4,19 +4,62 @@
       "id": "modal_verbs",
       "title": "Modal Verbs",
       "description": "Can, could, may, might, must, should…",
-      "emoji": "🔑"
+      "emoji": "🔑",
+      "content": [
+        { "type": "heading", "text": "Čo sú modálne slovesá?" },
+        { "type": "paragraph", "text": "Modálne slovesá (can, could, may, might, must, should, would…) vyjadrujú schopnosť, povinnosť, možnosť atď." },
+        { "type": "colored_box", "title": "Základné pravidlo", "color": "#4CAF50", "text": "Modálne slovesá sa nemenia podľa osoby a za nimi nasleduje infinitive bez 'to'." }
+      ]
     },
     {
       "id": "prepositions",
       "title": "Prepositions",
       "description": "In, on, at, by, for, with…",
-      "emoji": "📍"
+      "emoji": "📍",
+      "content": [
+        { "type": "paragraph", "text": "Tu neskôr pridáme pravidlá pre prepositions." }
+      ]
     },
     {
       "id": "articles",
       "title": "Articles",
       "description": "A, an, the – kedy sa používa a kedy nie",
-      "emoji": "📖"
+      "emoji": "📖",
+      "content": [
+        { "type": "paragraph", "text": "Tu neskôr pridáme pravidlá pre articles." }
+      ]
+    },
+    {
+      "id": "irregular_verbs",
+      "title": "Nepravidelné slovesá",
+      "description": "Go → went → gone, be → was/were → been a desiatky ďalších",
+      "emoji": "🔄",
+      "content": [
+        { "type": "heading", "text": "Úvod" },
+        { "type": "paragraph", "text": "Nepravidelné slovesá nemajú pravidelnú koncovku -ed. Musíš sa ich naučiť naspamäť v trojiciach." },
+        { "type": "colored_box", "title": "Základné pravidlo", "color": "#4CAF50", "text": "Každé nepravidelné sloveso má 3 tvary:\n• Base form (infinitive)\n• Past Simple\n• Past Participle" },
+        { "type": "heading", "text": "Najčastejšie nepravidelné slovesá" },
+        { "type": "table", "headers": ["Base", "Past Simple", "Past Participle"], "rows": [
+          ["be", "was / were", "been"],
+          ["become", "became", "become"],
+          ["begin", "began", "begun"],
+          ["break", "broke", "broken"],
+          ["bring", "brought", "brought"],
+          ["build", "built", "built"],
+          ["buy", "bought", "bought"],
+          ["catch", "caught", "caught"],
+          ["choose", "chose", "chosen"],
+          ["come", "came", "come"],
+          ["do", "did", "done"],
+          ["drink", "drank", "drunk"],
+          ["drive", "drove", "driven"],
+          ["eat", "ate", "eaten"],
+          ["fall", "fell", "fallen"]
+        ]},
+        { "type": "colored_box", "title": "Príklady vo vetách", "color": "#2196F3", "text": "• I go to school every day. → I went yesterday.\n• She eats an apple. → She ate it yesterday." },
+        { "type": "colored_box", "title": "Tip na zapamätanie", "color": "#FF9800", "text": "Uč sa v trojiciach nahlas + píš vlastné vetičky." },
+        { "type": "button", "text": "🧠 Spustiť kvíz", "action": "quiz" }
+      ]
     }
   ]
 }
