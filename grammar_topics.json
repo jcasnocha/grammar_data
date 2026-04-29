@@ -1,0 +1,22 @@
+{
+  "topics": [
+    {
+      "id": "modal_verbs",
+      "title": "Modal Verbs",
+      "description": "Can, could, may, might, must, should…",
+      "emoji": "🔑"
+    },
+    {
+      "id": "prepositions",
+      "title": "Prepositions",
+      "description": "In, on, at, by, for, with…",
+      "emoji": "📍"
+    },
+    {
+      "id": "articles",
+      "title": "Articles",
+      "description": "A, an, the – kedy sa používa a kedy nie",
+      "emoji": "📖"
+    }
+  ]
+}
