@@ -38,40 +38,55 @@
         { "type": "paragraph", "text": "Tu neskôr pridáme pravidlá pre articles." }
       ]
     },
-    {
-      "id": "irregular_verbs",
-      "titleSk": "Nepravidelné slovesá",
-      "titleEn": "Irregular Verbs",
-      "description": "Go → went → gone, be → was/were → been a desiatky ďalších",
-      "emoji": "🔄",
-      "gradient": ["#FF6B6B", "#4ECDC4"],
-      "accentColor": "#FF6B6B",
-      "content": [
-        { "type": "heading", "text": "Úvod" },
-        { "type": "paragraph", "text": "Nepravidelné slovesá nemajú pravidelnú koncovku -ed. Musíš sa ich naučiť naspamäť v trojiciach." },
-        { "type": "colored_box", "title": "Základné pravidlo", "color": "#4CAF50", "text": "Každé nepravidelné sloveso má 3 tvary:\n• Base form (infinitive)\n• Past Simple\n• Past Participle" },
-        { "type": "heading", "text": "Najčastejšie nepravidelné slovesá" },
-        { "type": "table", "headers": ["Base", "Past Simple", "Past Participle"], "rows": [
-          ["be", "was / were", "been"],
-          ["become", "became", "become"],
-          ["begin", "began", "begun"],
-          ["break", "broke", "broken"],
-          ["bring", "brought", "brought"],
-          ["build", "built", "built"],
-          ["buy", "bought", "bought"],
-          ["catch", "caught", "caught"],
-          ["choose", "chose", "chosen"],
-          ["come", "came", "come"],
-          ["do", "did", "done"],
-          ["drink", "drank", "drunk"],
-          ["drive", "drove", "driven"],
-          ["eat", "ate", "eaten"],
-          ["fall", "fell", "fallen"]
-        ]},
-        { "type": "colored_box", "title": "Príklady vo vetách", "color": "#2196F3", "text": "• I go to school every day. → I went yesterday.\n• She eats an apple. → She ate it yesterday." },
-        { "type": "colored_box", "title": "Tip na zapamätanie", "color": "#FF9800", "text": "Uč sa v trojiciach nahlas + píš vlastné vetičky." },
-        { "type": "button", "text": "🧠 Spustiť kvíz", "action": "quiz" }
-      ]
-    }
+{
+  "id": "irregular_verbs",
+  "titleSk": "Nepravidelné slovesá",
+  "titleEn": "Irregular Verbs",
+  "description": "Go → went → gone, be → was/were → been a desiatky ďalších",
+  "emoji": "🔄",
+  "gradient": ["#FF6B6B", "#4ECDC4"],
+  "accentColor": "#FF6B6B",
+  "content": [
+    { "type": "heading", "text": "🔥 Nepravidelné slovesá – prečo ich musíme poznať?" },
+    { "type": "paragraph", "text": "Najčastejšie slovesá v angličtine sú nepravidelné. Ak ich ovládaš, tvoja angličtina znie prirodzene a profesionálne." },
+
+    { "type": "colored_box", "title": "3 tvary slovesa", "color": "#4CAF50", "text": "Každé nepravidelné sloveso má tri základné tvary:\n• Base form (infinitive)\n• Past Simple\n• Past Participle" },
+
+    { "type": "colored_box", "title": "Najdôležitejších 10 slovies", "color": "#FF9800", "text": "Toto je TOP 10, ktoré vidíš najčastejšie v reči aj textoch." },
+
+    { "type": "table", "headers": ["Base", "Past Simple", "Past Participle", "Preklad"], "rows": [
+      ["be", "was / were", "been", "byť"],
+      ["have", "had", "had", "mať"],
+      ["do", "did", "done", "robiť"],
+      ["go", "went", "gone", "ísť"],
+      ["come", "came", "come", "prísť"],
+      ["see", "saw", "seen", "vidieť"],
+      ["get", "got", "got", "dostať"],
+      ["make", "made", "made", "robiť/vyrábať"],
+      ["know", "knew", "known", "vedieť/poznať"],
+      ["take", "took", "taken", "vziať"]
+    ]},
+
+    { "type": "heading", "text": "Skupiny podľa vzoru" },
+    { "type": "paragraph", "text": "Mnohé slovesá sa menia rovnako. Nauč sa ich v skupinách – je to oveľa ľahšie!" },
+
+    { "type": "table", "headers": ["Skupina", "Base → Past → Participle", "Príklady"], "rows": [
+      ["i → a → u", "sing → sang → sung", "sing, drink, begin, swim"],
+      ["i → o → i", "write → wrote → written", "write, drive, ride"],
+      ["no change", "put → put → put", "put, cut, hit, let"],
+      ["e → o → e", "break → broke → broken", "break, speak, steal"]
+    ]},
+
+    { "type": "colored_box", "title": "💡 Tipy na zapamätanie", "color": "#2196F3", "text": "• Uč sa v trojiciach nahlas\n• Vytváraj vlastné vetičky\n• Použi appku na opakovanie (spaced repetition)\n• Najlepšie sa učíš v kontexte" },
+
+    { "type": "colored_box", "title": "⚠️ Najčastejšie chyby", "color": "#F44336", "text": "✗ I goed yesterday\n✓ I went yesterday\n\n✗ She has went home\n✓ She has gone home" },
+
+    { "type": "colored_box", "title": "Príklady vo vetách", "color": "#9C27B0", "text": "• Yesterday I **went** to the cinema.\n• She has never **seen** that movie.\n• We **had** a great time last summer." },
+
+    { "type": "button", "text": "🧠 Spustiť kvíz – otestuj sa!", "action": "quiz" },
+
+    { "type": "button", "text": "📝 Precvičiť 20 najčastejších slovies", "action": "practice" }
+  ]
+}
   ]
 }
