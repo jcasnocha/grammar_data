@@ -14,18 +14,45 @@
         { "type": "colored_box", "title": "Základné pravidlo", "color": "#4CAF50", "text": "Modálne slovesá sa nemenia podľa osoby a za nimi nasleduje infinitive bez 'to'." }
       ]
     },
-    {
-      "id": "prepositions",
-      "titleSk": "Predložky",
-      "titleEn": "Prepositions",
-      "description": "In, on, at, by, for, with…",
-      "emoji": "📍",
-      "gradient": ["#FF8C00", "#FFB74D"],
-      "accentColor": "#FF8C00",
-      "content": [
-        { "type": "paragraph", "text": "Tu neskôr pridáme pravidlá pre prepositions." }
-      ]
-    },
+{
+  "id": "prepositions",
+  "titleSk": "Predložky",
+  "titleEn": "Prepositions",
+  "description": "In, on, at, by, for, with…",
+  "emoji": "📍",
+  "gradient": ["#FF8C00", "#FFB74D"],
+  "accentColor": "#FF8C00",
+  "content": [
+    { "type": "heading", "text": "📍 Predložky – ako ich správne používať" },
+    { "type": "paragraph", "text": "Predložky sú malé slovíčka, ktoré nám hovoria **kde**, **kedy**, **ako** alebo **prečo** niečo je. Sú veľmi dôležité – jedna nesprávna predložka mení celý význam vety." },
+
+    { "type": "colored_box", "title": "Najdôležitejšie 3 predložky času a miesta", "color": "#4CAF50", "text": "• AT – presný čas / malé miesto\n• ON – dni, dátumy, povrch\n• IN – väčšie obdobie / vnútro priestoru" },
+
+    { "type": "table", "headers": ["Predložka", "Kedy používame", "Príklad"], "rows": [
+      ["at", "presný čas, malé miesto, udalosť", "at 7:30, at school, at the party"],
+      ["on", "deň, dátum, povrch, doprava", "on Monday, on 15th May, on the table, on the bus"],
+      ["in", "mesiac, rok, veľký priestor, doprava", "in July, in 2025, in the room, in the car"],
+      ["by", "do (čas), pri (miesto), spôsob", "by 5 pm, by the window, by car"],
+      ["for", "na (účel), počas (čas)", "for 2 hours, for my birthday"],
+      ["with", "s (spolu s niekým/niečím)", "with my friends, with a knife"]
+    ]},
+
+    { "type": "heading", "text": "Predložky miesta – jednoduché pravidlo" },
+    { "type": "colored_box", "title": "Kde je niečo?", "color": "#2196F3", "text": "• IN = vnútri (väčší priestor)\n• ON = na povrchu\n• AT = presné miesto / bod\n• BY / NEXT TO = vedľa\n• UNDER = pod\n• BEHIND = za" },
+
+    { "type": "colored_box", "title": "Najčastejšie chyby Slovákov", "color": "#F44336", "text": "✗ I live in London street\n✓ I live **on** London Street\n\n✗ We meet at Monday\n✓ We meet **on** Monday\n\n✗ She is in the bus\n✓ She is **on** the bus" },
+
+    { "type": "heading", "text": "Príklady vo vetách" },
+    { "type": "colored_box", "title": "Čas", "color": "#FF9800", "text": "• The meeting is **at** 9:00 **on** Friday **in** March.\n• I was born **in** 1998.\n• Finish your homework **by** 8 pm." },
+
+    { "type": "colored_box", "title": "Miesto", "color": "#9C27B0", "text": "• The book is **on** the table.\n• My keys are **in** my bag.\n• The cat is hiding **under** the bed.\n• I sat **next to** / **by** the window." },
+
+    { "type": "colored_box", "title": "💡 Tipy na zapamätanie", "color": "#00BCD4", "text": "1. Vizualizuj si obrázky (in = vnútri krabice, on = na stole)\n2. Uč sa v spojení s bežnými frázami\n3. Opakuj nahlas: „I am **in** the house, the picture is **on** the wall“" },
+
+    { "type": "button", "text": "🧠 Spustiť kvíz – predložky", "action": "quiz" },
+    { "type": "button", "text": "📍 Precvičiť 30 najčastejších predložiek", "action": "practice" }
+  ]
+},
     {
       "id": "articles",
       "titleSk": "Členy",
