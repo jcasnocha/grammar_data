@@ -1,19 +1,30 @@
 {
   "topics": [
+{
+  "id": "modal_verbs",
+  "titleSk": "Modálne slovesá",
+  "titleEn": "Modal Verbs",
+  "description": "Can, could, may, might, must, should…",
+  "emoji": "🔑",
+  "gradient": ["#6B46C0", "#9F7AEA"],
+  "accentColor": "#6B46C0",
+  "content": [
     {
-      "id": "modal_verbs",
-      "titleSk": "Modálne slovesá",
-      "titleEn": "Modal Verbs",
-      "description": "Can, could, may, might, must, should…",
+      "type": "section_header",
       "emoji": "🔑",
-      "gradient": ["#6B46C0", "#9F7AEA"],
-      "accentColor": "#6B46C0",
-      "content": [
-        { "type": "heading", "text": "Čo sú modálne slovesá?" },
-        { "type": "paragraph", "text": "Modálne slovesá (can, could, may, might, must, should, would…) vyjadrujú schopnosť, povinnosť, možnosť atď." },
-        { "type": "colored_box", "title": "Základné pravidlo", "color": "#4CAF50", "text": "Modálne slovesá sa nemenia podľa osoby a za nimi nasleduje infinitive bez 'to'." }
+      "title": "Modálne slovesá",
+      "subtitles": [
+        "Schopnosť • Povinnosť • Možnosť",
+        "Žiadosť • Rada • Zákaz"
       ]
     },
+
+    { "type": "heading", "text": "Čo sú modálne slovesá?" },
+    { "type": "paragraph", "text": "Modálne slovesá (can, could, may, might, must, should, would…) vyjadrujú schopnosť, povinnosť, možnosť, radu, zákaz atď." },
+
+    { "type": "colored_box", "title": "Základné pravidlo", "color": "#4CAF50", "text": "Modálne slovesá sa nemenia podľa osoby a za nimi nasleduje infinitive bez 'to'." }
+  ]
+},
 {
   "id": "prepositions",
   "titleSk": "Predložky",
