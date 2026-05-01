@@ -46,6 +46,11 @@
   "text": "Nikdy nepoužívaj 'goed' v minulom čase. Správne je 'went'.",
   "color": "#326cfc"
 },
+    {
+  "type": "divider",
+  "color": "#E5E7EB",
+  "paddingHorizontal": 16
+},
         {
   "type": "image",
   "imageUrl": "https://www.realgrammar.com/wp-content/uploads/2019/12/at-on-in-pyramid-feature-image-1.png"
