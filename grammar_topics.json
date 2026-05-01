@@ -44,7 +44,7 @@
 },
 
     { "type": "heading", "text": "Čo sú modálne slovesá?" },
-    { "type": "paragraph", "text": "Modálne slovesá (can, could, may, might, must, should, would…) vyjadrujú schopnosť, povinnosť, možnosť, radu, zákaz atď." },
+    { "type": "paragraph", "text": "Modálne slovesá (can, could, may, might, must, should, would…) \nvyjadrujú schopnosť, povinnosť, možnosť, radu, zákaz atď." },
 
     { "type": "colored_box", "title": "Základné pravidlo", "color": "#4CAF50", "text": "Modálne slovesá sa nemenia podľa osoby a za nimi nasleduje infinitive bez 'to'." }
   ]
