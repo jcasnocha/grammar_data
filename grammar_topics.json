@@ -220,11 +220,12 @@
     "correctAnswer": "at",
     "options": ["in", "on", "at"]
   },
-  {
-    "type": "SentenceBuilder",
-    "original": "The children are playing in the garden.",
-    "correctOrder": ["The", "children", "are", "playing", "in", "the", "garden"]
-  }
+{
+  "type": "SentenceBuilder",
+  "original": "The cat is sleeping on the sofa.",
+  "correctOrder": ["The", "cat", "is", "sleeping", "on", "the", "sofa"],
+  "distractors": ["in", "at", "by", "to", "into", "for"]
+}
 ]
     },
     {
