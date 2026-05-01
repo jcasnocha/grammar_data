@@ -180,38 +180,52 @@
           "text": "Modálne slovesá sú základ anglickej gramatiky. Čím viac ich budeš používať v praxi, tým prirodzenejšie ti budú znieť."
         }
       ],
-      "exercises": [
-        {
-          "type": "FillInBlank",
-          "original": "The book is ___ the table.",
-          "sentenceWithBlank": ["The book is ", "", " the table."],
-          "correctAnswers": ["on"]
-        },
-        {
-          "type": "FillInBlank",
-          "original": "We live ___ Slovakia.",
-          "sentenceWithBlank": ["We live ", "", " Slovakia."],
-          "correctAnswers": ["in"]
-        },
-        {
-          "type": "MultipleChoice",
-          "original": "She arrived ___ 8 o'clock.",
-          "sentence": ["She arrived ", "", " 8 o'clock."],
-          "correctAnswer": "at",
-          "options": ["in", "on", "at"]
-        },
-        {
-          "type": "SentenceBuilder",
-          "original": "The cat is sleeping on the sofa.",
-          "correctOrder": ["The", "cat", "is", "sleeping", "on", "the", "sofa"]
-        },
-        {
-          "type": "FillInBlank",
-          "original": "I go to work ___ bus.",
-          "sentenceWithBlank": ["I go to work ", "", " bus."],
-          "correctAnswers": ["by"]
-        }
-      ]
+"exercises": [
+  {
+    "type": "FillInBlank",
+    "original": "The book is ___ the table.",
+    "sentenceWithBlank": ["The book is ", "", " the table."],
+    "correctAnswers": ["on"]
+  },
+  {
+    "type": "FillInBlank",
+    "original": "We live ___ Slovakia.",
+    "sentenceWithBlank": ["We live ", "", " Slovakia."],
+    "correctAnswers": ["in"]
+  },
+  {
+    "type": "MultipleChoice",
+    "original": "She arrived ___ 8 o'clock.",
+    "sentence": ["She arrived ", "", " 8 o'clock."],
+    "correctAnswer": "at",
+    "options": ["in", "on", "at"]
+  },
+  {
+    "type": "MultipleChoice",
+    "original": "I go to work ___ bus.",
+    "sentence": ["I go to work ", "", " bus."],
+    "correctAnswer": "by",
+    "options": ["by", "on", "in"]
+  },
+  {
+    "type": "FillInBlank",
+    "original": "The meeting is ___ Monday morning.",
+    "sentenceWithBlank": ["The meeting is ", "", " Monday morning."],
+    "correctAnswers": ["on"]
+  },
+  {
+    "type": "MultipleChoice",
+    "original": "He is waiting ___ the bus stop.",
+    "sentence": ["He is waiting ", "", " the bus stop."],
+    "correctAnswer": "at",
+    "options": ["in", "on", "at"]
+  },
+  {
+    "type": "SentenceBuilder",
+    "original": "The children are playing in the garden.",
+    "correctOrder": ["The", "children", "are", "playing", "in", "the", "garden"]
+  }
+]
     },
     {
       "id": "prepositions",
