@@ -224,7 +224,7 @@
   "type": "SentenceBuilder",
   "original": "The cat is sleeping on the sofa.",
   "correctOrder": ["The", "cat", "is", "sleeping", "on", "the", "sofa"],
-  "distractors": ["in", "at", "by", "to", "into", "for"]
+  "distractors": ["in", "at", "by", "to"]
 }
 ]
     },
