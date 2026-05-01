@@ -35,6 +35,13 @@
   "textEN": "She might come tomorrow.",
   "textSK": "Možno príde zajtra."
 },
+    {
+  "type": "warning_box",
+  "icon": "⚠️",
+  "title": "Dôležité upozornenie",
+  "text": "Nikdy nepoužívaj 'goed' v minulom čase. Správne je 'went'.",
+  "color": "#FEF3C7"
+},
 
     { "type": "heading", "text": "Čo sú modálne slovesá?" },
     { "type": "paragraph", "text": "Modálne slovesá (can, could, may, might, must, should, would…) vyjadrujú schopnosť, povinnosť, možnosť, radu, zákaz atď." },
