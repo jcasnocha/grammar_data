@@ -17,6 +17,14 @@
     },
         { "type": "grammar_item", "emoji": "🔑", "text": "Čo sú modálne slovesá?" },
 
+    { 
+  "type": "examples", 
+  "examples": [
+    ["I went to school yesterday.", "Včera som išiel do školy."],
+    ["She can speak English very well.", "Vie veľmi dobre hovoriť po anglicky."]
+  ],
+  "alignLeft": true
+},
     { "type": "heading", "text": "Čo sú modálne slovesá?" },
     { "type": "paragraph", "text": "Modálne slovesá (can, could, may, might, must, should, would…) vyjadrujú schopnosť, povinnosť, možnosť, radu, zákaz atď." },
 
