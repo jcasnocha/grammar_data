@@ -1,245 +1,218 @@
 {
   "topics": [
 {
-  "id": "modal_verbs",
-  "titleSk": "Modálne slovesá",
-  "titleEn": "Modal Verbs",
-  "description": "Can, could, may, might, must, should…",
-  "emoji": "🔑",
-  "gradient": ["#6B46C0", "#9F7AEA"],
-  "accentColor": "#6B46C0",
-  "content": [
-    {
-      "type": "grammar_header",
+      "id": "modal_verbs",
+      "titleSk": "Modálne slovesá",
+      "titleEn": "Modal Verbs",
+      "description": "Can, could, may, might, must, should…",
       "emoji": "🔑",
-      "title": "Modálne slovesá",
-      "subtitle": "Malé slovesá s veľkou silou – vyjadrujú schopnosť, povinnosť, možnosť a radu"
-    },
-    {
-      "type": "paragraph",
-      "text": "Modálne slovesá (modal verbs) sú špeciálne pomocné slovesá v angličtine. Nemenia tvar podľa osoby, za nimi nikdy neprichádza „to“ a hlavne – menia význam celej vety."
-    },
-    {
-      "type": "divider"
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "📌",
-      "title": "Základné pravidlá",
-      "subtitle": "Ako sa s nimi zaobchádza"
-    },
-    {
-      "type": "grammar_item",
-      "emoji": "✅",
-      "text": "Nemenia tvar podľa osoby (he can, nie he cans)"
-    },
-    {
-      "type": "grammar_item",
-      "emoji": "✅",
-      "text": "Nasleduje ich infinitív bez „to“ (I can swim)"
-    },
-    {
-      "type": "grammar_item",
-      "emoji": "✅",
-      "text": "Nemajú všetky časy – na minulosť používame could / had to / was able to"
-    },
-    {
-      "type": "divider"
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "📋",
-      "title": "Najdôležitejšie modálne slovesá",
-      "subtitle": "Rýchly prehľad"
-    },
-    {
-      "type": "table",
-      "headers": ["Modal", "Hlavný význam", "Príklad"],
-      "rows": [
-        ["can / could", "schopnosť, dovolenie", "I can swim."],
-        ["may / might", "dovolenie, možnosť", "May I go?"],
-        ["must", "silná povinnosť", "You must study."],
-        ["should", "rada, odporúčanie", "You should rest."]
+      "gradient": ["#6B46C0", "#9F7AEA"],
+      "accentColor": "#6B46C0",
+      "content": [
+        {
+          "type": "grammar_header",
+          "emoji": "🔑",
+          "title": "Modálne slovesá",
+          "subtitle": "Malé slovesá s veľkou silou – vyjadrujú schopnosť, povinnosť, možnosť a radu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modálne slovesá (modal verbs) sú špeciálne pomocné slovesá v angličtine. Nemenia tvar podľa osoby, za nimi nikdy neprichádza „to“ a hlavne – menia význam celej vety."
+        },
+        { "type": "divider" },
+        {
+          "type": "grammar_header",
+          "emoji": "📌",
+          "title": "Základné pravidlá",
+          "subtitle": "Ako sa s nimi zaobchádza"
+        },
+        {
+          "type": "grammar_item",
+          "emoji": "✅",
+          "text": "Nemenia tvar podľa osoby (he can, nie he cans)"
+        },
+        {
+          "type": "grammar_item",
+          "emoji": "✅",
+          "text": "Nasleduje ich infinitív bez „to“ (I can swim)"
+        },
+        {
+          "type": "grammar_item",
+          "emoji": "✅",
+          "text": "Nemajú všetky časy – na minulosť používame could / had to / was able to"
+        },
+        { "type": "divider" },
+        {
+          "type": "grammar_header",
+          "emoji": "📋",
+          "title": "Najdôležitejšie modálne slovesá",
+          "subtitle": "Rýchly prehľad"
+        },
+        {
+          "type": "table",
+          "headers": ["Modal", "Hlavný význam", "Príklad"],
+          "rows": [
+            ["can / could", "schopnosť, dovolenie", "I can swim."],
+            ["may / might", "dovolenie, možnosť", "May I go?"],
+            ["must", "silná povinnosť", "You must study."],
+            ["should", "rada, odporúčanie", "You should rest."]
+          ]
+        },
+        { "type": "divider" },
+        {
+          "type": "grammar_header",
+          "emoji": "💪",
+          "title": "Can / Could",
+          "subtitle": "Schopnosť a zdvorilá žiadosť"
+        },
+        {
+          "type": "examples",
+          "textEN": "I can speak English fluently.",
+          "textSK": "Viem plynulo hovoriť po anglicky.",
+          "alignLeft": true
+        },
+        {
+          "type": "examples",
+          "textEN": "Could you help me, please?",
+          "textSK": "Mohli by ste mi prosím pomôcť?",
+          "alignLeft": false
+        },
+        {
+          "type": "grammar_item",
+          "emoji": "🔹",
+          "text": "can = prítomná schopnosť / dovolenie"
+        },
+        {
+          "type": "grammar_item",
+          "emoji": "🔹",
+          "text": "could = minulosť alebo zdvorilá žiadosť"
+        },
+        { "type": "divider" },
+        {
+          "type": "grammar_header",
+          "emoji": "⚠️",
+          "title": "Must vs. Have to",
+          "subtitle": "Kedy ktoré použiť"
+        },
+        {
+          "type": "examples",
+          "textEN": "You must wear a helmet.",
+          "textSK": "Musíš nosiť prilbu.",
+          "alignLeft": true
+        },
+        {
+          "type": "warning_box",
+          "emoji": "🚫",
+          "title": "Dôležité rozlíšenie",
+          "text": "must = vnútorná povinnosť / zákaz\nmustn't = nesmieš\nhave to = vonkajšia povinnosť (pravidlá, zákony)",
+          "color": "#EF4444"
+        },
+        { "type": "divider" },
+        {
+          "type": "grammar_header",
+          "emoji": "💡",
+          "title": "Should",
+          "subtitle": "Rada alebo odporúčanie"
+        },
+        {
+          "type": "examples",
+          "textEN": "You should drink more water.",
+          "textSK": "Mal by si piť viac vody.",
+          "alignLeft": true
+        },
+        {
+          "type": "colored_box",
+          "title": "Tip",
+          "color": "#10B981",
+          "text": "Should je menej silné ako must. Vyjadruje radu, nie nutnosť."
+        },
+        { "type": "divider" },
+        {
+          "type": "grammar_header",
+          "emoji": "❓",
+          "title": "May / Might",
+          "subtitle": "Povolenie a možnosť"
+        },
+        {
+          "type": "paragraph",
+          "text": "May je zdvorilejšie ako can pri žiadosti o povolenie. Might vyjadruje menšiu pravdepodobnosť."
+        },
+        {
+          "type": "examples",
+          "textEN": "May I open the window?",
+          "textSK": "Smem otvoriť okno?",
+          "alignLeft": true
+        },
+        {
+          "type": "examples",
+          "textEN": "It might rain tomorrow.",
+          "textSK": "Zajtra môže pršať.",
+          "alignLeft": false
+        },
+        { "type": "divider" },
+        {
+          "type": "grammar_header",
+          "emoji": "🔄",
+          "title": "Would",
+          "subtitle": "Podmienené a zvyky v minulosti"
+        },
+        {
+          "type": "examples",
+          "textEN": "I would love to visit Slovakia.",
+          "textSK": "Rád by som navštívil Slovensko.",
+          "alignLeft": true
+        },
+        {
+          "type": "colored_box",
+          "title": "Tip",
+          "color": "#3B82F6",
+          "text": "Would sa často používa v druhom kondicionáli (if I were rich, I would travel the world)."
+        },
+        { "type": "divider" },
+        {
+          "type": "grammar_header",
+          "emoji": "🎯",
+          "title": "Zhrnutie",
+          "subtitle": "Teraz už vieš, ako ich používať!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modálne slovesá sú základ anglickej gramatiky. Čím viac ich budeš používať v praxi, tým prirodzenejšie ti budú znieť."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "FillInBlank",
+          "original": "The book is ___ the table.",
+          "sentenceWithBlank": ["The book is ", "", " the table."],
+          "correctAnswers": ["on"]
+        },
+        {
+          "type": "FillInBlank",
+          "original": "We live ___ Slovakia.",
+          "sentenceWithBlank": ["We live ", "", " Slovakia."],
+          "correctAnswers": ["in"]
+        },
+        {
+          "type": "MultipleChoice",
+          "original": "She arrived ___ 8 o'clock.",
+          "sentence": ["She arrived ", "", " 8 o'clock."],
+          "correctAnswer": "at",
+          "options": ["in", "on", "at"]
+        },
+        {
+          "type": "SentenceBuilder",
+          "original": "The cat is sleeping on the sofa.",
+          "correctOrder": ["The", "cat", "is", "sleeping", "on", "the", "sofa"]
+        },
+        {
+          "type": "FillInBlank",
+          "original": "I go to work ___ bus.",
+          "sentenceWithBlank": ["I go to work ", "", " bus."],
+          "correctAnswers": ["by"]
+        }
       ]
     },
-    {
-      "type": "divider"
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "💪",
-      "title": "Can / Could",
-      "subtitle": "Schopnosť a zdvorilá žiadosť"
-    },
-    {
-      "type": "examples",
-      "textEN": "I can speak English fluently.",
-      "textSK": "Viem plynulo hovoriť po anglicky.",
-      "alignLeft": true
-    },
-    {
-      "type": "examples",
-      "textEN": "Could you help me, please?",
-      "textSK": "Mohli by ste mi prosím pomôcť?",
-      "alignLeft": false
-    },
-    {
-      "type": "grammar_item",
-      "emoji": "🔹",
-      "text": "can = prítomná schopnosť / dovolenie"
-    },
-    {
-      "type": "grammar_item",
-      "emoji": "🔹",
-      "text": "could = minulosť alebo zdvorilá žiadosť"
-    },
-    {
-      "type": "divider"
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "⚠️",
-      "title": "Must vs. Have to",
-      "subtitle": "Kedy ktoré použiť"
-    },
-    {
-      "type": "examples",
-      "textEN": "You must wear a helmet.",
-      "textSK": "Musíš nosiť prilbu.",
-      "alignLeft": true
-    },
-    {
-      "type": "warning_box",
-      "emoji": "🚫",
-      "title": "Dôležité rozlíšenie",
-      "text": "must = vnútorná povinnosť / zákaz\nmustn't = nesmieš\nhave to = vonkajšia povinnosť (pravidlá, zákony)",
-      "color": "#EF4444"
-    },
-    {
-      "type": "divider"
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "💡",
-      "title": "Should",
-      "subtitle": "Rada alebo odporúčanie"
-    },
-    {
-      "type": "examples",
-      "textEN": "You should drink more water.",
-      "textSK": "Mal by si piť viac vody.",
-      "alignLeft": true
-    },
-    {
-      "type": "colored_box",
-      "title": "Tip",
-      "color": "#10B981",
-      "text": "Should je menej silné ako must. Vyjadruje radu, nie nutnosť."
-    },
-    {
-      "type": "divider"
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "❓",
-      "title": "May / Might",
-      "subtitle": "Povolenie a možnosť"
-    },
-    {
-      "type": "paragraph",
-      "text": "May je zdvorilejšie ako can pri žiadosti o povolenie. Might vyjadruje menšiu pravdepodobnosť."
-    },
-    {
-      "type": "examples",
-      "textEN": "May I open the window?",
-      "textSK": "Smem otvoriť okno?",
-      "alignLeft": true
-    },
-    {
-      "type": "examples",
-      "textEN": "It might rain tomorrow.",
-      "textSK": "Zajtra môže pršať.",
-      "alignLeft": false
-    },
-    {
-      "type": "divider"
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "🔄",
-      "title": "Would",
-      "subtitle": "Podmienené a zvyky v minulosti"
-    },
-    {
-      "type": "examples",
-      "textEN": "I would love to visit Slovakia.",
-      "textSK": "Rád by som navštívil Slovensko.",
-      "alignLeft": true
-    },
-    {
-      "type": "colored_box",
-      "title": "Tip",
-      "color": "#3B82F6",
-      "text": "Would sa často používa v druhom kondicionáli (if I were rich, I would travel the world)."
-    },
-
-    {
-      "type": "divider"
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "🎯",
-      "title": "Zhrnutie",
-      "subtitle": "Teraz už vieš, ako ich používať!"
-    },
-    {
-      "type": "paragraph",
-      "text": "Modálne slovesá sú základ anglickej gramatiky. Čím viac ich budeš používať v praxi, tým prirodzenejšie ti budú znieť."
-    }
-  ],
-    "exercises": [
-    {
-      "type": "FillInBlank",
-      "original": "The book is ___ the table.",
-      "sentenceWithBlank": ["The book is ", "", " the table."],
-      "correctAnswers": ["on"]
-    },
-    {
-      "type": "FillInBlank",
-      "original": "We live ___ Slovakia.",
-      "sentenceWithBlank": ["We live ", "", " Slovakia."],
-      "correctAnswers": ["in"]
-    },
-    {
-      "type": "MultipleChoice",
-      "original": "She arrived ___ 8 o'clock.",
-      "sentence": ["She arrived ", "", " 8 o'clock."],
-      "correctAnswer": "at",
-      "options": ["in", "on", "at"]
-    },
-    {
-      "type": "SentenceBuilder",
-      "original": "The cat is sleeping on the sofa.",
-      "correctOrder": ["The", "cat", "is", "sleeping", "on", "the", "sofa"]
-    },
-    {
-      "type": "FillInBlank",
-      "original": "I go to work ___ bus.",
-      "sentenceWithBlank": ["I go to work ", "", " bus."],
-      "correctAnswers": ["by"]
-    }
-  ]
-}
- }   
-,
     
 {
   "id": "prepositions",
