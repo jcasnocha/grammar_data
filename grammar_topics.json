@@ -17,14 +17,25 @@
     },
         { "type": "grammar_item", "emoji": "🔑", "text": "Čo sú modálne slovesá?" },
 
-    { 
-  "type": "examples", 
-  "examples": [
-    ["I went to school yesterday.", "Včera som išiel do školy."],
-    ["She can speak English very well.", "Vie veľmi dobre hovoriť po anglicky."]
-  ],
-  "alignLeft": true
+{
+  "type": "examples",
+  "alignLeft": true,
+  "textEN": "What are modal verbs?",
+  "textSK": "Čo sú modálne slovesá?"
 },
+{
+  "type": "examples",
+  "alignLeft": false,
+  "textEN": "You must finish your homework.",
+  "textSK": "Musíš dokončiť domácu úlohu."
+},
+{
+  "type": "examples",
+  "alignLeft": true,
+  "textEN": "She might come tomorrow.",
+  "textSK": "Možno príde zajtra."
+},
+
     { "type": "heading", "text": "Čo sú modálne slovesá?" },
     { "type": "paragraph", "text": "Modálne slovesá (can, could, may, might, must, should, would…) vyjadrujú schopnosť, povinnosť, možnosť, radu, zákaz atď." },
 
