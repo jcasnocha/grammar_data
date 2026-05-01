@@ -13,55 +13,202 @@
       "type": "grammar_header",
       "emoji": "🔑",
       "title": "Modálne slovesá",
-      "subtitle": "... už sa to stalo.\n... späť to nevieme 😂\n... príbeh, ktorý má svoj koniec."
+      "subtitle": "Malé slovesá s veľkou silou – vyjadrujú schopnosť, povinnosť, možnosť a radu"
     },
-        { "type": "grammar_item", "emoji": "🔑", "text": "Čo sú modálne slovesá?" },
-
-{
-  "type": "examples",
-  "alignLeft": true,
-  "textEN": "What are modal verbs?",
-  "textSK": "Čo sú modálne slovesá?"
-},
     {
-  "type": "image",
-  "imageUrl": "https://www.realgrammar.com/wp-content/uploads/2019/01/in-on-at-fb-image.jpg"
-},
-{
-  "type": "examples",
-  "alignLeft": false,
-  "textEN": "You must finish your homework.",
-  "textSK": "Musíš dokončiť domácu úlohu."
-},
-{
-  "type": "examples",
-  "alignLeft": true,
-  "textEN": "She might come tomorrow.",
-  "textSK": "Možno príde zajtra."
-},
+      "type": "paragraph",
+      "text": "Modálne slovesá (modal verbs) sú špeciálne pomocné slovesá v angličtine. Nemenia tvar podľa osoby, za nimi nikdy neprichádza „to“ a hlavne – menia význam celej vety."
+    },
     {
-  "type": "warning_box",
-  "icon": "⚠️",
-  "title": "Dôležité upozornenie",
-  "text": "Nikdy nepoužívaj 'goed' v minulom čase. Správne je 'went'.",
-  "color": "#326cfc"
-},
+      "type": "divider"
+    },
+
     {
-  "type": "divider",
-  "color": "#E5E7EB",
-  "paddingHorizontal": 16
-},
-        {
-  "type": "image",
-  "imageUrl": "https://www.realgrammar.com/wp-content/uploads/2019/12/at-on-in-pyramid-feature-image-1.png"
-},
+      "type": "grammar_header",
+      "emoji": "📌",
+      "title": "Základné pravidlá",
+      "subtitle": "Ako sa s nimi zaobchádza"
+    },
+    {
+      "type": "grammar_item",
+      "emoji": "✅",
+      "text": "Nemenia tvar podľa osoby (he can, nie he cans)"
+    },
+    {
+      "type": "grammar_item",
+      "emoji": "✅",
+      "text": "Nasleduje ich infinitív bez „to“ (I can swim)"
+    },
+    {
+      "type": "grammar_item",
+      "emoji": "✅",
+      "text": "Nemajú všetky časy – na minulosť používame could / had to / was able to"
+    },
+    {
+      "type": "divider"
+    },
 
-    { "type": "heading", "text": "Čo sú modálne slovesá?" },
-    { "type": "paragraph", "text": "Modálne slovesá (can, could, may, might, must, should, would…) \nvyjadrujú schopnosť, povinnosť, možnosť, radu, zákaz atď." },
+    {
+      "type": "grammar_header",
+      "emoji": "📋",
+      "title": "Najdôležitejšie modálne slovesá",
+      "subtitle": "Rýchly prehľad"
+    },
+    {
+      "type": "table",
+      "headers": ["Modal", "Hlavný význam", "Príklad"],
+      "rows": [
+        ["can / could", "schopnosť, dovolenie", "I can swim."],
+        ["may / might", "dovolenie, možnosť", "May I go?"],
+        ["must", "silná povinnosť", "You must study."],
+        ["should", "rada, odporúčanie", "You should rest."]
+      ]
+    },
+    {
+      "type": "divider"
+    },
 
-    { "type": "colored_box", "title": "Základné pravidlo", "color": "#4CAF50", "text": "Modálne slovesá sa nemenia podľa osoby a za nimi nasleduje infinitive bez 'to'." }
+    {
+      "type": "grammar_header",
+      "emoji": "💪",
+      "title": "Can / Could",
+      "subtitle": "Schopnosť a zdvorilá žiadosť"
+    },
+    {
+      "type": "examples",
+      "textEN": "I can speak English fluently.",
+      "textSK": "Viem plynulo hovoriť po anglicky.",
+      "alignLeft": true
+    },
+    {
+      "type": "examples",
+      "textEN": "Could you help me, please?",
+      "textSK": "Mohli by ste mi prosím pomôcť?",
+      "alignLeft": false
+    },
+    {
+      "type": "grammar_item",
+      "emoji": "🔹",
+      "text": "can = prítomná schopnosť / dovolenie"
+    },
+    {
+      "type": "grammar_item",
+      "emoji": "🔹",
+      "text": "could = minulosť alebo zdvorilá žiadosť"
+    },
+    {
+      "type": "divider"
+    },
+
+    {
+      "type": "grammar_header",
+      "emoji": "⚠️",
+      "title": "Must vs. Have to",
+      "subtitle": "Kedy ktoré použiť"
+    },
+    {
+      "type": "examples",
+      "textEN": "You must wear a helmet.",
+      "textSK": "Musíš nosiť prilbu.",
+      "alignLeft": true
+    },
+    {
+      "type": "warning_box",
+      "emoji": "🚫",
+      "title": "Dôležité rozlíšenie",
+      "text": "must = vnútorná povinnosť / zákaz\nmustn't = nesmieš\nhave to = vonkajšia povinnosť (pravidlá, zákony)",
+      "color": "#EF4444"
+    },
+    {
+      "type": "divider"
+    },
+
+    {
+      "type": "grammar_header",
+      "emoji": "💡",
+      "title": "Should",
+      "subtitle": "Rada alebo odporúčanie"
+    },
+    {
+      "type": "examples",
+      "textEN": "You should drink more water.",
+      "textSK": "Mal by si piť viac vody.",
+      "alignLeft": true
+    },
+    {
+      "type": "colored_box",
+      "title": "Tip",
+      "color": "#10B981",
+      "text": "Should je menej silné ako must. Vyjadruje radu, nie nutnosť."
+    },
+    {
+      "type": "divider"
+    },
+
+    {
+      "type": "grammar_header",
+      "emoji": "❓",
+      "title": "May / Might",
+      "subtitle": "Povolenie a možnosť"
+    },
+    {
+      "type": "paragraph",
+      "text": "May je zdvorilejšie ako can pri žiadosti o povolenie. Might vyjadruje menšiu pravdepodobnosť."
+    },
+    {
+      "type": "examples",
+      "textEN": "May I open the window?",
+      "textSK": "Smem otvoriť okno?",
+      "alignLeft": true
+    },
+    {
+      "type": "examples",
+      "textEN": "It might rain tomorrow.",
+      "textSK": "Zajtra môže pršať.",
+      "alignLeft": false
+    },
+    {
+      "type": "divider"
+    },
+
+    {
+      "type": "grammar_header",
+      "emoji": "🔄",
+      "title": "Would",
+      "subtitle": "Podmienené a zvyky v minulosti"
+    },
+    {
+      "type": "examples",
+      "textEN": "I would love to visit Slovakia.",
+      "textSK": "Rád by som navštívil Slovensko.",
+      "alignLeft": true
+    },
+    {
+      "type": "colored_box",
+      "title": "Tip",
+      "color": "#3B82F6",
+      "text": "Would sa často používa v druhom kondicionáli (if I were rich, I would travel the world)."
+    },
+
+    {
+      "type": "divider"
+    },
+
+    {
+      "type": "grammar_header",
+      "emoji": "🎯",
+      "title": "Zhrnutie",
+      "subtitle": "Teraz už vieš, ako ich používať!"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modálne slovesá sú základ anglickej gramatiky. Čím viac ich budeš používať v praxi, tým prirodzenejšie ti budú znieť."
+    }
   ]
-},
+}
+    
+,
+    
 {
   "id": "prepositions",
   "titleSk": "Predložky",
