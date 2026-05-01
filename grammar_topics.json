@@ -46,6 +46,10 @@
   "text": "Nikdy nepoužívaj 'goed' v minulom čase. Správne je 'went'.",
   "color": "#326cfc"
 },
+        {
+  "type": "image",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjdeLmuW6w0zRSbeZN-k_7Ox8frQ4HlIoBIw&s"
+},
 
     { "type": "heading", "text": "Čo sú modálne slovesá?" },
     { "type": "paragraph", "text": "Modálne slovesá (can, could, may, might, must, should, would…) \nvyjadrujú schopnosť, povinnosť, možnosť, radu, zákaz atď." },
