@@ -23,6 +23,10 @@
   "textEN": "What are modal verbs?",
   "textSK": "Čo sú modálne slovesá?"
 },
+    {
+  "type": "image",
+  "imageUrl": "https://www.realgrammar.com/wp-content/uploads/2019/01/in-on-at-fb-image.jpg"
+},
 {
   "type": "examples",
   "alignLeft": false,
