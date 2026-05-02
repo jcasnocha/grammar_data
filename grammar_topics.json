@@ -259,6 +259,14 @@
       "subtitle": "A, an, the – tri malé slová, ktoré menia všetko"
     },
     {
+  "type": "conjugation_table",
+  "headers": ["Osoba", "Present Simple", "Past Simple", "Past Participle"],
+  "rows": [
+    ["I / You / We / They", "go", "went", "gone"],
+    ["He / She / It", "goes", "went", "gone"]
+  ]
+},
+    {
       "type": "paragraph",
       "text": "Na rozdiel od slovenčiny, v angličtine musíme takmer vždy rozhodnúť, či pred podstatným menom dáme člen (article) alebo nie."
     },
