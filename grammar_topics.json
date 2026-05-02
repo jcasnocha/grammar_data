@@ -260,10 +260,10 @@
     },
     {
   "type": "conjugation_table",
-  "headers": ["Osoba", "Present Simple", "Past Simple", "Past Participle"],
+  "headers": ["Osoba", "Present \nSimple", "Past \nSimple", "Past \nParticiple"],
   "rows": [
-    ["I / You / We / They", "go", "went", "gone"],
-    ["He / She / It", "goes", "went", "gone"]
+    ["I\nYou\nWe\nThey", "go", "went", "gone"],
+    ["He\nShe\nIt", "goes", "went", "gone"]
   ]
 },
     {
