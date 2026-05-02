@@ -29,7 +29,7 @@
 {
   "type": "divider",
   "color": "#E5E7EB",
-  "thickness": 1,
+  "thickness": 5,
   "paddingHorizontal": 16,
   "paddingVertical": 24
 },
