@@ -31,7 +31,8 @@
   "color": "#000000",
   "thickness": 5,
   "paddingHorizontal": 16,
-  "paddingVertical": 24
+  "paddingVertical": 24,
+  "visible": true
 },
         {
           "type": "grammar_item",
