@@ -251,20 +251,21 @@
   "emoji": "📖",
   "gradient": ["#00BFFF", "#87CEEB"],
   "accentColor": "#00BFFF",
-"content": [
+      "content": [
   {
     "type": "grammar_header",
     "emoji": "📖",
     "title": "Prehľad členov",
-    "subtitle": "A / An / The / Zero article"
+    "subtitle": "A · An · The · Zero Article"
   },
+
   {
     "type": "table",
-    "headers": ["Člen", "Kedy používame", "Príklad"],
+    "headers": ["Člen", "Použitie", "Príklad"],
     "rows": [
-      ["a / an", "prvýkrát alebo všeobecne", "I bought a car."],
-      ["the", "konkrétna vec (vieme o ktorej)", "The car is red."],
-      ["– (žiadny)", "všeobecne v množnom čísle", "Cars are expensive."]
+      ["a / an", "prvýkrát / všeobecne", "I saw a dog."],
+      ["the", "konkrétna / známa vec", "The dog is black."],
+      ["– (žiadny)", "všeobecne v množnom čísle", "Dogs are loyal."]
     ],
     "highlightFirstColumn": true
   },
@@ -278,18 +279,20 @@
     "type": "grammar_header",
     "emoji": "🔤",
     "title": "A vs An",
-    "subtitle": "Podľa výslovnosti, nie podľa písmen"
+    "subtitle": "Podľa výslovnosti"
   },
   {
     "type": "table",
-    "headers": ["Použitie", "Príklad", "Dôvod"],
+    "headers": ["Pred", "Príklad", "Dôvod"],
     "rows": [
       ["a", "a university", "vyslovuje sa /juː/"],
       ["an", "an hour", "vyslovuje sa /aʊər/"],
-      ["an", "an apple", "začína samohláskou"],
-      ["a", "a European", "vyslovuje sa /jʊərəˈpiːən/"]
+      ["an", "an apple", "samohláska na začiatku"],
+      ["a", "a European", "vyslovuje sa /j/"],
+      ["an", "an honest man", "h sa nevyslovuje"]
     ],
-    "striped": true
+    "striped": true,
+    "backgroundColor": "#F0F9FF"
   },
 
   {
@@ -307,39 +310,16 @@
     "type": "table",
     "headers": ["Situácia", "Príklad"],
     "rows": [
-      ["Druhýkrát spomínaný", "I saw a dog. The dog was big."],
-      ["Jedinečná vec", "The sun is shining."],
-      ["Superlatívy", "The best movie ever."],
-      ["Rieky, oceány, pohorie", "The Danube, the Atlantic, the Alps"]
+      ["Druhýkrát spomínaný", "I bought a car. The car is fast."],
+      ["Jedinečná vec", "The sun rises in the east."],
+      ["Superlatívy", "This is the best movie ever."],
+      ["Rieky, oceány, pohorie", "The Danube, The Alps, The Pacific"]
     ],
     "highlightFirstColumn": true,
-    "backgroundColor": "#F0F9FF"
-  },
-
-  {
-    "type": "divider",
-    "paddingVertical": 24
-  },
-
-  {
-    "type": "grammar_header",
-    "emoji": "🚫",
-    "title": "Kedy nepoužívame žiaden člen",
-    "subtitle": "Zero article"
-  },
-  {
-    "type": "table",
-    "headers": ["Kategória", "Príklad"],
-    "rows": [
-      ["Všeobecne v množnom čísle", "Dogs are loyal animals."],
-      ["Jedlo a nápoje", "I love coffee."],
-      ["Športy a predmety štúdia", "She plays tennis. He studies mathematics."],
-      ["Krajiny a mestá (väčšina)", "Slovakia, Bratislava"],
-      ["Inštitúcie ako činnosť", "go to school, be in hospital"]
-    ],
     "striped": true
   }
-],
+]
+,
   "exercises": []
 },
     {
