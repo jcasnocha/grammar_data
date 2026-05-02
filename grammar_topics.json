@@ -251,121 +251,95 @@
   "emoji": "📖",
   "gradient": ["#00BFFF", "#87CEEB"],
   "accentColor": "#00BFFF",
-  "content": [
-    {
-      "type": "grammar_header",
-      "emoji": "📖",
-      "title": "Členy v angličtine",
-      "subtitle": "A, an, the – tri malé slová, ktoré menia všetko"
-    },
-    {
-  "type": "conjugation_table",
-  "headers": ["Osoba", "Present \nSimple", "Past \nSimple", "Past \nParticiple"],
-  "rows": [
-    ["I\nYou\nWe\nThey", "go", "went", "gone"],
-    ["He\nShe\nIt", "goes", "went", "gone"]
-  ]
-},
-    {
-      "type": "paragraph",
-      "text": "Na rozdiel od slovenčiny, v angličtine musíme takmer vždy rozhodnúť, či pred podstatným menom dáme člen (article) alebo nie."
-    },
-    {
-      "type": "divider",
-      "paddingVertical": 20
-    },
+"content": [
+  {
+    "type": "grammar_header",
+    "emoji": "📖",
+    "title": "Prehľad členov",
+    "subtitle": "A / An / The / Zero article"
+  },
+  {
+    "type": "table",
+    "headers": ["Člen", "Kedy používame", "Príklad"],
+    "rows": [
+      ["a / an", "prvýkrát alebo všeobecne", "I bought a car."],
+      ["the", "konkrétna vec (vieme o ktorej)", "The car is red."],
+      ["– (žiadny)", "všeobecne v množnom čísle", "Cars are expensive."]
+    ],
+    "highlightFirstColumn": true
+  },
 
-    {
-      "type": "definition",
-      "title": "a / an",
-      "text": "Neurčitý člen – používame ho, keď hovoríme o niečom prvýkrát alebo všeobecne (akýkoľvek)."
-    },
-    {
-      "type": "list",
-      "listType": "bullet",
-      "items": [
-        "Pred samohláskou → **an** (an apple, an hour)",
-        "Pred spoluhláskou → **a** (a book, a university)",
-        "Používa sa iba v jednotnom čísle"
-      ]
-    },
-    {
-      "type": "divider",
-      "paddingVertical": 16
-    },
+  {
+    "type": "divider",
+    "paddingVertical": 24
+  },
 
-    {
-      "type": "definition",
-      "title": "the",
-      "text": "Určitý člen – používame ho, keď vieme, o čom presne hovoríme, alebo keď je vec jedinečná."
-    },
-    {
-      "type": "table",
-      "headers": ["Člen", "Kedy sa používa", "Príklad"],
-      "rows": [
-        ["a / an", "prvýkrát / všeobecne", "I saw a dog."],
-        ["the", "konkrétna vec / druhýkrát", "The dog is black."],
-        ["– (žiadny)", "všeobecne v množnom čísle", "Dogs are loyal."]
-      ]
-    },
-    {
-      "type": "divider",
-      "paddingVertical": 20
-    },
+  {
+    "type": "grammar_header",
+    "emoji": "🔤",
+    "title": "A vs An",
+    "subtitle": "Podľa výslovnosti, nie podľa písmen"
+  },
+  {
+    "type": "table",
+    "headers": ["Použitie", "Príklad", "Dôvod"],
+    "rows": [
+      ["a", "a university", "vyslovuje sa /juː/"],
+      ["an", "an hour", "vyslovuje sa /aʊər/"],
+      ["an", "an apple", "začína samohláskou"],
+      ["a", "a European", "vyslovuje sa /jʊərəˈpiːən/"]
+    ],
+    "striped": true
+  },
 
-    {
-      "type": "warning_box",
-      "emoji": "⚠️",
-      "title": "Najčastejšie chyby Slovákov",
-      "text": "I like the dogs. → nesprávne\nSprávne: I like dogs.\n\nI go to the school. → nesprávne\nSprávne: I go to school.",
-      "color": "#EF4444"
-    },
-    {
-      "type": "divider",
-      "paddingVertical": 16
-    },
+  {
+    "type": "divider",
+    "paddingVertical": 24
+  },
 
-    {
-      "type": "grammar_header",
-      "emoji": "🚫",
-      "title": "Kedy nepoužívame žiaden člen",
-      "subtitle": "Zero article"
-    },
-    {
-      "type": "list",
-      "listType": "bullet",
-      "items": [
-        "Všeobecné veci v množnom čísle (Dogs are friendly.)",
-        "Jedlo, šport, predmety štúdia (I eat rice. I play tennis.)",
-        "Krajiny, mestá, kontinenty (Slovakia, Europe)",
-        "Inštitúcie ako činnosť (go to school, be in hospital, go to bed)"
-      ]
-    },
+  {
+    "type": "grammar_header",
+    "emoji": "📍",
+    "title": "Kedy používame THE",
+    "subtitle": "Určitý člen"
+  },
+  {
+    "type": "table",
+    "headers": ["Situácia", "Príklad"],
+    "rows": [
+      ["Druhýkrát spomínaný", "I saw a dog. The dog was big."],
+      ["Jedinečná vec", "The sun is shining."],
+      ["Superlatívy", "The best movie ever."],
+      ["Rieky, oceány, pohorie", "The Danube, the Atlantic, the Alps"]
+    ],
+    "highlightFirstColumn": true,
+    "backgroundColor": "#F0F9FF"
+  },
 
-    {
-      "type": "quote",
-      "text": "The better you understand articles, the more natural your English will sound.",
-      "subtitle": "— Practical English Grammar"
-    },
+  {
+    "type": "divider",
+    "paddingVertical": 24
+  },
 
-    {
-      "type": "divider",
-      "paddingVertical": 24
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "🎯",
-      "title": "Zhrnutie",
-      "subtitle": "Rýchle pravidlo na zapamätanie"
-    },
-    {
-      "type": "colored_box",
-      "title": "Zlaté pravidlo",
-      "color": "#10B981",
-      "text": "a/an = akýkoľvek / prvýkrát\nthe = ten konkrétny / známy\nžiadny člen = všeobecne (množné číslo alebo abstraktné veci)"
-    }
-  ],
+  {
+    "type": "grammar_header",
+    "emoji": "🚫",
+    "title": "Kedy nepoužívame žiaden člen",
+    "subtitle": "Zero article"
+  },
+  {
+    "type": "table",
+    "headers": ["Kategória", "Príklad"],
+    "rows": [
+      ["Všeobecne v množnom čísle", "Dogs are loyal animals."],
+      ["Jedlo a nápoje", "I love coffee."],
+      ["Športy a predmety štúdia", "She plays tennis. He studies mathematics."],
+      ["Krajiny a mestá (väčšina)", "Slovakia, Bratislava"],
+      ["Inštitúcie ako činnosť", "go to school, be in hospital"]
+    ],
+    "striped": true
+  }
+],
   "exercises": []
 },
     {
