@@ -31,20 +31,26 @@
   "color": "#000000",
   "thickness": 5,
   "paddingHorizontal": 16,
+  "paddingVertical": 24
 },
         {
           "type": "grammar_item",
           "emoji": "✅",
           "text": "Nemenia tvar podľa osoby (he can, nie he cans)"
         },
-        {
-  "type": "divider"
+{
+  "type": "divider",
+  "visible": false,
+  "paddingVertical": 40
 },
         {
           "type": "grammar_item",
           "emoji": "✅",
           "text": "Nasleduje ich infinitív bez „to“ (I can swim)"
         },
+        {
+  "type": "divider"
+},
         {
           "type": "grammar_item",
           "emoji": "✅",
