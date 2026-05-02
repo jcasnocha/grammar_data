@@ -397,19 +397,92 @@
       ],
       "exercises": []
     },
-    {
-      "id": "articles",
-      "titleSk": "Členy",
-      "titleEn": "Articles",
-      "description": "A, an, the – kedy sa používa a kedy nie",
-      "emoji": "📖",
-      "gradient": ["#00BFFF", "#87CEEB"],
-      "accentColor": "#00BFFF",
-      "content": [
-        { "type": "paragraph", "text": "Tu neskôr pridáme pravidlá pre articles." }
-      ],
-      "exercises": []
-    },
+{
+    "type": "grammar_header",
+    "emoji": "📖",
+    "title": "Členy (Articles)",
+    "subtitle": "A, an, the – malé slová, ktoré robia veľký rozdiel"
+  },
+  {
+    "type": "paragraph",
+    "text": "Členy sú v angličtine veľmi dôležité. V slovenčine ich takmer nepoužívame, preto je pre nás ťažké pochopiť, kedy ktorý člen patrí."
+  },
+  {
+    "type": "divider",
+    "paddingVertical": 20
+  },
+
+  {
+    "type": "definition",
+    "title": "a / an",
+    "text": "Neurčitý člen – používame ho, keď hovoríme o niečom prvýkrát alebo všeobecne (akýkoľvek)."
+  },
+  {
+    "type": "list",
+    "listType": "bullet",
+    "items": [
+      "Pred samohláskou používame **an** (an apple, an hour)",
+      "Pred spoluhláskou používame **a** (a book, a university)",
+      "Používa sa len v jednotnom čísle"
+    ]
+  },
+  {
+    "type": "divider",
+    "paddingVertical": 16
+  },
+
+  {
+    "type": "definition",
+    "title": "the",
+    "text": "Určitý člen – používame ho, keď vieme, o čom presne hovoríme, alebo keď je vec jedinečná."
+  },
+  {
+    "type": "table",
+    "headers": ["Člen", "Kedy sa používa", "Príklad"],
+    "rows": [
+      ["a / an", "prvýkrát / všeobecne", "I bought a car."],
+      ["the", "konkrétna vec / druhýkrát", "The car is red."],
+      ["– (zero article)", "všeobecne v množnom čísle", "Cars are expensive."]
+    ]
+  },
+  {
+    "type": "divider",
+    "paddingVertical": 20
+  },
+
+  {
+    "type": "warning_box",
+    "emoji": "⚠️",
+    "title": "Najčastejšie chyby Slovákov",
+    "text": "I like the dogs. → nesprávne\nSprávne: I like dogs. (všeobecne)\n\nI go to the school. → nesprávne\nSprávne: I go to school. (inštitúcia ako činnosť)",
+    "color": "#EF4444"
+  },
+  {
+    "type": "divider",
+    "paddingVertical": 16
+  },
+
+  {
+    "type": "grammar_header",
+    "emoji": "💡",
+    "title": "Kedy nepoužívame žiaden člen",
+    "subtitle": "Zero article"
+  },
+  {
+    "type": "list",
+    "listType": "bullet",
+    "items": [
+      "Všeobecné veci v množnom čísle (Dogs are loyal animals.)",
+      "Jedlo, šport, predmety štúdia (I eat rice. I play tennis.)",
+      "Krajiny, mestá, kontinenty (Slovakia, Europe, Bratislava)",
+      "Inštitúcie ako činnosť (go to school, be in hospital, go to bed)"
+    ]
+  },
+  {
+    "type": "quote",
+    "text": "The better you understand articles, the more natural your English will sound.",
+    "subtitle": "— Practical English"
+  },
     {
       "id": "irregular_verbs",
       "titleSk": "Nepravidelné slovesá",
