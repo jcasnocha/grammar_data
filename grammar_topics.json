@@ -29,8 +29,8 @@
 {
   "type": "divider",
   "color": "#E5E7EB",
-  "thickness": 0,
-  "paddingHorizontal": 16
+  "thickness": -10,
+  "paddingHorizontal": 50
 },
         {
           "type": "grammar_item",
