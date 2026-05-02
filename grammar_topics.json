@@ -31,8 +31,6 @@
   "color": "#000000",
   "thickness": 5,
   "paddingHorizontal": 16,
-  "paddingVertical": 24,
-  "visible": true
 },
         {
           "type": "grammar_item",
@@ -40,9 +38,7 @@
           "text": "Nemenia tvar podľa osoby (he can, nie he cans)"
         },
         {
-  "type": "divider",
-  "visible": false,
-  "paddingVertical": 40
+  "type": "divider"
 },
         {
           "type": "grammar_item",
