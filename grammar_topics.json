@@ -9,7 +9,32 @@
       "gradient": ["#6B46C0", "#9F7AEA"],
       "accentColor": "#6B46C0",
       "content": [
-        {
+
+{
+  "type": "colored_box",
+  "title": "Dôležité pravidlo",
+  "color": "#10B981",
+  "text": "Toto pravidlo platí vždy."
+}
+,
+{
+  "type": "colored_box",
+  "title": "Tip",
+  "color": "#3B82F6",
+  "text": "Najlepšie sa učíš v kontexte.",
+  "titleAlign": "center",
+  "contentAlign": "center"
+}
+,
+{
+  "type": "colored_box",
+  "title": "Pozor!",
+  "color": "#EF4444",
+  "text": "Nikdy nepoužívaj \"the\" pred menami krajín.",
+  "titleAlign": "end"
+}
+,
+  {
   "type": "subtitle",
   "subtitle": "Malé slová s veľkou silou",
   "subtitleFontSize": 17,
