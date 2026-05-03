@@ -267,6 +267,7 @@
       ["the", "konkrétna / známa vec", "The dog is black."],
       ["– (žiadny)", "všeobecne v množnom čísle", "Dogs are loyal."]
     ],
+    "backgroundColor": "#95999c",
     "highlightFirstColumn": true
   },
 
