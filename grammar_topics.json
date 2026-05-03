@@ -28,7 +28,7 @@
 {
   "type": "subtitle",
   "subtitle": "Teraz už vieš, ako ich používať!",
-  "subtitleAlign": "center"
+  "subtitleAlign": "start"
 },
         {
           "type": "grammar_header",
