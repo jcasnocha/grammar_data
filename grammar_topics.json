@@ -27,6 +27,12 @@
   "emojiSize": 48,
   "titleSize": 28
 },
+        {
+  "type": "grammar_header",
+  "emoji": "⚠️",
+  "title": "Dôležité upozornenie",
+  "titleColor": "#EF4444"
+},
 {
   "type": "divider",
   "color": "#000000",
