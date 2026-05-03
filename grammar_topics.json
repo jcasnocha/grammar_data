@@ -10,6 +10,27 @@
       "accentColor": "#6B46C0",
       "content": [
         {
+  "type": "subtitle",
+  "subtitle": "Malé slová s veľkou silou",
+  "subtitleFontSize": 17,
+  "subtitleColor": "#4F46E5",
+  "subtitleAlign": "center"
+},
+
+{
+  "type": "subtitle",
+  "subtitle": "Pozor na tieto časté chyby!",
+  "subtitleFontSize": 15,
+  "subtitleColor": "#EF4444",
+  "subtitleAlign": "start"
+},
+
+{
+  "type": "subtitle",
+  "subtitle": "Teraz už vieš, ako ich používať!",
+  "subtitleAlign": "center"
+},
+        {
           "type": "grammar_header",
           "emoji": "🔑",
           "title": "Modálne slovesá",
