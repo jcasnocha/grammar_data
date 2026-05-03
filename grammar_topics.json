@@ -20,12 +20,13 @@
           "text": "Modálne slovesá (modal verbs) sú špeciálne pomocné slovesá v angličtine. Nemenia tvar podľa osoby, za nimi nikdy neprichádza „to“ a hlavne – menia význam celej vety."
         },
         { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "📌",
-          "title": "Základné pravidlá",
-          "subtitle": "Ako sa s nimi zaobchádza"
-        },
+{
+  "type": "grammar_header",
+  "emoji": "🔑",
+  "title": "Modálne slovesá",
+  "emojiSize": 48,
+  "titleSize": 28
+},
 {
   "type": "divider",
   "color": "#000000",
