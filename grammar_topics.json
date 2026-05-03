@@ -1,573 +1,266 @@
 {
   "topics": [
+{
+  "id": "conditionals",
+  "titleSk": "Podmieňovací spôsob",
+  "titleEn": "Conditionals",
+  "description": "Zero, First, Second, Third Conditional + Mixed",
+  "emoji": "🔄",
+  "gradient": ["#6B46C0", "#9F7AEA"],
+  "accentColor": "#6B46C0",
+  "content": [
     {
-      "id": "modal_verbs",
-      "titleSk": "Modálne slovesá",
-      "titleEn": "Modal Verbs",
-      "description": "Can, could, may, might, must, should…",
-      "emoji": "🔑",
-      "gradient": ["#6B46C0", "#9F7AEA"],
-      "accentColor": "#6B46C0",
-      "content": [
+      "type": "grammar_header",
+      "emoji": "🔄",
+      "title": "Podmieňovací spôsob",
+      "subtitle": "Štyri typy podmienkových viet v angličtine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podmieňovacie vety nám umožňujú hovoriť o reálnych aj nereálnych situáciách – od všeobecných pravd až po ľútosť nad minulosťou."
+    },
+    {
+      "type": "divider",
+      "paddingVertical": 20
+    },
 
-{
-  "type": "colored_box",
-  "title": "Dôležité pravidlo",
-  "color": "#10B981",
-  "text": "Toto pravidlo platí vždy."
-}
-,
-{
-  "type": "colored_box",
-  "title": "Tip",
-  "color": "#3B82F6",
-  "text": "Najlepšie sa učíš v kontexte.",
-  "titleAlign": "center",
-  "contentAlign": "center"
-}
-,
-{
-  "type": "colored_box",
-  "title": "Pozor!",
-  "color": "#EF4444",
-  "text": "Nikdy nepoužívaj \"the\" pred menami krajín.",
-  "titleAlign": "end"
-}
-,
-  {
-  "type": "subtitle",
-  "subtitle": "Malé slová s veľkou silou",
-  "subtitleFontSize": 17,
-  "subtitleColor": "#4F46E5",
-  "subtitleAlign": "end"
-},
-
-{
-  "type": "subtitle",
-  "subtitle": "Pozor na tieto časté chyby!",
-  "subtitleFontSize": 15,
-  "subtitleColor": "#EF4444",
-  "subtitleAlign": "start"
-},
-
-{
-  "type": "subtitle",
-  "subtitle": "Teraz už vieš, ako ich používať!",
-  "subtitleAlign": "start"
-},
-        {
-          "type": "grammar_header",
-          "emoji": "🔑",
-          "title": "Modálne slovesá",
-          "subtitle": "Malé slovesá s veľkou silou – vyjadrujú schopnosť, povinnosť, možnosť a radu"
-        },
-        {
-          "type": "paragraph",
-          "text": "Modálne slovesá (modal verbs) sú špeciálne pomocné slovesá v angličtine. Nemenia tvar podľa osoby, za nimi nikdy neprichádza „to“ a hlavne – menia význam celej vety."
-        },
-        { "type": "divider" },
-{
-  "type": "grammar_header",
-  "emoji": "🔑",
-  "title": "Modálne slovesá",
-  "emojiSize": 48,
-  "titleSize": 28
-},
-        {
-  "type": "grammar_header",
-  "emoji": "⚠️",
-  "title": "Dôležité upozornenie",
-  "titleColor": "#EF4444"
-},
-{
-  "type": "divider",
-  "color": "#000000",
-  "thickness": 5,
-  "paddingHorizontal": 16,
-  "paddingVertical": 24
-},
-        {
-          "type": "grammar_item",
-          "emoji": "✅",
-          "text": "Nemenia tvar podľa osoby (he can, nie he cans)"
-        },
-{
-  "type": "divider",
-  "visible": false,
-  "paddingVertical": 40
-},
-        {
-          "type": "grammar_item",
-          "emoji": "✅",
-          "text": "Nasleduje ich infinitív bez „to“ (I can swim)"
-        },
-        {
-  "type": "divider"
-},
-        {
-          "type": "grammar_item",
-          "emoji": "✅",
-          "text": "Nemajú všetky časy – na minulosť používame could / had to / was able to"
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "📋",
-          "title": "Najdôležitejšie modálne slovesá",
-          "subtitle": "Rýchly prehľad"
-        },
-        {
-          "type": "table",
-          "headers": ["Modal", "Hlavný význam", "Príklad"],
-          "rows": [
-            ["can / could", "schopnosť, dovolenie", "I can swim."],
-            ["may / might", "dovolenie, možnosť", "May I go?"],
-            ["must", "silná povinnosť", "You must study."],
-            ["should", "rada, odporúčanie", "You should rest."]
-          ]
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "💪",
-          "title": "Can / Could",
-          "subtitle": "Schopnosť a zdvorilá žiadosť"
-        },
-        {
-          "type": "examples",
-          "textEN": "I can speak English fluently.",
-          "textSK": "Viem plynulo hovoriť po anglicky.",
-          "alignLeft": true
-        },
-        {
-          "type": "examples",
-          "textEN": "Could you help me, please?",
-          "textSK": "Mohli by ste mi prosím pomôcť?",
-          "alignLeft": false
-        },
-        {
-          "type": "grammar_item",
-          "emoji": "🔹",
-          "text": "can = prítomná schopnosť / dovolenie"
-        },
-        {
-          "type": "grammar_item",
-          "emoji": "🔹",
-          "text": "could = minulosť alebo zdvorilá žiadosť"
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "⚠️",
-          "title": "Must vs. Have to",
-          "subtitle": "Kedy ktoré použiť"
-        },
-        {
-          "type": "examples",
-          "textEN": "You must wear a helmet.",
-          "textSK": "Musíš nosiť prilbu.",
-          "alignLeft": true
-        },
-        {
-          "type": "warning_box",
-          "emoji": "🚫",
-          "title": "Dôležité rozlíšenie",
-          "text": "must = vnútorná povinnosť / zákaz\nmustn't = nesmieš\nhave to = vonkajšia povinnosť (pravidlá, zákony)",
-          "color": "#EF4444"
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "💡",
-          "title": "Should",
-          "subtitle": "Rada alebo odporúčanie"
-        },
-        {
-          "type": "examples",
-          "textEN": "You should drink more water.",
-          "textSK": "Mal by si piť viac vody.",
-          "alignLeft": true
-        },
-        {
-          "type": "colored_box",
-          "title": "Tip",
-          "color": "#10B981",
-          "text": "Should je menej silné ako must. Vyjadruje radu, nie nutnosť."
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "❓",
-          "title": "May / Might",
-          "subtitle": "Povolenie a možnosť"
-        },
-        {
-          "type": "paragraph",
-          "text": "May je zdvorilejšie ako can pri žiadosti o povolenie. Might vyjadruje menšiu pravdepodobnosť."
-        },
-        {
-          "type": "examples",
-          "textEN": "May I open the window?",
-          "textSK": "Smem otvoriť okno?",
-          "alignLeft": true
-        },
-        {
-          "type": "examples",
-          "textEN": "It might rain tomorrow.",
-          "textSK": "Zajtra môže pršať.",
-          "alignLeft": false
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "🔄",
-          "title": "Would",
-          "subtitle": "Podmienené a zvyky v minulosti"
-        },
-        {
-          "type": "examples",
-          "textEN": "I would love to visit Slovakia.",
-          "textSK": "Rád by som navštívil Slovensko.",
-          "alignLeft": true
-        },
-        {
-          "type": "colored_box",
-          "title": "Tip",
-          "color": "#3B82F6",
-          "text": "Would sa často používa v druhom kondicionáli (if I were rich, I would travel the world)."
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "🎯",
-          "title": "Zhrnutie",
-          "subtitle": "Teraz už vieš, ako ich používať!"
-        },
-        {
-          "type": "paragraph",
-          "text": "Modálne slovesá sú základ anglickej gramatiky. Čím viac ich budeš používať v praxi, tým prirodzenejšie ti budú znieť."
-        }
+    {
+      "type": "table",
+      "headers": ["Typ", "Situácia", "Štruktúra", "Príklad"],
+      "rows": [
+        ["Zero", "Všeobecná pravda", "If + present → present", "If you heat water, it boils."],
+        ["First", "Reálna budúcnosť", "If + present → will", "If it rains, I will stay home."],
+        ["Second", "Nereálna prítomnosť", "If + past → would", "If I were rich, I would travel the world."],
+        ["Third", "Nereálna minulosť", "If + past perfect → would have", "If I had studied, I would have passed."]
       ],
+      "highlightFirstColumn": true,
+      "striped": true
+    },
+
+    {
+      "type": "divider",
+      "paddingVertical": 24
+    },
+
+    {
+      "type": "grammar_header",
+      "emoji": "📌",
+      "title": "Zero Conditional",
+      "subtitle": "Všeobecné pravdy a zákony"
+    },
+    {
+      "type": "colored_box",
+      "title": "Štruktúra",
+      "color": "#10B981",
+      "text": "If + present simple, present simple"
+    },
+    {
+      "type": "list",
+      "listType": "bullet",
+      "items": [
+        "Vedecké fakty, pravidlá prírody, všeobecné pravdy",
+        "If = when (keď)"
+      ]
+    },
+
+    {
+      "type": "divider",
+      "paddingVertical": 20
+    },
+
+    {
+      "type": "grammar_header",
+      "emoji": "🔮",
+      "title": "First Conditional",
+      "subtitle": "Reálna možnosť v budúcnosti"
+    },
+    {
+      "type": "colored_box",
+      "title": "Štruktúra",
+      "color": "#3B82F6",
+      "text": "If + present simple, will + infinitive"
+    },
+
+    {
+      "type": "divider",
+      "paddingVertical": 20
+    },
+
+    {
+      "type": "grammar_header",
+      "emoji": "🧠",
+      "title": "Second Conditional",
+      "subtitle": "Nereálna / hypotetická situácia v prítomnosti"
+    },
+    {
+      "type": "colored_box",
+      "title": "Štruktúra",
+      "color": "#8B5CF6",
+      "text": "If + past simple, would + infinitive\n(were pre všetky osoby)"
+    },
+
+    {
+      "type": "divider",
+      "paddingVertical": 20
+    },
+
+    {
+      "type": "grammar_header",
+      "emoji": "⏳",
+      "title": "Third Conditional",
+      "subtitle": "Nereálna situácia v minulosti (ľútosť)"
+    },
+    {
+      "type": "colored_box",
+      "title": "Štruktúra",
+      "color": "#EC4899",
+      "text": "If + past perfect, would have + past participle"
+    },
+
+    {
+      "type": "warning_box",
+      "emoji": "⚠️",
+      "title": "Najčastejšie chyby",
+      "text": "If I would go → nesprávne\nSprávne: If I went...\n\nIf I had went → nesprávne\nSprávne: If I had gone...",
+      "color": "#EF4444"
+    },
+
+    {
+      "type": "divider",
+      "paddingVertical": 24
+    },
+
+    {
+      "type": "grammar_header",
+      "emoji": "🎯",
+      "title": "Zhrnutie",
+      "subtitle": "Rýchly prehľad"
+    },
+    {
+      "type": "colored_box",
+      "title": "Zlaté pravidlo",
+      "color": "#10B981",
+      "text": "Čím je situácia menej reálna, tým viac sa posúva do minulosti (past simple → past perfect)"
+    }
+  ],
 "exercises": [
   {
     "type": "FillInBlank",
-    "original": "The book is ___ the table.",
-    "sentenceWithBlank": ["The book is ", "", " the table."],
-    "correctAnswers": ["on"]
+    "original": "If you heat water to 100°C, it ___ .",
+    "sentenceWithBlank": ["If you heat water to 100°C, it ", "", "."],
+    "correctAnswers": ["boils"]
   },
   {
     "type": "FillInBlank",
-    "original": "We live ___ Slovakia.",
-    "sentenceWithBlank": ["We live ", "", " Slovakia."],
-    "correctAnswers": ["in"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "She arrived ___ 8 o'clock.",
-    "sentence": ["She arrived ", "", " 8 o'clock."],
-    "correctAnswer": "at",
-    "options": ["in", "on", "at"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "I go to work ___ bus.",
-    "sentence": ["I go to work ", "", " bus."],
-    "correctAnswer": "by",
-    "options": ["by", "on", "in"]
+    "original": "If it ___ tomorrow, we will stay at home.",
+    "sentenceWithBlank": ["If it ", "", " tomorrow, we will stay at home."],
+    "correctAnswers": ["rains"]
   },
   {
     "type": "FillInBlank",
-    "original": "The meeting is ___ Monday morning.",
-    "sentenceWithBlank": ["The meeting is ", "", " Monday morning."],
-    "correctAnswers": ["on"]
+    "original": "If I ___ you, I would apologize immediately.",
+    "sentenceWithBlank": ["If I ", "", " you, I would apologize immediately."],
+    "correctAnswers": ["were"]
+  },
+  {
+    "type": "FillInBlank",
+    "original": "If she had studied harder, she ___ the exam.",
+    "sentenceWithBlank": ["If she had studied harder, she ", "", " the exam."],
+    "correctAnswers": ["would have passed"]
+  },
+  {
+    "type": "FillInBlank",
+    "original": "If I ___ a million euros, I would buy a house by the sea.",
+    "sentenceWithBlank": ["If I ", "", " a million euros, I would buy a house by the sea."],
+    "correctAnswers": ["had"]
+  },
+  {
+    "type": "FillInBlank",
+    "original": "If you mix blue and yellow, you ___ green.",
+    "sentenceWithBlank": ["If you mix blue and yellow, you ", "", " green."],
+    "correctAnswers": ["get"]
+  },
+
+  {
+    "type": "MultipleChoice",
+    "original": "If I see her, I ___ her the truth.",
+    "sentence": ["If I see her, I ", "", " her the truth."],
+    "correctAnswer": "will tell",
+    "options": ["will tell", "would tell", "told", "would have told"]
   },
   {
     "type": "MultipleChoice",
-    "original": "He is waiting ___ the bus stop.",
-    "sentence": ["He is waiting ", "", " the bus stop."],
-    "correctAnswer": "at",
-    "options": ["in", "on", "at"]
+    "original": "If I ___ rich, I would travel the world.",
+    "sentence": ["If I ", "", " rich, I would travel the world."],
+    "correctAnswer": "were",
+    "options": ["am", "was", "were", "would be"]
   },
-{
-  "type": "SentenceBuilder",
-  "original": "The cat is sleeping on the sofa.",
-  "correctOrder": ["The", "cat", "is", "sleeping", "on", "the", "sofa"],
-  "distractors": ["in", "at", "by", "to"]
-}
-]
-    },
-    {
-  "id": "articles",
-  "titleSk": "Členy",
-  "titleEn": "Articles",
-  "description": "A, an, the – kedy sa používa a kedy nie",
-  "emoji": "📖",
-  "gradient": ["#00BFFF", "#87CEEB"],
-  "accentColor": "#00BFFF",
-      "content": [
   {
-    "type": "grammar_header",
-    "emoji": "📖",
-    "title": "Prehľad členov",
-    "subtitle": "A · An · The · Zero Article"
+    "type": "MultipleChoice",
+    "original": "If you had called me, I ___ helped you.",
+    "sentence": ["If you had called me, I ", "", " helped you."],
+    "correctAnswer": "would have",
+    "options": ["will have", "would have", "had", "would"]
   },
-
   {
-    "type": "table",
-    "headers": ["Člen", "Použitie", "Príklad"],
-    "rows": [
-      ["a / an", "prvýkrát / všeobecne", "I saw a dog."],
-      ["the", "konkrétna / známa vec", "The dog is black."],
-      ["– (žiadny)", "všeobecne v množnom čísle", "Dogs are loyal."]
-    ],
-    "backgroundColor": "#95999c",
-    "highlightFirstColumn": true
+    "type": "MultipleChoice",
+    "original": "If it rains tomorrow, we ___ the picnic.",
+    "sentence": ["If it rains tomorrow, we ", "", " the picnic."],
+    "correctAnswer": "will cancel",
+    "options": ["cancel", "would cancel", "will cancel", "would have cancelled"]
+  },
+  {
+    "type": "MultipleChoice",
+    "original": "If I ___ the lottery, I would buy a new car.",
+    "sentence": ["If I ", "", " the lottery, I would buy a new car."],
+    "correctAnswer": "won",
+    "options": ["win", "won", "would win", "had won"]
+  },
+  {
+    "type": "MultipleChoice",
+    "original": "Water ___ if you heat it to 100 degrees.",
+    "sentence": ["Water ", "", " if you heat it to 100 degrees."],
+    "correctAnswer": "boils",
+    "options": ["boils", "boil", "would boil", "will boil"]
   },
 
   {
-    "type": "divider",
-    "paddingVertical": 24
-  },
-
-  {
-    "type": "grammar_header",
-    "emoji": "🔤",
-    "title": "A vs An",
-    "subtitle": "Podľa výslovnosti"
+    "type": "SentenceBuilder",
+    "original": "If I were you, I would accept the offer.",
+    "correctOrder": ["If", "I", "were", "you", "I", "would", "accept", "the", "offer"],
+    "distractors": ["was", "am", "will", "would have", "had"]
   },
   {
-    "type": "table",
-    "headers": ["Pred", "Príklad", "Dôvod"],
-    "rows": [
-      ["a", "a university", "vyslovuje sa /juː/"],
-      ["an", "an hour", "vyslovuje sa /aʊər/"],
-      ["an", "an apple", "samohláska na začiatku"],
-      ["a", "a European", "vyslovuje sa /j/"],
-      ["an", "an honest man", "h sa nevyslovuje"]
-    ],
-    "striped": true,
-    "backgroundColor": "#F0F9FF"
-  },
-
-  {
-    "type": "divider",
-    "paddingVertical": 24
-  },
-
-  {
-    "type": "grammar_header",
-    "emoji": "📍",
-    "title": "Kedy používame THE",
-    "subtitle": "Určitý člen"
+    "type": "SentenceBuilder",
+    "original": "If she had known the truth, she would have told us.",
+    "correctOrder": ["If", "she", "had", "known", "the", "truth", "she", "would", "have", "told", "us"],
+    "distractors": ["has", "knows", "would tell", "knew", "will tell"]
   },
   {
-    "type": "table",
-    "headers": ["Situácia", "Príklad"],
-    "rows": [
-      ["Druhýkrát spomínaný", "I bought a car. The car is fast."],
-      ["Jedinečná vec", "The sun rises in the east."],
-      ["Superlatívy", "This is the best movie ever."],
-      ["Rieky, oceány, pohorie", "The Danube, The Alps, The Pacific"]
-    ],
-    "highlightFirstColumn": true,
-    "striped": true
+    "type": "SentenceBuilder",
+    "original": "If it rains tomorrow, we will stay home.",
+    "correctOrder": ["If", "it", "rains", "tomorrow", "we", "will", "stay", "home"],
+    "distractors": ["rained", "would rain", "would stay", "stayed"]
+  },
+  {
+    "type": "SentenceBuilder",
+    "original": "If I had more time, I would learn Spanish.",
+    "correctOrder": ["If", "I", "had", "more", "time", "I", "would", "learn", "Spanish"],
+    "distractors": ["have", "would have", "will learn", "learned"]
+  },
+  {
+    "type": "SentenceBuilder",
+    "original": "If you study hard, you will pass the exam.",
+    "correctOrder": ["If", "you", "study", "hard", "you", "will", "pass", "the", "exam"],
+    "distractors": ["studied", "would pass", "would have passed", "studied hard"]
+  },
+  {
+    "type": "SentenceBuilder",
+    "original": "If he had arrived earlier, he would have caught the train.",
+    "correctOrder": ["If", "he", "had", "arrived", "earlier", "he", "would", "have", "caught", "the", "train"],
+    "distractors": ["arrives", "would catch", "will catch", "had caught"]
   }
 ]
-,
-  "exercises": []
-},
-    {
-      "id": "prepositions",
-      "titleSk": "Predložky",
-      "titleEn": "Prepositions",
-      "description": "In, on, at, by, for, with…",
-      "emoji": "📍",
-      "gradient": ["#FF8C00", "#FFB74D"],
-      "accentColor": "#FF8C00",
-      "content": [
-        {
-          "type": "grammar_header",
-          "emoji": "📍",
-          "title": "Predložky",
-          "subtitle": "Malé slová, ktoré menia celú vetu – čas, miesto aj pohyb"
-        },
-        {
-          "type": "paragraph",
-          "text": "Predložky (prepositions) sú malé, ale veľmi dôležité slová v angličtine. Ukazujú vzťah medzi slovami – kde sa niečo nachádza, kedy sa to deje, ako sa niečo pohybuje alebo s čím to súvisí."
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "⏰",
-          "title": "Predložky času",
-          "subtitle": "at • on • in"
-        },
-        {
-          "type": "table",
-          "headers": ["Predložka", "Použitie", "Príklad"],
-          "rows": [
-            ["at", "presný čas, sviatky, vek", "at 7:30, at Christmas, at the age of 18"],
-            ["on", "dni, dátumy, víkendy", "on Monday, on 15th May, on weekend"],
-            ["in", "mesiace, ročné obdobia, roky, časti dňa", "in July, in summer, in 2025, in the morning"]
-          ]
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "📍",
-          "title": "Predložky miesta",
-          "subtitle": "at • on • in"
-        },
-        {
-          "type": "grammar_item",
-          "emoji": "🏠",
-          "text": "in = vnútri niečoho (in the room, in Slovakia)"
-        },
-        {
-          "type": "grammar_item",
-          "emoji": "🪑",
-          "text": "on = na povrchu (on the table, on the wall)"
-        },
-        {
-          "type": "grammar_item",
-          "emoji": "📍",
-          "text": "at = konkrétne miesto (at school, at the bus stop)"
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "🚶",
-          "title": "Predložky pohybu",
-          "subtitle": "to • into • onto • through"
-        },
-        {
-          "type": "examples",
-          "textEN": "I’m going to the shop.",
-          "textSK": "Idem do obchodu.",
-          "alignLeft": true
-        },
-        {
-          "type": "examples",
-          "textEN": "She ran into the house.",
-          "textSK": "Vbehla do domu.",
-          "alignLeft": false
-        },
-        {
-          "type": "examples",
-          "textEN": "The cat jumped onto the roof.",
-          "textSK": "Mačka vyskočila na strechu.",
-          "alignLeft": true
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "⚠️",
-          "title": "Najčastejšie chyby",
-          "subtitle": "Pozor na tieto!"
-        },
-        {
-          "type": "warning_box",
-          "emoji": "🚫",
-          "title": "Časté chyby Slovákov",
-          "text": "in the table (nesprávne) → on the table\nat Monday (nesprávne) → on Monday\nin home (nesprávne) → at home",
-          "color": "#EF4444"
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "🔑",
-          "title": "Najdôležitejšie predložky",
-          "subtitle": "Rýchly prehľad"
-        },
-        {
-          "type": "grammar_item",
-          "emoji": "📬",
-          "text": "by = pri, do (času), dopravným prostriedkom"
-        },
-        {
-          "type": "grammar_item",
-          "emoji": "🎁",
-          "text": "for = pre, na (účel), počas (času)"
-        },
-        {
-          "type": "grammar_item",
-          "emoji": "🤝",
-          "text": "with = s, pomocou"
-        },
-        {
-          "type": "grammar_item",
-          "emoji": "🏠",
-          "text": "of = z, o (vlastníctvo)"
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "💡",
-          "title": "Tipy na zapamätanie",
-          "subtitle": "Jednoduché pravidlo"
-        },
-        {
-          "type": "colored_box",
-          "title": "Zlaté pravidlo",
-          "color": "#10B981",
-          "text": "in = vnútri väčšieho priestoru\non = na povrchu\nat = konkrétny bod / adresa"
-        },
-        {
-          "type": "paragraph",
-          "text": "Najlepší spôsob ako sa naučiť predložky je počúvať a opakovať vety z reálneho života."
-        },
-        { "type": "divider" },
-        {
-          "type": "grammar_header",
-          "emoji": "🎯",
-          "title": "Zhrnutie",
-          "subtitle": "Teraz už vieš, kde čo patrí!"
-        },
-        {
-          "type": "paragraph",
-          "text": "Predložky sa nenaučíš memorovaním – naučíš sa ich používaním. Skúšaj ich v reálnych vetách a čoskoro ti budú prichádzať automaticky."
-        }
-      ],
-      "exercises": []
-    },
-    {
-      "id": "irregular_verbs",
-      "titleSk": "Nepravidelné \nslovesá",
-      "titleEn": "Irregular Verbs",
-      "description": "Go → went → gone, be → was/were → been a desiatky ďalších",
-      "emoji": "🔄",
-      "gradient": ["#FF6B6B", "#4ECDC4"],
-      "accentColor": "#FF6B6B",
-      "content": [
-        { "type": "heading", "text": "🔥 Nepravidelné slovesá – prečo ich musíme poznať?" },
-        { "type": "paragraph", "text": "Najčastejšie slovesá v angličtine sú nepravidelné. Ak ich ovládaš, tvoja angličtina znie prirodzene a profesionálne." },
-        { "type": "colored_box", "title": "3 tvary slovesa", "color": "#4CAF50", "text": "Každé nepravidelné sloveso má tri základné tvary:\n• Base form (infinitive)\n• Past Simple\n• Past Participle" },
-        { "type": "colored_box", "title": "Najdôležitejších 10 slovies", "color": "#FF9800", "text": "Toto je TOP 10, ktoré vidíš najčastejšie v reči aj textoch." },
-        { "type": "table", "headers": ["Base", "Past Simple", "Past Participle", "Preklad"], "rows": [
-          ["be", "was / were", "been", "byť"],
-          ["have", "had", "had", "mať"],
-          ["do", "did", "done", "robiť"],
-          ["go", "went", "gone", "ísť"],
-          ["come", "came", "come", "prísť"],
-          ["see", "saw", "seen", "vidieť"],
-          ["get", "got", "got", "dostať"],
-          ["make", "made", "made", "robiť/vyrábať"],
-          ["know", "knew", "known", "vedieť/poznať"],
-          ["take", "took", "taken", "vziať"]
-        ]},
-        { "type": "heading", "text": "Skupiny podľa vzoru" },
-        { "type": "paragraph", "text": "Mnohé slovesá sa menia rovnako. Nauč sa ich v skupinách – je to oveľa ľahšie!" },
-        { "type": "table", "headers": ["Skupina", "Base → Past → Participle", "Príklady"], "rows": [
-          ["i → a → u", "sing → sang → sung", "sing, drink, begin, swim"],
-          ["i → o → i", "write → wrote → written", "write, drive, ride"],
-          ["no change", "put → put → put", "put, cut, hit, let"],
-          ["e → o → e", "break → broke → broken", "break, speak, steal"]
-        ]},
-        { "type": "colored_box", "title": "💡 Tipy na zapamätanie", "color": "#2196F3", "text": "• Uč sa v trojiciach nahlas\n• Vytváraj vlastné vetičky\n• Použi appku na opakovanie (spaced repetition)\n• Najlepšie sa učíš v kontexte" },
-        { "type": "colored_box", "title": "⚠️ Najčastejšie chyby", "color": "#F44336", "text": "✗ I goed yesterday\n✓ I went yesterday\n\n✗ She has went home\n✓ She has gone home" },
-        { "type": "colored_box", "title": "Príklady vo vetách", "color": "#9C27B0", "text": "• Yesterday I **went** to the cinema.\n• She has never **seen** that movie.\n• We **had** a great time last summer." }
-      ],
-      "exercises": []
-    }
+}
   ]
 }
