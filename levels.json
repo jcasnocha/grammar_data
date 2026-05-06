@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "levels": [
     {
       "id": "level_beginner",
@@ -81,7 +81,7 @@
               "gameType": "GUESS_DUO",
               "duoMode": "SYNONYM",
               "categories": ["beginner"],
-              "poolSize": 1,
+              "poolSize": 5,
               "orderIndex": 4,
               "colorStart": "#FFE91E63",
               "colorEnd": "#FFF06292",
@@ -95,7 +95,7 @@
               "gameType": "GUESS_DUO",
               "duoMode": "ANTONYM",
               "categories": ["beginner"],
-              "poolSize": 1,
+              "poolSize": 20,
               "orderIndex": 5,
               "colorStart": "#FF3F51B5",
               "colorEnd": "#FF7986CB",
