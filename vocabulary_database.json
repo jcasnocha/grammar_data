@@ -1,24 +1,6 @@
 {
-  "version": 5,
+  "version": 6,
   "categories": [
-        {
-      "name": "Skuska PONOCNEJ",
-      "translation": "Skuska 4:00AM",
-      "category": "banana",
-      "emoji": "🍎",
-      "items": [
-        { "word": "banan3a", "translation": "jablkoo" },
-        { "word": "banan3a", "translation": "banánn"},
-        { "word": "banan3a", "translation": "pomarančč"},
-        { "word": "banan3a", "translation": "hroznoo"},
-        { "word": "banan3a", "translation": "hruškaa"},
-        { "word": "banan3a", "translation": "broskyňaa"},
-        { "word": "bana3na", "translation": "slivkaa"},
-        { "word": "banan3a", "translation": "jahodaa"},
-        { "word": "banan3a", "translation": "čerešňaa"},
-        { "word": "banan3a", "translation": "melónn" }
-      ]
-    },
     {
       "name": "fruit",
       "translation": "ovocie",
