@@ -81,7 +81,7 @@
               "gameType": "GUESS_DUO",
               "duoMode": "SYNONYM",
               "categories": ["beginner"],
-              "poolSize": 5,
+              "poolSize": 1,
               "orderIndex": 4,
               "colorStart": "#FFE91E63",
               "colorEnd": "#FFF06292",
@@ -95,7 +95,7 @@
               "gameType": "GUESS_DUO",
               "duoMode": "ANTONYM",
               "categories": ["beginner"],
-              "poolSize": 20,
+              "poolSize": 1,
               "orderIndex": 5,
               "colorStart": "#FF3F51B5",
               "colorEnd": "#FF7986CB",
@@ -113,20 +113,6 @@
               "colorStart": "#FFFF5722",
               "colorEnd": "#FFFFAB40",
               "backgroundColor": "#33FF5722"
-            },
-             {
-              "id": "guess_duo_synonym_basic_16",
-              "title": "Synonymá pre začiatočníkov",
-              "description": "Nájdi slová s rovnakým významom",
-              "emoji": ":D",
-              "gameType": "GUESS_DUO",
-              "duoMode": "SYNONYM",
-              "categories": ["beginner"],
-              "poolSize": 5,
-              "orderIndex": 7,
-              "colorStart": "#FFE91E63",
-              "colorEnd": "#FFF06292",
-              "backgroundColor": "#33E91E63"
             }
           ]
         }
