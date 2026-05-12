@@ -5,7 +5,7 @@
       "name": "fruit",
       "translation": "ovocie",
       "category": "fruit",
-      "emoji": "🍎",
+      "emoji": "",
       "items": [
         { "word": "apple", "translation": "jablko" },
         { "word": "banana", "translation": "banán"},
