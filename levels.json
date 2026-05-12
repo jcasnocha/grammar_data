@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "levels": [
     {
       "id": "level_beginner",
@@ -41,8 +41,8 @@
               "description": "Roztrieď slová do správnych kategórií podľa tém",
               "emoji": "🗂️",
               "gameType": "SORT_WORDS",
-              "categories": ["fruit"],
-              "poolSize": 5,
+              "categories": ["fruit", "colors"],
+              "poolSize": 8,
               "orderIndex": 1,
               "colorStart": "#FF03A9F4",
               "colorEnd": "#FF00BCD4",
