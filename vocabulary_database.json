@@ -3,6 +3,7 @@
   "categories": [
     {
       "name": "fruit",
+      "level": "A",
       "translation": "ovocie",
       "category": "fruit",
       "emoji": "",
@@ -21,6 +22,7 @@
     },
     {
       "name": "vegetables",
+      "level": "A",
       "translation": "zelenina",
       "category": "vegetables",
       "emoji": "🥦",
@@ -39,6 +41,7 @@
     },
     {
       "name": "animals",
+      "level": "A",
       "translation": "zvieratá",
       "category": "animals",
       "emoji": "🐶",
@@ -57,6 +60,7 @@
     },
     {
       "name": "colors",
+      "level": "A",
       "translation": "farby",
       "category": "colors",
       "emoji": "🎨",
@@ -75,6 +79,7 @@
     },
     {
       "name": "transport",
+      "level": "A",
       "translation": "doprava",
       "category": "transport",
       "emoji": "🚗 13:21",
@@ -93,6 +98,7 @@
     },
     {
       "name": "school",
+      "level": "A",
       "translation": "škola",
       "category": "school",
       "emoji": "📚",
@@ -111,6 +117,7 @@
     },
     {
       "name": "family",
+      "level": "B",
       "translation": "rodina",
       "category": "family",
       "emoji": "👪",
