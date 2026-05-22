@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "categories": [
     {
       "name": "fruit",
@@ -79,7 +79,7 @@
     },
     {
       "name": "transport",
-      "level": "A",
+      "level": "B",
       "translation": "doprava",
       "category": "transport",
       "emoji": "🚗 13:21",
