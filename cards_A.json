@@ -1,9 +1,10 @@
 {
-  "version": 6,
+  "version": 7,
   "groups": [
     {
       "id": "communication",
       "title": "Skuska PONOCNEJ",
+      "color": "#FF8F00FF",
       "image": "💬",
       "description": "Speaking and interaction",
       "categories": [
