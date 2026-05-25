@@ -1,9 +1,9 @@
 {
-  "version": 7,
+  "version": 8,
   "groups": [
     {
       "id": "communication",
-      "title": "Skuska PONOCNEJ",
+      "title": "April",
       "color": "#FF8F00FF",
       "image": "💬",
       "description": "Speaking and interaction",
@@ -69,6 +69,7 @@
       "id": "work",
       "title": "Work & Office",
       "image": "💼",
+      "color": "#a83283",
       "description": "Office and work vocabulary",
       "categories": [
         {
@@ -114,6 +115,7 @@
       "id": "time",
       "title": "Time & Numbers",
       "image": "⏰",
+      "color": "#eddd47",
       "description": "Time and counting",
       "categories": [
         {
