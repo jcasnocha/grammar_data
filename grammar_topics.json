@@ -144,121 +144,35 @@
     }
   ],
 "exercises": [
-  {
-    "type": "FillInBlank",
-    "original": "If you heat water to 100°C, it ___ .",
-    "sentenceWithBlank": ["If you heat water to 100°C, it ", "", "."],
-    "correctAnswers": ["boils"]
-  },
-  {
-    "type": "FillInBlank",
-    "original": "If it ___ tomorrow, we will stay at home.",
-    "sentenceWithBlank": ["If it ", "", " tomorrow, we will stay at home."],
-    "correctAnswers": ["rains"]
-  },
-  {
-    "type": "FillInBlank",
-    "original": "If I ___ you, I would apologize immediately.",
-    "sentenceWithBlank": ["If I ", "", " you, I would apologize immediately."],
-    "correctAnswers": ["were"]
-  },
-  {
-    "type": "FillInBlank",
-    "original": "If she had studied harder, she ___ the exam.",
-    "sentenceWithBlank": ["If she had studied harder, she ", "", " the exam."],
-    "correctAnswers": ["would have passed"]
-  },
-  {
-    "type": "FillInBlank",
-    "original": "If I ___ a million euros, I would buy a house by the sea.",
-    "sentenceWithBlank": ["If I ", "", " a million euros, I would buy a house by the sea."],
-    "correctAnswers": ["had"]
-  },
-  {
-    "type": "FillInBlank",
-    "original": "If you mix blue and yellow, you ___ green.",
-    "sentenceWithBlank": ["If you mix blue and yellow, you ", "", " green."],
-    "correctAnswers": ["get"]
-  },
-
-  {
-    "type": "MultipleChoice",
-    "original": "If I see her, I ___ her the truth.",
-    "sentence": ["If I see her, I ", "", " her the truth."],
-    "correctAnswer": "will tell",
-    "options": ["will tell", "would tell", "told", "would have told"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "If I ___ rich, I would travel the world.",
-    "sentence": ["If I ", "", " rich, I would travel the world."],
-    "correctAnswer": "were",
-    "options": ["am", "was", "were", "would be"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "If you had called me, I ___ helped you.",
-    "sentence": ["If you had called me, I ", "", " helped you."],
-    "correctAnswer": "would have",
-    "options": ["will have", "would have", "had", "would"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "If it rains tomorrow, we ___ the picnic.",
-    "sentence": ["If it rains tomorrow, we ", "", " the picnic."],
-    "correctAnswer": "will cancel",
-    "options": ["cancel", "would cancel", "will cancel", "would have cancelled"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "If I ___ the lottery, I would buy a new car.",
-    "sentence": ["If I ", "", " the lottery, I would buy a new car."],
-    "correctAnswer": "won",
-    "options": ["win", "won", "would win", "had won"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "Water ___ if you heat it to 100 degrees.",
-    "sentence": ["Water ", "", " if you heat it to 100 degrees."],
-    "correctAnswer": "boils",
-    "options": ["boils", "boil", "would boil", "will boil"]
-  },
-
-  {
+{
     "type": "SentenceBuilder",
-    "original": "If I were you, I would accept the offer.",
+    "original": "Keby som bol na tvojom mieste, prijal by som tú ponuku.",
     "correctOrder": ["If", "I", "were", "you", "I", "would", "accept", "the", "offer"],
     "distractors": ["was", "am", "will", "would have", "had"]
   },
   {
     "type": "SentenceBuilder",
-    "original": "If she had known the truth, she would have told us.",
+    "original": "Keby vedela pravdu, povedala by nám to.",
     "correctOrder": ["If", "she", "had", "known", "the", "truth", "she", "would", "have", "told", "us"],
     "distractors": ["has", "knows", "would tell", "knew", "will tell"]
   },
   {
     "type": "SentenceBuilder",
-    "original": "If it rains tomorrow, we will stay home.",
+    "original": "Ak zajtra bude pršať, zostaneme doma.",
     "correctOrder": ["If", "it", "rains", "tomorrow", "we", "will", "stay", "home"],
     "distractors": ["rained", "would rain", "would stay", "stayed"]
   },
   {
     "type": "SentenceBuilder",
-    "original": "If I had more time, I would learn Spanish.",
+    "original": "Keby som mal viac času, učil by som sa španielsky.",
     "correctOrder": ["If", "I", "had", "more", "time", "I", "would", "learn", "Spanish"],
     "distractors": ["have", "would have", "will learn", "learned"]
   },
   {
     "type": "SentenceBuilder",
-    "original": "If you study hard, you will pass the exam.",
+    "original": "Ak budeš tvrdo študovať, zvládneš skúšku.",
     "correctOrder": ["If", "you", "study", "hard", "you", "will", "pass", "the", "exam"],
     "distractors": ["studied", "would pass", "would have passed", "studied hard"]
-  },
-  {
-    "type": "SentenceBuilder",
-    "original": "If he had arrived earlier, he would have caught the train.",
-    "correctOrder": ["If", "he", "had", "arrived", "earlier", "he", "would", "have", "caught", "the", "train"],
-    "distractors": ["arrives", "would catch", "will catch", "had caught"]
   }
 ]
 }
