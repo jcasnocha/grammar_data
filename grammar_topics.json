@@ -171,7 +171,6 @@
 
         {
           "type": "MultipleChoice",
-          "category": "conditionals",
           "original": "Ak ju uvidím, poviem jej pravdu.",
           "sentence": "If I see her, I ___ her the truth.",
           "correctAnswer": "will tell",
@@ -179,7 +178,6 @@
         },
         {
           "type": "MultipleChoice",
-          "category": "conditionals",
           "original": "Keby som bol bohatý, cestoval by som po svete.",
           "sentence": "If I ___ rich, I would travel the world.",
           "correctAnswer": "were",
@@ -187,7 +185,6 @@
         },
         {
           "type": "MultipleChoice",
-          "category": "conditionals",
           "original": "Keby si mi zavolal, pomohol by som ti.",
           "sentence": "If you had called me, I ___ helped you.",
           "correctAnswer": "would have",
@@ -195,7 +192,6 @@
         },
         {
           "type": "MultipleChoice",
-          "category": "conditionals",
           "original": "Ak zajtra bude pršať, zrušíme piknik.",
           "sentence": "If it rains tomorrow, we ___ the picnic.",
           "correctAnswer": "will cancel",
@@ -203,7 +199,6 @@
         },
         {
           "type": "MultipleChoice",
-          "category": "conditionals",
           "original": "Keby som vyhral lotériu, kúpil by som si nové auto.",
           "sentence": "If I ___ the lottery, I would buy a new car.",
           "correctAnswer": "won",
@@ -211,7 +206,6 @@
         },
         {
           "type": "MultipleChoice",
-          "category": "conditionals",
           "original": "Voda sa varí, ak ju zohreješ na 100 stupňov.",
           "sentence": "Water ___ if you heat it to 100 degrees.",
           "correctAnswer": "boils",
