@@ -1,266 +1,260 @@
 {
   "topics": [
-{
-  "id": "conditionals",
-  "titleSk": "Podmieňovací",
-  "titleEn": "Conditionals",
-  "description": "Zero, First, Second, Third Conditional + Mixed",
-  "emoji": "🔄",
-  "gradient": ["#6B46C0", "#9F7AEA"],
-  "accentColor": "#6B46C0",
-  "content": [
     {
-      "type": "grammar_header",
+      "id": "conditionals",
+      "titleSk": "Podmieňovací",
+      "titleEn": "Conditionals",
+      "description": "Zero, First, Second, Third Conditional + Mixed",
       "emoji": "🔄",
-      "title": "Podmieňovací spôsob",
-      "subtitle": "Štyri typy podmienkových viet v angličtine"
-    },
-    {
-      "type": "paragraph",
-      "text": "Podmieňovacie vety nám umožňujú hovoriť o reálnych aj nereálnych situáciách – od všeobecných pravd až po ľútosť nad minulosťou."
-    },
-    {
-      "type": "divider",
-      "paddingVertical": 20
-    },
-
-    {
-      "type": "table",
-      "headers": ["Typ", "Situácia", "Štruktúra", "Príklad"],
-      "rows": [
-        ["Zero", "Všeobecná pravda", "If + present → present", "If you heat water, it boils."],
-        ["First", "Reálna budúcnosť", "If + present → will", "If it rains, I will stay home."],
-        ["Second", "Nereálna prítomnosť", "If + past → would", "If I were rich, I would travel the world."],
-        ["Third", "Nereálna minulosť", "If + past perfect → would have", "If I had studied, I would have passed."]
+      "gradient": ["#6B46C0", "#9F7AEA"],
+      "accentColor": "#6B46C0",
+      "content": [
+        {
+          "type": "grammar_header",
+          "emoji": "🔄",
+          "title": "Podmieňovací spôsob",
+          "subtitle": "Štyri typy podmienkových viet v angličtine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Podmieňovacie vety nám umožňujú hovoriť o reálnych aj nereálnych situáciách – od všeobecných pravd až po ľútosť nad minulosťou."
+        },
+        {
+          "type": "divider",
+          "paddingVertical": 20
+        },
+        {
+          "type": "table",
+          "headers": ["Typ", "Situácia", "Štruktúra", "Príklad"],
+          "rows": [
+            ["Zero", "Všeobecná pravda", "If + present → present", "If you heat water, it boils."],
+            ["First", "Reálna budúcnosť", "If + present → will", "If it rains, I will stay home."],
+            ["Second", "Nereálna prítomnosť", "If + past → would", "If I were rich, I would travel the world."],
+            ["Third", "Nereálna minulosť", "If + past perfect → would have", "If I had studied, I would have passed."]
+          ],
+          "highlightFirstColumn": true,
+          "striped": true
+        },
+        {
+          "type": "divider",
+          "paddingVertical": 24
+        },
+        {
+          "type": "grammar_header",
+          "emoji": "📌",
+          "title": "Zero Conditional",
+          "subtitle": "Všeobecné pravdy a zákony"
+        },
+        {
+          "type": "colored_box",
+          "title": "Štruktúra",
+          "color": "#10B981",
+          "text": "If + present simple, present simple"
+        },
+        {
+          "type": "list",
+          "listType": "bullet",
+          "items": [
+            "Vedecké fakty, pravidlá prírody, všeobecné pravdy",
+            "If = when (keď)"
+          ]
+        },
+        {
+          "type": "divider",
+          "paddingVertical": 20
+        },
+        {
+          "type": "grammar_header",
+          "emoji": "🔮",
+          "title": "First Conditional",
+          "subtitle": "Reálna možnosť v budúcnosti"
+        },
+        {
+          "type": "colored_box",
+          "title": "Štruktúra",
+          "color": "#3B82F6",
+          "text": "If + present simple, will + infinitive"
+        },
+        {
+          "type": "divider",
+          "paddingVertical": 20
+        },
+        {
+          "type": "grammar_header",
+          "emoji": "🧠",
+          "title": "Second Conditional",
+          "subtitle": "Nereálna / hypotetická situácia v prítomnosti"
+        },
+        {
+          "type": "colored_box",
+          "title": "Štruktúra",
+          "color": "#8B5CF6",
+          "text": "If + past simple, would + infinitive\n(were pre všetky osoby)"
+        },
+        {
+          "type": "divider",
+          "paddingVertical": 20
+        },
+        {
+          "type": "grammar_header",
+          "emoji": "⏳",
+          "title": "Third Conditional",
+          "subtitle": "Nereálna situácia v minulosti (ľútosť)"
+        },
+        {
+          "type": "colored_box",
+          "title": "Štruktúra",
+          "color": "#EC4899",
+          "text": "If + past perfect, would have + past participle"
+        },
+        {
+          "type": "warning_box",
+          "emoji": "⚠️",
+          "title": "Najčastejšie chyby",
+          "text": "If I would go → nesprávne\nSprávne: If I went...\n\nIf I had went → nesprávne\nSprávne: If I had gone...",
+          "color": "#EF4444"
+        },
+        {
+          "type": "divider",
+          "paddingVertical": 24
+        },
+        {
+          "type": "grammar_header",
+          "emoji": "🎯",
+          "title": "Zhrnutie",
+          "subtitle": "Rýchly prehľad"
+        },
+        {
+          "type": "colored_box",
+          "title": "Zlaté pravidlo",
+          "color": "#10B981",
+          "text": "Čím je situácia menej reálna, tým viac sa posúva do minulosti (past simple → past perfect)"
+        }
       ],
-      "highlightFirstColumn": true,
-      "striped": true
-    },
+      "exercises": [
+        {
+          "type": "FillInBlank",
+          "original": "Ak zohreješ vodu na 100 °C, _____ .",
+          "sentenceWithBlank": ["Ak zohreješ vodu na 100 °C, it ", "", "."],
+          "correctAnswers": ["boils"]
+        },
+        {
+          "type": "FillInBlank",
+          "original": "Ak zajtra _____ , zostaneme doma.",
+          "sentenceWithBlank": ["Ak zajtra ", "", ", zostaneme doma."],
+          "correctAnswers": ["rains"]
+        },
+        {
+          "type": "FillInBlank",
+          "original": "Keby som bol ty, _____ by som sa hneď ospravedlnil.",
+          "sentenceWithBlank": ["Keby som bol ty, I ", "", " you, I would apologize immediately."],
+          "correctAnswers": ["were"]
+        },
+        {
+          "type": "FillInBlank",
+          "original": "Keby sa učila usilovnejšie, _____ skúšku.",
+          "sentenceWithBlank": ["Keby sa učila usilovnejšie, she ", "", " the exam."],
+          "correctAnswers": ["would have passed"]
+        },
+        {
+          "type": "FillInBlank",
+          "original": "Keby som mal milión eur, _____ by som si kúpil dom pri mori.",
+          "sentenceWithBlank": ["Keby som mal milión eur, I ", "", " a million euros, I would buy a house by the sea."],
+          "correctAnswers": ["had"]
+        },
+        {
+          "type": "FillInBlank",
+          "original": "Ak zmiešaš modrú a žltú, _____ zelenú.",
+          "sentenceWithBlank": ["Ak zmiešaš modrú a žltú, you ", "", " green."],
+          "correctAnswers": ["get"]
+        },
 
-    {
-      "type": "divider",
-      "paddingVertical": 24
-    },
+        {
+          "type": "MultipleChoice",
+          "category": "conditionals",
+          "original": "Ak ju uvidím, poviem jej pravdu.",
+          "sentence": "If I see her, I ___ her the truth.",
+          "correctAnswer": "will tell",
+          "options": ["will tell", "would tell", "told", "would have told"]
+        },
+        {
+          "type": "MultipleChoice",
+          "category": "conditionals",
+          "original": "Keby som bol bohatý, cestoval by som po svete.",
+          "sentence": "If I ___ rich, I would travel the world.",
+          "correctAnswer": "were",
+          "options": ["am", "was", "were", "would be"]
+        },
+        {
+          "type": "MultipleChoice",
+          "category": "conditionals",
+          "original": "Keby si mi zavolal, pomohol by som ti.",
+          "sentence": "If you had called me, I ___ helped you.",
+          "correctAnswer": "would have",
+          "options": ["will have", "would have", "had", "would"]
+        },
+        {
+          "type": "MultipleChoice",
+          "category": "conditionals",
+          "original": "Ak zajtra bude pršať, zrušíme piknik.",
+          "sentence": "If it rains tomorrow, we ___ the picnic.",
+          "correctAnswer": "will cancel",
+          "options": ["cancel", "would cancel", "will cancel", "would have cancelled"]
+        },
+        {
+          "type": "MultipleChoice",
+          "category": "conditionals",
+          "original": "Keby som vyhral lotériu, kúpil by som si nové auto.",
+          "sentence": "If I ___ the lottery, I would buy a new car.",
+          "correctAnswer": "won",
+          "options": ["win", "won", "would win", "had won"]
+        },
+        {
+          "type": "MultipleChoice",
+          "category": "conditionals",
+          "original": "Voda sa varí, ak ju zohreješ na 100 stupňov.",
+          "sentence": "Water ___ if you heat it to 100 degrees.",
+          "correctAnswer": "boils",
+          "options": ["boils", "boil", "would boil", "will boil"]
+        },
 
-    {
-      "type": "grammar_header",
-      "emoji": "📌",
-      "title": "Zero Conditional",
-      "subtitle": "Všeobecné pravdy a zákony"
-    },
-    {
-      "type": "colored_box",
-      "title": "Štruktúra",
-      "color": "#10B981",
-      "text": "If + present simple, present simple"
-    },
-    {
-      "type": "list",
-      "listType": "bullet",
-      "items": [
-        "Vedecké fakty, pravidlá prírody, všeobecné pravdy",
-        "If = when (keď)"
+        {
+          "type": "SentenceBuilder",
+          "original": "Keby som bol ty, prijal by som ponuku.",
+          "correctOrder": ["If", "I", "were", "you", "I", "would", "accept", "the", "offer"],
+          "distractors": ["was", "am", "will", "would have", "had"]
+        },
+        {
+          "type": "SentenceBuilder",
+          "original": "Keby vedela pravdu, povedala by nám to.",
+          "correctOrder": ["If", "she", "had", "known", "the", "truth", "she", "would", "have", "told", "us"],
+          "distractors": ["has", "knows", "would tell", "knew", "will tell"]
+        },
+        {
+          "type": "SentenceBuilder",
+          "original": "Ak zajtra bude pršať, zostaneme doma.",
+          "correctOrder": ["If", "it", "rains", "tomorrow", "we", "will", "stay", "home"],
+          "distractors": ["rained", "would rain", "would stay", "stayed"]
+        },
+        {
+          "type": "SentenceBuilder",
+          "original": "Keby som mal viac času, naučil by som sa španielsky.",
+          "correctOrder": ["If", "I", "had", "more", "time", "I", "would", "learn", "Spanish"],
+          "distractors": ["have", "would have", "will learn", "learned"]
+        },
+        {
+          "type": "SentenceBuilder",
+          "original": "Ak sa budeš usilovne učiť, zložíš skúšku.",
+          "correctOrder": ["If", "you", "study", "hard", "you", "will", "pass", "the", "exam"],
+          "distractors": ["studied", "would pass", "would have passed", "studied hard"]
+        },
+        {
+          "type": "SentenceBuilder",
+          "original": "Keby prišiel skôr, stihol by vlak.",
+          "correctOrder": ["If", "he", "had", "arrived", "earlier", "he", "would", "have", "caught", "the", "train"],
+          "distractors": ["arrives", "would catch", "will catch", "had caught"]
+        }
       ]
-    },
-
-    {
-      "type": "divider",
-      "paddingVertical": 20
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "🔮",
-      "title": "First Conditional",
-      "subtitle": "Reálna možnosť v budúcnosti"
-    },
-    {
-      "type": "colored_box",
-      "title": "Štruktúra",
-      "color": "#3B82F6",
-      "text": "If + present simple, will + infinitive"
-    },
-
-    {
-      "type": "divider",
-      "paddingVertical": 20
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "🧠",
-      "title": "Second Conditional",
-      "subtitle": "Nereálna / hypotetická situácia v prítomnosti"
-    },
-    {
-      "type": "colored_box",
-      "title": "Štruktúra",
-      "color": "#8B5CF6",
-      "text": "If + past simple, would + infinitive\n(were pre všetky osoby)"
-    },
-
-    {
-      "type": "divider",
-      "paddingVertical": 20
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "⏳",
-      "title": "Third Conditional",
-      "subtitle": "Nereálna situácia v minulosti (ľútosť)"
-    },
-    {
-      "type": "colored_box",
-      "title": "Štruktúra",
-      "color": "#EC4899",
-      "text": "If + past perfect, would have + past participle"
-    },
-
-    {
-      "type": "warning_box",
-      "emoji": "⚠️",
-      "title": "Najčastejšie chyby",
-      "text": "If I would go → nesprávne\nSprávne: If I went...\n\nIf I had went → nesprávne\nSprávne: If I had gone...",
-      "color": "#EF4444"
-    },
-
-    {
-      "type": "divider",
-      "paddingVertical": 24
-    },
-
-    {
-      "type": "grammar_header",
-      "emoji": "🎯",
-      "title": "Zhrnutie",
-      "subtitle": "Rýchly prehľad"
-    },
-    {
-      "type": "colored_box",
-      "title": "Zlaté pravidlo",
-      "color": "#10B981",
-      "text": "Čím je situácia menej reálna, tým viac sa posúva do minulosti (past simple → past perfect)"
     }
-  ],
-"exercises": [
-  {
-    "type": "FillInBlank",
-    "original": "If you heat water to 100°C, it ___ .",
-    "sentenceWithBlank": ["If you heat water to 100°C, it ", "", "."],
-    "correctAnswers": ["boils"]
-  },
-  {
-    "type": "FillInBlank",
-    "original": "If it ___ tomorrow, we will stay at home.",
-    "sentenceWithBlank": ["If it ", "", " tomorrow, we will stay at home."],
-    "correctAnswers": ["rains"]
-  },
-  {
-    "type": "FillInBlank",
-    "original": "If I ___ you, I would apologize immediately.",
-    "sentenceWithBlank": ["If I ", "", " you, I would apologize immediately."],
-    "correctAnswers": ["were"]
-  },
-  {
-    "type": "FillInBlank",
-    "original": "If she had studied harder, she ___ the exam.",
-    "sentenceWithBlank": ["If she had studied harder, she ", "", " the exam."],
-    "correctAnswers": ["would have passed"]
-  },
-  {
-    "type": "FillInBlank",
-    "original": "If I ___ a million euros, I would buy a house by the sea.",
-    "sentenceWithBlank": ["If I ", "", " a million euros, I would buy a house by the sea."],
-    "correctAnswers": ["had"]
-  },
-  {
-    "type": "FillInBlank",
-    "original": "If you mix blue and yellow, you ___ green.",
-    "sentenceWithBlank": ["If you mix blue and yellow, you ", "", " green."],
-    "correctAnswers": ["get"]
-  },
-
-  {
-    "type": "MultipleChoice",
-    "original": "If I see her, I ___ her the truth.",
-    "sentence": ["If I see her, I ", "", " her the truth."],
-    "correctAnswer": "will tell",
-    "options": ["will tell", "would tell", "told", "would have told"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "If I ___ rich, I would travel the world.",
-    "sentence": ["If I ", "", " rich, I would travel the world."],
-    "correctAnswer": "were",
-    "options": ["am", "was", "were", "would be"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "If you had called me, I ___ helped you.",
-    "sentence": ["If you had called me, I ", "", " helped you."],
-    "correctAnswer": "would have",
-    "options": ["will have", "would have", "had", "would"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "If it rains tomorrow, we ___ the picnic.",
-    "sentence": ["If it rains tomorrow, we ", "", " the picnic."],
-    "correctAnswer": "will cancel",
-    "options": ["cancel", "would cancel", "will cancel", "would have cancelled"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "If I ___ the lottery, I would buy a new car.",
-    "sentence": ["If I ", "", " the lottery, I would buy a new car."],
-    "correctAnswer": "won",
-    "options": ["win", "won", "would win", "had won"]
-  },
-  {
-    "type": "MultipleChoice",
-    "original": "Water ___ if you heat it to 100 degrees.",
-    "sentence": ["Water ", "", " if you heat it to 100 degrees."],
-    "correctAnswer": "boils",
-    "options": ["boils", "boil", "would boil", "will boil"]
-  },
-
-  {
-    "type": "SentenceBuilder",
-    "original": "If I were you, I would accept the offer.",
-    "correctOrder": ["If", "I", "were", "you", "I", "would", "accept", "the", "offer"],
-    "distractors": ["was", "am", "will", "would have", "had"]
-  },
-  {
-    "type": "SentenceBuilder",
-    "original": "If she had known the truth, she would have told us.",
-    "correctOrder": ["If", "she", "had", "known", "the", "truth", "she", "would", "have", "told", "us"],
-    "distractors": ["has", "knows", "would tell", "knew", "will tell"]
-  },
-  {
-    "type": "SentenceBuilder",
-    "original": "If it rains tomorrow, we will stay home.",
-    "correctOrder": ["If", "it", "rains", "tomorrow", "we", "will", "stay", "home"],
-    "distractors": ["rained", "would rain", "would stay", "stayed"]
-  },
-  {
-    "type": "SentenceBuilder",
-    "original": "If I had more time, I would learn Spanish.",
-    "correctOrder": ["If", "I", "had", "more", "time", "I", "would", "learn", "Spanish"],
-    "distractors": ["have", "would have", "will learn", "learned"]
-  },
-  {
-    "type": "SentenceBuilder",
-    "original": "If you study hard, you will pass the exam.",
-    "correctOrder": ["If", "you", "study", "hard", "you", "will", "pass", "the", "exam"],
-    "distractors": ["studied", "would pass", "would have passed", "studied hard"]
-  },
-  {
-    "type": "SentenceBuilder",
-    "original": "If he had arrived earlier, he would have caught the train.",
-    "correctOrder": ["If", "he", "had", "arrived", "earlier", "he", "would", "have", "caught", "the", "train"],
-    "distractors": ["arrives", "would catch", "will catch", "had caught"]
-  }
-]
-}
   ]
 }
