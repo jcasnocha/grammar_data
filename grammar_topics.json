@@ -176,5 +176,222 @@
   }
 ]
 }
+    
+,
+
+    {
+      "id": "present_tenses",
+      "titleSk": "Prítomný čas jednoduchý a priebehový",
+      "titleEn": "Present Simple & Continuous",
+      "description": "Rozdiel medzi Present Simple a Present Continuous + stative verbs",
+      "emoji": "⏰",
+      "gradient": ["#10B981", "#34D399"],
+      "accentColor": "#10B981",
+      "content": [
+        {
+          "type": "grammar_header",
+          "emoji": "⏰",
+          "title": "Present Simple",
+          "subtitle": "Fakty, návyky, rozvrhy"
+        },
+        {
+          "type": "colored_box",
+          "title": "Štruktúra",
+          "color": "#10B981",
+          "text": "Subject + base verb (he/she/it + -s)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Používa sa na všeobecné pravdy, zvyky, rozvrhy a veci, ktoré sa opakujú."
+        },
+        {
+          "type": "divider",
+          "paddingVertical": 20
+        },
+        {
+          "type": "grammar_header",
+          "emoji": "🏃",
+          "title": "Present Continuous",
+          "subtitle": "Deje, ktoré sa práve dejú"
+        },
+        {
+          "type": "colored_box",
+          "title": "Štruktúra",
+          "color": "#3B82F6",
+          "text": "am/is/are + verb-ing"
+        },
+        {
+          "type": "table",
+          "headers": ["Čas", "Present Simple", "Present Continuous"],
+          "rows": [
+            ["Fakt / návyk", "I play tennis every weekend.", "I am playing tennis right now."],
+            ["Plánovaný dej", "The train leaves at 8:00.", "The train is leaving soon."],
+            ["Dočasný stav", "She lives in London.", "She is living in London this month."]
+          ],
+          "highlightFirstColumn": true,
+          "striped": true
+        },
+        {
+          "type": "warning_box",
+          "emoji": "⚠️",
+          "title": "Stative verbs (stavové slovesá)",
+          "text": "Nepoužívame ich v Continuous!\nlike, love, hate, know, believe, want, need, have (mať), think (myslieť si)...",
+          "color": "#EF4444"
+        },
+        {
+          "type": "divider",
+          "paddingVertical": 24
+        },
+        {
+          "type": "grammar_header",
+          "emoji": "🎯",
+          "title": "Zhrnutie",
+          "subtitle": "Kedy ktorý čas?"
+        },
+        {
+          "type": "colored_box",
+          "title": "Zlaté pravidlo",
+          "color": "#10B981",
+          "text": "Permanent / general → Simple\nTemporary / now → Continuous"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "SentenceBuilder",
+          "original": "Práve teraz sa učím anglicky.",
+          "correctOrder": ["I", "am", "learning", "English", "right", "now"],
+          "distractors": ["learn", "learned", "have learned"]
+        },
+        {
+          "type": "SentenceBuilder",
+          "original": "Každú nedeľu hrávam futbal.",
+          "correctOrder": ["I", "play", "football", "every", "Sunday"],
+          "distractors": ["am playing", "played", "have played"]
+        }
+      ]
+    },
+
+    {
+      "id": "passive_voice",
+      "titleSk": "Trpný rod",
+      "titleEn": "Passive Voice",
+      "description": "Keď je dôležitejší výsledok než kto akciu vykonal",
+      "emoji": "🔄",
+      "gradient": ["#EC4899", "#F472B6"],
+      "accentColor": "#EC4899",
+      "content": [
+        {
+          "type": "grammar_header",
+          "emoji": "🔄",
+          "title": "Trpný rod",
+          "subtitle": "be + past participle"
+        },
+        {
+          "type": "paragraph",
+          "text": "V trpnom rode sa zameriavame na objekt akcie, nie na jej pôvodcu."
+        },
+        {
+          "type": "table",
+          "headers": ["Čas", "Aktívny tvar", "Trpný tvar"],
+          "rows": [
+            ["Present Simple", "They build houses.", "Houses are built."],
+            ["Past Simple", "Someone stole my phone.", "My phone was stolen."],
+            ["Present Perfect", "They have fixed the road.", "The road has been fixed."]
+          ],
+          "highlightFirstColumn": true,
+          "striped": true
+        },
+        {
+          "type": "divider",
+          "paddingVertical": 20
+        },
+        {
+          "type": "grammar_header",
+          "emoji": "📝",
+          "title": "Kedy používame Passive?",
+          "subtitle": "Najčastejšie situácie"
+        },
+        {
+          "type": "colored_box",
+          "title": "Dôvody",
+          "color": "#8B5CF6",
+          "text": "• Pôvodca nie je dôležitý alebo neznámy\n• V oficiálnych textoch a správach\n• Keď chceme zdôrazniť výsledok"
+        },
+        {
+          "type": "warning_box",
+          "emoji": "⚠️",
+          "title": "Najčastejšie chyby",
+          "text": "is being built (nie is built being)\nwas built (nie was builded)",
+          "color": "#EF4444"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "SentenceBuilder",
+          "original": "Môj bicykel ukradli včera.",
+          "correctOrder": ["My", "bike", "was", "stolen", "yesterday"],
+          "distractors": ["stole", "has stolen", "is stealing"]
+        }
+      ]
+    },
+
+    {
+      "id": "modal_verbs",
+      "titleSk": "Modálne slovesá",
+      "titleEn": "Modal Verbs",
+      "description": "Can, could, may, might, must, should, would...",
+      "emoji": "🧩",
+      "gradient": ["#8B5CF6", "#A78BFA"],
+      "accentColor": "#8B5CF6",
+      "content": [
+        {
+          "type": "grammar_header",
+          "emoji": "🧩",
+          "title": "Modálne slovesá",
+          "subtitle": "Špeciálne pomocné slovesá bez „to“"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modálne slovesá vyjadrujú schopnosť, povinnosť, možnosť, radu, zákaz atď."
+        },
+        {
+          "type": "table",
+          "headers": ["Modal", "Hlavný význam", "Príklad"],
+          "rows": [
+            ["can / could", "schopnosť", "I can swim. / I could swim when I was young."],
+            ["may / might", "možnosť", "It may rain tomorrow."],
+            ["must", "silná povinnosť", "You must wear a seatbelt."],
+            ["should / ought to", "rada", "You should study more."],
+            ["would", "podmienečnosť / zdvorilosť", "Would you like some tea?"]
+          ],
+          "highlightFirstColumn": true,
+          "striped": true
+        },
+        {
+          "type": "divider",
+          "paddingVertical": 24
+        },
+        {
+          "type": "grammar_header",
+          "emoji": "📌",
+          "title": "Dôležité pravidlá",
+          "subtitle": "Všetky modálne slovesá"
+        },
+        {
+          "type": "colored_box",
+          "title": "Spoločné pravidlá",
+          "color": "#10B981",
+          "text": "• Nikdy za nimi nepridávame „to“\n• Nemajú 3. osobu -s\n• V otázkach a záporoch sa správajú ako pomocné slovesá"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "SentenceBuilder",
+          "original": "Mal by si ísť spať skôr.",
+          "correctOrder": ["You", "should", "go", "to", "bed", "earlier"],
+          "distractors": ["must", "can", "would"]
+        }
+      ]
+    }
   ]
 }
