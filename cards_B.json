@@ -1,74 +1,4416 @@
 {
-  "version": 3,
+  "version": 2,
   "groups": [
     {
       "id": "business",
-      "title": "Business English",
+      "title": "Biznis angličtina",
       "image": "📊",
-      "description": "Business vocabulary and communication",
+      "color": "#1D4ED8",
+      "description": "Práca, financie a stretnutia",
       "categories": [
         {
-          "id": "business_advanced",
-          "title": "Advanced Business",
-          "image": "📈",
-          "description": "Advanced business terminology",
+          "id": "meetings",
+          "title": "Stretnutia",
+          "image": "🤝",
+          "description": "Na porade",
           "cards": [
-            { "id": "negotiation", "front": "Negotiation", "back": "Vyjednávanie" },
-            { "id": "investment", "front": "Investment", "back": "Investícia" },
-            { "id": "revenue", "front": "Revenue", "back": "Príjem" },
-            { "id": "expenditure", "front": "Expenditure", "back": "Výdavok" },
-            { "id": "strategy", "front": "Strategy", "back": "Stratégia" },
-            { "id": "stakeholder", "front": "Stakeholder", "back": "Zainteresovaná strana" }
+            {
+              "id": "agenda",
+              "front": "Agenda",
+              "back": "Program"
+            },
+            {
+              "id": "minutes",
+              "front": "Minutes",
+              "back": "Zápisnica"
+            },
+            {
+              "id": "deadline",
+              "front": "Deadline",
+              "back": "Termín"
+            },
+            {
+              "id": "feedback",
+              "front": "Feedback",
+              "back": "Spätná väzba"
+            },
+            {
+              "id": "proposal",
+              "front": "Proposal",
+              "back": "Návrh"
+            },
+            {
+              "id": "negotiate",
+              "front": "Negotiate",
+              "back": "Vyjednávať"
+            },
+            {
+              "id": "compromise",
+              "front": "Compromise",
+              "back": "Kompromis"
+            },
+            {
+              "id": "stakeholder",
+              "front": "Stakeholder",
+              "back": "Zainteresovaná strana"
+            },
+            {
+              "id": "briefing",
+              "front": "Briefing",
+              "back": "Inštruktáž"
+            },
+            {
+              "id": "follow_up",
+              "front": "Follow-up",
+              "back": "Nadväzujúci krok"
+            },
+            {
+              "id": "action_point",
+              "front": "Action point",
+              "back": "Úloha"
+            },
+            {
+              "id": "chair_the_meeting",
+              "front": "Chair the meeting",
+              "back": "Viesť poradu"
+            },
+            {
+              "id": "raise_an_issue",
+              "front": "Raise an issue",
+              "back": "Nadniesť problém"
+            },
+            {
+              "id": "reach_an_agreement",
+              "front": "Reach an agreement",
+              "back": "Dohodnúť sa"
+            },
+            {
+              "id": "postpone",
+              "front": "Postpone",
+              "back": "Odložiť"
+            },
+            {
+              "id": "cancel",
+              "front": "Cancel",
+              "back": "Zrušiť"
+            },
+            {
+              "id": "conference_call",
+              "front": "Conference call",
+              "back": "Konferenčný hovor"
+            },
+            {
+              "id": "workshop",
+              "front": "Workshop",
+              "back": "Workshop"
+            }
+          ]
+        },
+        {
+          "id": "finance",
+          "title": "Financie",
+          "image": "💰",
+          "description": "Peniaze a čísla",
+          "cards": [
+            {
+              "id": "revenue",
+              "front": "Revenue",
+              "back": "Tržby"
+            },
+            {
+              "id": "profit",
+              "front": "Profit",
+              "back": "Zisk"
+            },
+            {
+              "id": "loss",
+              "front": "Loss",
+              "back": "Strata"
+            },
+            {
+              "id": "budget",
+              "front": "Budget",
+              "back": "Rozpočet"
+            },
+            {
+              "id": "investment",
+              "front": "Investment",
+              "back": "Investícia"
+            },
+            {
+              "id": "loan",
+              "front": "Loan",
+              "back": "Pôžička"
+            },
+            {
+              "id": "interest",
+              "front": "Interest",
+              "back": "Úrok"
+            },
+            {
+              "id": "invoice",
+              "front": "Invoice",
+              "back": "Faktúra"
+            },
+            {
+              "id": "expense",
+              "front": "Expense",
+              "back": "Výdavok"
+            },
+            {
+              "id": "tax",
+              "front": "Tax",
+              "back": "Daň"
+            },
+            {
+              "id": "share",
+              "front": "Share",
+              "back": "Akcia"
+            },
+            {
+              "id": "asset",
+              "front": "Asset",
+              "back": "Aktívum"
+            },
+            {
+              "id": "debt",
+              "front": "Debt",
+              "back": "Dlh"
+            },
+            {
+              "id": "cash_flow",
+              "front": "Cash flow",
+              "back": "Cash flow"
+            },
+            {
+              "id": "forecast",
+              "front": "Forecast",
+              "back": "Prognóza"
+            },
+            {
+              "id": "discount",
+              "front": "Discount",
+              "back": "Zľava"
+            },
+            {
+              "id": "currency",
+              "front": "Currency",
+              "back": "Mena"
+            },
+            {
+              "id": "exchange_rate",
+              "front": "Exchange rate",
+              "back": "Výmenný kurz"
+            }
+          ]
+        },
+        {
+          "id": "marketing",
+          "title": "Marketing",
+          "image": "📣",
+          "description": "Značka a predaj",
+          "cards": [
+            {
+              "id": "brand",
+              "front": "Brand",
+              "back": "Značka"
+            },
+            {
+              "id": "campaign",
+              "front": "Campaign",
+              "back": "Kampaň"
+            },
+            {
+              "id": "target_audience",
+              "front": "Target audience",
+              "back": "Cieľová skupina"
+            },
+            {
+              "id": "advertisement",
+              "front": "Advertisement",
+              "back": "Reklama"
+            },
+            {
+              "id": "slogan",
+              "front": "Slogan",
+              "back": "Slogan"
+            },
+            {
+              "id": "customer",
+              "front": "Customer",
+              "back": "Zákazník"
+            },
+            {
+              "id": "client",
+              "front": "Client",
+              "back": "Klient"
+            },
+            {
+              "id": "competitor",
+              "front": "Competitor",
+              "back": "Konkurent"
+            },
+            {
+              "id": "market_share",
+              "front": "Market share",
+              "back": "Podiel na trhu"
+            },
+            {
+              "id": "launch",
+              "front": "Launch",
+              "back": "Uvedenie na trh"
+            },
+            {
+              "id": "promotion",
+              "front": "Promotion",
+              "back": "Propagácia"
+            },
+            {
+              "id": "unique_selling_point",
+              "front": "Unique selling point",
+              "back": "Jedinečná prednosť"
+            },
+            {
+              "id": "survey",
+              "front": "Survey",
+              "back": "Prieskum"
+            },
+            {
+              "id": "trend",
+              "front": "Trend",
+              "back": "Trend"
+            },
+            {
+              "id": "influencer",
+              "front": "Influencer",
+              "back": "Influencer"
+            },
+            {
+              "id": "content",
+              "front": "Content",
+              "back": "Obsah"
+            },
+            {
+              "id": "engagement",
+              "front": "Engagement",
+              "back": "Zapojenie"
+            },
+            {
+              "id": "conversion",
+              "front": "Conversion",
+              "back": "Konverzia"
+            }
+          ]
+        },
+        {
+          "id": "workplace",
+          "title": "Pracovisko",
+          "image": "🏢",
+          "description": "Tím a kariéra",
+          "cards": [
+            {
+              "id": "colleague",
+              "front": "Colleague",
+              "back": "Kolega"
+            },
+            {
+              "id": "supervisor",
+              "front": "Supervisor",
+              "back": "Nadriadený"
+            },
+            {
+              "id": "internship",
+              "front": "Internship",
+              "back": "Stáž"
+            },
+            {
+              "id": "workplace_promotion",
+              "front": "Promotion",
+              "back": "Povýšenie"
+            },
+            {
+              "id": "resign",
+              "front": "Resign",
+              "back": "Dáť výpoveď"
+            },
+            {
+              "id": "redundancy",
+              "front": "Redundancy",
+              "back": "Prepúšťanie"
+            },
+            {
+              "id": "shift",
+              "front": "Shift",
+              "back": "Smena"
+            },
+            {
+              "id": "overtime",
+              "front": "Overtime",
+              "back": "Nadčasy"
+            },
+            {
+              "id": "workload",
+              "front": "Workload",
+              "back": "Pracovné zaťaženie"
+            },
+            {
+              "id": "remote_work",
+              "front": "Remote work",
+              "back": "Práca z domu"
+            },
+            {
+              "id": "deadline_pressure",
+              "front": "Deadline pressure",
+              "back": "Tlak termínov"
+            },
+            {
+              "id": "teamwork",
+              "front": "Teamwork",
+              "back": "Tímová práca"
+            },
+            {
+              "id": "responsibility",
+              "front": "Responsibility",
+              "back": "Zodpovednosť"
+            },
+            {
+              "id": "skill",
+              "front": "Skill",
+              "back": "Zručnosť"
+            },
+            {
+              "id": "qualification",
+              "front": "Qualification",
+              "back": "Kvalifikácia"
+            },
+            {
+              "id": "cv",
+              "front": "CV",
+              "back": "Životopis"
+            },
+            {
+              "id": "reference",
+              "front": "Reference",
+              "back": "Referencia"
+            },
+            {
+              "id": "salary_negotiation",
+              "front": "Salary negotiation",
+              "back": "Rokovanie o plate"
+            }
           ]
         }
       ]
     },
-
-    {
-      "id": "thinking",
-      "title": "Thinking & Psychology",
-      "image": "🧠",
-      "description": "Abstract thinking and cognitive vocabulary",
-      "categories": [
-        {
-          "id": "abstract_thinking",
-          "title": "Abstract Thinking",
-          "image": "🧩",
-          "description": "Abstract and complex vocabulary",
-          "cards": [
-            { "id": "perception", "front": "Perception", "back": "Vnímanie" },
-            { "id": "assumption", "front": "Assumption", "back": "Predpoklad" },
-            { "id": "hypothesis", "front": "Hypothesis", "back": "Hypotéza" },
-            { "id": "consequence", "front": "Consequence", "back": "Dôsledok" },
-            { "id": "justification", "front": "Justification", "back": "Odôvodnenie" },
-            { "id": "interpretation", "front": "Interpretation", "back": "Interpretácia" }
-          ]
-        }
-      ]
-    },
-
     {
       "id": "academic",
-      "title": "Academic English",
+      "title": "Akademická angličtina",
       "image": "🎓",
-      "description": "Formal academic vocabulary",
+      "color": "#7C3AED",
+      "description": "Štúdium, výskum a formálny jazyk",
       "categories": [
         {
-          "id": "academic_core",
-          "title": "Academic Core",
-          "image": "📚",
-          "description": "Academic and formal English vocabulary",
+          "id": "study",
+          "title": "Štúdium",
+          "image": "📖",
+          "description": "Na univerzite",
           "cards": [
-            { "id": "analysis", "front": "Analysis", "back": "Analýza" },
-            { "id": "evaluation", "front": "Evaluation", "back": "Hodnotenie" },
-            { "id": "framework", "front": "Framework", "back": "Rámec" },
-            { "id": "methodology", "front": "Methodology", "back": "Metodológia" },
-            { "id": "evidence", "front": "Evidence", "back": "Dôkaz" },
-            { "id": "theory", "front": "Theory", "back": "Teória" }
+            {
+              "id": "lecture",
+              "front": "Lecture",
+              "back": "Prednáška"
+            },
+            {
+              "id": "seminar",
+              "front": "Seminar",
+              "back": "Seminár"
+            },
+            {
+              "id": "assignment",
+              "front": "Assignment",
+              "back": "Zadanie"
+            },
+            {
+              "id": "essay",
+              "front": "Essay",
+              "back": "Esej"
+            },
+            {
+              "id": "thesis",
+              "front": "Thesis",
+              "back": "Diplomová práca"
+            },
+            {
+              "id": "scholarship",
+              "front": "Scholarship",
+              "back": "Štipendium"
+            },
+            {
+              "id": "campus",
+              "front": "Campus",
+              "back": "Kampus"
+            },
+            {
+              "id": "tutor",
+              "front": "Tutor",
+              "back": "Tútor"
+            },
+            {
+              "id": "curriculum",
+              "front": "Curriculum",
+              "back": "Učebný plán"
+            },
+            {
+              "id": "degree",
+              "front": "Degree",
+              "back": "Titul"
+            },
+            {
+              "id": "undergraduate",
+              "front": "Undergraduate",
+              "back": "Bakalársky študent"
+            },
+            {
+              "id": "postgraduate",
+              "front": "Postgraduate",
+              "back": "Absolventský študent"
+            },
+            {
+              "id": "faculty",
+              "front": "Faculty",
+              "back": "Fakulta"
+            },
+            {
+              "id": "enrol",
+              "front": "Enrol",
+              "back": "Zapísať sa"
+            },
+            {
+              "id": "graduate",
+              "front": "Graduate",
+              "back": "Absolvovať"
+            },
+            {
+              "id": "research",
+              "front": "Research",
+              "back": "Výskum"
+            },
+            {
+              "id": "library",
+              "front": "Library",
+              "back": "Knižnica"
+            },
+            {
+              "id": "study_deadline",
+              "front": "Deadline",
+              "back": "Termín odovzdania"
+            }
+          ]
+        },
+        {
+          "id": "research",
+          "title": "Výskum",
+          "image": "🔬",
+          "description": "Vedecké slová",
+          "cards": [
+            {
+              "id": "hypothesis",
+              "front": "Hypothesis",
+              "back": "Hypotéza"
+            },
+            {
+              "id": "experiment",
+              "front": "Experiment",
+              "back": "Experiment"
+            },
+            {
+              "id": "data",
+              "front": "Data",
+              "back": "Údaje"
+            },
+            {
+              "id": "sample",
+              "front": "Sample",
+              "back": "Vzorka"
+            },
+            {
+              "id": "variable",
+              "front": "Variable",
+              "back": "Premenná"
+            },
+            {
+              "id": "result",
+              "front": "Result",
+              "back": "Výsledok"
+            },
+            {
+              "id": "conclusion",
+              "front": "Conclusion",
+              "back": "Záver"
+            },
+            {
+              "id": "evidence",
+              "front": "Evidence",
+              "back": "Dôkaz"
+            },
+            {
+              "id": "theory",
+              "front": "Theory",
+              "back": "Teória"
+            },
+            {
+              "id": "method",
+              "front": "Method",
+              "back": "Metóda"
+            },
+            {
+              "id": "analysis",
+              "front": "Analysis",
+              "back": "Analýza"
+            },
+            {
+              "id": "observation",
+              "front": "Observation",
+              "back": "Pozorovanie"
+            },
+            {
+              "id": "accurate",
+              "front": "Accurate",
+              "back": "Presný"
+            },
+            {
+              "id": "reliable",
+              "front": "Reliable",
+              "back": "Spoľahlivý"
+            },
+            {
+              "id": "significant",
+              "front": "Significant",
+              "back": "Významný"
+            },
+            {
+              "id": "compare",
+              "front": "Compare",
+              "back": "Porovnať"
+            },
+            {
+              "id": "contrast",
+              "front": "Contrast",
+              "back": "Kontrastovať"
+            },
+            {
+              "id": "summarise",
+              "front": "Summarise",
+              "back": "Zhrnúť"
+            }
+          ]
+        },
+        {
+          "id": "essay",
+          "title": "Písanie",
+          "image": "✍️",
+          "description": "Formálne písanie",
+          "cards": [
+            {
+              "id": "introduction",
+              "front": "Introduction",
+              "back": "Úvod"
+            },
+            {
+              "id": "paragraph",
+              "front": "Paragraph",
+              "back": "Odsek"
+            },
+            {
+              "id": "argument",
+              "front": "Argument",
+              "back": "Argument"
+            },
+            {
+              "id": "claim",
+              "front": "Claim",
+              "back": "Tvrdenie"
+            },
+            {
+              "id": "support",
+              "front": "Support",
+              "back": "Podložiť"
+            },
+            {
+              "id": "example",
+              "front": "Example",
+              "back": "Príklad"
+            },
+            {
+              "id": "however",
+              "front": "However",
+              "back": "Avšak"
+            },
+            {
+              "id": "therefore",
+              "front": "Therefore",
+              "back": "Preto"
+            },
+            {
+              "id": "moreover",
+              "front": "Moreover",
+              "back": "Okrem toho"
+            },
+            {
+              "id": "in_contrast",
+              "front": "In contrast",
+              "back": "Naopak"
+            },
+            {
+              "id": "on_the_other_hand",
+              "front": "On the other hand",
+              "back": "Na druhej strane"
+            },
+            {
+              "id": "in_conclusion",
+              "front": "In conclusion",
+              "back": "Na záver"
+            },
+            {
+              "id": "according_to",
+              "front": "According to",
+              "back": "Podľa"
+            },
+            {
+              "id": "essay_reference",
+              "front": "Reference",
+              "back": "Citácia"
+            },
+            {
+              "id": "plagiarism",
+              "front": "Plagiarism",
+              "back": "Plagiátorstvo"
+            },
+            {
+              "id": "draft",
+              "front": "Draft",
+              "back": "Návrh"
+            },
+            {
+              "id": "revise",
+              "front": "Revise",
+              "back": "Upraviť"
+            },
+            {
+              "id": "proofread",
+              "front": "Proofread",
+              "back": "Korektúra"
+            }
+          ]
+        },
+        {
+          "id": "science",
+          "title": "Veda",
+          "image": "🧪",
+          "description": "Vedecké pojmy",
+          "cards": [
+            {
+              "id": "atom",
+              "front": "Atom",
+              "back": "Atóm"
+            },
+            {
+              "id": "energy",
+              "front": "Energy",
+              "back": "Energia"
+            },
+            {
+              "id": "gravity",
+              "front": "Gravity",
+              "back": "Gravitácia"
+            },
+            {
+              "id": "cell",
+              "front": "Cell",
+              "back": "Bunka"
+            },
+            {
+              "id": "gene",
+              "front": "Gene",
+              "back": "Gén"
+            },
+            {
+              "id": "virus",
+              "front": "Virus",
+              "back": "Vírus"
+            },
+            {
+              "id": "climate",
+              "front": "Climate",
+              "back": "Klíma"
+            },
+            {
+              "id": "ecosystem",
+              "front": "Ecosystem",
+              "back": "Ekosystém"
+            },
+            {
+              "id": "chemical",
+              "front": "Chemical",
+              "back": "Chemikália"
+            },
+            {
+              "id": "reaction",
+              "front": "Reaction",
+              "back": "Reakcia"
+            },
+            {
+              "id": "formula",
+              "front": "Formula",
+              "back": "Vzorec"
+            },
+            {
+              "id": "laboratory",
+              "front": "Laboratory",
+              "back": "Laboratórium"
+            },
+            {
+              "id": "microscope",
+              "front": "Microscope",
+              "back": "Mikroskop"
+            },
+            {
+              "id": "discovery",
+              "front": "Discovery",
+              "back": "Objav"
+            },
+            {
+              "id": "innovation",
+              "front": "Innovation",
+              "back": "Inovácia"
+            },
+            {
+              "id": "technology",
+              "front": "Technology",
+              "back": "Technológia"
+            },
+            {
+              "id": "engineer",
+              "front": "Engineer",
+              "back": "Inžinier"
+            },
+            {
+              "id": "scientist",
+              "front": "Scientist",
+              "back": "Vedec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thinking",
+      "title": "Myslenie a názory",
+      "image": "🧠",
+      "color": "#EC4899",
+      "description": "Názory, emócie a abstraktné slová",
+      "categories": [
+        {
+          "id": "opinions",
+          "title": "Názory",
+          "image": "💭",
+          "description": "Ako sa vyjadriť",
+          "cards": [
+            {
+              "id": "in_my_opinion",
+              "front": "In my opinion",
+              "back": "Podľa mňa"
+            },
+            {
+              "id": "i_believe",
+              "front": "I believe",
+              "back": "Verím"
+            },
+            {
+              "id": "i_assume",
+              "front": "I assume",
+              "back": "Predpokladám"
+            },
+            {
+              "id": "it_seems",
+              "front": "It seems",
+              "back": "Zdá sa"
+            },
+            {
+              "id": "i_doubt",
+              "front": "I doubt",
+              "back": "Pochybujem"
+            },
+            {
+              "id": "i_insist",
+              "front": "I insist",
+              "back": "Trvám na tom"
+            },
+            {
+              "id": "as_far_as_i_know",
+              "front": "As far as I know",
+              "back": "Pokiaľ viem"
+            },
+            {
+              "id": "to_be_honest",
+              "front": "To be honest",
+              "back": "Úprimne povedané"
+            },
+            {
+              "id": "i_would_argue",
+              "front": "I would argue",
+              "back": "Tvrdil by som"
+            },
+            {
+              "id": "that_depends",
+              "front": "That depends",
+              "back": "Záleží"
+            },
+            {
+              "id": "fair_enough",
+              "front": "Fair enough",
+              "back": "Dobre, beriem"
+            },
+            {
+              "id": "you_have_a_point",
+              "front": "You have a point",
+              "back": "Máš pravdu"
+            },
+            {
+              "id": "i_see_what_you_mean",
+              "front": "I see what you mean",
+              "back": "Chápem, čo myslíš"
+            },
+            {
+              "id": "lets_agree_to_disagree",
+              "front": "Let's agree to disagree",
+              "back": "Nechajme to tak"
+            },
+            {
+              "id": "on_the_whole",
+              "front": "On the whole",
+              "back": "Celkovo"
+            },
+            {
+              "id": "generally_speaking",
+              "front": "Generally speaking",
+              "back": "Všeobecne"
+            },
+            {
+              "id": "personally",
+              "front": "Personally",
+              "back": "Osobne"
+            },
+            {
+              "id": "frankly",
+              "front": "Frankly",
+              "back": "Úprimne"
+            }
+          ]
+        },
+        {
+          "id": "emotions_adv",
+          "title": "Emócie",
+          "image": "😮",
+          "description": "Silnejšie pocity",
+          "cards": [
+            {
+              "id": "anxious",
+              "front": "Anxious",
+              "back": "Úzkostlivý"
+            },
+            {
+              "id": "frustrated",
+              "front": "Frustrated",
+              "back": "Frustrovaný"
+            },
+            {
+              "id": "disappointed",
+              "front": "Disappointed",
+              "back": "Sklamaný"
+            },
+            {
+              "id": "relieved",
+              "front": "Relieved",
+              "back": "Oddýchnutý"
+            },
+            {
+              "id": "embarrassed",
+              "front": "Embarrassed",
+              "back": "V rozpakoch"
+            },
+            {
+              "id": "jealous",
+              "front": "Jealous",
+              "back": "Žiarlivý"
+            },
+            {
+              "id": "grateful",
+              "front": "Grateful",
+              "back": "Vďačný"
+            },
+            {
+              "id": "overwhelmed",
+              "front": "Overwhelmed",
+              "back": "Zahltený"
+            },
+            {
+              "id": "confident",
+              "front": "Confident",
+              "back": "Sebavedomý"
+            },
+            {
+              "id": "insecure",
+              "front": "Insecure",
+              "back": "Neistý"
+            },
+            {
+              "id": "optimistic",
+              "front": "Optimistic",
+              "back": "Optimistický"
+            },
+            {
+              "id": "pessimistic",
+              "front": "Pessimistic",
+              "back": "Pesimistický"
+            },
+            {
+              "id": "curious",
+              "front": "Curious",
+              "back": "Zvedavý"
+            },
+            {
+              "id": "astonished",
+              "front": "Astonished",
+              "back": "Ohromený"
+            },
+            {
+              "id": "ashamed",
+              "front": "Ashamed",
+              "back": "Zahanbený"
+            },
+            {
+              "id": "motivated",
+              "front": "Motivated",
+              "back": "Motivovaný"
+            },
+            {
+              "id": "exhausted",
+              "front": "Exhausted",
+              "back": "Vyčerpaný"
+            },
+            {
+              "id": "emotions_adv_content",
+              "front": "Content",
+              "back": "Spokojný"
+            }
+          ]
+        },
+        {
+          "id": "abstract",
+          "title": "Abstraktné slová",
+          "image": "🧩",
+          "description": "Myšlienky a javy",
+          "cards": [
+            {
+              "id": "perception",
+              "front": "Perception",
+              "back": "Vnímanie"
+            },
+            {
+              "id": "assumption",
+              "front": "Assumption",
+              "back": "Predpoklad"
+            },
+            {
+              "id": "consequence",
+              "front": "Consequence",
+              "back": "Dôsledok"
+            },
+            {
+              "id": "cause",
+              "front": "Cause",
+              "back": "Príčina"
+            },
+            {
+              "id": "impact",
+              "front": "Impact",
+              "back": "Vplyv"
+            },
+            {
+              "id": "issue",
+              "front": "Issue",
+              "back": "Problém"
+            },
+            {
+              "id": "solution",
+              "front": "Solution",
+              "back": "Riešenie"
+            },
+            {
+              "id": "challenge",
+              "front": "Challenge",
+              "back": "Výzva"
+            },
+            {
+              "id": "opportunity",
+              "front": "Opportunity",
+              "back": "Príležitosť"
+            },
+            {
+              "id": "risk",
+              "front": "Risk",
+              "back": "Riziko"
+            },
+            {
+              "id": "benefit",
+              "front": "Benefit",
+              "back": "Prospech"
+            },
+            {
+              "id": "drawback",
+              "front": "Drawback",
+              "back": "Nevýhoda"
+            },
+            {
+              "id": "priority",
+              "front": "Priority",
+              "back": "Priorita"
+            },
+            {
+              "id": "value",
+              "front": "Value",
+              "back": "Hodnota"
+            },
+            {
+              "id": "principle",
+              "front": "Principle",
+              "back": "Princíp"
+            },
+            {
+              "id": "attitude",
+              "front": "Attitude",
+              "back": "Postoj"
+            },
+            {
+              "id": "behaviour",
+              "front": "Behaviour",
+              "back": "Správanie"
+            },
+            {
+              "id": "identity",
+              "front": "Identity",
+              "back": "Identita"
+            }
+          ]
+        },
+        {
+          "id": "personality_adv",
+          "title": "Povaha",
+          "image": "🎭",
+          "description": "Zložitejšie vlastnosti",
+          "cards": [
+            {
+              "id": "ambitious",
+              "front": "Ambitious",
+              "back": "Ctižiadostivý"
+            },
+            {
+              "id": "personality_adv_reliable",
+              "front": "Reliable",
+              "back": "Spoľahlivý"
+            },
+            {
+              "id": "open_minded",
+              "front": "Open-minded",
+              "back": "Otvorený"
+            },
+            {
+              "id": "narrow_minded",
+              "front": "Narrow-minded",
+              "back": "Úzky pohľad"
+            },
+            {
+              "id": "sensitive",
+              "front": "Sensitive",
+              "back": "Citlivý"
+            },
+            {
+              "id": "stubborn",
+              "front": "Stubborn",
+              "back": "Tvrdohlavý"
+            },
+            {
+              "id": "generous",
+              "front": "Generous",
+              "back": "Štedrý"
+            },
+            {
+              "id": "selfish",
+              "front": "Selfish",
+              "back": "Sebecký"
+            },
+            {
+              "id": "personality_adv_ambitious",
+              "front": "Ambitious",
+              "back": "Ctižiadostivý"
+            },
+            {
+              "id": "determined",
+              "front": "Determined",
+              "back": "Odhodlaný"
+            },
+            {
+              "id": "flexible",
+              "front": "Flexible",
+              "back": "Flexibilný"
+            },
+            {
+              "id": "organised",
+              "front": "Organised",
+              "back": "Organizovaný"
+            },
+            {
+              "id": "spontaneous",
+              "front": "Spontaneous",
+              "back": "Spontánny"
+            },
+            {
+              "id": "cautious",
+              "front": "Cautious",
+              "back": "Opatrný"
+            },
+            {
+              "id": "outgoing",
+              "front": "Outgoing",
+              "back": "Spoločenský"
+            },
+            {
+              "id": "reserved",
+              "front": "Reserved",
+              "back": "Rezervovaný"
+            },
+            {
+              "id": "witty",
+              "front": "Witty",
+              "back": "Pohotový"
+            },
+            {
+              "id": "empathetic",
+              "front": "Empathetic",
+              "back": "Empatický"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "title": "Médiá a internet",
+      "image": "📱",
+      "color": "#06B6D4",
+      "description": "Správy, zábava a digitálny svet",
+      "categories": [
+        {
+          "id": "news",
+          "title": "Správy",
+          "image": "📰",
+          "description": "Médiá",
+          "cards": [
+            {
+              "id": "headline",
+              "front": "Headline",
+              "back": "Titulok"
+            },
+            {
+              "id": "article",
+              "front": "Article",
+              "back": "Článok"
+            },
+            {
+              "id": "journalist",
+              "front": "Journalist",
+              "back": "Novinár"
+            },
+            {
+              "id": "broadcast",
+              "front": "Broadcast",
+              "back": "Vysielanie"
+            },
+            {
+              "id": "interview",
+              "front": "Interview",
+              "back": "Rozhovor"
+            },
+            {
+              "id": "source",
+              "front": "Source",
+              "back": "Zdroj"
+            },
+            {
+              "id": "rumour",
+              "front": "Rumour",
+              "back": "Povesť"
+            },
+            {
+              "id": "fact",
+              "front": "Fact",
+              "back": "Fakt"
+            },
+            {
+              "id": "bias",
+              "front": "Bias",
+              "back": "Predpojatosť"
+            },
+            {
+              "id": "censorship",
+              "front": "Censorship",
+              "back": "Cenzúra"
+            },
+            {
+              "id": "breaking_news",
+              "front": "Breaking news",
+              "back": "Mimoriadne správy"
+            },
+            {
+              "id": "coverage",
+              "front": "Coverage",
+              "back": "Pokrytie"
+            },
+            {
+              "id": "editor",
+              "front": "Editor",
+              "back": "Editor"
+            },
+            {
+              "id": "audience",
+              "front": "Audience",
+              "back": "Publikum"
+            },
+            {
+              "id": "report",
+              "front": "Report",
+              "back": "Reportáž"
+            },
+            {
+              "id": "podcast",
+              "front": "Podcast",
+              "back": "Podcast"
+            },
+            {
+              "id": "channel",
+              "front": "Channel",
+              "back": "Kanál"
+            },
+            {
+              "id": "live_stream",
+              "front": "Live stream",
+              "back": "Živé vysielanie"
+            }
+          ]
+        },
+        {
+          "id": "internet",
+          "title": "Internet",
+          "image": "🌐",
+          "description": "Online slová",
+          "cards": [
+            {
+              "id": "website",
+              "front": "Website",
+              "back": "Webstránka"
+            },
+            {
+              "id": "browser",
+              "front": "Browser",
+              "back": "Prehliadač"
+            },
+            {
+              "id": "password",
+              "front": "Password",
+              "back": "Heslo"
+            },
+            {
+              "id": "account",
+              "front": "Account",
+              "back": "Účet"
+            },
+            {
+              "id": "download",
+              "front": "Download",
+              "back": "Stiahnuť"
+            },
+            {
+              "id": "upload",
+              "front": "Upload",
+              "back": "Nahrať"
+            },
+            {
+              "id": "link",
+              "front": "Link",
+              "back": "Odkaz"
+            },
+            {
+              "id": "profile",
+              "front": "Profile",
+              "back": "Profil"
+            },
+            {
+              "id": "notification",
+              "front": "Notification",
+              "back": "Upozornenie"
+            },
+            {
+              "id": "spam",
+              "front": "Spam",
+              "back": "Spam"
+            },
+            {
+              "id": "internet_virus",
+              "front": "Virus",
+              "back": "Vírus"
+            },
+            {
+              "id": "update",
+              "front": "Update",
+              "back": "Aktualizácia"
+            },
+            {
+              "id": "cloud",
+              "front": "Cloud",
+              "back": "Cloud"
+            },
+            {
+              "id": "backup",
+              "front": "Backup",
+              "back": "Záloha"
+            },
+            {
+              "id": "username",
+              "front": "Username",
+              "back": "Používateľské meno"
+            },
+            {
+              "id": "log_in",
+              "front": "Log in",
+              "back": "Prihlásiť sa"
+            },
+            {
+              "id": "log_out",
+              "front": "Log out",
+              "back": "Odhlásiť sa"
+            },
+            {
+              "id": "search",
+              "front": "Search",
+              "back": "Hľadať"
+            }
+          ]
+        },
+        {
+          "id": "entertainment",
+          "title": "Zábava",
+          "image": "🎬",
+          "description": "Film, hudba, hry",
+          "cards": [
+            {
+              "id": "series",
+              "front": "Series",
+              "back": "Seriál"
+            },
+            {
+              "id": "episode",
+              "front": "Episode",
+              "back": "Epizóda"
+            },
+            {
+              "id": "season",
+              "front": "Season",
+              "back": "Séria"
+            },
+            {
+              "id": "soundtrack",
+              "front": "Soundtrack",
+              "back": "Soundtrack"
+            },
+            {
+              "id": "genre",
+              "front": "Genre",
+              "back": "Žáner"
+            },
+            {
+              "id": "plot",
+              "front": "Plot",
+              "back": "Dej"
+            },
+            {
+              "id": "character",
+              "front": "Character",
+              "back": "Postava"
+            },
+            {
+              "id": "director",
+              "front": "Director",
+              "back": "Režisér"
+            },
+            {
+              "id": "performance",
+              "front": "Performance",
+              "back": "Výkon"
+            },
+            {
+              "id": "review",
+              "front": "Review",
+              "back": "Recenzia"
+            },
+            {
+              "id": "bestseller",
+              "front": "Bestseller",
+              "back": "Bestseller"
+            },
+            {
+              "id": "concert",
+              "front": "Concert",
+              "back": "Koncert"
+            },
+            {
+              "id": "festival",
+              "front": "Festival",
+              "back": "Festival"
+            },
+            {
+              "id": "streaming",
+              "front": "Streaming",
+              "back": "Streamovanie"
+            },
+            {
+              "id": "playlist",
+              "front": "Playlist",
+              "back": "Playlist"
+            },
+            {
+              "id": "lyrics",
+              "front": "Lyrics",
+              "back": "Text piesne"
+            },
+            {
+              "id": "entertainment_audience",
+              "front": "Audience",
+              "back": "Diváci"
+            },
+            {
+              "id": "premiere",
+              "front": "Premiere",
+              "back": "Premiéra"
+            }
+          ]
+        },
+        {
+          "id": "social_media",
+          "title": "Sociálne siete",
+          "image": "📲",
+          "description": "Online komunikácia",
+          "cards": [
+            {
+              "id": "post",
+              "front": "Post",
+              "back": "Príspevok"
+            },
+            {
+              "id": "story",
+              "front": "Story",
+              "back": "Príbeh"
+            },
+            {
+              "id": "like",
+              "front": "Like",
+              "back": "Páči sa mi"
+            },
+            {
+              "id": "comment",
+              "front": "Comment",
+              "back": "Komentár"
+            },
+            {
+              "id": "social_media_share",
+              "front": "Share",
+              "back": "Zdieľať"
+            },
+            {
+              "id": "follower",
+              "front": "Follower",
+              "back": "Sledovateľ"
+            },
+            {
+              "id": "hashtag",
+              "front": "Hashtag",
+              "back": "Hashtag"
+            },
+            {
+              "id": "social_media_trend",
+              "front": "Trend",
+              "back": "Trend"
+            },
+            {
+              "id": "viral",
+              "front": "Viral",
+              "back": "Virálny"
+            },
+            {
+              "id": "social_media_influencer",
+              "front": "Influencer",
+              "back": "Influencer"
+            },
+            {
+              "id": "dm",
+              "front": "DM",
+              "back": "Súkromná správa"
+            },
+            {
+              "id": "block",
+              "front": "Block",
+              "back": "Zablokovať"
+            },
+            {
+              "id": "social_media_report",
+              "front": "Report",
+              "back": "Nahlásiť"
+            },
+            {
+              "id": "privacy",
+              "front": "Privacy",
+              "back": "Súkromie"
+            },
+            {
+              "id": "algorithm",
+              "front": "Algorithm",
+              "back": "Algoritmus"
+            },
+            {
+              "id": "feed",
+              "front": "Feed",
+              "back": "Kanál"
+            },
+            {
+              "id": "reel",
+              "front": "Reel",
+              "back": "Reel"
+            },
+            {
+              "id": "subscribe",
+              "front": "Subscribe",
+              "back": "Odoberať"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "society",
+      "title": "Spoločnosť",
+      "image": "🏛️",
+      "color": "#64748B",
+      "description": "Spoločnosť, právo a životné prostredie",
+      "categories": [
+        {
+          "id": "politics",
+          "title": "Spoločnosť",
+          "image": "🗳️",
+          "description": "Občianske slová",
+          "cards": [
+            {
+              "id": "government",
+              "front": "Government",
+              "back": "Vláda"
+            },
+            {
+              "id": "election",
+              "front": "Election",
+              "back": "Voľby"
+            },
+            {
+              "id": "law",
+              "front": "Law",
+              "back": "Zákon"
+            },
+            {
+              "id": "right",
+              "front": "Right",
+              "back": "Právo"
+            },
+            {
+              "id": "duty",
+              "front": "Duty",
+              "back": "Povinnosť"
+            },
+            {
+              "id": "citizen",
+              "front": "Citizen",
+              "back": "Občan"
+            },
+            {
+              "id": "vote",
+              "front": "Vote",
+              "back": "Hlasovať"
+            },
+            {
+              "id": "democracy",
+              "front": "Democracy",
+              "back": "Demokracia"
+            },
+            {
+              "id": "freedom",
+              "front": "Freedom",
+              "back": "Sloboda"
+            },
+            {
+              "id": "equality",
+              "front": "Equality",
+              "back": "Rovnosť"
+            },
+            {
+              "id": "justice",
+              "front": "Justice",
+              "back": "Spravodlivosť"
+            },
+            {
+              "id": "protest",
+              "front": "Protest",
+              "back": "Protest"
+            },
+            {
+              "id": "policy",
+              "front": "Policy",
+              "back": "Politika / opatrenie"
+            },
+            {
+              "id": "public",
+              "front": "Public",
+              "back": "Verejný"
+            },
+            {
+              "id": "private",
+              "front": "Private",
+              "back": "Súkromný"
+            },
+            {
+              "id": "community",
+              "front": "Community",
+              "back": "Komunita"
+            },
+            {
+              "id": "society",
+              "front": "Society",
+              "back": "Spoločnosť"
+            },
+            {
+              "id": "debate",
+              "front": "Debate",
+              "back": "Debata"
+            }
+          ]
+        },
+        {
+          "id": "law",
+          "title": "Právo",
+          "image": "⚖️",
+          "description": "Zákon a pravidlá",
+          "cards": [
+            {
+              "id": "crime",
+              "front": "Crime",
+              "back": "Zločin"
+            },
+            {
+              "id": "thief",
+              "front": "Thief",
+              "back": "Zlodej"
+            },
+            {
+              "id": "witness",
+              "front": "Witness",
+              "back": "Svedok"
+            },
+            {
+              "id": "judge",
+              "front": "Judge",
+              "back": "Sudca"
+            },
+            {
+              "id": "lawyer",
+              "front": "Lawyer",
+              "back": "Právnik"
+            },
+            {
+              "id": "court",
+              "front": "Court",
+              "back": "Súd"
+            },
+            {
+              "id": "fine",
+              "front": "Fine",
+              "back": "Pokuta"
+            },
+            {
+              "id": "prison",
+              "front": "Prison",
+              "back": "Väzenie"
+            },
+            {
+              "id": "guilty",
+              "front": "Guilty",
+              "back": "Vinný"
+            },
+            {
+              "id": "innocent",
+              "front": "Innocent",
+              "back": "Nevinný"
+            },
+            {
+              "id": "law_evidence",
+              "front": "Evidence",
+              "back": "Dôkaz"
+            },
+            {
+              "id": "rule",
+              "front": "Rule",
+              "back": "Pravidlo"
+            },
+            {
+              "id": "ban",
+              "front": "Ban",
+              "back": "Zákaz"
+            },
+            {
+              "id": "permit",
+              "front": "Permit",
+              "back": "Povolenie"
+            },
+            {
+              "id": "contract",
+              "front": "Contract",
+              "back": "Zmluva"
+            },
+            {
+              "id": "law_claim",
+              "front": "Claim",
+              "back": "Nárok"
+            },
+            {
+              "id": "appeal",
+              "front": "Appeal",
+              "back": "Odvolanie"
+            },
+            {
+              "id": "sentence",
+              "front": "Sentence",
+              "back": "Rozsudok"
+            }
+          ]
+        },
+        {
+          "id": "environment",
+          "title": "Životné prostredie",
+          "image": "🌍",
+          "description": "Príroda a klíma",
+          "cards": [
+            {
+              "id": "pollution",
+              "front": "Pollution",
+              "back": "Znečistenie"
+            },
+            {
+              "id": "recycling",
+              "front": "Recycling",
+              "back": "Recyklácia"
+            },
+            {
+              "id": "waste",
+              "front": "Waste",
+              "back": "Odpad"
+            },
+            {
+              "id": "climate_change",
+              "front": "Climate change",
+              "back": "Klimatická zmena"
+            },
+            {
+              "id": "global_warming",
+              "front": "Global warming",
+              "back": "Globálne otepľovanie"
+            },
+            {
+              "id": "renewable_energy",
+              "front": "Renewable energy",
+              "back": "Obnoviteľná energia"
+            },
+            {
+              "id": "fossil_fuel",
+              "front": "Fossil fuel",
+              "back": "Fosílne palivo"
+            },
+            {
+              "id": "emission",
+              "front": "Emission",
+              "back": "Emisia"
+            },
+            {
+              "id": "drought",
+              "front": "Drought",
+              "back": "Sucho"
+            },
+            {
+              "id": "flood",
+              "front": "Flood",
+              "back": "Povodeň"
+            },
+            {
+              "id": "wildlife",
+              "front": "Wildlife",
+              "back": "Voľne žijúce zvieratá"
+            },
+            {
+              "id": "habitat",
+              "front": "Habitat",
+              "back": "Biotop"
+            },
+            {
+              "id": "sustainability",
+              "front": "Sustainability",
+              "back": "Udržateľnosť"
+            },
+            {
+              "id": "organic",
+              "front": "Organic",
+              "back": "Bio"
+            },
+            {
+              "id": "carbon_footprint",
+              "front": "Carbon footprint",
+              "back": "Uhlíková stopa"
+            },
+            {
+              "id": "conservation",
+              "front": "Conservation",
+              "back": "Ochrana"
+            },
+            {
+              "id": "plastic",
+              "front": "Plastic",
+              "back": "Plast"
+            },
+            {
+              "id": "solar_power",
+              "front": "Solar power",
+              "back": "Solárna energia"
+            }
+          ]
+        },
+        {
+          "id": "culture",
+          "title": "Kultúra",
+          "image": "🎭",
+          "description": "Zvyky a umenie",
+          "cards": [
+            {
+              "id": "tradition",
+              "front": "Tradition",
+              "back": "Tradícia"
+            },
+            {
+              "id": "custom",
+              "front": "Custom",
+              "back": "Zvyk"
+            },
+            {
+              "id": "culture_festival",
+              "front": "Festival",
+              "back": "Festival"
+            },
+            {
+              "id": "heritage",
+              "front": "Heritage",
+              "back": "Dedičstvo"
+            },
+            {
+              "id": "religion",
+              "front": "Religion",
+              "back": "Náboženstvo"
+            },
+            {
+              "id": "belief",
+              "front": "Belief",
+              "back": "Viera"
+            },
+            {
+              "id": "art",
+              "front": "Art",
+              "back": "Umenie"
+            },
+            {
+              "id": "architecture",
+              "front": "Architecture",
+              "back": "Architektúra"
+            },
+            {
+              "id": "literature",
+              "front": "Literature",
+              "back": "Literatúra"
+            },
+            {
+              "id": "myth",
+              "front": "Myth",
+              "back": "Mýtus"
+            },
+            {
+              "id": "stereotype",
+              "front": "Stereotype",
+              "back": "Stereotyp"
+            },
+            {
+              "id": "diversity",
+              "front": "Diversity",
+              "back": "Rôznorodosť"
+            },
+            {
+              "id": "culture_identity",
+              "front": "Identity",
+              "back": "Identita"
+            },
+            {
+              "id": "generation",
+              "front": "Generation",
+              "back": "Generácia"
+            },
+            {
+              "id": "ceremony",
+              "front": "Ceremony",
+              "back": "Obrad"
+            },
+            {
+              "id": "costume",
+              "front": "Costume",
+              "back": "Kroj / kostým"
+            },
+            {
+              "id": "folklore",
+              "front": "Folklore",
+              "back": "Folklór"
+            },
+            {
+              "id": "culture_value",
+              "front": "Value",
+              "back": "Hodnota"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "title": "Kariéra",
+      "image": "💼",
+      "color": "#0F766E",
+      "description": "Pohovory, zručnosti a projekty",
+      "categories": [
+        {
+          "id": "interview",
+          "title": "Pohovor",
+          "image": "🗣️",
+          "description": "Na pohovore",
+          "cards": [
+            {
+              "id": "apply_for",
+              "front": "Apply for",
+              "back": "Uchádzať sa"
+            },
+            {
+              "id": "cover_letter",
+              "front": "Cover letter",
+              "back": "Motivačný list"
+            },
+            {
+              "id": "strength",
+              "front": "Strength",
+              "back": "Silná stránka"
+            },
+            {
+              "id": "weakness",
+              "front": "Weakness",
+              "back": "Slabina"
+            },
+            {
+              "id": "experience",
+              "front": "Experience",
+              "back": "Skúsenosť"
+            },
+            {
+              "id": "achievement",
+              "front": "Achievement",
+              "back": "Úspech"
+            },
+            {
+              "id": "hire",
+              "front": "Hire",
+              "back": "Prijať"
+            },
+            {
+              "id": "reject",
+              "front": "Reject",
+              "back": "Odmietnuť"
+            },
+            {
+              "id": "available",
+              "front": "Available",
+              "back": "K dispozícii"
+            },
+            {
+              "id": "notice_period",
+              "front": "Notice period",
+              "back": "Výpovedná lehota"
+            },
+            {
+              "id": "full_time",
+              "front": "Full-time",
+              "back": "Plný úväzok"
+            },
+            {
+              "id": "part_time",
+              "front": "Part-time",
+              "back": "Čiastočný úväzok"
+            },
+            {
+              "id": "freelance",
+              "front": "Freelance",
+              "back": "Na voľnej nohe"
+            },
+            {
+              "id": "probation",
+              "front": "Probation",
+              "back": "Skúšobná doba"
+            },
+            {
+              "id": "benefits",
+              "front": "Benefits",
+              "back": "Benefity"
+            },
+            {
+              "id": "tell_me_about_yourself",
+              "front": "Tell me about yourself",
+              "back": "Povedzte niečo o sebe"
+            },
+            {
+              "id": "why_should_we_hire_you",
+              "front": "Why should we hire you",
+              "back": "Prečo vás máme prijať"
+            },
+            {
+              "id": "i_look_forward_to",
+              "front": "I look forward to",
+              "back": "Teším sa na"
+            }
+          ]
+        },
+        {
+          "id": "skills",
+          "title": "Zručnosti",
+          "image": "🛠️",
+          "description": "Čo vieš",
+          "cards": [
+            {
+              "id": "communication",
+              "front": "Communication",
+              "back": "Komunikácia"
+            },
+            {
+              "id": "problem_solving",
+              "front": "Problem-solving",
+              "back": "Riešenie problémov"
+            },
+            {
+              "id": "time_management",
+              "front": "Time management",
+              "back": "Riadenie času"
+            },
+            {
+              "id": "leadership",
+              "front": "Leadership",
+              "back": "Vedenie"
+            },
+            {
+              "id": "creativity",
+              "front": "Creativity",
+              "back": "Kreativita"
+            },
+            {
+              "id": "critical_thinking",
+              "front": "Critical thinking",
+              "back": "Kritické myslenie"
+            },
+            {
+              "id": "team_player",
+              "front": "Team player",
+              "back": "Tímový hráč"
+            },
+            {
+              "id": "multitasking",
+              "front": "Multitasking",
+              "back": "Multitasking"
+            },
+            {
+              "id": "adaptability",
+              "front": "Adaptability",
+              "back": "Prispôsobivosť"
+            },
+            {
+              "id": "attention_to_detail",
+              "front": "Attention to detail",
+              "back": "Pozornosť k detailom"
+            },
+            {
+              "id": "presentation",
+              "front": "Presentation",
+              "back": "Prezentácia"
+            },
+            {
+              "id": "negotiation",
+              "front": "Negotiation",
+              "back": "Vyjednávanie"
+            },
+            {
+              "id": "digital_literacy",
+              "front": "Digital literacy",
+              "back": "Digitálna gramotnosť"
+            },
+            {
+              "id": "foreign_language",
+              "front": "Foreign language",
+              "back": "Cudzí jazyk"
+            },
+            {
+              "id": "certificate",
+              "front": "Certificate",
+              "back": "Certifikát"
+            },
+            {
+              "id": "training",
+              "front": "Training",
+              "back": "Školenie"
+            },
+            {
+              "id": "mentor",
+              "front": "Mentor",
+              "back": "Mentor"
+            },
+            {
+              "id": "network",
+              "front": "Network",
+              "back": "Sieť kontaktov"
+            }
+          ]
+        },
+        {
+          "id": "projects",
+          "title": "Projekty",
+          "image": "📌",
+          "description": "Ako sa pracuje na projekte",
+          "cards": [
+            {
+              "id": "goal",
+              "front": "Goal",
+              "back": "Cieľ"
+            },
+            {
+              "id": "milestone",
+              "front": "Milestone",
+              "back": "Míľnik"
+            },
+            {
+              "id": "scope",
+              "front": "Scope",
+              "back": "Rozsah"
+            },
+            {
+              "id": "resource",
+              "front": "Resource",
+              "back": "Zdroj"
+            },
+            {
+              "id": "delay",
+              "front": "Delay",
+              "back": "Meškanie"
+            },
+            {
+              "id": "projects_risk",
+              "front": "Risk",
+              "back": "Riziko"
+            },
+            {
+              "id": "deliverable",
+              "front": "Deliverable",
+              "back": "Výstup"
+            },
+            {
+              "id": "projects_update",
+              "front": "Update",
+              "back": "Aktualizácia"
+            },
+            {
+              "id": "kick_off",
+              "front": "Kick-off",
+              "back": "Štart projektu"
+            },
+            {
+              "id": "brainstorm",
+              "front": "Brainstorm",
+              "back": "Búrka mozgov"
+            },
+            {
+              "id": "prototype",
+              "front": "Prototype",
+              "back": "Prototyp"
+            },
+            {
+              "id": "test",
+              "front": "Test",
+              "back": "Otestovať"
+            },
+            {
+              "id": "projects_launch",
+              "front": "Launch",
+              "back": "Spustiť"
+            },
+            {
+              "id": "evaluate",
+              "front": "Evaluate",
+              "back": "Vyhodnotiť"
+            },
+            {
+              "id": "improve",
+              "front": "Improve",
+              "back": "Zlepšiť"
+            },
+            {
+              "id": "collaborate",
+              "front": "Collaborate",
+              "back": "Spolupracovať"
+            },
+            {
+              "id": "assign",
+              "front": "Assign",
+              "back": "Prideliť"
+            },
+            {
+              "id": "track_progress",
+              "front": "Track progress",
+              "back": "Sledovať pokrok"
+            }
+          ]
+        },
+        {
+          "id": "email_phrases",
+          "title": "Pracovné emaily",
+          "image": "✉️",
+          "description": "Formálne frázy",
+          "cards": [
+            {
+              "id": "dear_sir_or_madam",
+              "front": "Dear Sir or Madam",
+              "back": "Vážený pán / pani"
+            },
+            {
+              "id": "i_am_writing_to",
+              "front": "I am writing to",
+              "back": "Píšem vám, aby som"
+            },
+            {
+              "id": "please_find_attached",
+              "front": "Please find attached",
+              "back": "V prílohe nájdete"
+            },
+            {
+              "id": "i_would_appreciate",
+              "front": "I would appreciate",
+              "back": "Oceníl by som"
+            },
+            {
+              "id": "could_you_please",
+              "front": "Could you please",
+              "back": "Mohli by ste prosím"
+            },
+            {
+              "id": "as_requested",
+              "front": "As requested",
+              "back": "Ako ste žiadali"
+            },
+            {
+              "id": "i_look_forward_to_hearing_from_you",
+              "front": "I look forward to hearing from you",
+              "back": "Teším sa na odpoveď"
+            },
+            {
+              "id": "kind_regards",
+              "front": "Kind regards",
+              "back": "S pozdravom"
+            },
+            {
+              "id": "best_regards",
+              "front": "Best regards",
+              "back": "S pozdravom"
+            },
+            {
+              "id": "please_let_me_know",
+              "front": "Please let me know",
+              "back": "Dajte mi prosím vedieť"
+            },
+            {
+              "id": "sorry_for_the_delay",
+              "front": "Sorry for the delay",
+              "back": "Ospravedlňujem sa za omeškanie"
+            },
+            {
+              "id": "just_a_quick_reminder",
+              "front": "Just a quick reminder",
+              "back": "Len krátke pripomenutie"
+            },
+            {
+              "id": "following_our_conversation",
+              "front": "Following our conversation",
+              "back": "Na nadviazanie na rozhovor"
+            },
+            {
+              "id": "i_confirm_that",
+              "front": "I confirm that",
+              "back": "Potvrdzujem, že"
+            },
+            {
+              "id": "please_do_not_hesitate",
+              "front": "Please do not hesitate",
+              "back": "Neváhajte"
+            },
+            {
+              "id": "thank_you_in_advance",
+              "front": "Thank you in advance",
+              "back": "Ďakujem vopred"
+            },
+            {
+              "id": "i_remain_at_your_disposal",
+              "front": "I remain at your disposal",
+              "back": "Som vám k dispozícii"
+            },
+            {
+              "id": "yours_faithfully",
+              "front": "Yours faithfully",
+              "back": "S úctou"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "title": "Životný štýl",
+      "image": "🏃",
+      "color": "#F59E0B",
+      "description": "Zdravie, strava a vzťahy",
+      "categories": [
+        {
+          "id": "fitness",
+          "title": "Fitness",
+          "image": "💪",
+          "description": "Cvičenie a telo",
+          "cards": [
+            {
+              "id": "workout",
+              "front": "Workout",
+              "back": "Tréning"
+            },
+            {
+              "id": "warm_up",
+              "front": "Warm-up",
+              "back": "Rozcvička"
+            },
+            {
+              "id": "stretch",
+              "front": "Stretch",
+              "back": "Natiahnuť"
+            },
+            {
+              "id": "calories",
+              "front": "Calories",
+              "back": "Kalórie"
+            },
+            {
+              "id": "muscle",
+              "front": "Muscle",
+              "back": "Sval"
+            },
+            {
+              "id": "fitness_strength",
+              "front": "Strength",
+              "back": "Sila"
+            },
+            {
+              "id": "endurance",
+              "front": "Endurance",
+              "back": "Vytrvalosť"
+            },
+            {
+              "id": "flexibility",
+              "front": "Flexibility",
+              "back": "Flexibilita"
+            },
+            {
+              "id": "heart_rate",
+              "front": "Heart rate",
+              "back": "Tep"
+            },
+            {
+              "id": "hydration",
+              "front": "Hydration",
+              "back": "Hydratácia"
+            },
+            {
+              "id": "rest_day",
+              "front": "Rest day",
+              "back": "Deň voľna"
+            },
+            {
+              "id": "injury",
+              "front": "Injury",
+              "back": "Zranenie"
+            },
+            {
+              "id": "protein",
+              "front": "Protein",
+              "back": "Bielkoviny"
+            },
+            {
+              "id": "cardio",
+              "front": "Cardio",
+              "back": "Kardio"
+            },
+            {
+              "id": "weights",
+              "front": "Weights",
+              "back": "Činky"
+            },
+            {
+              "id": "yoga",
+              "front": "Yoga",
+              "back": "Joga"
+            },
+            {
+              "id": "personal_trainer",
+              "front": "Personal trainer",
+              "back": "Osobný tréner"
+            },
+            {
+              "id": "motivation",
+              "front": "Motivation",
+              "back": "Motivácia"
+            }
+          ]
+        },
+        {
+          "id": "mental_health",
+          "title": "Mentálne zdravie",
+          "image": "🧘",
+          "description": "Pohoda",
+          "cards": [
+            {
+              "id": "stress",
+              "front": "Stress",
+              "back": "Stres"
+            },
+            {
+              "id": "anxiety",
+              "front": "Anxiety",
+              "back": "Úzkosť"
+            },
+            {
+              "id": "burnout",
+              "front": "Burnout",
+              "back": "Vyhorenie"
+            },
+            {
+              "id": "mindfulness",
+              "front": "Mindfulness",
+              "back": "Všímavosť"
+            },
+            {
+              "id": "therapy",
+              "front": "Therapy",
+              "back": "Terapia"
+            },
+            {
+              "id": "mental_health_support",
+              "front": "Support",
+              "back": "Podpora"
+            },
+            {
+              "id": "balance",
+              "front": "Balance",
+              "back": "Rovnováha"
+            },
+            {
+              "id": "routine",
+              "front": "Routine",
+              "back": "Režim"
+            },
+            {
+              "id": "self_care",
+              "front": "Self-care",
+              "back": "Starostlivosť o seba"
+            },
+            {
+              "id": "boundary",
+              "front": "Boundary",
+              "back": "Hranica"
+            },
+            {
+              "id": "confidence",
+              "front": "Confidence",
+              "back": "Sebavedomie"
+            },
+            {
+              "id": "loneliness",
+              "front": "Loneliness",
+              "back": "Osamelosť"
+            },
+            {
+              "id": "cope_with",
+              "front": "Cope with",
+              "back": "Zvládať"
+            },
+            {
+              "id": "breathe",
+              "front": "Breathe",
+              "back": "Dýchať"
+            },
+            {
+              "id": "journal",
+              "front": "Journal",
+              "back": "Denník"
+            },
+            {
+              "id": "meditation",
+              "front": "Meditation",
+              "back": "Meditácia"
+            },
+            {
+              "id": "well_being",
+              "front": "Well-being",
+              "back": "Pohoda"
+            },
+            {
+              "id": "resilience",
+              "front": "Resilience",
+              "back": "Odolnosť"
+            }
+          ]
+        },
+        {
+          "id": "food_diet",
+          "title": "Strava",
+          "image": "🥗",
+          "description": "Jedlo a návyky",
+          "cards": [
+            {
+              "id": "ingredient",
+              "front": "Ingredient",
+              "back": "Ingrediencia"
+            },
+            {
+              "id": "recipe",
+              "front": "Recipe",
+              "back": "Recept"
+            },
+            {
+              "id": "portion",
+              "front": "Portion",
+              "back": "Porcia"
+            },
+            {
+              "id": "food_diet_organic",
+              "front": "Organic",
+              "back": "Bio"
+            },
+            {
+              "id": "processed_food",
+              "front": "Processed food",
+              "back": "Spracované jedlo"
+            },
+            {
+              "id": "vegan",
+              "front": "Vegan",
+              "back": "Vegánsky"
+            },
+            {
+              "id": "vegetarian",
+              "front": "Vegetarian",
+              "back": "Vegetariánsky"
+            },
+            {
+              "id": "allergy",
+              "front": "Allergy",
+              "back": "Alergia"
+            },
+            {
+              "id": "nutrition",
+              "front": "Nutrition",
+              "back": "Výživa"
+            },
+            {
+              "id": "fibre",
+              "front": "Fibre",
+              "back": "Vláknina"
+            },
+            {
+              "id": "fat",
+              "front": "Fat",
+              "back": "Tuk"
+            },
+            {
+              "id": "carbohydrate",
+              "front": "Carbohydrate",
+              "back": "Sacharid"
+            },
+            {
+              "id": "vitamin",
+              "front": "Vitamin",
+              "back": "Vitamín"
+            },
+            {
+              "id": "home_made",
+              "front": "Home-made",
+              "back": "Domáci"
+            },
+            {
+              "id": "takeaway",
+              "front": "Takeaway",
+              "back": "Jedlo so sebou"
+            },
+            {
+              "id": "craving",
+              "front": "Craving",
+              "back": "Chuť na niečo"
+            },
+            {
+              "id": "balanced_diet",
+              "front": "Balanced diet",
+              "back": "Vyvážená strava"
+            },
+            {
+              "id": "fast_food",
+              "front": "Fast food",
+              "back": "Rýchle občerstvenie"
+            }
+          ]
+        },
+        {
+          "id": "relationships",
+          "title": "Vzťahy",
+          "image": "💞",
+          "description": "Ľudia okolo nás",
+          "cards": [
+            {
+              "id": "relationship",
+              "front": "Relationship",
+              "back": "Vzťah"
+            },
+            {
+              "id": "friendship",
+              "front": "Friendship",
+              "back": "Priateľstvo"
+            },
+            {
+              "id": "trust",
+              "front": "Trust",
+              "back": "Dôvera"
+            },
+            {
+              "id": "respect",
+              "front": "Respect",
+              "back": "Rešpekt"
+            },
+            {
+              "id": "relationships_argument",
+              "front": "Argument",
+              "back": "Hádka"
+            },
+            {
+              "id": "apology",
+              "front": "Apology",
+              "back": "Ospravedlnenie"
+            },
+            {
+              "id": "forgive",
+              "front": "Forgive",
+              "back": "Odpustiť"
+            },
+            {
+              "id": "supportive",
+              "front": "Supportive",
+              "back": "Podporujúci"
+            },
+            {
+              "id": "honest",
+              "front": "Honest",
+              "back": "Úprimný"
+            },
+            {
+              "id": "close_friend",
+              "front": "Close friend",
+              "back": "Blízky kamarát"
+            },
+            {
+              "id": "relationships_colleague",
+              "front": "Colleague",
+              "back": "Kolega"
+            },
+            {
+              "id": "partner",
+              "front": "Partner",
+              "back": "Partner"
+            },
+            {
+              "id": "break_up",
+              "front": "Break up",
+              "back": "Rozísť sa"
+            },
+            {
+              "id": "get_along",
+              "front": "Get along",
+              "back": "Vychádzať"
+            },
+            {
+              "id": "keep_in_touch",
+              "front": "Keep in touch",
+              "back": "Ostať v kontakte"
+            },
+            {
+              "id": "make_up",
+              "front": "Make up",
+              "back": "Uzmieriť sa"
+            },
+            {
+              "id": "depend_on",
+              "front": "Depend on",
+              "back": "Spoliehať sa"
+            },
+            {
+              "id": "relationships_share",
+              "front": "Share",
+              "back": "Zdieľať"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Technológie",
+      "image": "💡",
+      "color": "#2563EB",
+      "description": "Zariadenia, softvér a digitálny život",
+      "categories": [
+        {
+          "id": "devices",
+          "title": "Zariadenia",
+          "image": "🖥️",
+          "description": "Hardvér",
+          "cards": [
+            {
+              "id": "smartphone",
+              "front": "Smartphone",
+              "back": "Smartfón"
+            },
+            {
+              "id": "tablet",
+              "front": "Tablet",
+              "back": "Tablet"
+            },
+            {
+              "id": "headphones",
+              "front": "Headphones",
+              "back": "Slúchadlá"
+            },
+            {
+              "id": "speaker",
+              "front": "Speaker",
+              "back": "Reproduktor"
+            },
+            {
+              "id": "charger",
+              "front": "Charger",
+              "back": "Nabíjačka"
+            },
+            {
+              "id": "battery",
+              "front": "Battery",
+              "back": "Batéria"
+            },
+            {
+              "id": "cable",
+              "front": "Cable",
+              "back": "Kábel"
+            },
+            {
+              "id": "usb",
+              "front": "USB",
+              "back": "USB"
+            },
+            {
+              "id": "camera",
+              "front": "Camera",
+              "back": "Fotoaparát"
+            },
+            {
+              "id": "microphone",
+              "front": "Microphone",
+              "back": "Mikrofón"
+            },
+            {
+              "id": "printer",
+              "front": "Printer",
+              "back": "Tlačiareň"
+            },
+            {
+              "id": "router",
+              "front": "Router",
+              "back": "Router"
+            },
+            {
+              "id": "smartwatch",
+              "front": "Smartwatch",
+              "back": "Smart hodinky"
+            },
+            {
+              "id": "keyboard",
+              "front": "Keyboard",
+              "back": "Klávesnica"
+            },
+            {
+              "id": "screen",
+              "front": "Screen",
+              "back": "Obrazovka"
+            },
+            {
+              "id": "storage",
+              "front": "Storage",
+              "back": "Úložisko"
+            },
+            {
+              "id": "memory",
+              "front": "Memory",
+              "back": "Pamäť"
+            },
+            {
+              "id": "processor",
+              "front": "Processor",
+              "back": "Procesor"
+            }
+          ]
+        },
+        {
+          "id": "software",
+          "title": "Softvér",
+          "image": "🧰",
+          "description": "Aplikácie",
+          "cards": [
+            {
+              "id": "app",
+              "front": "App",
+              "back": "Aplikácia"
+            },
+            {
+              "id": "software",
+              "front": "Software",
+              "back": "Softvér"
+            },
+            {
+              "id": "operating_system",
+              "front": "Operating system",
+              "back": "Operačný systém"
+            },
+            {
+              "id": "file",
+              "front": "File",
+              "back": "Súbor"
+            },
+            {
+              "id": "folder",
+              "front": "Folder",
+              "back": "Priečinok"
+            },
+            {
+              "id": "install",
+              "front": "Install",
+              "back": "Nainštalovať"
+            },
+            {
+              "id": "uninstall",
+              "front": "Uninstall",
+              "back": "Odinštalovať"
+            },
+            {
+              "id": "bug",
+              "front": "Bug",
+              "back": "Chyba"
+            },
+            {
+              "id": "crash",
+              "front": "Crash",
+              "back": "Zrútenie"
+            },
+            {
+              "id": "settings",
+              "front": "Settings",
+              "back": "Nastavenia"
+            },
+            {
+              "id": "software_notification",
+              "front": "Notification",
+              "back": "Oznámenie"
+            },
+            {
+              "id": "software_update",
+              "front": "Update",
+              "back": "Aktualizácia"
+            },
+            {
+              "id": "version",
+              "front": "Version",
+              "back": "Verzia"
+            },
+            {
+              "id": "licence",
+              "front": "Licence",
+              "back": "Licencia"
+            },
+            {
+              "id": "shortcut",
+              "front": "Shortcut",
+              "back": "Skratka"
+            },
+            {
+              "id": "password_manager",
+              "front": "Password manager",
+              "back": "Správca hesiel"
+            },
+            {
+              "id": "antivirus",
+              "front": "Antivirus",
+              "back": "Antivírus"
+            },
+            {
+              "id": "cloud_storage",
+              "front": "Cloud storage",
+              "back": "Cloudové úložisko"
+            }
+          ]
+        },
+        {
+          "id": "digital_life",
+          "title": "Digitálny život",
+          "image": "🔐",
+          "description": "Online bezpečnosť",
+          "cards": [
+            {
+              "id": "digital_life_privacy",
+              "front": "Privacy",
+              "back": "Súkromie"
+            },
+            {
+              "id": "data_leak",
+              "front": "Data leak",
+              "back": "Únik dát"
+            },
+            {
+              "id": "scam",
+              "front": "Scam",
+              "back": "Podvod"
+            },
+            {
+              "id": "phishing",
+              "front": "Phishing",
+              "back": "Phishing"
+            },
+            {
+              "id": "two_factor_authentication",
+              "front": "Two-factor authentication",
+              "back": "Dvojfaktorové overenie"
+            },
+            {
+              "id": "encryption",
+              "front": "Encryption",
+              "back": "Šifrovanie"
+            },
+            {
+              "id": "digital_footprint",
+              "front": "Digital footprint",
+              "back": "Digitálna stopa"
+            },
+            {
+              "id": "screen_time",
+              "front": "Screen time",
+              "back": "Čas pred obrazovkou"
+            },
+            {
+              "id": "online_shopping",
+              "front": "Online shopping",
+              "back": "Online nákup"
+            },
+            {
+              "id": "subscription",
+              "front": "Subscription",
+              "back": "Predplatné"
+            },
+            {
+              "id": "digital_life_streaming",
+              "front": "Streaming",
+              "back": "Streamovanie"
+            },
+            {
+              "id": "digital_life_remote_work",
+              "front": "Remote work",
+              "back": "Práca na diaľku"
+            },
+            {
+              "id": "video_call",
+              "front": "Video call",
+              "back": "Videohovor"
+            },
+            {
+              "id": "notification_overload",
+              "front": "Notification overload",
+              "back": "Príliš veľa upozornení"
+            },
+            {
+              "id": "digital_detox",
+              "front": "Digital detox",
+              "back": "Digitálny detox"
+            },
+            {
+              "id": "cyberbullying",
+              "front": "Cyberbullying",
+              "back": "Kyberšikana"
+            },
+            {
+              "id": "fake_news",
+              "front": "Fake news",
+              "back": "Falošné správy"
+            },
+            {
+              "id": "fact_check",
+              "front": "Fact-check",
+              "back": "Overiť fakty"
+            }
+          ]
+        },
+        {
+          "id": "future_tech",
+          "title": "Budúcnosť",
+          "image": "🤖",
+          "description": "Moderné témy",
+          "cards": [
+            {
+              "id": "artificial_intelligence",
+              "front": "Artificial intelligence",
+              "back": "Umelá inteligencia"
+            },
+            {
+              "id": "machine_learning",
+              "front": "Machine learning",
+              "back": "Strojové učenie"
+            },
+            {
+              "id": "future_tech_algorithm",
+              "front": "Algorithm",
+              "back": "Algoritmus"
+            },
+            {
+              "id": "automation",
+              "front": "Automation",
+              "back": "Automatizácia"
+            },
+            {
+              "id": "robot",
+              "front": "Robot",
+              "back": "Robot"
+            },
+            {
+              "id": "drone",
+              "front": "Drone",
+              "back": "Dron"
+            },
+            {
+              "id": "virtual_reality",
+              "front": "Virtual reality",
+              "back": "Virtuálna realita"
+            },
+            {
+              "id": "augmented_reality",
+              "front": "Augmented reality",
+              "back": "Rozšírená realita"
+            },
+            {
+              "id": "self_driving_car",
+              "front": "Self-driving car",
+              "back": "Samošoférujúce auto"
+            },
+            {
+              "id": "smart_home",
+              "front": "Smart home",
+              "back": "Smart domácnosť"
+            },
+            {
+              "id": "renewable_tech",
+              "front": "Renewable tech",
+              "back": "Zelené technológie"
+            },
+            {
+              "id": "electric_car",
+              "front": "Electric car",
+              "back": "Elektromobil"
+            },
+            {
+              "id": "chip",
+              "front": "Chip",
+              "back": "Čip"
+            },
+            {
+              "id": "sensor",
+              "front": "Sensor",
+              "back": "Senzor"
+            },
+            {
+              "id": "future_tech_innovation",
+              "front": "Innovation",
+              "back": "Inovácia"
+            },
+            {
+              "id": "start_up",
+              "front": "Start-up",
+              "back": "Startup"
+            },
+            {
+              "id": "patent",
+              "front": "Patent",
+              "back": "Patent"
+            },
+            {
+              "id": "disrupt",
+              "front": "Disrupt",
+              "back": "Prevrátiť trh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel_culture",
+      "title": "Cestovanie a kultúra",
+      "image": "🗺️",
+      "color": "#EA580C",
+      "description": "Cestovanie, jedlo vonku a mestský život",
+      "categories": [
+        {
+          "id": "travel_issues",
+          "title": "Cestovné situácie",
+          "image": "🚨",
+          "description": "Keď niečo nejde",
+          "cards": [
+            {
+              "id": "lost_luggage",
+              "front": "Lost luggage",
+              "back": "Stratená batožina"
+            },
+            {
+              "id": "missed_flight",
+              "front": "Missed flight",
+              "back": "Zmeškaný let"
+            },
+            {
+              "id": "overbooked",
+              "front": "Overbooked",
+              "back": "Preplnené"
+            },
+            {
+              "id": "refund",
+              "front": "Refund",
+              "back": "Vrátenie peňazí"
+            },
+            {
+              "id": "insurance",
+              "front": "Insurance",
+              "back": "Poistenie"
+            },
+            {
+              "id": "embassy",
+              "front": "Embassy",
+              "back": "Veľvyslanectvo"
+            },
+            {
+              "id": "exchange_money",
+              "front": "Exchange money",
+              "back": "Vymeniť peniaze"
+            },
+            {
+              "id": "tourist_trap",
+              "front": "Tourist trap",
+              "back": "Turistická pasca"
+            },
+            {
+              "id": "pickpocket",
+              "front": "Pickpocket",
+              "back": "Vreckový zlodej"
+            },
+            {
+              "id": "lost",
+              "front": "Lost",
+              "back": "Stratený"
+            },
+            {
+              "id": "emergency",
+              "front": "Emergency",
+              "back": "Núdzová situácia"
+            },
+            {
+              "id": "first_aid",
+              "front": "First aid",
+              "back": "Prvá pomoc"
+            },
+            {
+              "id": "local",
+              "front": "Local",
+              "back": "Miestny"
+            },
+            {
+              "id": "off_the_beaten_track",
+              "front": "Off the beaten track",
+              "back": "Mimo turistických trás"
+            },
+            {
+              "id": "itinerary",
+              "front": "Itinerary",
+              "back": "Itinerár"
+            },
+            {
+              "id": "jet_lag",
+              "front": "Jet lag",
+              "back": "Pásmová choroba"
+            },
+            {
+              "id": "customs",
+              "front": "Customs",
+              "back": "Colnica"
+            },
+            {
+              "id": "visa",
+              "front": "Visa",
+              "back": "Vízum"
+            }
+          ]
+        },
+        {
+          "id": "dining_out",
+          "title": "V reštaurácii",
+          "image": "🍽️",
+          "description": "Objednávanie a jedlo",
+          "cards": [
+            {
+              "id": "book_a_table",
+              "front": "Book a table",
+              "back": "Rezervovať stôl"
+            },
+            {
+              "id": "menu",
+              "front": "Menu",
+              "back": "Jedálny lístok"
+            },
+            {
+              "id": "starter",
+              "front": "Starter",
+              "back": "Predjedlo"
+            },
+            {
+              "id": "main_course",
+              "front": "Main course",
+              "back": "Hlavné jedlo"
+            },
+            {
+              "id": "dessert",
+              "front": "Dessert",
+              "back": "Dezert"
+            },
+            {
+              "id": "bill",
+              "front": "Bill",
+              "back": "Účet"
+            },
+            {
+              "id": "tip",
+              "front": "Tip",
+              "back": "Prepitné"
+            },
+            {
+              "id": "allergic_to",
+              "front": "Allergic to",
+              "back": "Alergický na"
+            },
+            {
+              "id": "rare",
+              "front": "Rare",
+              "back": "Krvavé"
+            },
+            {
+              "id": "well_done",
+              "front": "Well done",
+              "back": "Prepečené"
+            },
+            {
+              "id": "sparkling",
+              "front": "Sparkling",
+              "back": "Perlivé"
+            },
+            {
+              "id": "still",
+              "front": "Still",
+              "back": "Neperlivé"
+            },
+            {
+              "id": "chefs_recommendation",
+              "front": "Chef's recommendation",
+              "back": "Odporúčanie šéfkuchára"
+            },
+            {
+              "id": "service_charge",
+              "front": "Service charge",
+              "back": "Poplatok za obsluhu"
+            },
+            {
+              "id": "split_the_bill",
+              "front": "Split the bill",
+              "back": "Rozdeliť účet"
+            },
+            {
+              "id": "dining_out_takeaway",
+              "front": "Takeaway",
+              "back": "So sebou"
+            },
+            {
+              "id": "reservation",
+              "front": "Reservation",
+              "back": "Rezervácia"
+            },
+            {
+              "id": "is_this_seat_taken",
+              "front": "Is this seat taken",
+              "back": "Je toto miesto voľné"
+            }
+          ]
+        },
+        {
+          "id": "city_life",
+          "title": "Mestský život",
+          "image": "🚦",
+          "description": "Život v meste",
+          "cards": [
+            {
+              "id": "rush_hour",
+              "front": "Rush hour",
+              "back": "Špička"
+            },
+            {
+              "id": "public_transport",
+              "front": "Public transport",
+              "back": "MHD"
+            },
+            {
+              "id": "commuter",
+              "front": "Commuter",
+              "back": "Dochádzajúci"
+            },
+            {
+              "id": "neighbourhood",
+              "front": "Neighbourhood",
+              "back": "Štvrť"
+            },
+            {
+              "id": "rent",
+              "front": "Rent",
+              "back": "Nájom"
+            },
+            {
+              "id": "landlord",
+              "front": "Landlord",
+              "back": "Majiteľ bytu"
+            },
+            {
+              "id": "utilities",
+              "front": "Utilities",
+              "back": "Energie"
+            },
+            {
+              "id": "traffic_jam",
+              "front": "Traffic jam",
+              "back": "Zápcha"
+            },
+            {
+              "id": "pedestrian",
+              "front": "Pedestrian",
+              "back": "Chodec"
+            },
+            {
+              "id": "cycle_lane",
+              "front": "Cycle lane",
+              "back": "Cyklopruh"
+            },
+            {
+              "id": "nightlife",
+              "front": "Nightlife",
+              "back": "Nočný život"
+            },
+            {
+              "id": "coworking",
+              "front": "Coworking",
+              "back": "Coworking"
+            },
+            {
+              "id": "suburb",
+              "front": "Suburb",
+              "back": "Predmestie"
+            },
+            {
+              "id": "skyline",
+              "front": "Skyline",
+              "back": "Panoráma"
+            },
+            {
+              "id": "crowd",
+              "front": "Crowd",
+              "back": "Dav"
+            },
+            {
+              "id": "noise",
+              "front": "Noise",
+              "back": "Hluk"
+            },
+            {
+              "id": "convenience_store",
+              "front": "Convenience store",
+              "back": "Večierka"
+            },
+            {
+              "id": "food_market",
+              "front": "Food market",
+              "back": "Trh s jedlom"
+            }
+          ]
+        },
+        {
+          "id": "culture_shock",
+          "title": "Kultúrne rozdiely",
+          "image": "🌐",
+          "description": "Zvyky vonku",
+          "cards": [
+            {
+              "id": "culture_shock",
+              "front": "Culture shock",
+              "back": "Kultúrny šok"
+            },
+            {
+              "id": "small_talk",
+              "front": "Small talk",
+              "back": "Zdvorilostný rozhovor"
+            },
+            {
+              "id": "punctual",
+              "front": "Punctual",
+              "back": "Dochvíľny"
+            },
+            {
+              "id": "queue",
+              "front": "Queue",
+              "back": "Rad"
+            },
+            {
+              "id": "personal_space",
+              "front": "Personal space",
+              "back": "Osobný priestor"
+            },
+            {
+              "id": "tip_culture",
+              "front": "Tip culture",
+              "back": "Kultúra prepitného"
+            },
+            {
+              "id": "dress_code",
+              "front": "Dress code",
+              "back": "Dress code"
+            },
+            {
+              "id": "taboo",
+              "front": "Taboo",
+              "back": "Tabu"
+            },
+            {
+              "id": "hospitality",
+              "front": "Hospitality",
+              "back": "Pohostinnosť"
+            },
+            {
+              "id": "etiquette",
+              "front": "Etiquette",
+              "back": "Etiketa"
+            },
+            {
+              "id": "gesture",
+              "front": "Gesture",
+              "back": "Gesto"
+            },
+            {
+              "id": "accent",
+              "front": "Accent",
+              "back": "Prízvuk"
+            },
+            {
+              "id": "dialect",
+              "front": "Dialect",
+              "back": "Nárečie"
+            },
+            {
+              "id": "multicultural",
+              "front": "Multicultural",
+              "back": "Multikultúrny"
+            },
+            {
+              "id": "integrate",
+              "front": "Integrate",
+              "back": "Začleniť sa"
+            },
+            {
+              "id": "homesick",
+              "front": "Homesick",
+              "back": "Stesk po dome"
+            },
+            {
+              "id": "local_custom",
+              "front": "Local custom",
+              "back": "Miestny zvyk"
+            },
+            {
+              "id": "respect_differences",
+              "front": "Respect differences",
+              "back": "Rešpektovať rozdiely"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced_vocab",
+      "title": "Pokročilá slovná zásoba",
+      "image": "🔥",
+      "color": "#DC2626",
+      "description": "Frázové slovesá, spojenia a idiom",
+      "categories": [
+        {
+          "id": "phrasal_verbs",
+          "title": "Frázové slovesá",
+          "image": "🔗",
+          "description": "Bežné spojenia",
+          "cards": [
+            {
+              "id": "give_up",
+              "front": "Give up",
+              "back": "Vzdať sa"
+            },
+            {
+              "id": "look_after",
+              "front": "Look after",
+              "back": "Starať sa"
+            },
+            {
+              "id": "look_forward_to",
+              "front": "Look forward to",
+              "back": "Tešiť sa na"
+            },
+            {
+              "id": "run_out_of",
+              "front": "Run out of",
+              "back": "Minúť"
+            },
+            {
+              "id": "put_off",
+              "front": "Put off",
+              "back": "Odložiť"
+            },
+            {
+              "id": "take_off",
+              "front": "Take off",
+              "back": "Vzlietnuť / vyzliecť"
+            },
+            {
+              "id": "turn_down",
+              "front": "Turn down",
+              "back": "Odmietnuť"
+            },
+            {
+              "id": "bring_up",
+              "front": "Bring up",
+              "back": "Nadniesť / vychovať"
+            },
+            {
+              "id": "carry_on",
+              "front": "Carry on",
+              "back": "Pokračovať"
+            },
+            {
+              "id": "find_out",
+              "front": "Find out",
+              "back": "Zistiť"
+            },
+            {
+              "id": "phrasal_verbs_get_along",
+              "front": "Get along",
+              "back": "Vychádzať"
+            },
+            {
+              "id": "set_up",
+              "front": "Set up",
+              "back": "Založiť"
+            },
+            {
+              "id": "work_out",
+              "front": "Work out",
+              "back": "Vyriešiť / cvičiť"
+            },
+            {
+              "id": "come_across",
+              "front": "Come across",
+              "back": "Natrafiť"
+            },
+            {
+              "id": "break_down",
+              "front": "Break down",
+              "back": "Pokaziť sa"
+            },
+            {
+              "id": "catch_up",
+              "front": "Catch up",
+              "back": "Dobehnúť"
+            },
+            {
+              "id": "hang_out",
+              "front": "Hang out",
+              "back": "Tráviť čas"
+            },
+            {
+              "id": "show_up",
+              "front": "Show up",
+              "back": "Objaviť sa"
+            }
+          ]
+        },
+        {
+          "id": "collocations",
+          "title": "Kolokácie",
+          "image": "📎",
+          "description": "Slová, čo patria k sebe",
+          "cards": [
+            {
+              "id": "make_a_decision",
+              "front": "Make a decision",
+              "back": "Urobiť rozhodnutie"
+            },
+            {
+              "id": "take_a_break",
+              "front": "Take a break",
+              "back": "Dať si prestávku"
+            },
+            {
+              "id": "do_homework",
+              "front": "Do homework",
+              "back": "Robiť úlohy"
+            },
+            {
+              "id": "have_a_conversation",
+              "front": "Have a conversation",
+              "back": "Rozprávať sa"
+            },
+            {
+              "id": "pay_attention",
+              "front": "Pay attention",
+              "back": "Dávať pozor"
+            },
+            {
+              "id": "keep_a_secret",
+              "front": "Keep a secret",
+              "back": "Udržať tajomstvo"
+            },
+            {
+              "id": "catch_a_cold",
+              "front": "Catch a cold",
+              "back": "Chytiť nádchu"
+            },
+            {
+              "id": "miss_a_chance",
+              "front": "Miss a chance",
+              "back": "Premeškať šancu"
+            },
+            {
+              "id": "raise_awareness",
+              "front": "Raise awareness",
+              "back": "Zvýšiť povedomie"
+            },
+            {
+              "id": "meet_a_deadline",
+              "front": "Meet a deadline",
+              "back": "Stihnúť termín"
+            },
+            {
+              "id": "take_responsibility",
+              "front": "Take responsibility",
+              "back": "Prevziať zodpovednosť"
+            },
+            {
+              "id": "make_progress",
+              "front": "Make progress",
+              "back": "Robiť pokrok"
+            },
+            {
+              "id": "save_time",
+              "front": "Save time",
+              "back": "Ušetriť čas"
+            },
+            {
+              "id": "waste_time",
+              "front": "Waste time",
+              "back": "Strácať čas"
+            },
+            {
+              "id": "break_a_record",
+              "front": "Break a record",
+              "back": "Prekonať rekord"
+            },
+            {
+              "id": "keep_in_mind",
+              "front": "Keep in mind",
+              "back": "Mať na pamäti"
+            },
+            {
+              "id": "get_permission",
+              "front": "Get permission",
+              "back": "Získať povolenie"
+            },
+            {
+              "id": "give_advice",
+              "front": "Give advice",
+              "back": "Poradiť"
+            }
+          ]
+        },
+        {
+          "id": "idioms",
+          "title": "Idiomy",
+          "image": "🪄",
+          "description": "Obrazné výrazy",
+          "cards": [
+            {
+              "id": "a_piece_of_cake",
+              "front": "A piece of cake",
+              "back": "Hračka"
+            },
+            {
+              "id": "break_the_ice",
+              "front": "Break the ice",
+              "back": "Prekonať rozpaky"
+            },
+            {
+              "id": "hit_the_books",
+              "front": "Hit the books",
+              "back": "Štúdium naplno"
+            },
+            {
+              "id": "under_the_weather",
+              "front": "Under the weather",
+              "back": "Necítiť sa fit"
+            },
+            {
+              "id": "cost_an_arm_and_a_leg",
+              "front": "Cost an arm and a leg",
+              "back": "Stať celý majetok"
+            },
+            {
+              "id": "once_in_a_blue_moon",
+              "front": "Once in a blue moon",
+              "back": "Raz za uhorský rok"
+            },
+            {
+              "id": "spill_the_beans",
+              "front": "Spill the beans",
+              "back": "Prezradiť tajomstvo"
+            },
+            {
+              "id": "bite_the_bullet",
+              "front": "Bite the bullet",
+              "back": "Prehrýzť sa"
+            },
+            {
+              "id": "call_it_a_day",
+              "front": "Call it a day",
+              "back": "Skončiť na dnes"
+            },
+            {
+              "id": "on_the_same_page",
+              "front": "On the same page",
+              "back": "Byť za jedno"
+            },
+            {
+              "id": "the_ball_is_in_your_court",
+              "front": "The ball is in your court",
+              "back": "Je to na tebe"
+            },
+            {
+              "id": "think_outside_the_box",
+              "front": "Think outside the box",
+              "back": "Myslieť inak"
+            },
+            {
+              "id": "better_late_than_never",
+              "front": "Better late than never",
+              "back": "Lepšie neskoro ako nikdy"
+            },
+            {
+              "id": "let_the_cat_out_of_the_bag",
+              "front": "Let the cat out of the bag",
+              "back": "Prezradiť"
+            },
+            {
+              "id": "hit_the_nail_on_the_head",
+              "front": "Hit the nail on the head",
+              "back": "Trafiť klinec po hlavičke"
+            },
+            {
+              "id": "keep_an_eye_on",
+              "front": "Keep an eye on",
+              "back": "Dávať pozor na"
+            },
+            {
+              "id": "in_the_long_run",
+              "front": "In the long run",
+              "back": "Z dlhodobého hľadiska"
+            },
+            {
+              "id": "no_pain_no_gain",
+              "front": "No pain no gain",
+              "back": "Bez práce nie sú koláče"
+            }
+          ]
+        },
+        {
+          "id": "linking",
+          "title": "Spojky a nadväzovanie",
+          "image": "➡️",
+          "description": "Ako spájať myšlienky",
+          "cards": [
+            {
+              "id": "although",
+              "front": "Although",
+              "back": "Hoci"
+            },
+            {
+              "id": "even_though",
+              "front": "Even though",
+              "back": "Aj keď"
+            },
+            {
+              "id": "despite",
+              "front": "Despite",
+              "back": "Napriek"
+            },
+            {
+              "id": "in_spite_of",
+              "front": "In spite of",
+              "back": "Napriek"
+            },
+            {
+              "id": "whereas",
+              "front": "Whereas",
+              "back": "Zatiaľ čo"
+            },
+            {
+              "id": "unless",
+              "front": "Unless",
+              "back": "Pokiaľ nie"
+            },
+            {
+              "id": "provided_that",
+              "front": "Provided that",
+              "back": "Za predpokladu, že"
+            },
+            {
+              "id": "as_a_result",
+              "front": "As a result",
+              "back": "V dôsledku toho"
+            },
+            {
+              "id": "consequently",
+              "front": "Consequently",
+              "back": "Následne"
+            },
+            {
+              "id": "nevertheless",
+              "front": "Nevertheless",
+              "back": "Napriek tomu"
+            },
+            {
+              "id": "meanwhile",
+              "front": "Meanwhile",
+              "back": "Medzitým"
+            },
+            {
+              "id": "furthermore",
+              "front": "Furthermore",
+              "back": "Okrem toho"
+            },
+            {
+              "id": "in_addition",
+              "front": "In addition",
+              "back": "Navyše"
+            },
+            {
+              "id": "for_instance",
+              "front": "For instance",
+              "back": "Napríklad"
+            },
+            {
+              "id": "in_particular",
+              "front": "In particular",
+              "back": "Predovšetkým"
+            },
+            {
+              "id": "to_sum_up",
+              "front": "To sum up",
+              "back": "Zhrnúť"
+            },
+            {
+              "id": "on_the_contrary",
+              "front": "On the contrary",
+              "back": "Naopak"
+            },
+            {
+              "id": "as_soon_as",
+              "front": "As soon as",
+              "back": "Hneď ako"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health_adv",
+      "title": "Zdravie a medicína",
+      "image": "🏥",
+      "color": "#E11D48",
+      "description": "Príznaky, ošetrenie a životospráva",
+      "categories": [
+        {
+          "id": "symptoms",
+          "title": "Príznaky",
+          "image": "🤒",
+          "description": "Čo ťa trápi",
+          "cards": [
+            {
+              "id": "symptom",
+              "front": "Symptom",
+              "back": "Príznak"
+            },
+            {
+              "id": "diagnosis",
+              "front": "Diagnosis",
+              "back": "Diagnóza"
+            },
+            {
+              "id": "sore_throat",
+              "front": "Sore throat",
+              "back": "Bolesť hrdla"
+            },
+            {
+              "id": "runny_nose",
+              "front": "Runny nose",
+              "back": "Nádcha"
+            },
+            {
+              "id": "nausea",
+              "front": "Nausea",
+              "back": "Nevoľnosť"
+            },
+            {
+              "id": "dizziness",
+              "front": "Dizziness",
+              "back": "Závrat"
+            },
+            {
+              "id": "rash",
+              "front": "Rash",
+              "back": "Vyrážka"
+            },
+            {
+              "id": "swelling",
+              "front": "Swelling",
+              "back": "Opuch"
+            },
+            {
+              "id": "infection",
+              "front": "Infection",
+              "back": "Infekcia"
+            },
+            {
+              "id": "inflammation",
+              "front": "Inflammation",
+              "back": "Zápal"
+            },
+            {
+              "id": "chronic",
+              "front": "Chronic",
+              "back": "Chronický"
+            },
+            {
+              "id": "acute",
+              "front": "Acute",
+              "back": "Akútny"
+            },
+            {
+              "id": "prescription",
+              "front": "Prescription",
+              "back": "Recept"
+            },
+            {
+              "id": "side_effect",
+              "front": "Side effect",
+              "back": "Vedľajší účinok"
+            },
+            {
+              "id": "recovery",
+              "front": "Recovery",
+              "back": "Zotavenie"
+            },
+            {
+              "id": "check_up",
+              "front": "Check-up",
+              "back": "Prehliadka"
+            },
+            {
+              "id": "specialist",
+              "front": "Specialist",
+              "back": "Špecialista"
+            },
+            {
+              "id": "emergency_room",
+              "front": "Emergency room",
+              "back": "Pohotovosť"
+            }
+          ]
+        },
+        {
+          "id": "treatment",
+          "title": "Liečba",
+          "image": "💉",
+          "description": "Ako sa liečiť",
+          "cards": [
+            {
+              "id": "treatment",
+              "front": "Treatment",
+              "back": "Liečba"
+            },
+            {
+              "id": "surgery",
+              "front": "Surgery",
+              "back": "Operácia"
+            },
+            {
+              "id": "vaccine",
+              "front": "Vaccine",
+              "back": "Vakcína"
+            },
+            {
+              "id": "antibiotic",
+              "front": "Antibiotic",
+              "back": "Antibiotikum"
+            },
+            {
+              "id": "painkiller",
+              "front": "Painkiller",
+              "back": "Lieky proti bolesti"
+            },
+            {
+              "id": "treatment_therapy",
+              "front": "Therapy",
+              "back": "Terapia"
+            },
+            {
+              "id": "physio",
+              "front": "Physio",
+              "back": "Fyzioterapia"
+            },
+            {
+              "id": "injection",
+              "front": "Injection",
+              "back": "Injekcia"
+            },
+            {
+              "id": "dose",
+              "front": "Dose",
+              "back": "Dávka"
+            },
+            {
+              "id": "heal",
+              "front": "Heal",
+              "back": "Hojí sa"
+            },
+            {
+              "id": "prevent",
+              "front": "Prevent",
+              "back": "Predchádzať"
+            },
+            {
+              "id": "examine",
+              "front": "Examine",
+              "back": "Vyšetrit"
+            },
+            {
+              "id": "x_ray",
+              "front": "X-ray",
+              "back": "Rádiológia"
+            },
+            {
+              "id": "blood_test",
+              "front": "Blood test",
+              "back": "Krvný test"
+            },
+            {
+              "id": "follow_the_instructions",
+              "front": "Follow the instructions",
+              "back": "Dodržať pokyny"
+            },
+            {
+              "id": "get_worse",
+              "front": "Get worse",
+              "back": "Zhoršiť sa"
+            },
+            {
+              "id": "get_better",
+              "front": "Get better",
+              "back": "Zlepšiť sa"
+            },
+            {
+              "id": "stay_in_bed",
+              "front": "Stay in bed",
+              "back": "Zostať v posteli"
+            }
+          ]
+        },
+        {
+          "id": "wellness",
+          "title": "Životospráva",
+          "image": "🥑",
+          "description": "Zdravé návyky",
+          "cards": [
+            {
+              "id": "balanced_lifestyle",
+              "front": "Balanced lifestyle",
+              "back": "Vyvážený životný štýl"
+            },
+            {
+              "id": "sleep_hygiene",
+              "front": "Sleep hygiene",
+              "back": "Spánková hygiena"
+            },
+            {
+              "id": "screen_free_time",
+              "front": "Screen-free time",
+              "back": "Čas bez obrazovky"
+            },
+            {
+              "id": "mental_load",
+              "front": "Mental load",
+              "back": "Mentálna záťaž"
+            },
+            {
+              "id": "habit",
+              "front": "Habit",
+              "back": "Zvyk"
+            },
+            {
+              "id": "wellness_routine",
+              "front": "Routine",
+              "back": "Režim"
+            },
+            {
+              "id": "consistency",
+              "front": "Consistency",
+              "back": "Pravidelnosť"
+            },
+            {
+              "id": "moderation",
+              "front": "Moderation",
+              "back": "Miernosť"
+            },
+            {
+              "id": "processed_sugar",
+              "front": "Processed sugar",
+              "back": "Pridaný cukor"
+            },
+            {
+              "id": "whole_foods",
+              "front": "Whole foods",
+              "back": "Celistvé potraviny"
+            },
+            {
+              "id": "gut_health",
+              "front": "Gut health",
+              "back": "Zdravie čriev"
+            },
+            {
+              "id": "immune_system",
+              "front": "Immune system",
+              "back": "Imunita"
+            },
+            {
+              "id": "posture",
+              "front": "Posture",
+              "back": "Držanie tela"
+            },
+            {
+              "id": "ergonomic",
+              "front": "Ergonomic",
+              "back": "Ergonomický"
+            },
+            {
+              "id": "outdoor_time",
+              "front": "Outdoor time",
+              "back": "Čas vonku"
+            },
+            {
+              "id": "digital_wellbeing",
+              "front": "Digital wellbeing",
+              "back": "Digitálna pohoda"
+            },
+            {
+              "id": "preventive_care",
+              "front": "Preventive care",
+              "back": "Prevencia"
+            },
+            {
+              "id": "health_insurance",
+              "front": "Health insurance",
+              "back": "Zdravotné poistenie"
+            }
+          ]
+        },
+        {
+          "id": "first_aid",
+          "title": "Prvá pomoc",
+          "image": "🩹",
+          "description": "Núdzové slová",
+          "cards": [
+            {
+              "id": "first_aid_kit",
+              "front": "First aid kit",
+              "back": "Lekárnička"
+            },
+            {
+              "id": "bandage",
+              "front": "Bandage",
+              "back": "Obväz"
+            },
+            {
+              "id": "plaster",
+              "front": "Plaster",
+              "back": "Náplasť"
+            },
+            {
+              "id": "wound",
+              "front": "Wound",
+              "back": "Rana"
+            },
+            {
+              "id": "bleed",
+              "front": "Bleed",
+              "back": "Krvácať"
+            },
+            {
+              "id": "burn",
+              "front": "Burn",
+              "back": "Popálenina"
+            },
+            {
+              "id": "bruise",
+              "front": "Bruise",
+              "back": "Modrina"
+            },
+            {
+              "id": "fracture",
+              "front": "Fracture",
+              "back": "Zlomenina"
+            },
+            {
+              "id": "unconscious",
+              "front": "Unconscious",
+              "back": "V bezvedomí"
+            },
+            {
+              "id": "ambulance",
+              "front": "Ambulance",
+              "back": "Sanitka"
+            },
+            {
+              "id": "emergency_number",
+              "front": "Emergency number",
+              "back": "Tiesňová linka"
+            },
+            {
+              "id": "cpr",
+              "front": "CPR",
+              "back": "Oživovanie"
+            },
+            {
+              "id": "choking",
+              "front": "Choking",
+              "back": "Dusenie"
+            },
+            {
+              "id": "allergic_reaction",
+              "front": "Allergic reaction",
+              "back": "Alergická reakcia"
+            },
+            {
+              "id": "stay_calm",
+              "front": "Stay calm",
+              "back": "Zostať v kľude"
+            },
+            {
+              "id": "call_for_help",
+              "front": "Call for help",
+              "back": "Zavolať pomoc"
+            },
+            {
+              "id": "keep_still",
+              "front": "Keep still",
+              "back": "Nehýbať sa"
+            },
+            {
+              "id": "apply_pressure",
+              "front": "Apply pressure",
+              "back": "Tlačiť na ranu"
+            }
           ]
         }
       ]
     }
   ]
 }
-
