@@ -1,202 +1,4443 @@
 {
-  "version": 8,
+  "version": 2,
   "groups": [
     {
-      "id": "communication",
-      "title": "April",
-      "color": "#FF8F00FF",
+      "id": "everyday",
+      "title": "Každodenná komunikácia",
       "image": "💬",
-      "description": "Speaking and interaction",
+      "color": "#3B82F6",
+      "description": "Pozdravy, otázky a zdvorilostné frázy",
       "categories": [
-                {
-          "id": "greetingzs",
-          "title": "Greetings Uprava cez noc",
-          "image": "👋",
-          "description": "Basic greetings",
-          "cards": [
-            { "id": "helloo", "front": "Hello", "back": "Ahoj" },
-            { "id": "hoi", "front": "Hi", "back": "Čau" },
-            { "id": "goood_morning", "front": "Good morning", "back": "Dobré ráno" },
-            { "id": "goood_evening", "front": "Good evening", "back": "Dobrý večer" },
-            { "id": "gooodbye", "front": "Goodbye", "back": "Dovidenia" },
-            { "id": "seoe_you", "front": "See you", "back": "Uvidíme sa" },
-            { "id": "welocome", "front": "Welcome", "back": "Vitaj" },
-            { "id": "howo_are_you", "front": "How are you?", "back": "Ako sa máš?" },
-            { "id": "finoe", "front": "Fine", "back": "Dobre" },
-            { "id": "thaonks", "front": "Thanks", "back": "Ďakujem" }
-          ]
-        },
         {
           "id": "greetings",
-          "title": "Greetings",
+          "title": "Pozdravy",
           "image": "👋",
-          "description": "Basic greetings",
+          "description": "Základné pozdravy",
           "cards": [
-            { "id": "hello", "front": "Hello", "back": "Ahoj" },
-            { "id": "hi", "front": "Hi", "back": "Čau" },
-            { "id": "good_morning", "front": "Good morning", "back": "Dobré ráno" },
-            { "id": "good_evening", "front": "Good evening", "back": "Dobrý večer" },
-            { "id": "goodbye", "front": "Goodbye", "back": "Dovidenia" },
-            { "id": "see_you", "front": "See you", "back": "Uvidíme sa" },
-            { "id": "welcome", "front": "Welcome", "back": "Vitaj" },
-            { "id": "how_are_you", "front": "How are you?", "back": "Ako sa máš?" },
-            { "id": "fine", "front": "Fine", "back": "Dobre" },
-            { "id": "thanks", "front": "Thanks", "back": "Ďakujem" }
+            {
+              "id": "hello",
+              "front": "Hello",
+              "back": "Ahoj"
+            },
+            {
+              "id": "hi",
+              "front": "Hi",
+              "back": "Čau"
+            },
+            {
+              "id": "good_morning",
+              "front": "Good morning",
+              "back": "Dobré ráno"
+            },
+            {
+              "id": "good_afternoon",
+              "front": "Good afternoon",
+              "back": "Dobrý deň"
+            },
+            {
+              "id": "good_evening",
+              "front": "Good evening",
+              "back": "Dobrý večer"
+            },
+            {
+              "id": "good_night",
+              "front": "Good night",
+              "back": "Dobrú noc"
+            },
+            {
+              "id": "goodbye",
+              "front": "Goodbye",
+              "back": "Dovidenia"
+            },
+            {
+              "id": "see_you",
+              "front": "See you",
+              "back": "Uvidíme sa"
+            },
+            {
+              "id": "see_you_later",
+              "front": "See you later",
+              "back": "Uvidíme sa neskôr"
+            },
+            {
+              "id": "welcome",
+              "front": "Welcome",
+              "back": "Vitaj"
+            },
+            {
+              "id": "how_are_you",
+              "front": "How are you?",
+              "back": "Ako sa máš?"
+            },
+            {
+              "id": "im_fine",
+              "front": "I'm fine",
+              "back": "Mám sa dobre"
+            },
+            {
+              "id": "nice_to_meet_you",
+              "front": "Nice to meet you",
+              "back": "Rád ťa spoznávam"
+            },
+            {
+              "id": "whats_your_name",
+              "front": "What's your name?",
+              "back": "Ako sa voláš?"
+            },
+            {
+              "id": "my_name_is",
+              "front": "My name is",
+              "back": "Volám sa"
+            },
+            {
+              "id": "where_are_you_from",
+              "front": "Where are you from?",
+              "back": "Odkiaľ si?"
+            },
+            {
+              "id": "i_am_from_slovakia",
+              "front": "I am from Slovakia",
+              "back": "Som zo Slovenska"
+            },
+            {
+              "id": "please",
+              "front": "Please",
+              "back": "Prosím"
+            },
+            {
+              "id": "thank_you",
+              "front": "Thank you",
+              "back": "Ďakujem"
+            },
+            {
+              "id": "youre_welcome",
+              "front": "You're welcome",
+              "back": "Nie je za čo"
+            }
           ]
         },
         {
           "id": "questions",
-          "title": "Questions",
+          "title": "Otázky",
           "image": "❓",
-          "description": "Basic question words",
+          "description": "Opisné otázky",
           "cards": [
-            { "id": "who", "front": "Who", "back": "Kto" },
-            { "id": "what", "front": "What", "back": "Čo" },
-            { "id": "where", "front": "Where", "back": "Kde" },
-            { "id": "when", "front": "When", "back": "Kedy" },
-            { "id": "why", "front": "Why", "back": "Prečo" },
-            { "id": "how", "front": "How", "back": "Ako" },
-            { "id": "which", "front": "Which", "back": "Ktorý" },
-            { "id": "how_many", "front": "How many", "back": "Koľko" },
-            { "id": "how_much", "front": "How much", "back": "Koľko (nepoč.)" },
-            { "id": "whose", "front": "Whose", "back": "Čí" }
+            {
+              "id": "who",
+              "front": "Who",
+              "back": "Kto"
+            },
+            {
+              "id": "what",
+              "front": "What",
+              "back": "Čo"
+            },
+            {
+              "id": "where",
+              "front": "Where",
+              "back": "Kde"
+            },
+            {
+              "id": "when",
+              "front": "When",
+              "back": "Kedy"
+            },
+            {
+              "id": "why",
+              "front": "Why",
+              "back": "Prečo"
+            },
+            {
+              "id": "how",
+              "front": "How",
+              "back": "Ako"
+            },
+            {
+              "id": "which",
+              "front": "Which",
+              "back": "Ktorý"
+            },
+            {
+              "id": "whose",
+              "front": "Whose",
+              "back": "Čí"
+            },
+            {
+              "id": "how_many",
+              "front": "How many",
+              "back": "Koľko (počítateľné)"
+            },
+            {
+              "id": "how_much",
+              "front": "How much",
+              "back": "Koľko (nepočítateľné)"
+            },
+            {
+              "id": "how_old",
+              "front": "How old",
+              "back": "Aký starý"
+            },
+            {
+              "id": "how_often",
+              "front": "How often",
+              "back": "Ako často"
+            },
+            {
+              "id": "how_long",
+              "front": "How long",
+              "back": "Ako dlho"
+            },
+            {
+              "id": "what_time",
+              "front": "What time",
+              "back": "O koľkej"
+            },
+            {
+              "id": "can_i",
+              "front": "Can I",
+              "back": "Môžem"
+            },
+            {
+              "id": "do_you",
+              "front": "Do you",
+              "back": "Robíš / Máš"
+            },
+            {
+              "id": "is_there",
+              "front": "Is there",
+              "back": "Je tam"
+            },
+            {
+              "id": "are_there",
+              "front": "Are there",
+              "back": "Sú tam"
+            },
+            {
+              "id": "what_is_this",
+              "front": "What is this",
+              "back": "Čo je toto"
+            }
+          ]
+        },
+        {
+          "id": "polite",
+          "title": "Zdvorilosť",
+          "image": "🙏",
+          "description": "Slušné frázy",
+          "cards": [
+            {
+              "id": "excuse_me",
+              "front": "Excuse me",
+              "back": "Prepáčte"
+            },
+            {
+              "id": "sorry",
+              "front": "Sorry",
+              "back": "Prepáč"
+            },
+            {
+              "id": "no_problem",
+              "front": "No problem",
+              "back": "Žiadny problém"
+            },
+            {
+              "id": "of_course",
+              "front": "Of course",
+              "back": "Samozrejme"
+            },
+            {
+              "id": "i_dont_understand",
+              "front": "I don't understand",
+              "back": "Nerozumiem"
+            },
+            {
+              "id": "can_you_help_me",
+              "front": "Can you help me",
+              "back": "Môžeš mi pomôcť"
+            },
+            {
+              "id": "speak_slowly",
+              "front": "Speak slowly",
+              "back": "Hovorte pomaly"
+            },
+            {
+              "id": "repeat_please",
+              "front": "Repeat please",
+              "back": "Zopakujte prosím"
+            },
+            {
+              "id": "i_agree",
+              "front": "I agree",
+              "back": "Súhlasím"
+            },
+            {
+              "id": "i_disagree",
+              "front": "I disagree",
+              "back": "Nesúhlasím"
+            },
+            {
+              "id": "thats_okay",
+              "front": "That's okay",
+              "back": "To je v poriadku"
+            },
+            {
+              "id": "never_mind",
+              "front": "Never mind",
+              "back": "To nič"
+            },
+            {
+              "id": "after_you",
+              "front": "After you",
+              "back": "Po tebe"
+            },
+            {
+              "id": "congratulations",
+              "front": "Congratulations",
+              "back": "Gratulujem"
+            },
+            {
+              "id": "good_luck",
+              "front": "Good luck",
+              "back": "Veľa šťastia"
+            },
+            {
+              "id": "take_care",
+              "front": "Take care",
+              "back": "Opatruj sa"
+            },
+            {
+              "id": "have_a_nice_day",
+              "front": "Have a nice day",
+              "back": "Pekný deň"
+            },
+            {
+              "id": "bless_you",
+              "front": "Bless you",
+              "back": "Na zdravie"
+            }
+          ]
+        },
+        {
+          "id": "feelings",
+          "title": "Pocity",
+          "image": "😊",
+          "description": "Nálady a emócie",
+          "cards": [
+            {
+              "id": "happy",
+              "front": "Happy",
+              "back": "Šťastný"
+            },
+            {
+              "id": "sad",
+              "front": "Sad",
+              "back": "Smutný"
+            },
+            {
+              "id": "angry",
+              "front": "Angry",
+              "back": "Nahnevaný"
+            },
+            {
+              "id": "tired",
+              "front": "Tired",
+              "back": "Unavený"
+            },
+            {
+              "id": "hungry",
+              "front": "Hungry",
+              "back": "Hladný"
+            },
+            {
+              "id": "thirsty",
+              "front": "Thirsty",
+              "back": "Smädný"
+            },
+            {
+              "id": "bored",
+              "front": "Bored",
+              "back": "Nudený"
+            },
+            {
+              "id": "excited",
+              "front": "Excited",
+              "back": "Nadšený"
+            },
+            {
+              "id": "scared",
+              "front": "Scared",
+              "back": "Vystrašený"
+            },
+            {
+              "id": "surprised",
+              "front": "Surprised",
+              "back": "Prekvapený"
+            },
+            {
+              "id": "nervous",
+              "front": "Nervous",
+              "back": "Nervózny"
+            },
+            {
+              "id": "proud",
+              "front": "Proud",
+              "back": "Hrdý"
+            },
+            {
+              "id": "lonely",
+              "front": "Lonely",
+              "back": "Osamelý"
+            },
+            {
+              "id": "calm",
+              "front": "Calm",
+              "back": "Pokojný"
+            },
+            {
+              "id": "confused",
+              "front": "Confused",
+              "back": "Zmätený"
+            },
+            {
+              "id": "sick",
+              "front": "Sick",
+              "back": "Chorý"
+            },
+            {
+              "id": "fine",
+              "front": "Fine",
+              "back": "V pohode"
+            },
+            {
+              "id": "okay",
+              "front": "Okay",
+              "back": "Dobre"
+            },
+            {
+              "id": "great",
+              "front": "Great",
+              "back": "Skvelé"
+            }
           ]
         }
       ]
     },
-
     {
-      "id": "work",
-      "title": "Work & Office",
-      "image": "💼",
-      "color": "#a83283",
-      "description": "Office and work vocabulary",
+      "id": "home",
+      "title": "Domov",
+      "image": "🏠",
+      "color": "#F59E0B",
+      "description": "Izby, nábytok a domácnosť",
       "categories": [
         {
-          "id": "office",
-          "title": "Office",
-          "image": "🏢",
-          "description": "Office objects",
+          "id": "rooms",
+          "title": "Izby",
+          "image": "🚪",
+          "description": "Miestnosti v dome",
           "cards": [
-            { "id": "computer", "front": "Computer", "back": "Počítač" },
-            { "id": "keyboard", "front": "Keyboard", "back": "Klávesnica" },
-            { "id": "mouse_office", "front": "Mouse", "back": "Myš (PC)" },
-            { "id": "printer", "front": "Printer", "back": "Tlačiareň" },
-            { "id": "desk_office", "front": "Desk", "back": "Stôl" },
-            { "id": "chair_office", "front": "Chair", "back": "Stolička" },
-            { "id": "paper", "front": "Paper", "back": "Papier" },
-            { "id": "pen", "front": "Pen", "back": "Pero" },
-            { "id": "meeting", "front": "Meeting", "back": "Stretnutie" },
-            { "id": "email", "front": "Email", "back": "Email" }
+            {
+              "id": "house",
+              "front": "House",
+              "back": "Dom"
+            },
+            {
+              "id": "flat",
+              "front": "Flat",
+              "back": "Byt"
+            },
+            {
+              "id": "room",
+              "front": "Room",
+              "back": "Izba"
+            },
+            {
+              "id": "kitchen",
+              "front": "Kitchen",
+              "back": "Kuchyňa"
+            },
+            {
+              "id": "bathroom",
+              "front": "Bathroom",
+              "back": "Kúpeľňa"
+            },
+            {
+              "id": "bedroom",
+              "front": "Bedroom",
+              "back": "Spálňa"
+            },
+            {
+              "id": "living_room",
+              "front": "Living room",
+              "back": "Obývačka"
+            },
+            {
+              "id": "hall",
+              "front": "Hall",
+              "back": "Predsieň"
+            },
+            {
+              "id": "garden",
+              "front": "Garden",
+              "back": "Záhrada"
+            },
+            {
+              "id": "balcony",
+              "front": "Balcony",
+              "back": "Balkón"
+            },
+            {
+              "id": "garage",
+              "front": "Garage",
+              "back": "Garáž"
+            },
+            {
+              "id": "attic",
+              "front": "Attic",
+              "back": "Povala"
+            },
+            {
+              "id": "basement",
+              "front": "Basement",
+              "back": "Pivnica"
+            },
+            {
+              "id": "stairs",
+              "front": "Stairs",
+              "back": "Schody"
+            },
+            {
+              "id": "door",
+              "front": "Door",
+              "back": "Dvere"
+            },
+            {
+              "id": "window",
+              "front": "Window",
+              "back": "Okno"
+            },
+            {
+              "id": "roof",
+              "front": "Roof",
+              "back": "Strecha"
+            },
+            {
+              "id": "wall",
+              "front": "Wall",
+              "back": "Stena"
+            }
+          ]
+        },
+        {
+          "id": "furniture",
+          "title": "Nábytok",
+          "image": "🛋️",
+          "description": "Veci v izbe",
+          "cards": [
+            {
+              "id": "table",
+              "front": "Table",
+              "back": "Stôl"
+            },
+            {
+              "id": "chair",
+              "front": "Chair",
+              "back": "Stolička"
+            },
+            {
+              "id": "sofa",
+              "front": "Sofa",
+              "back": "Pohovka"
+            },
+            {
+              "id": "bed",
+              "front": "Bed",
+              "back": "Posteľ"
+            },
+            {
+              "id": "wardrobe",
+              "front": "Wardrobe",
+              "back": "Skrina"
+            },
+            {
+              "id": "shelf",
+              "front": "Shelf",
+              "back": "Polica"
+            },
+            {
+              "id": "lamp",
+              "front": "Lamp",
+              "back": "Lampa"
+            },
+            {
+              "id": "mirror",
+              "front": "Mirror",
+              "back": "Zrkadlo"
+            },
+            {
+              "id": "carpet",
+              "front": "Carpet",
+              "back": "Koberec"
+            },
+            {
+              "id": "curtain",
+              "front": "Curtain",
+              "back": "Záclona"
+            },
+            {
+              "id": "pillow",
+              "front": "Pillow",
+              "back": "Vankúš"
+            },
+            {
+              "id": "blanket",
+              "front": "Blanket",
+              "back": "Deka"
+            },
+            {
+              "id": "desk",
+              "front": "Desk",
+              "back": "Písací stôl"
+            },
+            {
+              "id": "drawer",
+              "front": "Drawer",
+              "back": "Zásuvka"
+            },
+            {
+              "id": "clock",
+              "front": "Clock",
+              "back": "Hodiny"
+            },
+            {
+              "id": "picture",
+              "front": "Picture",
+              "back": "Obraz"
+            },
+            {
+              "id": "plant",
+              "front": "Plant",
+              "back": "Rastlina"
+            },
+            {
+              "id": "bin",
+              "front": "Bin",
+              "back": "Kôš"
+            }
+          ]
+        },
+        {
+          "id": "household",
+          "title": "Domáce potreby",
+          "image": "🧹",
+          "description": "Bežné predmety",
+          "cards": [
+            {
+              "id": "key",
+              "front": "Key",
+              "back": "Kľúč"
+            },
+            {
+              "id": "phone",
+              "front": "Phone",
+              "back": "Telefón"
+            },
+            {
+              "id": "tv",
+              "front": "TV",
+              "back": "Televízor"
+            },
+            {
+              "id": "remote",
+              "front": "Remote",
+              "back": "Ovládač"
+            },
+            {
+              "id": "charger",
+              "front": "Charger",
+              "back": "Nabíjačka"
+            },
+            {
+              "id": "soap",
+              "front": "Soap",
+              "back": "Mydlo"
+            },
+            {
+              "id": "towel",
+              "front": "Towel",
+              "back": "Uterák"
+            },
+            {
+              "id": "toothbrush",
+              "front": "Toothbrush",
+              "back": "Zubná kefka"
+            },
+            {
+              "id": "shampoo",
+              "front": "Shampoo",
+              "back": "Šampón"
+            },
+            {
+              "id": "vacuum",
+              "front": "Vacuum",
+              "back": "Vysávač"
+            },
+            {
+              "id": "washing_machine",
+              "front": "Washing machine",
+              "back": "Práčka"
+            },
+            {
+              "id": "fridge",
+              "front": "Fridge",
+              "back": "Chladnička"
+            },
+            {
+              "id": "oven",
+              "front": "Oven",
+              "back": "Rúra"
+            },
+            {
+              "id": "microwave",
+              "front": "Microwave",
+              "back": "Mikrovlnka"
+            },
+            {
+              "id": "sink",
+              "front": "Sink",
+              "back": "Drez"
+            },
+            {
+              "id": "tap",
+              "front": "Tap",
+              "back": "Kohútik"
+            },
+            {
+              "id": "light",
+              "front": "Light",
+              "back": "Svetlo"
+            },
+            {
+              "id": "switch",
+              "front": "Switch",
+              "back": "Vypínač"
+            }
+          ]
+        },
+        {
+          "id": "kitchen_items",
+          "title": "Kuchyňa",
+          "image": "🍴",
+          "description": "Jedálenské potreby",
+          "cards": [
+            {
+              "id": "plate",
+              "front": "Plate",
+              "back": "Tanier"
+            },
+            {
+              "id": "bowl",
+              "front": "Bowl",
+              "back": "Miska"
+            },
+            {
+              "id": "cup",
+              "front": "Cup",
+              "back": "Šálka"
+            },
+            {
+              "id": "glass",
+              "front": "Glass",
+              "back": "Pohár"
+            },
+            {
+              "id": "fork",
+              "front": "Fork",
+              "back": "Vidlička"
+            },
+            {
+              "id": "knife",
+              "front": "Knife",
+              "back": "Nôž"
+            },
+            {
+              "id": "spoon",
+              "front": "Spoon",
+              "back": "Lyžica"
+            },
+            {
+              "id": "pan",
+              "front": "Pan",
+              "back": "Panvica"
+            },
+            {
+              "id": "pot",
+              "front": "Pot",
+              "back": "Hrniec"
+            },
+            {
+              "id": "bottle",
+              "front": "Bottle",
+              "back": "Fľaša"
+            },
+            {
+              "id": "kettle",
+              "front": "Kettle",
+              "back": "Kanvica"
+            },
+            {
+              "id": "cutting_board",
+              "front": "Cutting board",
+              "back": "Doska na krájanie"
+            },
+            {
+              "id": "napkin",
+              "front": "Napkin",
+              "back": "Servítka"
+            },
+            {
+              "id": "strainer",
+              "front": "Strainer",
+              "back": "Cedidlo"
+            },
+            {
+              "id": "lid",
+              "front": "Lid",
+              "back": "Pokrievka"
+            },
+            {
+              "id": "tray",
+              "front": "Tray",
+              "back": "Tácka"
+            },
+            {
+              "id": "mug",
+              "front": "Mug",
+              "back": "Hrnček"
+            },
+            {
+              "id": "jug",
+              "front": "Jug",
+              "back": "Džbán"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Jedlo a pitie",
+      "image": "🍎",
+      "color": "#EF4444",
+      "description": "Ovocie, zelenina, jedlá a nápoje",
+      "categories": [
+        {
+          "id": "fruit",
+          "title": "Ovocie",
+          "image": "🍓",
+          "description": "Ovocie",
+          "cards": [
+            {
+              "id": "apple",
+              "front": "Apple",
+              "back": "Jablko"
+            },
+            {
+              "id": "banana",
+              "front": "Banana",
+              "back": "Banán"
+            },
+            {
+              "id": "orange",
+              "front": "Orange",
+              "back": "Pomaranč"
+            },
+            {
+              "id": "lemon",
+              "front": "Lemon",
+              "back": "Citrón"
+            },
+            {
+              "id": "strawberry",
+              "front": "Strawberry",
+              "back": "Jahoda"
+            },
+            {
+              "id": "grape",
+              "front": "Grape",
+              "back": "Hrozno"
+            },
+            {
+              "id": "pear",
+              "front": "Pear",
+              "back": "Hruška"
+            },
+            {
+              "id": "cherry",
+              "front": "Cherry",
+              "back": "Čerešňa"
+            },
+            {
+              "id": "peach",
+              "front": "Peach",
+              "back": "Broskyňa"
+            },
+            {
+              "id": "watermelon",
+              "front": "Watermelon",
+              "back": "Melón"
+            },
+            {
+              "id": "pineapple",
+              "front": "Pineapple",
+              "back": "Ananás"
+            },
+            {
+              "id": "mango",
+              "front": "Mango",
+              "back": "Mango"
+            },
+            {
+              "id": "kiwi",
+              "front": "Kiwi",
+              "back": "Kivi"
+            },
+            {
+              "id": "plum",
+              "front": "Plum",
+              "back": "Slivka"
+            },
+            {
+              "id": "blueberry",
+              "front": "Blueberry",
+              "back": "Čučoriedka"
+            },
+            {
+              "id": "raspberry",
+              "front": "Raspberry",
+              "back": "Malina"
+            },
+            {
+              "id": "coconut",
+              "front": "Coconut",
+              "back": "Kokos"
+            },
+            {
+              "id": "fig",
+              "front": "Fig",
+              "back": "Figa"
+            }
+          ]
+        },
+        {
+          "id": "vegetables",
+          "title": "Zelenina",
+          "image": "🥕",
+          "description": "Zelenina",
+          "cards": [
+            {
+              "id": "tomato",
+              "front": "Tomato",
+              "back": "Paradajka"
+            },
+            {
+              "id": "potato",
+              "front": "Potato",
+              "back": "Zemiak"
+            },
+            {
+              "id": "carrot",
+              "front": "Carrot",
+              "back": "Mrkva"
+            },
+            {
+              "id": "onion",
+              "front": "Onion",
+              "back": "Cibuľa"
+            },
+            {
+              "id": "garlic",
+              "front": "Garlic",
+              "back": "Cesnak"
+            },
+            {
+              "id": "cucumber",
+              "front": "Cucumber",
+              "back": "Uhorka"
+            },
+            {
+              "id": "pepper",
+              "front": "Pepper",
+              "back": "Paprika"
+            },
+            {
+              "id": "lettuce",
+              "front": "Lettuce",
+              "back": "Šalát"
+            },
+            {
+              "id": "cabbage",
+              "front": "Cabbage",
+              "back": "Kapusta"
+            },
+            {
+              "id": "broccoli",
+              "front": "Broccoli",
+              "back": "Brokolica"
+            },
+            {
+              "id": "corn",
+              "front": "Corn",
+              "back": "Kukurica"
+            },
+            {
+              "id": "pea",
+              "front": "Pea",
+              "back": "Hrach"
+            },
+            {
+              "id": "bean",
+              "front": "Bean",
+              "back": "Fazuľa"
+            },
+            {
+              "id": "mushroom",
+              "front": "Mushroom",
+              "back": "Huba"
+            },
+            {
+              "id": "spinach",
+              "front": "Spinach",
+              "back": "Špenát"
+            },
+            {
+              "id": "pumpkin",
+              "front": "Pumpkin",
+              "back": "Tekvica"
+            },
+            {
+              "id": "radish",
+              "front": "Radish",
+              "back": "Reďkovka"
+            },
+            {
+              "id": "celery",
+              "front": "Celery",
+              "back": "Zeler"
+            }
+          ]
+        },
+        {
+          "id": "meals",
+          "title": "Jedlá",
+          "image": "🍝",
+          "description": "Bežné jedlá",
+          "cards": [
+            {
+              "id": "breakfast",
+              "front": "Breakfast",
+              "back": "Raňajky"
+            },
+            {
+              "id": "lunch",
+              "front": "Lunch",
+              "back": "Obed"
+            },
+            {
+              "id": "dinner",
+              "front": "Dinner",
+              "back": "Večera"
+            },
+            {
+              "id": "snack",
+              "front": "Snack",
+              "back": "Desiata"
+            },
+            {
+              "id": "bread",
+              "front": "Bread",
+              "back": "Chlieb"
+            },
+            {
+              "id": "butter",
+              "front": "Butter",
+              "back": "Maslo"
+            },
+            {
+              "id": "cheese",
+              "front": "Cheese",
+              "back": "Syr"
+            },
+            {
+              "id": "egg",
+              "front": "Egg",
+              "back": "Vajce"
+            },
+            {
+              "id": "rice",
+              "front": "Rice",
+              "back": "Ryža"
+            },
+            {
+              "id": "pasta",
+              "front": "Pasta",
+              "back": "Cestoviny"
+            },
+            {
+              "id": "soup",
+              "front": "Soup",
+              "back": "Polievka"
+            },
+            {
+              "id": "salad",
+              "front": "Salad",
+              "back": "Šalát"
+            },
+            {
+              "id": "pizza",
+              "front": "Pizza",
+              "back": "Pizza"
+            },
+            {
+              "id": "sandwich",
+              "front": "Sandwich",
+              "back": "Sendvič"
+            },
+            {
+              "id": "meat",
+              "front": "Meat",
+              "back": "Mäso"
+            },
+            {
+              "id": "chicken",
+              "front": "Chicken",
+              "back": "Kura"
+            },
+            {
+              "id": "fish",
+              "front": "Fish",
+              "back": "Ryba"
+            },
+            {
+              "id": "cake",
+              "front": "Cake",
+              "back": "Koláč"
+            },
+            {
+              "id": "ice_cream",
+              "front": "Ice cream",
+              "back": "Zmrzlina"
+            }
+          ]
+        },
+        {
+          "id": "drinks",
+          "title": "Nápoje",
+          "image": "☕",
+          "description": "Čo pijeme",
+          "cards": [
+            {
+              "id": "water",
+              "front": "Water",
+              "back": "Voda"
+            },
+            {
+              "id": "tea",
+              "front": "Tea",
+              "back": "Čaj"
+            },
+            {
+              "id": "coffee",
+              "front": "Coffee",
+              "back": "Káva"
+            },
+            {
+              "id": "milk",
+              "front": "Milk",
+              "back": "Mlieko"
+            },
+            {
+              "id": "juice",
+              "front": "Juice",
+              "back": "Džús"
+            },
+            {
+              "id": "lemonade",
+              "front": "Lemonade",
+              "back": "Limonáda"
+            },
+            {
+              "id": "cola",
+              "front": "Cola",
+              "back": "Kola"
+            },
+            {
+              "id": "beer",
+              "front": "Beer",
+              "back": "Pivo"
+            },
+            {
+              "id": "wine",
+              "front": "Wine",
+              "back": "Víno"
+            },
+            {
+              "id": "hot_chocolate",
+              "front": "Hot chocolate",
+              "back": "Horúca čokoláda"
+            },
+            {
+              "id": "smoothie",
+              "front": "Smoothie",
+              "back": "Smoothie"
+            },
+            {
+              "id": "sparkling_water",
+              "front": "Sparkling water",
+              "back": "Perlivá voda"
+            },
+            {
+              "id": "still_water",
+              "front": "Still water",
+              "back": "Neperlivá voda"
+            },
+            {
+              "id": "ice",
+              "front": "Ice",
+              "back": "Ľad"
+            },
+            {
+              "id": "sugar",
+              "front": "Sugar",
+              "back": "Cukor"
+            },
+            {
+              "id": "honey",
+              "front": "Honey",
+              "back": "Med"
+            },
+            {
+              "id": "salt",
+              "front": "Salt",
+              "back": "Soľ"
+            },
+            {
+              "id": "pepper_spice",
+              "front": "Pepper spice",
+              "back": "Korenie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "title": "Ľudia a vzhľad",
+      "image": "👨‍👩‍👧‍👦",
+      "color": "#8B5CF6",
+      "description": "Rodina, oblečenie a vzhľad",
+      "categories": [
+        {
+          "id": "family",
+          "title": "Rodina",
+          "image": "👪",
+          "description": "Členovia rodiny",
+          "cards": [
+            {
+              "id": "mother",
+              "front": "Mother",
+              "back": "Mama"
+            },
+            {
+              "id": "father",
+              "front": "Father",
+              "back": "Otec"
+            },
+            {
+              "id": "parents",
+              "front": "Parents",
+              "back": "Rodičia"
+            },
+            {
+              "id": "sister",
+              "front": "Sister",
+              "back": "Sestra"
+            },
+            {
+              "id": "brother",
+              "front": "Brother",
+              "back": "Brat"
+            },
+            {
+              "id": "son",
+              "front": "Son",
+              "back": "Syn"
+            },
+            {
+              "id": "daughter",
+              "front": "Daughter",
+              "back": "Dcéra"
+            },
+            {
+              "id": "baby",
+              "front": "Baby",
+              "back": "Bábätko"
+            },
+            {
+              "id": "grandmother",
+              "front": "Grandmother",
+              "back": "Stará mama"
+            },
+            {
+              "id": "grandfather",
+              "front": "Grandfather",
+              "back": "Starý otec"
+            },
+            {
+              "id": "uncle",
+              "front": "Uncle",
+              "back": "Strýko"
+            },
+            {
+              "id": "aunt",
+              "front": "Aunt",
+              "back": "Teta"
+            },
+            {
+              "id": "cousin",
+              "front": "Cousin",
+              "back": "Bratranec / sesternica"
+            },
+            {
+              "id": "husband",
+              "front": "Husband",
+              "back": "Manžel"
+            },
+            {
+              "id": "wife",
+              "front": "Wife",
+              "back": "Manželka"
+            },
+            {
+              "id": "friend",
+              "front": "Friend",
+              "back": "Kamarát"
+            },
+            {
+              "id": "neighbour",
+              "front": "Neighbour",
+              "back": "Sused"
+            },
+            {
+              "id": "child",
+              "front": "Child",
+              "back": "Dieťa"
+            },
+            {
+              "id": "family",
+              "front": "Family",
+              "back": "Rodina"
+            }
+          ]
+        },
+        {
+          "id": "appearance",
+          "title": "Vzhľad",
+          "image": "💇",
+          "description": "Ako vyzeráme",
+          "cards": [
+            {
+              "id": "tall",
+              "front": "Tall",
+              "back": "Vysoký"
+            },
+            {
+              "id": "short",
+              "front": "Short",
+              "back": "Nízky"
+            },
+            {
+              "id": "young",
+              "front": "Young",
+              "back": "Mladý"
+            },
+            {
+              "id": "old",
+              "front": "Old",
+              "back": "Starý"
+            },
+            {
+              "id": "thin",
+              "front": "Thin",
+              "back": "Chudý"
+            },
+            {
+              "id": "fat",
+              "front": "Fat",
+              "back": "Tučný"
+            },
+            {
+              "id": "strong",
+              "front": "Strong",
+              "back": "Silný"
+            },
+            {
+              "id": "weak",
+              "front": "Weak",
+              "back": "Slabý"
+            },
+            {
+              "id": "hair",
+              "front": "Hair",
+              "back": "Vlasy"
+            },
+            {
+              "id": "blonde",
+              "front": "Blonde",
+              "back": "Svetlovlasý"
+            },
+            {
+              "id": "dark_hair",
+              "front": "Dark hair",
+              "back": "Tmavé vlasy"
+            },
+            {
+              "id": "beard",
+              "front": "Beard",
+              "back": "Brada"
+            },
+            {
+              "id": "glasses",
+              "front": "Glasses",
+              "back": "Okuliare"
+            },
+            {
+              "id": "smile",
+              "front": "Smile",
+              "back": "Úsmev"
+            },
+            {
+              "id": "beautiful",
+              "front": "Beautiful",
+              "back": "Krásny"
+            },
+            {
+              "id": "handsome",
+              "front": "Handsome",
+              "back": "Pekný (muž)"
+            },
+            {
+              "id": "pretty",
+              "front": "Pretty",
+              "back": "Pekná"
+            },
+            {
+              "id": "cute",
+              "front": "Cute",
+              "back": "Roztomilý"
+            }
+          ]
+        },
+        {
+          "id": "clothes",
+          "title": "Oblečenie",
+          "image": "👕",
+          "description": "Čo nosíme",
+          "cards": [
+            {
+              "id": "t_shirt",
+              "front": "T-shirt",
+              "back": "Tričko"
+            },
+            {
+              "id": "shirt",
+              "front": "Shirt",
+              "back": "Košeľa"
+            },
+            {
+              "id": "trousers",
+              "front": "Trousers",
+              "back": "Nohavice"
+            },
+            {
+              "id": "jeans",
+              "front": "Jeans",
+              "back": "Džínsy"
+            },
+            {
+              "id": "dress",
+              "front": "Dress",
+              "back": "Šaty"
+            },
+            {
+              "id": "skirt",
+              "front": "Skirt",
+              "back": "Sukňa"
+            },
+            {
+              "id": "jacket",
+              "front": "Jacket",
+              "back": "Bunda"
+            },
+            {
+              "id": "coat",
+              "front": "Coat",
+              "back": "Kabát"
+            },
+            {
+              "id": "sweater",
+              "front": "Sweater",
+              "back": "Sveter"
+            },
+            {
+              "id": "shoes",
+              "front": "Shoes",
+              "back": "Topánky"
+            },
+            {
+              "id": "socks",
+              "front": "Socks",
+              "back": "Ponožky"
+            },
+            {
+              "id": "hat",
+              "front": "Hat",
+              "back": "Klobúk"
+            },
+            {
+              "id": "cap",
+              "front": "Cap",
+              "back": "Šiltovka"
+            },
+            {
+              "id": "scarf",
+              "front": "Scarf",
+              "back": "Šál"
+            },
+            {
+              "id": "gloves",
+              "front": "Gloves",
+              "back": "Rukavice"
+            },
+            {
+              "id": "bag",
+              "front": "Bag",
+              "back": "Taška"
+            },
+            {
+              "id": "watch",
+              "front": "Watch",
+              "back": "Hodinky"
+            },
+            {
+              "id": "belt",
+              "front": "Belt",
+              "back": "Opasok"
+            }
+          ]
+        },
+        {
+          "id": "personality",
+          "title": "Povaha",
+          "image": "🌟",
+          "description": "Vlastnosti",
+          "cards": [
+            {
+              "id": "kind",
+              "front": "Kind",
+              "back": "Milý"
+            },
+            {
+              "id": "funny",
+              "front": "Funny",
+              "back": "Zábavný"
+            },
+            {
+              "id": "smart",
+              "front": "Smart",
+              "back": "Múdry"
+            },
+            {
+              "id": "lazy",
+              "front": "Lazy",
+              "back": "Lenivý"
+            },
+            {
+              "id": "hardworking",
+              "front": "Hardworking",
+              "back": "Pracovitý"
+            },
+            {
+              "id": "friendly",
+              "front": "Friendly",
+              "back": "Priateľský"
+            },
+            {
+              "id": "shy",
+              "front": "Shy",
+              "back": "Hanblivý"
+            },
+            {
+              "id": "brave",
+              "front": "Brave",
+              "back": "Statočný"
+            },
+            {
+              "id": "honest",
+              "front": "Honest",
+              "back": "Úprimný"
+            },
+            {
+              "id": "polite",
+              "front": "Polite",
+              "back": "Slušný"
+            },
+            {
+              "id": "rude",
+              "front": "Rude",
+              "back": "Nezdvorilý"
+            },
+            {
+              "id": "quiet",
+              "front": "Quiet",
+              "back": "Tichý"
+            },
+            {
+              "id": "loud",
+              "front": "Loud",
+              "back": "Hlučný"
+            },
+            {
+              "id": "careful",
+              "front": "Careful",
+              "back": "Opatrný"
+            },
+            {
+              "id": "creative",
+              "front": "Creative",
+              "back": "Tvorivý"
+            },
+            {
+              "id": "patient",
+              "front": "Patient",
+              "back": "Trpezlivý"
+            },
+            {
+              "id": "helpful",
+              "front": "Helpful",
+              "back": "Ochotný"
+            },
+            {
+              "id": "serious",
+              "front": "Serious",
+              "back": "Vážny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "title": "Mesto a cesta",
+      "image": "🏙️",
+      "color": "#10B981",
+      "description": "Miesta, doprava a nakupovanie",
+      "categories": [
+        {
+          "id": "places",
+          "title": "Miesta",
+          "image": "📍",
+          "description": "Kde sme",
+          "cards": [
+            {
+              "id": "city",
+              "front": "City",
+              "back": "Mesto"
+            },
+            {
+              "id": "village",
+              "front": "Village",
+              "back": "Dedina"
+            },
+            {
+              "id": "street",
+              "front": "Street",
+              "back": "Ulica"
+            },
+            {
+              "id": "square",
+              "front": "Square",
+              "back": "Námestie"
+            },
+            {
+              "id": "park",
+              "front": "Park",
+              "back": "Park"
+            },
+            {
+              "id": "school",
+              "front": "School",
+              "back": "Škola"
+            },
+            {
+              "id": "shop",
+              "front": "Shop",
+              "back": "Obchod"
+            },
+            {
+              "id": "supermarket",
+              "front": "Supermarket",
+              "back": "Supermarket"
+            },
+            {
+              "id": "bank",
+              "front": "Bank",
+              "back": "Banka"
+            },
+            {
+              "id": "post_office",
+              "front": "Post office",
+              "back": "Pošta"
+            },
+            {
+              "id": "hospital",
+              "front": "Hospital",
+              "back": "Nemocnica"
+            },
+            {
+              "id": "pharmacy",
+              "front": "Pharmacy",
+              "back": "Lekáreň"
+            },
+            {
+              "id": "restaurant",
+              "front": "Restaurant",
+              "back": "Reštaurácia"
+            },
+            {
+              "id": "cafe",
+              "front": "Cafe",
+              "back": "Kaviareň"
+            },
+            {
+              "id": "cinema",
+              "front": "Cinema",
+              "back": "Kino"
+            },
+            {
+              "id": "museum",
+              "front": "Museum",
+              "back": "Múzeum"
+            },
+            {
+              "id": "library",
+              "front": "Library",
+              "back": "Knižnica"
+            },
+            {
+              "id": "church",
+              "front": "Church",
+              "back": "Kostol"
+            }
+          ]
+        },
+        {
+          "id": "transport",
+          "title": "Doprava",
+          "image": "🚌",
+          "description": "Ako cestujeme",
+          "cards": [
+            {
+              "id": "car",
+              "front": "Car",
+              "back": "Auto"
+            },
+            {
+              "id": "bus",
+              "front": "Bus",
+              "back": "Autobus"
+            },
+            {
+              "id": "train",
+              "front": "Train",
+              "back": "Vlak"
+            },
+            {
+              "id": "tram",
+              "front": "Tram",
+              "back": "Električka"
+            },
+            {
+              "id": "metro",
+              "front": "Metro",
+              "back": "Metro"
+            },
+            {
+              "id": "bike",
+              "front": "Bike",
+              "back": "Bicykel"
+            },
+            {
+              "id": "motorbike",
+              "front": "Motorbike",
+              "back": "Motorka"
+            },
+            {
+              "id": "plane",
+              "front": "Plane",
+              "back": "Lietadlo"
+            },
+            {
+              "id": "boat",
+              "front": "Boat",
+              "back": "Čln"
+            },
+            {
+              "id": "taxi",
+              "front": "Taxi",
+              "back": "Taxík"
+            },
+            {
+              "id": "ticket",
+              "front": "Ticket",
+              "back": "Lístok"
+            },
+            {
+              "id": "station",
+              "front": "Station",
+              "back": "Stanica"
+            },
+            {
+              "id": "stop",
+              "front": "Stop",
+              "back": "Zastávka"
+            },
+            {
+              "id": "map",
+              "front": "Map",
+              "back": "Mapa"
+            },
+            {
+              "id": "road",
+              "front": "Road",
+              "back": "Cesta"
+            },
+            {
+              "id": "traffic",
+              "front": "Traffic",
+              "back": "Premávka"
+            },
+            {
+              "id": "driver",
+              "front": "Driver",
+              "back": "Vodič"
+            },
+            {
+              "id": "passenger",
+              "front": "Passenger",
+              "back": "Cestujúci"
+            }
+          ]
+        },
+        {
+          "id": "shopping",
+          "title": "Nakupovanie",
+          "image": "🛒",
+          "description": "V obchode",
+          "cards": [
+            {
+              "id": "buy",
+              "front": "Buy",
+              "back": "Kúpiť"
+            },
+            {
+              "id": "sell",
+              "front": "Sell",
+              "back": "Predať"
+            },
+            {
+              "id": "price",
+              "front": "Price",
+              "back": "Cena"
+            },
+            {
+              "id": "cheap",
+              "front": "Cheap",
+              "back": "Lacný"
+            },
+            {
+              "id": "expensive",
+              "front": "Expensive",
+              "back": "Drahý"
+            },
+            {
+              "id": "money",
+              "front": "Money",
+              "back": "Peniaze"
+            },
+            {
+              "id": "cash",
+              "front": "Cash",
+              "back": "Hotovosť"
+            },
+            {
+              "id": "card",
+              "front": "Card",
+              "back": "Karta"
+            },
+            {
+              "id": "receipt",
+              "front": "Receipt",
+              "back": "Účtenka"
+            },
+            {
+              "id": "change",
+              "front": "Change",
+              "back": "Drobné"
+            },
+            {
+              "id": "discount",
+              "front": "Discount",
+              "back": "Zľava"
+            },
+            {
+              "id": "open",
+              "front": "Open",
+              "back": "Otvorené"
+            },
+            {
+              "id": "closed",
+              "front": "Closed",
+              "back": "Zatvorené"
+            },
+            {
+              "id": "size",
+              "front": "Size",
+              "back": "Veľkosť"
+            },
+            {
+              "id": "colour",
+              "front": "Colour",
+              "back": "Farba"
+            },
+            {
+              "id": "i_would_like",
+              "front": "I would like",
+              "back": "Chcel by som"
+            },
+            {
+              "id": "how_much_is_it",
+              "front": "How much is it",
+              "back": "Koľko to stojí"
+            },
+            {
+              "id": "its_too_expensive",
+              "front": "It's too expensive",
+              "back": "Je to príliš drahé"
+            }
+          ]
+        },
+        {
+          "id": "directions",
+          "title": "Smer",
+          "image": "🧭",
+          "description": "Ako sa opýtať na cestu",
+          "cards": [
+            {
+              "id": "left",
+              "front": "Left",
+              "back": "Vľavo"
+            },
+            {
+              "id": "right",
+              "front": "Right",
+              "back": "Vpravo"
+            },
+            {
+              "id": "straight",
+              "front": "Straight",
+              "back": "Rovno"
+            },
+            {
+              "id": "near",
+              "front": "Near",
+              "back": "Blízko"
+            },
+            {
+              "id": "far",
+              "front": "Far",
+              "back": "Ďaleko"
+            },
+            {
+              "id": "here",
+              "front": "Here",
+              "back": "Tu"
+            },
+            {
+              "id": "there",
+              "front": "There",
+              "back": "Tam"
+            },
+            {
+              "id": "opposite",
+              "front": "Opposite",
+              "back": "Naproti"
+            },
+            {
+              "id": "next_to",
+              "front": "Next to",
+              "back": "Vedľa"
+            },
+            {
+              "id": "between",
+              "front": "Between",
+              "back": "Medzi"
+            },
+            {
+              "id": "behind",
+              "front": "Behind",
+              "back": "Za"
+            },
+            {
+              "id": "in_front_of",
+              "front": "In front of",
+              "back": "Pred"
+            },
+            {
+              "id": "corner",
+              "front": "Corner",
+              "back": "Roh"
+            },
+            {
+              "id": "bridge",
+              "front": "Bridge",
+              "back": "Most"
+            },
+            {
+              "id": "cross",
+              "front": "Cross",
+              "back": "Prejsť"
+            },
+            {
+              "id": "turn",
+              "front": "Turn",
+              "back": "Odbočiť"
+            },
+            {
+              "id": "go",
+              "front": "Go",
+              "back": "Ísť"
+            },
+            {
+              "id": "stop_here",
+              "front": "Stop here",
+              "back": "Zastav tu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "title": "Príroda",
+      "image": "🌿",
+      "color": "#22C55E",
+      "description": "Počasie, zvieratá a krajina",
+      "categories": [
+        {
+          "id": "weather",
+          "title": "Počasie",
+          "image": "🌤️",
+          "description": "Aké je počasie",
+          "cards": [
+            {
+              "id": "sunny",
+              "front": "Sunny",
+              "back": "Slnečno"
+            },
+            {
+              "id": "cloudy",
+              "front": "Cloudy",
+              "back": "Oblačno"
+            },
+            {
+              "id": "rainy",
+              "front": "Rainy",
+              "back": "Daždivo"
+            },
+            {
+              "id": "windy",
+              "front": "Windy",
+              "back": "Veterne"
+            },
+            {
+              "id": "snowy",
+              "front": "Snowy",
+              "back": "Sneží"
+            },
+            {
+              "id": "foggy",
+              "front": "Foggy",
+              "back": "Hmlisto"
+            },
+            {
+              "id": "hot",
+              "front": "Hot",
+              "back": "Horúco"
+            },
+            {
+              "id": "cold",
+              "front": "Cold",
+              "back": "Chladno"
+            },
+            {
+              "id": "warm",
+              "front": "Warm",
+              "back": "Teplo"
+            },
+            {
+              "id": "cool",
+              "front": "Cool",
+              "back": "Príjemne chladno"
+            },
+            {
+              "id": "storm",
+              "front": "Storm",
+              "back": "Búrka"
+            },
+            {
+              "id": "thunder",
+              "front": "Thunder",
+              "back": "Hrom"
+            },
+            {
+              "id": "lightning",
+              "front": "Lightning",
+              "back": "Blesk"
+            },
+            {
+              "id": "rainbow",
+              "front": "Rainbow",
+              "back": "Dúha"
+            },
+            {
+              "id": "temperature",
+              "front": "Temperature",
+              "back": "Teplota"
+            },
+            {
+              "id": "sun",
+              "front": "Sun",
+              "back": "Slnko"
+            },
+            {
+              "id": "moon",
+              "front": "Moon",
+              "back": "Mesiac"
+            },
+            {
+              "id": "star",
+              "front": "Star",
+              "back": "Hviezda"
+            }
+          ]
+        },
+        {
+          "id": "animals",
+          "title": "Zvieratá",
+          "image": "🐶",
+          "description": "Domáce a voľne žijúce",
+          "cards": [
+            {
+              "id": "dog",
+              "front": "Dog",
+              "back": "Pes"
+            },
+            {
+              "id": "cat",
+              "front": "Cat",
+              "back": "Mačka"
+            },
+            {
+              "id": "bird",
+              "front": "Bird",
+              "back": "Vták"
+            },
+            {
+              "id": "animals_fish",
+              "front": "Fish",
+              "back": "Ryba"
+            },
+            {
+              "id": "horse",
+              "front": "Horse",
+              "back": "Kôň"
+            },
+            {
+              "id": "cow",
+              "front": "Cow",
+              "back": "Krava"
+            },
+            {
+              "id": "pig",
+              "front": "Pig",
+              "back": "Prasa"
+            },
+            {
+              "id": "sheep",
+              "front": "Sheep",
+              "back": "Ovca"
+            },
+            {
+              "id": "animals_chicken",
+              "front": "Chicken",
+              "back": "Sliepka"
+            },
+            {
+              "id": "rabbit",
+              "front": "Rabbit",
+              "back": "Zajac"
+            },
+            {
+              "id": "mouse",
+              "front": "Mouse",
+              "back": "Myš"
+            },
+            {
+              "id": "lion",
+              "front": "Lion",
+              "back": "Lev"
+            },
+            {
+              "id": "tiger",
+              "front": "Tiger",
+              "back": "Tiger"
+            },
+            {
+              "id": "bear",
+              "front": "Bear",
+              "back": "Medveď"
+            },
+            {
+              "id": "elephant",
+              "front": "Elephant",
+              "back": "Slon"
+            },
+            {
+              "id": "monkey",
+              "front": "Monkey",
+              "back": "Opica"
+            },
+            {
+              "id": "snake",
+              "front": "Snake",
+              "back": "Had"
+            },
+            {
+              "id": "bee",
+              "front": "Bee",
+              "back": "Včela"
+            }
+          ]
+        },
+        {
+          "id": "plants",
+          "title": "Rastliny",
+          "image": "🌸",
+          "description": "Stromy a kvety",
+          "cards": [
+            {
+              "id": "tree",
+              "front": "Tree",
+              "back": "Strom"
+            },
+            {
+              "id": "flower",
+              "front": "Flower",
+              "back": "Kvet"
+            },
+            {
+              "id": "grass",
+              "front": "Grass",
+              "back": "Tráva"
+            },
+            {
+              "id": "leaf",
+              "front": "Leaf",
+              "back": "List"
+            },
+            {
+              "id": "forest",
+              "front": "Forest",
+              "back": "Les"
+            },
+            {
+              "id": "bush",
+              "front": "Bush",
+              "back": "Ker"
+            },
+            {
+              "id": "rose",
+              "front": "Rose",
+              "back": "Ruža"
+            },
+            {
+              "id": "oak",
+              "front": "Oak",
+              "back": "Dub"
+            },
+            {
+              "id": "pine",
+              "front": "Pine",
+              "back": "Borovica"
+            },
+            {
+              "id": "seed",
+              "front": "Seed",
+              "back": "Semená"
+            },
+            {
+              "id": "root",
+              "front": "Root",
+              "back": "Koreň"
+            },
+            {
+              "id": "branch",
+              "front": "Branch",
+              "back": "Konár"
+            },
+            {
+              "id": "plants_garden",
+              "front": "Garden",
+              "back": "Záhrada"
+            },
+            {
+              "id": "field",
+              "front": "Field",
+              "back": "Pole"
+            },
+            {
+              "id": "farm",
+              "front": "Farm",
+              "back": "Farma"
+            },
+            {
+              "id": "soil",
+              "front": "Soil",
+              "back": "Pôda"
+            },
+            {
+              "id": "fruit_tree",
+              "front": "Fruit tree",
+              "back": "Ovocný strom"
+            },
+            {
+              "id": "herb",
+              "front": "Herb",
+              "back": "Bylinka"
+            }
+          ]
+        },
+        {
+          "id": "landscape",
+          "title": "Krajina",
+          "image": "⛰️",
+          "description": "Prírodné miesta",
+          "cards": [
+            {
+              "id": "mountain",
+              "front": "Mountain",
+              "back": "Hora"
+            },
+            {
+              "id": "hill",
+              "front": "Hill",
+              "back": "Kopec"
+            },
+            {
+              "id": "river",
+              "front": "River",
+              "back": "Rieka"
+            },
+            {
+              "id": "lake",
+              "front": "Lake",
+              "back": "Jazero"
+            },
+            {
+              "id": "sea",
+              "front": "Sea",
+              "back": "More"
+            },
+            {
+              "id": "beach",
+              "front": "Beach",
+              "back": "Pláž"
+            },
+            {
+              "id": "island",
+              "front": "Island",
+              "back": "Ostrov"
+            },
+            {
+              "id": "valley",
+              "front": "Valley",
+              "back": "Dolina"
+            },
+            {
+              "id": "cave",
+              "front": "Cave",
+              "back": "Jaskyňa"
+            },
+            {
+              "id": "waterfall",
+              "front": "Waterfall",
+              "back": "Vodopád"
+            },
+            {
+              "id": "desert",
+              "front": "Desert",
+              "back": "Púšť"
+            },
+            {
+              "id": "rock",
+              "front": "Rock",
+              "back": "Skala"
+            },
+            {
+              "id": "sand",
+              "front": "Sand",
+              "back": "Piesok"
+            },
+            {
+              "id": "landscape_ice",
+              "front": "Ice",
+              "back": "Ľad"
+            },
+            {
+              "id": "sky",
+              "front": "Sky",
+              "back": "Obloha"
+            },
+            {
+              "id": "cloud",
+              "front": "Cloud",
+              "back": "Mrak"
+            },
+            {
+              "id": "wind",
+              "front": "Wind",
+              "back": "Vietor"
+            },
+            {
+              "id": "fire",
+              "front": "Fire",
+              "back": "Oheň"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time_numbers",
+      "title": "Čas a čísla",
+      "image": "⏰",
+      "color": "#6366F1",
+      "description": "Čísla, dni a hodiny",
+      "categories": [
+        {
+          "id": "numbers",
+          "title": "Čísla",
+          "image": "🔢",
+          "description": "Základné čísla",
+          "cards": [
+            {
+              "id": "zero",
+              "front": "Zero",
+              "back": "Nula"
+            },
+            {
+              "id": "one",
+              "front": "One",
+              "back": "Jeden"
+            },
+            {
+              "id": "two",
+              "front": "Two",
+              "back": "Dva"
+            },
+            {
+              "id": "three",
+              "front": "Three",
+              "back": "Tri"
+            },
+            {
+              "id": "four",
+              "front": "Four",
+              "back": "Štyri"
+            },
+            {
+              "id": "five",
+              "front": "Five",
+              "back": "Päť"
+            },
+            {
+              "id": "six",
+              "front": "Six",
+              "back": "Šesť"
+            },
+            {
+              "id": "seven",
+              "front": "Seven",
+              "back": "Sedem"
+            },
+            {
+              "id": "eight",
+              "front": "Eight",
+              "back": "Osem"
+            },
+            {
+              "id": "nine",
+              "front": "Nine",
+              "back": "Deväť"
+            },
+            {
+              "id": "ten",
+              "front": "Ten",
+              "back": "Desať"
+            },
+            {
+              "id": "eleven",
+              "front": "Eleven",
+              "back": "Jedenásť"
+            },
+            {
+              "id": "twelve",
+              "front": "Twelve",
+              "back": "Dvanásť"
+            },
+            {
+              "id": "twenty",
+              "front": "Twenty",
+              "back": "Dvadsať"
+            },
+            {
+              "id": "thirty",
+              "front": "Thirty",
+              "back": "Tridsať"
+            },
+            {
+              "id": "fifty",
+              "front": "Fifty",
+              "back": "Päťdesiat"
+            },
+            {
+              "id": "hundred",
+              "front": "Hundred",
+              "back": "Sto"
+            },
+            {
+              "id": "thousand",
+              "front": "Thousand",
+              "back": "Tisíc"
+            }
+          ]
+        },
+        {
+          "id": "days",
+          "title": "Dni",
+          "image": "📅",
+          "description": "Dni v týždni",
+          "cards": [
+            {
+              "id": "monday",
+              "front": "Monday",
+              "back": "Pondelok"
+            },
+            {
+              "id": "tuesday",
+              "front": "Tuesday",
+              "back": "Utorok"
+            },
+            {
+              "id": "wednesday",
+              "front": "Wednesday",
+              "back": "Streda"
+            },
+            {
+              "id": "thursday",
+              "front": "Thursday",
+              "back": "Štvrtok"
+            },
+            {
+              "id": "friday",
+              "front": "Friday",
+              "back": "Piatok"
+            },
+            {
+              "id": "saturday",
+              "front": "Saturday",
+              "back": "Sobota"
+            },
+            {
+              "id": "sunday",
+              "front": "Sunday",
+              "back": "Nedeľa"
+            },
+            {
+              "id": "week",
+              "front": "Week",
+              "back": "Týždeň"
+            },
+            {
+              "id": "weekend",
+              "front": "Weekend",
+              "back": "Víkend"
+            },
+            {
+              "id": "today",
+              "front": "Today",
+              "back": "Dnes"
+            },
+            {
+              "id": "tomorrow",
+              "front": "Tomorrow",
+              "back": "Zajtra"
+            },
+            {
+              "id": "yesterday",
+              "front": "Yesterday",
+              "back": "Včera"
+            },
+            {
+              "id": "now",
+              "front": "Now",
+              "back": "Teraz"
+            },
+            {
+              "id": "later",
+              "front": "Later",
+              "back": "Neskôr"
+            },
+            {
+              "id": "soon",
+              "front": "Soon",
+              "back": "Čoskoro"
+            },
+            {
+              "id": "always",
+              "front": "Always",
+              "back": "Vždy"
+            },
+            {
+              "id": "never",
+              "front": "Never",
+              "back": "Nikdy"
+            },
+            {
+              "id": "sometimes",
+              "front": "Sometimes",
+              "back": "Niekedy"
+            }
+          ]
+        },
+        {
+          "id": "months",
+          "title": "Mesiace",
+          "image": "🗓️",
+          "description": "Mesiace a ročné obdobia",
+          "cards": [
+            {
+              "id": "january",
+              "front": "January",
+              "back": "Január"
+            },
+            {
+              "id": "february",
+              "front": "February",
+              "back": "Február"
+            },
+            {
+              "id": "march",
+              "front": "March",
+              "back": "Marec"
+            },
+            {
+              "id": "april",
+              "front": "April",
+              "back": "Apríl"
+            },
+            {
+              "id": "may",
+              "front": "May",
+              "back": "Máj"
+            },
+            {
+              "id": "june",
+              "front": "June",
+              "back": "Jún"
+            },
+            {
+              "id": "july",
+              "front": "July",
+              "back": "Júl"
+            },
+            {
+              "id": "august",
+              "front": "August",
+              "back": "August"
+            },
+            {
+              "id": "september",
+              "front": "September",
+              "back": "September"
+            },
+            {
+              "id": "october",
+              "front": "October",
+              "back": "Október"
+            },
+            {
+              "id": "november",
+              "front": "November",
+              "back": "November"
+            },
+            {
+              "id": "december",
+              "front": "December",
+              "back": "December"
+            },
+            {
+              "id": "spring",
+              "front": "Spring",
+              "back": "Jar"
+            },
+            {
+              "id": "summer",
+              "front": "Summer",
+              "back": "Leto"
+            },
+            {
+              "id": "autumn",
+              "front": "Autumn",
+              "back": "Jeseň"
+            },
+            {
+              "id": "winter",
+              "front": "Winter",
+              "back": "Zima"
+            },
+            {
+              "id": "year",
+              "front": "Year",
+              "back": "Rok"
+            },
+            {
+              "id": "month",
+              "front": "Month",
+              "back": "Mesiac"
+            }
+          ]
+        },
+        {
+          "id": "clock",
+          "title": "Hodiny",
+          "image": "🕒",
+          "description": "Časové výrazy",
+          "cards": [
+            {
+              "id": "hour",
+              "front": "Hour",
+              "back": "Hodina"
+            },
+            {
+              "id": "minute",
+              "front": "Minute",
+              "back": "Minúta"
+            },
+            {
+              "id": "second",
+              "front": "Second",
+              "back": "Sekunda"
+            },
+            {
+              "id": "morning",
+              "front": "Morning",
+              "back": "Ráno"
+            },
+            {
+              "id": "afternoon",
+              "front": "Afternoon",
+              "back": "Popoludnie"
+            },
+            {
+              "id": "evening",
+              "front": "Evening",
+              "back": "Večer"
+            },
+            {
+              "id": "night",
+              "front": "Night",
+              "back": "Noc"
+            },
+            {
+              "id": "midnight",
+              "front": "Midnight",
+              "back": "Polnoc"
+            },
+            {
+              "id": "noon",
+              "front": "Noon",
+              "back": "Poludnie"
+            },
+            {
+              "id": "oclock",
+              "front": "O'clock",
+              "back": "Hodín"
+            },
+            {
+              "id": "quarter_past",
+              "front": "Quarter past",
+              "back": "Štvrť na"
+            },
+            {
+              "id": "half_past",
+              "front": "Half past",
+              "back": "Pol"
+            },
+            {
+              "id": "quarter_to",
+              "front": "Quarter to",
+              "back": "Trištvrte na"
+            },
+            {
+              "id": "early",
+              "front": "Early",
+              "back": "Skoro"
+            },
+            {
+              "id": "late",
+              "front": "Late",
+              "back": "Neskoro"
+            },
+            {
+              "id": "on_time",
+              "front": "On time",
+              "back": "Načas"
+            },
+            {
+              "id": "what_time_is_it",
+              "front": "What time is it",
+              "back": "Koľko je hodín"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "school_work",
+      "title": "Škola a práca",
+      "image": "📚",
+      "color": "#0EA5E9",
+      "description": "Škola, povolania a kancelária",
+      "categories": [
+        {
+          "id": "school",
+          "title": "Škola",
+          "image": "✏️",
+          "description": "Školské potreby",
+          "cards": [
+            {
+              "id": "teacher",
+              "front": "Teacher",
+              "back": "Učiteľ"
+            },
+            {
+              "id": "student",
+              "front": "Student",
+              "back": "Žiak"
+            },
+            {
+              "id": "class",
+              "front": "Class",
+              "back": "Trieda"
+            },
+            {
+              "id": "lesson",
+              "front": "Lesson",
+              "back": "Hodina"
+            },
+            {
+              "id": "homework",
+              "front": "Homework",
+              "back": "Domáca úloha"
+            },
+            {
+              "id": "test",
+              "front": "Test",
+              "back": "Test"
+            },
+            {
+              "id": "book",
+              "front": "Book",
+              "back": "Kniha"
+            },
+            {
+              "id": "notebook",
+              "front": "Notebook",
+              "back": "Zošit"
+            },
+            {
+              "id": "pen",
+              "front": "Pen",
+              "back": "Pero"
+            },
+            {
+              "id": "pencil",
+              "front": "Pencil",
+              "back": "Ceruzka"
+            },
+            {
+              "id": "rubber",
+              "front": "Rubber",
+              "back": "Guma"
+            },
+            {
+              "id": "ruler",
+              "front": "Ruler",
+              "back": "Pravítko"
+            },
+            {
+              "id": "school_bag",
+              "front": "Bag",
+              "back": "Taška"
+            },
+            {
+              "id": "board",
+              "front": "Board",
+              "back": "Tabuľa"
+            },
+            {
+              "id": "break",
+              "front": "Break",
+              "back": "Prestávka"
+            },
+            {
+              "id": "exam",
+              "front": "Exam",
+              "back": "Skúška"
+            },
+            {
+              "id": "grade",
+              "front": "Grade",
+              "back": "Známka"
+            },
+            {
+              "id": "subject",
+              "front": "Subject",
+              "back": "Predmet"
+            }
+          ]
+        },
+        {
+          "id": "subjects",
+          "title": "Predmety",
+          "image": "🧮",
+          "description": "Školské predmety",
+          "cards": [
+            {
+              "id": "maths",
+              "front": "Maths",
+              "back": "Matematika"
+            },
+            {
+              "id": "english",
+              "front": "English",
+              "back": "Angličtina"
+            },
+            {
+              "id": "slovak",
+              "front": "Slovak",
+              "back": "Slovenčina"
+            },
+            {
+              "id": "history",
+              "front": "History",
+              "back": "Dejepis"
+            },
+            {
+              "id": "geography",
+              "front": "Geography",
+              "back": "Zemepis"
+            },
+            {
+              "id": "biology",
+              "front": "Biology",
+              "back": "Biológia"
+            },
+            {
+              "id": "chemistry",
+              "front": "Chemistry",
+              "back": "Chémia"
+            },
+            {
+              "id": "physics",
+              "front": "Physics",
+              "back": "Fyzika"
+            },
+            {
+              "id": "art",
+              "front": "Art",
+              "back": "Výtvarná"
+            },
+            {
+              "id": "music",
+              "front": "Music",
+              "back": "Hudba"
+            },
+            {
+              "id": "pe",
+              "front": "PE",
+              "back": "Telesná"
+            },
+            {
+              "id": "it",
+              "front": "IT",
+              "back": "Informatika"
+            },
+            {
+              "id": "science",
+              "front": "Science",
+              "back": "Prírodoveda"
+            },
+            {
+              "id": "literature",
+              "front": "Literature",
+              "back": "Literatúra"
+            },
+            {
+              "id": "language",
+              "front": "Language",
+              "back": "Jazyk"
+            },
+            {
+              "id": "religion",
+              "front": "Religion",
+              "back": "Náboženstvo"
+            },
+            {
+              "id": "break_time",
+              "front": "Break time",
+              "back": "Voľno"
+            },
+            {
+              "id": "timetable",
+              "front": "Timetable",
+              "back": "Rozvrh"
+            }
           ]
         },
         {
           "id": "jobs",
-          "title": "Jobs",
+          "title": "Povolania",
           "image": "👷",
-          "description": "Professions",
+          "description": "Kto čím je",
           "cards": [
-            { "id": "teacher", "front": "Teacher", "back": "Učiteľ" },
-            { "id": "doctor", "front": "Doctor", "back": "Lekár" },
-            { "id": "engineer", "front": "Engineer", "back": "Inžinier" },
-            { "id": "developer", "front": "Developer", "back": "Programátor" },
-            { "id": "driver", "front": "Driver", "back": "Vodič" },
-            { "id": "police", "front": "Police officer", "back": "Policajt" },
-            { "id": "chef", "front": "Chef", "back": "Kuchár" },
-            { "id": "waiter", "front": "Waiter", "back": "Čašník" },
-            { "id": "manager", "front": "Manager", "back": "Manažér" },
-            { "id": "student", "front": "Student", "back": "Študent" }
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "time",
-      "title": "Time & Numbers",
-      "image": "⏰",
-      "color": "#eddd47",
-      "description": "Time and counting",
-      "categories": [
-        {
-          "id": "numbers",
-          "title": "Numbers",
-          "image": "🔢",
-          "description": "Basic numbers",
-          "cards": [
-            { "id": "one", "front": "One", "back": "Jeden" },
-            { "id": "two", "front": "Two", "back": "Dva" },
-            { "id": "three", "front": "Three", "back": "Tri" },
-            { "id": "four", "front": "Four", "back": "Štyri" },
-            { "id": "five", "front": "Five", "back": "Päť" },
-            { "id": "six", "front": "Six", "back": "Šesť" },
-            { "id": "seven", "front": "Seven", "back": "Sedem" },
-            { "id": "eight", "front": "Eight", "back": "Osem" },
-            { "id": "nine", "front": "Nine", "back": "Deväť" },
-            { "id": "ten", "front": "Ten", "back": "Desať" }
+            {
+              "id": "doctor",
+              "front": "Doctor",
+              "back": "Lekár"
+            },
+            {
+              "id": "nurse",
+              "front": "Nurse",
+              "back": "Zdravotná sestra"
+            },
+            {
+              "id": "jobs_teacher",
+              "front": "Teacher",
+              "back": "Učiteľ"
+            },
+            {
+              "id": "engineer",
+              "front": "Engineer",
+              "back": "Inžinier"
+            },
+            {
+              "id": "programmer",
+              "front": "Programmer",
+              "back": "Programátor"
+            },
+            {
+              "id": "jobs_driver",
+              "front": "Driver",
+              "back": "Vodič"
+            },
+            {
+              "id": "police_officer",
+              "front": "Police officer",
+              "back": "Policajt"
+            },
+            {
+              "id": "firefighter",
+              "front": "Firefighter",
+              "back": "Hasič"
+            },
+            {
+              "id": "chef",
+              "front": "Chef",
+              "back": "Kuchár"
+            },
+            {
+              "id": "waiter",
+              "front": "Waiter",
+              "back": "Čašník"
+            },
+            {
+              "id": "shop_assistant",
+              "front": "Shop assistant",
+              "back": "Predavač"
+            },
+            {
+              "id": "farmer",
+              "front": "Farmer",
+              "back": "Farmár"
+            },
+            {
+              "id": "builder",
+              "front": "Builder",
+              "back": "Stavbár"
+            },
+            {
+              "id": "pilot",
+              "front": "Pilot",
+              "back": "Pilot"
+            },
+            {
+              "id": "singer",
+              "front": "Singer",
+              "back": "Spevák"
+            },
+            {
+              "id": "actor",
+              "front": "Actor",
+              "back": "Herec"
+            },
+            {
+              "id": "manager",
+              "front": "Manager",
+              "back": "Manažér"
+            },
+            {
+              "id": "jobs_student",
+              "front": "Student",
+              "back": "Študent"
+            }
           ]
         },
         {
-          "id": "time_words",
-          "title": "Time Words",
-          "image": "🕒",
-          "description": "Time expressions",
+          "id": "office",
+          "title": "Kancelária",
+          "image": "💻",
+          "description": "Veci v práci",
           "cards": [
-            { "id": "today", "front": "Today", "back": "Dnes" },
-            { "id": "tomorrow", "front": "Tomorrow", "back": "Zajtra" },
-            { "id": "yesterday", "front": "Yesterday", "back": "Včera" },
-            { "id": "morning", "front": "Morning", "back": "Ráno" },
-            { "id": "afternoon", "front": "Afternoon", "back": "Popoludnie" },
-            { "id": "evening_time", "front": "Evening", "back": "Večer" },
-            { "id": "night", "front": "Night", "back": "Noc" },
-            { "id": "hour", "front": "Hour", "back": "Hodina" },
-            { "id": "minute", "front": "Minute", "back": "Minúta" },
-            { "id": "second", "front": "Second", "back": "Sekunda" }
+            {
+              "id": "computer",
+              "front": "Computer",
+              "back": "Počítač"
+            },
+            {
+              "id": "laptop",
+              "front": "Laptop",
+              "back": "Notebook"
+            },
+            {
+              "id": "keyboard",
+              "front": "Keyboard",
+              "back": "Klávesnica"
+            },
+            {
+              "id": "office_mouse",
+              "front": "Mouse",
+              "back": "Myš"
+            },
+            {
+              "id": "screen",
+              "front": "Screen",
+              "back": "Obrazovka"
+            },
+            {
+              "id": "printer",
+              "front": "Printer",
+              "back": "Tlačiareň"
+            },
+            {
+              "id": "email",
+              "front": "Email",
+              "back": "Email"
+            },
+            {
+              "id": "meeting",
+              "front": "Meeting",
+              "back": "Stretnutie"
+            },
+            {
+              "id": "office",
+              "front": "Office",
+              "back": "Kancelária"
+            },
+            {
+              "id": "boss",
+              "front": "Boss",
+              "back": "Šéf"
+            },
+            {
+              "id": "colleague",
+              "front": "Colleague",
+              "back": "Kolega"
+            },
+            {
+              "id": "salary",
+              "front": "Salary",
+              "back": "Plat"
+            },
+            {
+              "id": "work",
+              "front": "Work",
+              "back": "Práca"
+            },
+            {
+              "id": "office_break",
+              "front": "Break",
+              "back": "Prestávka"
+            },
+            {
+              "id": "project",
+              "front": "Project",
+              "back": "Projekt"
+            },
+            {
+              "id": "report",
+              "front": "Report",
+              "back": "Správa"
+            },
+            {
+              "id": "call",
+              "front": "Call",
+              "back": "Hovor"
+            },
+            {
+              "id": "message",
+              "front": "Message",
+              "back": "Správa"
+            }
           ]
         }
       ]
     },
-
     {
-      "id": "health",
-      "title": "Health",
+      "id": "body_health",
+      "title": "Telo a zdravie",
       "image": "🩺",
-      "description": "Body and health",
+      "color": "#F43F5E",
+      "description": "Časti tela, zdravie a šport",
       "categories": [
         {
           "id": "body",
-          "title": "Body",
+          "title": "Telo",
           "image": "🧍",
-          "description": "Body parts",
+          "description": "Časti tela",
           "cards": [
-            { "id": "head", "front": "Head", "back": "Hlava" },
-            { "id": "hand", "front": "Hand", "back": "Ruka" },
-            { "id": "leg", "front": "Leg", "back": "Noha" },
-            { "id": "eye", "front": "Eye", "back": "Oko" },
-            { "id": "ear", "front": "Ear", "back": "Ucho" },
-            { "id": "nose", "front": "Nose", "back": "Nos" },
-            { "id": "mouth", "front": "Mouth", "back": "Ústa" },
-            { "id": "back_body", "front": "Back", "back": "Chrbát" },
-            { "id": "arm", "front": "Arm", "back": "Rameno" },
-            { "id": "foot", "front": "Foot", "back": "Chodidlo" }
+            {
+              "id": "head",
+              "front": "Head",
+              "back": "Hlava"
+            },
+            {
+              "id": "face",
+              "front": "Face",
+              "back": "Tvár"
+            },
+            {
+              "id": "eye",
+              "front": "Eye",
+              "back": "Oko"
+            },
+            {
+              "id": "ear",
+              "front": "Ear",
+              "back": "Ucho"
+            },
+            {
+              "id": "nose",
+              "front": "Nose",
+              "back": "Nos"
+            },
+            {
+              "id": "mouth",
+              "front": "Mouth",
+              "back": "Ústa"
+            },
+            {
+              "id": "tooth",
+              "front": "Tooth",
+              "back": "Zub"
+            },
+            {
+              "id": "body_hair",
+              "front": "Hair",
+              "back": "Vlasy"
+            },
+            {
+              "id": "neck",
+              "front": "Neck",
+              "back": "Krk"
+            },
+            {
+              "id": "shoulder",
+              "front": "Shoulder",
+              "back": "Plece"
+            },
+            {
+              "id": "arm",
+              "front": "Arm",
+              "back": "Ruka"
+            },
+            {
+              "id": "hand",
+              "front": "Hand",
+              "back": "Dlaň"
+            },
+            {
+              "id": "finger",
+              "front": "Finger",
+              "back": "Prst"
+            },
+            {
+              "id": "back",
+              "front": "Back",
+              "back": "Chrbát"
+            },
+            {
+              "id": "stomach",
+              "front": "Stomach",
+              "back": "Brucho"
+            },
+            {
+              "id": "leg",
+              "front": "Leg",
+              "back": "Noha"
+            },
+            {
+              "id": "knee",
+              "front": "Knee",
+              "back": "Koleno"
+            },
+            {
+              "id": "foot",
+              "front": "Foot",
+              "back": "Chodidlo"
+            }
           ]
         },
         {
-          "id": "health_words",
-          "title": "Health Words",
+          "id": "health",
+          "title": "Zdravie",
           "image": "💊",
-          "description": "Health vocabulary",
+          "description": "U lekára",
           "cards": [
-            { "id": "pain", "front": "Pain", "back": "Bolesť" },
-            { "id": "doctor_visit", "front": "Doctor", "back": "Lekár" },
-            { "id": "medicine", "front": "Medicine", "back": "Liek" },
-            { "id": "hospital", "front": "Hospital", "back": "Nemocnica" },
-            { "id": "fever", "front": "Fever", "back": "Horúčka" },
-            { "id": "cold", "front": "Cold", "back": "Nádcha" },
-            { "id": "cough", "front": "Cough", "back": "Kašeľ" },
-            { "id": "healthy", "front": "Healthy", "back": "Zdravý" },
-            { "id": "sick", "front": "Sick", "back": "Chorý" },
-            { "id": "rest", "front": "Rest", "back": "Oddych" }
+            {
+              "id": "pain",
+              "front": "Pain",
+              "back": "Bolesť"
+            },
+            {
+              "id": "headache",
+              "front": "Headache",
+              "back": "Bolesť hlavy"
+            },
+            {
+              "id": "fever",
+              "front": "Fever",
+              "back": "Horúčka"
+            },
+            {
+              "id": "cough",
+              "front": "Cough",
+              "back": "Kašeľ"
+            },
+            {
+              "id": "health_cold",
+              "front": "Cold",
+              "back": "Nádcha"
+            },
+            {
+              "id": "flu",
+              "front": "Flu",
+              "back": "Chrípka"
+            },
+            {
+              "id": "medicine",
+              "front": "Medicine",
+              "back": "Liek"
+            },
+            {
+              "id": "health_hospital",
+              "front": "Hospital",
+              "back": "Nemocnica"
+            },
+            {
+              "id": "health_doctor",
+              "front": "Doctor",
+              "back": "Lekár"
+            },
+            {
+              "id": "health_nurse",
+              "front": "Nurse",
+              "back": "Sestra"
+            },
+            {
+              "id": "appointment",
+              "front": "Appointment",
+              "back": "Termín"
+            },
+            {
+              "id": "healthy",
+              "front": "Healthy",
+              "back": "Zdravý"
+            },
+            {
+              "id": "health_sick",
+              "front": "Sick",
+              "back": "Chorý"
+            },
+            {
+              "id": "rest",
+              "front": "Rest",
+              "back": "Oddych"
+            },
+            {
+              "id": "sleep",
+              "front": "Sleep",
+              "back": "Spánok"
+            },
+            {
+              "id": "exercise",
+              "front": "Exercise",
+              "back": "Cvičenie"
+            },
+            {
+              "id": "diet",
+              "front": "Diet",
+              "back": "Strava"
+            },
+            {
+              "id": "allergy",
+              "front": "Allergy",
+              "back": "Alergia"
+            }
+          ]
+        },
+        {
+          "id": "sports",
+          "title": "Šport",
+          "image": "⚽",
+          "description": "Športy a hry",
+          "cards": [
+            {
+              "id": "football",
+              "front": "Football",
+              "back": "Futbal"
+            },
+            {
+              "id": "basketball",
+              "front": "Basketball",
+              "back": "Basketbal"
+            },
+            {
+              "id": "tennis",
+              "front": "Tennis",
+              "back": "Tenis"
+            },
+            {
+              "id": "hockey",
+              "front": "Hockey",
+              "back": "Hokej"
+            },
+            {
+              "id": "swimming",
+              "front": "Swimming",
+              "back": "Plávanie"
+            },
+            {
+              "id": "running",
+              "front": "Running",
+              "back": "Beh"
+            },
+            {
+              "id": "cycling",
+              "front": "Cycling",
+              "back": "Cyklistika"
+            },
+            {
+              "id": "skiing",
+              "front": "Skiing",
+              "back": "Lyžovanie"
+            },
+            {
+              "id": "volleyball",
+              "front": "Volleyball",
+              "back": "Volejbal"
+            },
+            {
+              "id": "gym",
+              "front": "Gym",
+              "back": "Posilňovňa"
+            },
+            {
+              "id": "team",
+              "front": "Team",
+              "back": "Tím"
+            },
+            {
+              "id": "player",
+              "front": "Player",
+              "back": "Hráč"
+            },
+            {
+              "id": "ball",
+              "front": "Ball",
+              "back": "Lopta"
+            },
+            {
+              "id": "goal",
+              "front": "Goal",
+              "back": "Gól"
+            },
+            {
+              "id": "win",
+              "front": "Win",
+              "back": "Vyhrať"
+            },
+            {
+              "id": "lose",
+              "front": "Lose",
+              "back": "Prehrať"
+            },
+            {
+              "id": "match",
+              "front": "Match",
+              "back": "Zápas"
+            },
+            {
+              "id": "coach",
+              "front": "Coach",
+              "back": "Tréner"
+            }
+          ]
+        },
+        {
+          "id": "daily_routine",
+          "title": "Denný režim",
+          "image": "🔁",
+          "description": "Čo robíme každý deň",
+          "cards": [
+            {
+              "id": "wake_up",
+              "front": "Wake up",
+              "back": "Zobudiť sa"
+            },
+            {
+              "id": "get_up",
+              "front": "Get up",
+              "back": "Vstať"
+            },
+            {
+              "id": "have_a_shower",
+              "front": "Have a shower",
+              "back": "Osprchovať sa"
+            },
+            {
+              "id": "get_dressed",
+              "front": "Get dressed",
+              "back": "Oblecť sa"
+            },
+            {
+              "id": "have_breakfast",
+              "front": "Have breakfast",
+              "back": "Raňajkovať"
+            },
+            {
+              "id": "go_to_work",
+              "front": "Go to work",
+              "back": "Ísť do práce"
+            },
+            {
+              "id": "go_to_school",
+              "front": "Go to school",
+              "back": "Ísť do školy"
+            },
+            {
+              "id": "have_lunch",
+              "front": "Have lunch",
+              "back": "Obedovať"
+            },
+            {
+              "id": "come_home",
+              "front": "Come home",
+              "back": "Prísť domov"
+            },
+            {
+              "id": "do_homework",
+              "front": "Do homework",
+              "back": "Urobiť úlohy"
+            },
+            {
+              "id": "cook",
+              "front": "Cook",
+              "back": "Variť"
+            },
+            {
+              "id": "clean",
+              "front": "Clean",
+              "back": "Upratovať"
+            },
+            {
+              "id": "watch_tv",
+              "front": "Watch TV",
+              "back": "Pozerať televíziu"
+            },
+            {
+              "id": "read",
+              "front": "Read",
+              "back": "Čítať"
+            },
+            {
+              "id": "go_to_bed",
+              "front": "Go to bed",
+              "back": "Ísť spať"
+            },
+            {
+              "id": "daily_routine_sleep",
+              "front": "Sleep",
+              "back": "Spať"
+            },
+            {
+              "id": "brush_teeth",
+              "front": "Brush teeth",
+              "back": "Umývať zuby"
+            },
+            {
+              "id": "wash_hands",
+              "front": "Wash hands",
+              "back": "Umývať ruky"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "activities",
+      "title": "Činnosti",
+      "image": "🎯",
+      "color": "#F97316",
+      "description": "Koníčky a slovesá",
+      "categories": [
+        {
+          "id": "hobbies",
+          "title": "Koníčky",
+          "image": "🎨",
+          "description": "Voľný čas",
+          "cards": [
+            {
+              "id": "hobby",
+              "front": "Hobby",
+              "back": "Koníček"
+            },
+            {
+              "id": "hobbies_music",
+              "front": "Music",
+              "back": "Hudba"
+            },
+            {
+              "id": "film",
+              "front": "Film",
+              "back": "Film"
+            },
+            {
+              "id": "hobbies_book",
+              "front": "Book",
+              "back": "Kniha"
+            },
+            {
+              "id": "game",
+              "front": "Game",
+              "back": "Hra"
+            },
+            {
+              "id": "dance",
+              "front": "Dance",
+              "back": "Tanec"
+            },
+            {
+              "id": "sing",
+              "front": "Sing",
+              "back": "Spievať"
+            },
+            {
+              "id": "draw",
+              "front": "Draw",
+              "back": "Kresliť"
+            },
+            {
+              "id": "paint",
+              "front": "Paint",
+              "back": "Maľovať"
+            },
+            {
+              "id": "photo",
+              "front": "Photo",
+              "back": "Fotka"
+            },
+            {
+              "id": "travel",
+              "front": "Travel",
+              "back": "Cestovať"
+            },
+            {
+              "id": "walk",
+              "front": "Walk",
+              "back": "Prechádzka"
+            },
+            {
+              "id": "hobbies_cook",
+              "front": "Cook",
+              "back": "Variť"
+            },
+            {
+              "id": "hobbies_garden",
+              "front": "Garden",
+              "back": "Záhradkárčiť"
+            },
+            {
+              "id": "hobbies_fish",
+              "front": "Fish",
+              "back": "Rybárčiť"
+            },
+            {
+              "id": "camp",
+              "front": "Camp",
+              "back": "Kempovať"
+            },
+            {
+              "id": "chess",
+              "front": "Chess",
+              "back": "Šach"
+            },
+            {
+              "id": "puzzle",
+              "front": "Puzzle",
+              "back": "Puzzle"
+            }
+          ]
+        },
+        {
+          "id": "verbs",
+          "title": "Slovesá",
+          "image": "▶️",
+          "description": "Bežné slovesá",
+          "cards": [
+            {
+              "id": "be",
+              "front": "Be",
+              "back": "Byť"
+            },
+            {
+              "id": "have",
+              "front": "Have",
+              "back": "Mať"
+            },
+            {
+              "id": "do",
+              "front": "Do",
+              "back": "Robiť"
+            },
+            {
+              "id": "verbs_go",
+              "front": "Go",
+              "back": "Ísť"
+            },
+            {
+              "id": "come",
+              "front": "Come",
+              "back": "Prísť"
+            },
+            {
+              "id": "see",
+              "front": "See",
+              "back": "Vidieť"
+            },
+            {
+              "id": "look",
+              "front": "Look",
+              "back": "Pozerať"
+            },
+            {
+              "id": "hear",
+              "front": "Hear",
+              "back": "Počuť"
+            },
+            {
+              "id": "speak",
+              "front": "Speak",
+              "back": "Hovoriť"
+            },
+            {
+              "id": "say",
+              "front": "Say",
+              "back": "Povedať"
+            },
+            {
+              "id": "know",
+              "front": "Know",
+              "back": "Vedieť"
+            },
+            {
+              "id": "think",
+              "front": "Think",
+              "back": "Myslieť"
+            },
+            {
+              "id": "want",
+              "front": "Want",
+              "back": "Chcieť"
+            },
+            {
+              "id": "need",
+              "front": "Need",
+              "back": "Potrebovať"
+            },
+            {
+              "id": "like",
+              "front": "Like",
+              "back": "Páčiť sa"
+            },
+            {
+              "id": "love",
+              "front": "Love",
+              "back": "Ľúbiť"
+            },
+            {
+              "id": "make",
+              "front": "Make",
+              "back": "Urobiť"
+            },
+            {
+              "id": "take",
+              "front": "Take",
+              "back": "Vziať"
+            },
+            {
+              "id": "give",
+              "front": "Give",
+              "back": "Dať"
+            }
+          ]
+        },
+        {
+          "id": "adjectives",
+          "title": "Prídavné mená",
+          "image": "✨",
+          "description": "Opis vecí",
+          "cards": [
+            {
+              "id": "big",
+              "front": "Big",
+              "back": "Veľký"
+            },
+            {
+              "id": "small",
+              "front": "Small",
+              "back": "Malý"
+            },
+            {
+              "id": "long",
+              "front": "Long",
+              "back": "Dlhý"
+            },
+            {
+              "id": "adjectives_short",
+              "front": "Short",
+              "back": "Krátky"
+            },
+            {
+              "id": "new",
+              "front": "New",
+              "back": "Nový"
+            },
+            {
+              "id": "adjectives_old",
+              "front": "Old",
+              "back": "Starý"
+            },
+            {
+              "id": "good",
+              "front": "Good",
+              "back": "Dobrý"
+            },
+            {
+              "id": "bad",
+              "front": "Bad",
+              "back": "Zlý"
+            },
+            {
+              "id": "fast",
+              "front": "Fast",
+              "back": "Rýchly"
+            },
+            {
+              "id": "slow",
+              "front": "Slow",
+              "back": "Pomalý"
+            },
+            {
+              "id": "easy",
+              "front": "Easy",
+              "back": "Ľahký"
+            },
+            {
+              "id": "difficult",
+              "front": "Difficult",
+              "back": "Ťažký"
+            },
+            {
+              "id": "adjectives_clean",
+              "front": "Clean",
+              "back": "Čistý"
+            },
+            {
+              "id": "dirty",
+              "front": "Dirty",
+              "back": "Špinavý"
+            },
+            {
+              "id": "full",
+              "front": "Full",
+              "back": "Plný"
+            },
+            {
+              "id": "empty",
+              "front": "Empty",
+              "back": "Prázdny"
+            },
+            {
+              "id": "adjectives_open",
+              "front": "Open",
+              "back": "Otvorený"
+            },
+            {
+              "id": "adjectives_closed",
+              "front": "Closed",
+              "back": "Zatvorený"
+            }
+          ]
+        },
+        {
+          "id": "colors",
+          "title": "Farby",
+          "image": "🎨",
+          "description": "Základné farby",
+          "cards": [
+            {
+              "id": "red",
+              "front": "Red",
+              "back": "Červená"
+            },
+            {
+              "id": "blue",
+              "front": "Blue",
+              "back": "Modrá"
+            },
+            {
+              "id": "green",
+              "front": "Green",
+              "back": "Zelená"
+            },
+            {
+              "id": "yellow",
+              "front": "Yellow",
+              "back": "Žltá"
+            },
+            {
+              "id": "colors_orange",
+              "front": "Orange",
+              "back": "Oranžová"
+            },
+            {
+              "id": "pink",
+              "front": "Pink",
+              "back": "Ružová"
+            },
+            {
+              "id": "purple",
+              "front": "Purple",
+              "back": "Fialová"
+            },
+            {
+              "id": "brown",
+              "front": "Brown",
+              "back": "Hnedá"
+            },
+            {
+              "id": "black",
+              "front": "Black",
+              "back": "Čierna"
+            },
+            {
+              "id": "white",
+              "front": "White",
+              "back": "Biela"
+            },
+            {
+              "id": "grey",
+              "front": "Grey",
+              "back": "Sivá"
+            },
+            {
+              "id": "gold",
+              "front": "Gold",
+              "back": "Zlatá"
+            },
+            {
+              "id": "silver",
+              "front": "Silver",
+              "back": "Strieborná"
+            },
+            {
+              "id": "colors_light",
+              "front": "Light",
+              "back": "Svetlá"
+            },
+            {
+              "id": "dark",
+              "front": "Dark",
+              "back": "Tmavá"
+            },
+            {
+              "id": "colourful",
+              "front": "Colourful",
+              "back": "Pestrá"
+            },
+            {
+              "id": "bright",
+              "front": "Bright",
+              "back": "Jasná"
+            },
+            {
+              "id": "pale",
+              "front": "Pale",
+              "back": "Bledá"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Cestovanie",
+      "image": "✈️",
+      "color": "#14B8A6",
+      "description": "Dovolenka, hotel a krajiny",
+      "categories": [
+        {
+          "id": "travel_words",
+          "title": "Cestovanie",
+          "image": "🧳",
+          "description": "Na ceste",
+          "cards": [
+            {
+              "id": "holiday",
+              "front": "Holiday",
+              "back": "Dovolenka"
+            },
+            {
+              "id": "trip",
+              "front": "Trip",
+              "back": "Výlet"
+            },
+            {
+              "id": "passport",
+              "front": "Passport",
+              "back": "Pas"
+            },
+            {
+              "id": "suitcase",
+              "front": "Suitcase",
+              "back": "Kufor"
+            },
+            {
+              "id": "airport",
+              "front": "Airport",
+              "back": "Letisko"
+            },
+            {
+              "id": "hotel",
+              "front": "Hotel",
+              "back": "Hotel"
+            },
+            {
+              "id": "reservation",
+              "front": "Reservation",
+              "back": "Rezervácia"
+            },
+            {
+              "id": "travel_words_ticket",
+              "front": "Ticket",
+              "back": "Lístok"
+            },
+            {
+              "id": "tourist",
+              "front": "Tourist",
+              "back": "Turista"
+            },
+            {
+              "id": "guide",
+              "front": "Guide",
+              "back": "Sprievodca"
+            },
+            {
+              "id": "souvenir",
+              "front": "Souvenir",
+              "back": "Suvenír"
+            },
+            {
+              "id": "camera",
+              "front": "Camera",
+              "back": "Fotoaparát"
+            },
+            {
+              "id": "travel_words_map",
+              "front": "Map",
+              "back": "Mapa"
+            },
+            {
+              "id": "adventure",
+              "front": "Adventure",
+              "back": "Dobrodružstvo"
+            },
+            {
+              "id": "travel_words_beach",
+              "front": "Beach",
+              "back": "Pláž"
+            },
+            {
+              "id": "travel_words_mountain",
+              "front": "Mountain",
+              "back": "Hory"
+            },
+            {
+              "id": "city_break",
+              "front": "City break",
+              "back": "Víkend v meste"
+            },
+            {
+              "id": "journey",
+              "front": "Journey",
+              "back": "Cesta"
+            }
+          ]
+        },
+        {
+          "id": "hotel",
+          "title": "Hotel",
+          "image": "🏨",
+          "description": "V hoteli",
+          "cards": [
+            {
+              "id": "reception",
+              "front": "Reception",
+              "back": "Recepcia"
+            },
+            {
+              "id": "hotel_room",
+              "front": "Room",
+              "back": "Izba"
+            },
+            {
+              "id": "key_card",
+              "front": "Key card",
+              "back": "Kľúčová karta"
+            },
+            {
+              "id": "hotel_bed",
+              "front": "Bed",
+              "back": "Posteľ"
+            },
+            {
+              "id": "single_room",
+              "front": "Single room",
+              "back": "Jednolôžková"
+            },
+            {
+              "id": "double_room",
+              "front": "Double room",
+              "back": "Dvojlôžková"
+            },
+            {
+              "id": "hotel_bathroom",
+              "front": "Bathroom",
+              "back": "Kúpeľňa"
+            },
+            {
+              "id": "breakfast_included",
+              "front": "Breakfast included",
+              "back": "Raňajky v cene"
+            },
+            {
+              "id": "check_in",
+              "front": "Check in",
+              "back": "Check-in"
+            },
+            {
+              "id": "check_out",
+              "front": "Check out",
+              "back": "Check-out"
+            },
+            {
+              "id": "lift",
+              "front": "Lift",
+              "back": "Výťah"
+            },
+            {
+              "id": "floor",
+              "front": "Floor",
+              "back": "Poschodie"
+            },
+            {
+              "id": "view",
+              "front": "View",
+              "back": "Výhľad"
+            },
+            {
+              "id": "wi_fi",
+              "front": "Wi-Fi",
+              "back": "Wi-Fi"
+            },
+            {
+              "id": "hotel_towel",
+              "front": "Towel",
+              "back": "Uterák"
+            },
+            {
+              "id": "air_conditioning",
+              "front": "Air conditioning",
+              "back": "Klimatizácia"
+            },
+            {
+              "id": "i_have_a_reservation",
+              "front": "I have a reservation",
+              "back": "Mám rezerváciu"
+            },
+            {
+              "id": "can_i_have_the_bill",
+              "front": "Can I have the bill",
+              "back": "Môžem dostať účet"
+            }
+          ]
+        },
+        {
+          "id": "countries",
+          "title": "Krajiny",
+          "image": "🌍",
+          "description": "Krajiny a jazyky",
+          "cards": [
+            {
+              "id": "slovakia",
+              "front": "Slovakia",
+              "back": "Slovensko"
+            },
+            {
+              "id": "czechia",
+              "front": "Czechia",
+              "back": "Česko"
+            },
+            {
+              "id": "poland",
+              "front": "Poland",
+              "back": "Poľsko"
+            },
+            {
+              "id": "hungary",
+              "front": "Hungary",
+              "back": "Maďarsko"
+            },
+            {
+              "id": "austria",
+              "front": "Austria",
+              "back": "Rakúsko"
+            },
+            {
+              "id": "germany",
+              "front": "Germany",
+              "back": "Nemecko"
+            },
+            {
+              "id": "france",
+              "front": "France",
+              "back": "Francúzsko"
+            },
+            {
+              "id": "italy",
+              "front": "Italy",
+              "back": "Taliansko"
+            },
+            {
+              "id": "spain",
+              "front": "Spain",
+              "back": "Španielsko"
+            },
+            {
+              "id": "england",
+              "front": "England",
+              "back": "Anglicko"
+            },
+            {
+              "id": "usa",
+              "front": "USA",
+              "back": "USA"
+            },
+            {
+              "id": "canada",
+              "front": "Canada",
+              "back": "Kanada"
+            },
+            {
+              "id": "country",
+              "front": "Country",
+              "back": "Krajina"
+            },
+            {
+              "id": "capital",
+              "front": "Capital",
+              "back": "Hlavné mesto"
+            },
+            {
+              "id": "countries_language",
+              "front": "Language",
+              "back": "Jazyk"
+            },
+            {
+              "id": "nationality",
+              "front": "Nationality",
+              "back": "Národnosť"
+            },
+            {
+              "id": "european",
+              "front": "European",
+              "back": "Európsky"
+            },
+            {
+              "id": "world",
+              "front": "World",
+              "back": "Svet"
+            }
+          ]
+        },
+        {
+          "id": "airport",
+          "title": "Letisko",
+          "image": "🛫",
+          "description": "Na letisku",
+          "cards": [
+            {
+              "id": "flight",
+              "front": "Flight",
+              "back": "Let"
+            },
+            {
+              "id": "gate",
+              "front": "Gate",
+              "back": "Gát"
+            },
+            {
+              "id": "boarding_pass",
+              "front": "Boarding pass",
+              "back": "Palubný lístok"
+            },
+            {
+              "id": "luggage",
+              "front": "Luggage",
+              "back": "Batožina"
+            },
+            {
+              "id": "security",
+              "front": "Security",
+              "back": "Bezpečnosť"
+            },
+            {
+              "id": "passport_control",
+              "front": "Passport control",
+              "back": "Pasová kontrola"
+            },
+            {
+              "id": "delay",
+              "front": "Delay",
+              "back": "Meškanie"
+            },
+            {
+              "id": "departure",
+              "front": "Departure",
+              "back": "Odlet"
+            },
+            {
+              "id": "arrival",
+              "front": "Arrival",
+              "back": "Prílet"
+            },
+            {
+              "id": "seat",
+              "front": "Seat",
+              "back": "Sedadlo"
+            },
+            {
+              "id": "window_seat",
+              "front": "Window seat",
+              "back": "Miesto pri okne"
+            },
+            {
+              "id": "aisle",
+              "front": "Aisle",
+              "back": "Ulička"
+            },
+            {
+              "id": "airport_pilot",
+              "front": "Pilot",
+              "back": "Pilot"
+            },
+            {
+              "id": "crew",
+              "front": "Crew",
+              "back": "Posádka"
+            },
+            {
+              "id": "take_off",
+              "front": "Take off",
+              "back": "Vzlietnuť"
+            },
+            {
+              "id": "land",
+              "front": "Land",
+              "back": "Pristáť"
+            },
+            {
+              "id": "terminal",
+              "front": "Terminal",
+              "back": "Terminál"
+            },
+            {
+              "id": "duty_free",
+              "front": "Duty free",
+              "back": "Duty free"
+            }
           ]
         }
       ]
